@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd 
 from tqdm import tqdm
+import ta
 import matplotlib.pyplot as plt
 import seaborn as sns
 plt.style.use('seaborn-whitegrid')
@@ -76,8 +77,12 @@ class IterativeBacktester():
         self.holding_amount = None
         self.current_pos = 0
         
-    def backtest(self):
-        for i in tqdm(range(len(self.data)-1)):
+    def backtest(self, progress_bar=True):
+        if progress_bar is True:
+            iterate = tqdm(range(len(self.data)-1))
+        else:
+            iterate = range(len(self.data)-1)
+        for i in iterate:
             # buy at askopen in next row
             # sell at bidopen in next row
             signal = self.signals.iloc[i]
@@ -130,9 +135,9 @@ class IterativeBacktester():
         plt.plot(self.portfolio_values, color='tab:blue', linestyle="-")
         plt.plot(self.passive_values, color='tab:orange', linestyle=":")
         plt.plot([self.init_money]*len(self.portfolio_values),'--k')
-        plt.text(len(self.portfolio_values), self.portfolio_values[-1], "Portfolio", color="tab:blue", fontsize=15, fontweight="heavy")
-        plt.text(len(self.passive_values), self.passive_values[-1], "Benchmark", color="tab:orange", fontsize=15, fontweight="heavy")
-        plt.text(len(self.portfolio_values), self.init_money, "Initial value", color="k", fontsize=15, fontweight="heavy")
+#         plt.text(0, self.init_money, "Initial value", color="k", fontsize=15, fontweight="heavy")
+        plt.text(len(self.portfolio_values), self.portfolio_values[-1], f"Portfolio({self.returns['Portfolio']['Total Return']*100:.2f}%)", color="tab:blue", fontsize=15, fontweight="heavy")
+        plt.text(len(self.passive_values), self.passive_values[-1], f"Benchmark({self.returns['Benchmark']['Total Return']*100:.2f}%)", color="tab:orange", fontsize=15, fontweight="heavy")
         sns.despine()
         plt.title('Portfolio Values', fontsize=15)
         plt.show()
@@ -211,7 +216,7 @@ class IterativeBacktester():
             df = pd.DataFrame(data=value)
             dfs.append(df)
         df_cat = pd.concat(dfs)
-        sns.catplot(data=df_cat, x='Return type', y='Returns (%)', hue='Category', kind='bar', orient="v",height=6, aspect=1.2, legend_out=False)
+        sns.catplot(data=df_cat, x='Return type', y='Returns (%)', hue='Category', kind='bar', orient="v",height=5, aspect=1.2, legend_out=False)
         sns.despine()
         plt.xlabel('')
         plt.xticks(fontsize=12)
@@ -298,7 +303,7 @@ class IterativeBacktester():
             df = pd.DataFrame(data=value)
             dfs.append(df)
         df_cat = pd.concat(dfs)
-        sns.catplot(data=df_cat, x='Stdev type', y='Standatd deviation (%)', hue='Category', kind='bar', orient="v",height=6, aspect=1, legend_out=False)
+        sns.catplot(data=df_cat, x='Stdev type', y='Standatd deviation (%)', hue='Category', kind='bar', orient="v",height=5, aspect=1, legend_out=False)
         sns.despine()
         plt.xlabel('')
         plt.xticks(fontsize=12)
@@ -347,3 +352,24 @@ class IterativeBacktester():
     def show_drawdown(self):
         self.print_max_drawdown()
         self.plot_drawdown()
+        
+class MovingAverageBacktester(IterativeBacktester):
+    def __init__(self, data, freq, periods = (20,100), kind='SMA', init_money=10000):
+        # periods(tuple) ===> (short period, long period)
+        # kind(str) ===> 'SMA' or 'EMA'
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, init_money=init_money)
+        self.periods = periods
+        self.kind = kind
+        self.get_signals()
+        
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        if self.kind == 'SMA':
+            self.data['ma_short'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[0])
+            self.data['ma_long'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[1])
+        elif self.kind == 'EMA':
+            self.data['ma_short'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[0])
+            self.data['ma_long'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[1])
+        self.data['signal'] = np.where(self.data['ma_short']>self.data['ma_long'], 1, np.where(self.data['ma_short']<self.data['ma_long'], -1, 0))
+        self.data.dropna(inplace=True)
+        self.signals = self.data['signal']
