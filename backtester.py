@@ -237,7 +237,7 @@ class IterativeBacktester():
         elif 'H' in freq:
             num = 6000
         elif 'D' in freq:
-            nun = 250
+            num = 250
         elif 'W' in freq:
             num = 52
         elif 'M' in freq:
