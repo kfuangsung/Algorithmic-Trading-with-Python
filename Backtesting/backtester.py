@@ -1,12 +1,16 @@
 import numpy as np
 import pandas as pd 
 import ta
+import talib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 from tqdm.notebook import tqdm_notebook
 from tabulate import tabulate
 plt.style.use('seaborn-whitegrid')
+pd.options.mode.chained_assignment = None
+
+#--------------------------------------------------------------------------------------------------#
 
 class IterativeBacktester():
     def __init__(self, data, signals, freq, risk_free_rate=0.01):
@@ -153,22 +157,23 @@ class IterativeBacktester():
         self.portfolio_df['BenchmarkReturns'] = np.log(self.portfolio_df['Benchmark']/self.portfolio_df['Benchmark'].shift(1))
         
     def get_return_df(self):
-        total_ret = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].sum()
-        total_ret.rename(index={'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'}, inplace=True)
+        ret_mean = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].mean()
+        ret_mean.rename(index={'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'}, inplace=True)
         return_df = pd.DataFrame(data={'TotalReturn':None, 'MonthlyReturn':None, 'AnnualReturn':None}, index=['Portfolio', 'Benchmark'])
-        return_df.loc[:, 'TotalReturn'] = total_ret
-        return_df.loc[:, 'AnnualReturn'] = total_ret * (self.multiplier/len(self.data)) 
-        return_df.loc[:, 'MonthlyReturn'] = total_ret * ((self.multiplier/len(self.data))/12) 
+        return_df.loc[:, 'TotalReturn'] = ret_mean * self.multiplier['total']
+        return_df.loc[:, 'AnnualReturn'] = ret_mean * self.multiplier['annual']
+        return_df.loc[:, 'MonthlyReturn'] = ret_mean * self.multiplier['monthly']
         return_df = return_df.T
         return_df['Alpha'] = return_df['Portfolio'] - return_df['Benchmark']
         self.return_df = return_df
         
     def get_std_df(self):
-        total_std = self.portfolio_df[['Portfolio', 'Benchmark']].std()
+        ret_std = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].std()
+        ret_std.rename(index={'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'}, inplace=True)
         std_df = pd.DataFrame(data={'TotalStdev':None, 'MonthlyStdev':None, 'AnnualStdev':None}, index=['Portfolio', 'Benchmark'])
-        std_df.loc[:, 'TotalStdev'] = total_std
-        std_df.loc[:, 'AnnualStdev'] = total_std * np.sqrt(self.multiplier/len(self.data)) 
-        std_df.loc[:, 'MonthlyStdev'] = total_std * np.sqrt((self.multiplier/len(self.data))/12)
+        std_df.loc[:, 'TotalStdev'] = ret_std * np.sqrt(self.multiplier['total'])
+        std_df.loc[:, 'AnnualStdev'] = ret_std * np.sqrt(self.multiplier['annual']) 
+        std_df.loc[:, 'MonthlyStdev'] = ret_std * np.sqrt(self.multiplier['monthly'])
         std_df = std_df.T
         self.std_df = std_df
         
@@ -177,30 +182,37 @@ class IterativeBacktester():
         self.drawdown =  (self.portfolio_df[['Portfolio', 'Benchmark']] - cummax) / cummax
     
     def get_multiplier(self):
-        self.multiplier = len(self.data)*(365/self.total_days) 
+        self.multiplier = {'total':len(self.data),
+                           'monthly':len(self.data)*(30/self.total_days),
+                           'annual':len(self.data)*(365/self.total_days)} 
     
     def get_ratio_df(self):
         ratio_df = pd.DataFrame(index=['Portfolio', 'Benchmark'])
         # ratios are computed on returns 
         
         # Sharpe ratio 
-        ann_mean = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].mean() * self.multiplier
-        ann_std = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].std() * np.sqrt(self.multiplier)
+        ann_mean = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].mean() * self.multiplier['annual']
+        ratio_df['ExpectedReturn(%)'] = (ann_mean*100).rename({'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'})
+        ann_std = self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].std() * np.sqrt(self.multiplier['annual'])
+        ratio_df['StandardDeviation(%)'] = (ann_std*100).rename({'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'})
         sharpe = ((ann_mean - self.risk_free_rate)/ann_std).rename({'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'})
         ratio_df['SharpeRatio'] = sharpe
         
         # Sortino ratio
-        rf = self.risk_free_rate / self.multiplier
+        rf = self.risk_free_rate / self.multiplier['annual']
         downside_ret = (self.portfolio_df[['PortfolioReturns', 'BenchmarkReturns']].dropna() - rf).apply(lambda x: np.where(x<0, x, 0))
-        ann_dd = np.sqrt(np.mean(downside_ret**2)) * np.sqrt(self.multiplier) 
+        ann_dd = np.sqrt(np.mean(downside_ret**2)) * np.sqrt(self.multiplier['annual']) 
         sortino = ((ann_mean - self.risk_free_rate)/ann_dd).rename({'PortfolioReturns':'Portfolio', 'BenchmarkReturns':'Benchmark'})
         ratio_df['SortinoRatio'] = sortino
         
         # Maximun drawdown
         ratio_df['MaxDrawdown(%)'] = self.drawdown.min()*100
         
-        # Calmar ratio
+        # CAGR
         cagr = (self.portfolio_df.iloc[-1][['Portfolio', 'Benchmark']]**(365/self.total_days))-1
+        ratio_df['CAGR(%)'] = cagr*100
+        
+        # Calmar ratio
         ratio_df['CalmarRatio'] = cagr/(self.drawdown.min().apply(np.abs))
         
         # Kelly Criterion
@@ -215,7 +227,7 @@ class IterativeBacktester():
         plt.figure(figsize=(15,15))
         ax1 = plt.subplot(3,1,1)
         self.portfolio_df[['Portfolio', 'Benchmark']].plot(color=['tab:blue', 'tab:orange'], ax=ax1, xlabel='')
-        ax1.plot(self.portfolio_df.index ,[self.init_money]*len(self.portfolio_df),'--k')
+        ax1.hlines(self.init_money, xmin=self.portfolio_df.index[0], xmax=self.portfolio_df.index[-1], color='k', linestyle='--')
         plt.fill_between(x=self.portfolio_df.index, y1=self.portfolio_df['Portfolio'], y2=self.init_money, color='tab:blue', alpha=0.1)
         plt.fill_between(x=self.portfolio_df.index, y1=self.portfolio_df['Benchmark'], y2=self.init_money, color='tab:orange', alpha=0.1)
         plt.text(self.portfolio_df.index[-1], self.portfolio_df['Portfolio'][-1], f"Portfolio\nReturn({self.portfolio_df['PortfolioReturns'].sum()*100:.2f}%)", color="tab:blue", fontsize=15, fontweight="heavy")
@@ -224,8 +236,8 @@ class IterativeBacktester():
         
         ax2 = plt.subplot(3,1,2)
         self.drawdown.plot(color=['tab:blue', 'tab:orange'], ax=ax2, xlabel='')
-        plt.plot(self.drawdown.idxmin()['Portfolio'], self.drawdown.min()['Portfolio'], marker="X", color='k', markersize=12, label='MaxDrawdown')
-        plt.plot(self.drawdown.idxmin()['Benchmark'], self.drawdown.min()['Benchmark'], marker="X", color='k', markersize=12)
+        plt.scatter(self.drawdown.idxmin()['Portfolio'], self.drawdown.min()['Portfolio'], marker="X", color='k', s=100, label='MaxDrawdown')
+        plt.scatter(self.drawdown.idxmin()['Benchmark'], self.drawdown.min()['Benchmark'], marker="X", color='k', s=100)
         plt.ylabel('Drawdown', fontsize=18, fontweight='bold')
         plt.text(self.drawdown.index[-1], self.drawdown['Portfolio'][-1], f"Portfolio\nMaxDD({self.drawdown.min()['Portfolio']*100:.2f}%)", color="tab:blue", fontsize=15, fontweight="heavy")
         plt.text(self.drawdown.index[-1], self.drawdown['Benchmark'][-1], f"Benchmark\nMaxDD({self.drawdown.min()['Benchmark']*100:.2f}%)", color="tab:orange", fontsize=15, fontweight="heavy")
@@ -257,78 +269,817 @@ class IterativeBacktester():
         
     def results(self):
         self.plot_portfolio()
-        print("-"*50)
+        print("-"*70)
         print(f"Data length: |{self.total_timedelta}|")
         print(f"Data range from |{self.data.index[0]}| to |{self.data.index[-1]}|")
-        print("-"*50)
+        print("-"*70)
         self.print_return()
         self.print_std()
-        print("-"*50)
+        print("-"*70)
         self.print_ratio()
+        print("-"*70)
         
-#-----------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------#
 
 class TwoMovingAverageBacktester(IterativeBacktester):
-    def __init__(self, data, freq, periods = (20,100), kind='SMA', risk_free_rate=0.01):
-        # periods(tuple) ===> (short period, long period)
+    def __init__(self, data, freq, windows = (20,100), kind='SMA', risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
         # kind(str) ===> 'SMA' / 'EMA' / 'KAMA' / 'WMA'
         IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
-        self.periods = periods
+        self.windows = windows
         self.kind = kind
         self.get_signals()
         
     def get_signals(self):
         self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
         if self.kind == 'SMA':
-            self.data['ma_short'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_long'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[1])
+            self.data['ma_short'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_long'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.windows[1])
         elif self.kind == 'EMA':
-            self.data['ma_short'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_long'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[1])
+            self.data['ma_short'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_long'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.windows[1])
         elif self.kind == 'KAMA':
-            self.data['ma_short'] = ta.momentum.kama(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_long'] = ta.momentum.kama(close=self.data['midclose'], window=self.periods[1])
+            self.data['ma_short'] = ta.momentum.kama(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_long'] = ta.momentum.kama(close=self.data['midclose'], window=self.windows[1])
         elif self.kind == 'WMA':
-            self.data['ma_short'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_long'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.periods[1])
+            self.data['ma_short'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_long'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.windows[1])
             
-        self.data['signal'] = np.where(self.data['ma_short']>self.data['ma_long'], 1, np.where(self.data['ma_short']<self.data['ma_long'], -1, 0))
         self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['ma_short']>self.data['ma_long'], 1, np.where(self.data['ma_short']<self.data['ma_long'], -1, 0))
         self.signals = self.data['signal']
         
-#---------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------#
 
 class ThreeMovingAverageBacktester(IterativeBacktester):
-    def __init__(self, data, freq, periods = (20, 50, 100), kind='SMA', risk_free_rate=0.01):
-        # periods(tuple) ===> (short period, mid period, long period)
+    def __init__(self, data, freq, windows = (20, 50, 100), kind='SMA', risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, mid period, long period)
         # kind(str) ===> 'SMA' / 'EMA' / 'KAMA' / 'WMA'
         IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
-        self.periods = periods
+        self.windows = windows
         self.kind = kind
         self.get_signals()
         
     def get_signals(self):
         self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
         if self.kind == 'SMA':
-            self.data['ma_short'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_mid'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[1])
-            self.data['ma_long'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.periods[2])
+            self.data['ma_short'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_mid'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.windows[1])
+            self.data['ma_long'] = ta.trend.sma_indicator(close=self.data['midclose'], window=self.windows[2])
         elif self.kind == 'EMA':
-            self.data['ma_short'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_mid'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[1])
-            self.data['ma_long'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.periods[2])
+            self.data['ma_short'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_mid'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.windows[1])
+            self.data['ma_long'] = ta.trend.ema_indicator(close=self.data['midclose'], window=self.windows[2])
         elif self.kind == 'KAMA':
-            self.data['ma_short'] = ta.momentum.kama(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_mid'] = ta.momentum.kama(close=self.data['midclose'], window=self.periods[1])
-            self.data['ma_long'] = ta.momentum.kama(close=self.data['midclose'], window=self.periods[2])
+            self.data['ma_short'] = ta.momentum.kama(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_mid'] = ta.momentum.kama(close=self.data['midclose'], window=self.windows[1])
+            self.data['ma_long'] = ta.momentum.kama(close=self.data['midclose'], window=self.windows[2])
         elif self.kind == 'WMA':
-            self.data['ma_short'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.periods[0])
-            self.data['ma_mid'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.periods[1])
-            self.data['ma_long'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.periods[2])
-            
+            self.data['ma_short'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.windows[0])
+            self.data['ma_mid'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.windows[1])
+            self.data['ma_long'] = ta.trend.wma_indicator(close=self.data['midclose'], window=self.windows[2])
+        
+        self.data.dropna(inplace=True)
         self.data['signal'] = np.where(np.all([self.data['ma_short'] > self.data['ma_mid'],
                                       self.data['ma_mid'] > self.data['ma_long']], axis=0), 1,
                               np.where(np.all([self.data['ma_short'] < self.data['ma_mid'],
                                                self.data['ma_mid'] < self.data['ma_long']], axis=0), -1, 0))
-        self.data.dropna(inplace=True)
         self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------#
+
+class MACDBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows=(12, 26, 9), risk_free_rate=0.01):
+        # windows --> (fast, slow, sign)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        # MACD signal line cross zero
+        macd = ta.trend.MACD(self.data['midclose'], 
+                             window_fast=self.windows[0], 
+                             window_slow=self.windows[1],
+                             window_sign=self.windows[2], 
+                             fillna=False)
+        self.data['macd'] = macd.macd()
+        # self.data['signal_line'] = macd.macd_signal()
+        self.data['macd_hist'] = macd.macd_diff()
+        self.data.dropna(inplace=True)
+        # macd cross above signal_line from below --> long
+        # macd cross below signal_line from above --> short
+        self.data['signal'] = np.where(np.all([self.data['macd_hist'] > 0, self.data['macd'] < 0], axis=0), 1, 
+                                        np.where(np.all([self.data['macd_hist'] < 0, self.data['macd'] > 0] , axis=0), -1, 
+                                        np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------#
+
+class RSIBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window=14, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+    
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        self.data['rsi'] = ta.momentum.rsi(self.data['midclose'], window=self.window, fillna=False)
+        # RSI >= 70 --> short
+        # RSI <= 30 --> long
+        # else NA --> ffill() --> fillna(0)
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['rsi'] > 70, -1, np.where(self.data['rsi'] < 30, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------#
+
+class StochasticOscillatorBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows=(14,3), risk_free_rate=0.01):
+        # windows --> (window, smooth_window)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        columns = ['open', 'high', 'low', 'close']
+        for col in columns: 
+            self.data['mid'+col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        stoch = ta.momentum.StochasticOscillator(high=self.data['midhigh'], low=self.data['midlow'], close=self.data['midclose'],
+                                                 window=self.windows[0], smooth_window=self.windows[1], fillna=False)
+        self.data['%K'] = stoch.stoch()
+        self.data['%D'] = stoch.stoch_signal()
+        # %D > 80 --> long 
+        # %D < 20 --> short
+        # else NA --> ffill NA
+        # fillna(0) for other NA
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['%D'] > 80, -1,
+                                       np.where(self.data['%D'] < 20, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------#
+
+class BollingerBandBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window_dev=(20, 2), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window_dev[0]
+        self.dev = window_dev[1]
+        self.get_signals()
+        
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        bb = ta.volatility.BollingerBands(close=self.data['midclose'], window=self.window, window_dev=self.dev, fillna=False)
+        # self.data['bb_perc'] = bb.bollinger_pband()
+        self.data['bb_high'] = bb.bollinger_hband()
+        self.data['bb_avg'] = bb.bollinger_mavg()
+        self.data['bb_low'] = bb.bollinger_lband()
+        # price < bb_low --> long until price reach bb_avg --> neutral
+        # price > bb_high --> short until price reach bb_avg --> neutral
+        self.data.dropna(inplace=True)
+        self.data['distance'] = self.data['midclose'] - self.data['bb_avg']
+        self.data['signal'] = np.where(self.data['midclose'] < self.data['bb_low'], 1,
+                                       np.where(self.data['midclose'] > self.data['bb_high'], -1, 
+                                                np.where(self.data['distance']*self.data['distance'].shift(1)<0, 0, np.nan)))
+        # self.data['signal'] = np.where(self.data['bb_perc'] > 1+self.threshold, -1,
+        #                                np.where(self.data['bb_perc'] < 0-self.threshold, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#----------------------------------------------------------------------------------------------------#
+
+class AroonBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window_threshold=(25, 50), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window_threshold[0]
+        self.threshold = window_threshold[1]
+        self.get_signals()
+    
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        aroon = ta.trend.AroonIndicator(close=self.data['midclose'], window=self.window, fillna=False)
+        self.data['aroon_ind'] = aroon.aroon_indicator()
+        # aroon indicator = aroon up - aroon down
+        # aroon indicator > 0 --> long
+        # aroon indicator < 0 --> short
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['aroon_ind'] > self.threshold, 1,
+                                       np.where(self.data['aroon_ind'] < -1*self.threshold, -1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#----------------------------------------------------------------------------------------------------#
+
+class CCIBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+        
+    def get_signals(self):
+        self.data['midclose'] = self.data[['bidclose', 'askclose']].mean(axis=1)
+        self.data['midhigh'] = self.data[['bidhigh', 'askhigh']].mean(axis=1)
+        self.data['midlow'] = self.data[['bidlow', 'asklow']].mean(axis=1)
+        self.data['cci'] = ta.trend.cci(high=self.data['midhigh'], low=self.data['midlow'], close=self.data['midclose'], 
+                                        window=self.window, constant=0.015, fillna=False)
+        self.data.dropna(inplace=True)
+        # strategy --> overbought/sold
+        # cci > 200 --> sell
+        # cci < -200 --> buy
+        # else NA then ffill
+        self.data['signal'] = np.where(self.data['cci'] > 200, -1,
+                                    np.where(self.data['cci'] < -200, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class ADXBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window_threshold=(20, 30), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window_threshold[0]
+        self.threshold = window_threshold[1]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        adx = ta.trend.ADXIndicator(high=self.data['high'], low=self.data['low'], close=self.data['close'], 
+                                    window=self.window, fillna=False)
+        self.data['adx_pos'] = adx.adx_pos()
+        self.data['adx_neg'] = adx.adx_neg()
+        self.data = self.data.iloc[self.window+1:, :]
+        self.data['adx_diff'] = self.data['adx_pos'] - self.data['adx_neg']
+        self.data['signal'] = np.where(self.data['adx_diff'] > self.threshold, -1,
+                                       np.where(self.data['adx_diff'] < -self.threshold, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']        
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class AwesomeOscillatorBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows=(5, 34), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window1 = windows[0]
+        self.window2 = windows[1]
+        # self.threshold = windows[2]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['ao'] = ta.momentum.awesome_oscillator(high=self.data['high'], low=self.data['low'], 
+                                                         window1=self.window1, window2=self.window2, fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        # self.data['signal'] = np.where(self.data['ao'] > self.threshold, -1, 
+        #                                np.where(self.data['ao'] < -self.threshold, 1, np.nan))
+        # self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.data['signal'] = np.where(self.data['ao'] > 0, 1,
+                                       np.where(self.data['ao'] < 0, -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class CMFBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window_threshold=(20, 0.2), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window_threshold[0]
+        self.threshold = window_threshold[1]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['cmf'] = ta.volume.chaikin_money_flow(high=self.data['high'], low=self.data['low'], close=self.data['close'],
+                                                        volume=self.data['tickqty'], window=self.window, fillna = False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['cmf'] > self.threshold, -1,
+                                       np.where(self.data['cmf'] < -self.threshold, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class DonchianChannelBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window=20, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['donchian_perc'] =  ta.volatility.donchian_channel_pband(high=self.data['high'], low=self.data['low'], close=self.data['close'], 
+                                                                           window=self.window,fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['donchian_perc'] > 0.8, -1,
+                                       np.where(self.data['donchian_perc'] < 0.2, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class KeltnerChannelBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows_threshold=(20,10, 0.2), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = windows_threshold[0]
+        self.atr = windows_threshold[1]
+        self.threshold = windows_threshold[2]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['keltner_perc'] =  ta.volatility.keltner_channel_pband(high=self.data['high'], low=self.data['low'], close=self.data['close'],
+                                                                         window=self.window, window_atr=self.atr, 
+                                                                         fillna=False, original_version=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['keltner_perc'] > 1+self.threshold, -1,
+                                       np.where(self.data['keltner_perc'] < 0-self.threshold, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class MFIBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window=14, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['mfi'] = ta.volume.money_flow_index(high=self.data['high'], low=self.data['low'], close=self.data['close'], 
+                                                      volume=self.data['tickqty'], window=self.window, fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['mfi'] > 80, -1,
+                                       np.where(self.data['mfi'] < 20, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class StochRSIBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows=(14,3,3), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = windows[0]
+        self.smooth1 = windows[1]
+        self.smooth2 = windows[2]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['stochrsi'] = ta.momentum.stochrsi_d(close=self.data['close'], 
+                                                       window=self.window, 
+                                                       smooth1=self.smooth1,
+                                                       smooth2=self.smooth2,
+                                                       fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['stochrsi'] > 0.8, -1,
+                                       np.where(self.data['stochrsi'] < 0.2, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class TRIXBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window=14, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['trix'] = ta.trend.trix(close=self.data['close'], window=self.window)
+        self.data.dropna(axis=0, inplace=True) 
+        self.data['signal'] = np.where(self.data['trix'] > 0, 1,
+                                       np.where(self.data['trix'] < 0, -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class TSIBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows_threshold=(13,25,30), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window_fast = windows_threshold[0]
+        self.window_slow = windows_threshold[1]
+        self.threshold = windows_threshold[2]
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['tsi'] = ta.momentum.tsi(close=self.data['close'], 
+                                           window_slow=self.window_slow, 
+                                           window_fast=self.window_fast, 
+                                           fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['tsi'] > self.threshold, -1,
+                                       np.where(self.data['tsi'] < -self.threshold, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class WilliamsRBacktester(IterativeBacktester):
+    def __init__(self, data, freq, window=14, risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.window = window
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['williamsr'] = ta.momentum.williams_r(high=self.data['high'], low=self.data['low'], close=self.data['close'], 
+                                                       lbp=self.window, fillna=False)
+        self.data.dropna(axis=0, inplace=True)
+        self.data['signal'] = np.where(self.data['williamsr'] > -20, -1,
+                                       np.where(self.data['williamsr'] < -80, 1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class IchimokuBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows=(9, 26, 52), risk_free_rate=0.01):
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        ichimoku = ta.trend.IchimokuIndicator(high=self.data['high'], 
+                                              low=self.data['low'], 
+                                              visual=True,
+                                              window1=self.windows[0], 
+                                              window2=self.windows[1], 
+                                              window3=self.windows[2])
+        self.data['span_a'] = ichimoku.ichimoku_a()
+        self.data['span_b'] = ichimoku.ichimoku_b()
+        self.data['base'] = ichimoku.ichimoku_base_line()
+        self.data['conv'] = ichimoku.ichimoku_conversion_line()
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['close'] > self.data[['span_a', 'span_b']].max(axis=1), 
+                                       self.data['conv'] > self.data['base']], axis=0), 1,
+                                       np.where(np.all([self.data['close'] < self.data[['span_a', 'span_b']].min(axis=1), 
+                                                        self.data['conv'] < self.data['base']], axis=0), -1, np.nan))
+        self.data['signal'] = self.data['signal'].ffill().fillna(0)
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class SMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['sma_short'] = talib.SMA(self.data['close'], self.windows[0]) 
+        self.data['sma_long'] = talib.SMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['sma_short']>self.data['sma_long'], 1, 
+                              np.where(self.data['sma_short']<self.data['sma_long'], -1, 0))
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class EMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['ema_short'] = talib.EMA(self.data['close'], self.windows[0]) 
+        self.data['ema_long'] = talib.EMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['ema_short']>self.data['ema_long'], 1, 
+                              np.where(self.data['ema_short']<self.data['ema_long'], -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class DEMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['dema_short'] = talib.DEMA(self.data['close'], self.windows[0]) 
+        self.data['dema_long'] = talib.DEMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['dema_short']>self.data['dema_long'], 1, 
+                              np.where(self.data['dema_short']<self.data['dema_long'], -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class KAMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['kama_short'] = talib.KAMA(self.data['close'], self.windows[0]) 
+        self.data['kama_long'] = talib.KAMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['kama_short']>self.data['kama_long'], 1, 
+                              np.where(self.data['kama_short']<self.data['kama_long'], -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class MIDPOINTBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['midpoint_short'] = talib.MIDPOINT(self.data['close'], self.windows[0]) 
+        self.data['midpoint_long'] = talib.MIDPOINT(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['midpoint_short']>self.data['midpoint_long'], 1, 
+                              np.where(self.data['midpoint_short']<self.data['midpoint_long'], -1, 0))
+        self.signals = self.data['signal']        
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class MIDPRICEBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['midprice_short'] = talib.MIDPRICE(self.data['high'], self.data['low'], self.windows[0]) 
+        self.data['midprice_long'] = talib.MIDPRICE(self.data['high'], self.data['low'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['midprice_short']>self.data['midprice_long'], 1, 
+                              np.where(self.data['midprice_short']<self.data['midprice_long'], -1, 0))
+        self.signals = self.data['signal']            
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class TEMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['tema_short'] = talib.TEMA(self.data['close'], self.windows[0]) 
+        self.data['tema_long'] = talib.TEMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['tema_short']>self.data['tema_long'], 1, 
+                              np.where(self.data['tema_short']<self.data['tema_long'], -1, 0))
+        self.signals = self.data['signal']
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class TRIMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['trima_short'] = talib.TRIMA(self.data['close'], self.windows[0]) 
+        self.data['trima_long'] = talib.TRIMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['trima_short']>self.data['trima_long'], 1, 
+                              np.where(self.data['trima_short']<self.data['trima_long'], -1, 0))
+        self.signals = self.data['signal']        
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class WMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['wma_short'] = talib.WMA(self.data['close'], self.windows[0]) 
+        self.data['wma_long'] = talib.WMA(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['wma_short']>self.data['wma_long'], 1, 
+                              np.where(self.data['wma_short']<self.data['wma_long'], -1, 0))
+        self.signals = self.data['signal']  
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class LinearRegressionBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['linreg_short'] = talib.LINEARREG(self.data['close'], self.windows[0]) 
+        self.data['linreg_long'] = talib.LINEARREG(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['linreg_short']>self.data['linreg_long'], 1, 
+                              np.where(self.data['linreg_short']<self.data['linreg_long'], -1, 0))
+        self.signals = self.data['signal']  
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class TSFBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20,100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['tsf_short'] = talib.TSF(self.data['close'], self.windows[0]) 
+        self.data['tsf_long'] = talib.TSF(self.data['close'], self.windows[1]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(self.data['tsf_short']>self.data['tsf_long'], 1, 
+                              np.where(self.data['tsf_short']<self.data['tsf_long'], -1, 0))
+        self.signals = self.data['signal']  
+        
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeSMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.SMA(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.SMA(self.data['close'], self.windows[1])
+        self.data['long'] = talib.SMA(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeEMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.EMA(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.EMA(self.data['close'], self.windows[1])
+        self.data['long'] = talib.EMA(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeKAMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.KAMA(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.KAMA(self.data['close'], self.windows[1])
+        self.data['long'] = talib.KAMA(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeMIDPOINTBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.MIDPOINT(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.MIDPOINT(self.data['close'], self.windows[1])
+        self.data['long'] = talib.MIDPOINT(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeMIDPRICEBacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.MIDPRICE(self.data['high'], self.data['low'], self.windows[0])  
+        self.data['mid'] = talib.MIDPRICE(self.data['high'], self.data['low'], self.windows[1]) 
+        self.data['long'] = talib.MIDPRICE(self.data['high'], self.data['low'], self.windows[2])  
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeTRIMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.TRIMA(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.TRIMA(self.data['close'], self.windows[1])
+        self.data['long'] = talib.TRIMA(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
+
+class ThreeWMABacktester(IterativeBacktester):
+    def __init__(self, data, freq, windows = (20, 50, 100), risk_free_rate=0.01):
+        # windows(tuple) ===> (short period, long period)
+        IterativeBacktester.__init__(self, data=data, signals=None, freq=freq, risk_free_rate=risk_free_rate)
+        self.windows = windows
+        self.get_signals()
+        
+    def get_signals(self):
+        for col in ['open', 'close', 'high', 'low']:
+            self.data[col] = self.data[['bid'+col, 'ask'+col]].mean(axis=1)
+        self.data['short'] = talib.WMA(self.data['close'], self.windows[0]) 
+        self.data['mid'] = talib.WMA(self.data['close'], self.windows[1])
+        self.data['long'] = talib.WMA(self.data['close'], self.windows[2]) 
+        self.data.dropna(inplace=True)
+        self.data['signal'] = np.where(np.all([self.data['short'] > self.data['mid'], self.data['mid'] > self.data['long']], axis=0), 1,
+                              np.where(np.all([self.data['short'] < self.data['mid'], self.data['mid'] < self.data['long']], axis=0), -1, 0)) 
+        self.signals = self.data['signal']
+
+#--------------------------------------------------------------------------------------------------------#
