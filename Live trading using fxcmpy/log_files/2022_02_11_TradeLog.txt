@@ -1,0 +1,1128 @@
+--------------------------------------------------
+***** | MultiMATrader| TimeFrame:m15 | *****
+| UTC | start: 2022-02-06 23:00:00+00:00 | end: 2022-02-11 21:05:00+00:00 |
+| BKK | start: 2022-02-07 06:00:00+07:00 | end: 2022-02-12 04:05:00+07:00 |
+--------------------------------------------------
+| 2022-02-11 00:00:14.189411+00:00 | Connection Status: established |
+| 2022-02-11 00:00:14.293278+00:00 | Updated current positions |
+| 2022-02-11 00:00:14.416451+00:00 | Updated trade amount |
+| 2022-02-11 00:00:22.825106+00:00 | 21:04:37.174882 until termination |
+| 2022-02-11 00:00:34.491988+00:00 | USD/JPY | already LONG |
+| 2022-02-11 00:00:35.820142+00:00 | USD/CHF | already LONG |
+| 2022-02-11 00:00:37.198824+00:00 | USD/CAD | already LONG |
+| 2022-02-11 00:00:38.593547+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 00:00:40.004208+00:00 | NZD/USD | already LONG |
+| 2022-02-11 00:00:41.312439+00:00 | EUR/USD | already LONG |
+| 2022-02-11 00:00:43.157248+00:00 | GBP/USD | already LONG |
+| 2022-02-11 00:10:08.915805+00:00 | 20:54:51.084183 until termination |
+| 2022-02-11 00:15:13.003126+00:00 | Connection Status: established |
+| 2022-02-11 00:15:13.073432+00:00 | Updated current positions |
+| 2022-02-11 00:15:13.180204+00:00 | Updated trade amount |
+| 2022-02-11 00:15:21.320441+00:00 | 20:49:38.679547 until termination |
+| 2022-02-11 00:15:32.975076+00:00 | USD/JPY | already LONG |
+| 2022-02-11 00:15:34.278446+00:00 | USD/CHF | already LONG |
+| 2022-02-11 00:15:35.742878+00:00 | USD/CAD | already LONG |
+| 2022-02-11 00:15:37.184572+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 00:15:38.661534+00:00 | NZD/USD | already LONG |
+| 2022-02-11 00:15:40.103295+00:00 | EUR/USD | already LONG |
+| 2022-02-11 00:15:41.396338+00:00 | GBP/USD | already LONG |
+| 2022-02-11 00:25:07.346569+00:00 | 20:39:52.653419 until termination |
+| 2022-02-11 00:30:13.262063+00:00 | Connection Status: established |
+| 2022-02-11 00:30:13.337877+00:00 | Updated current positions |
+| 2022-02-11 00:30:13.491135+00:00 | Updated trade amount |
+| 2022-02-11 00:30:21.507165+00:00 | 20:34:38.492823 until termination |
+| 2022-02-11 00:30:33.025197+00:00 | USD/JPY | already LONG |
+| 2022-02-11 00:30:34.704448+00:00 | USD/CHF | already LONG |
+| 2022-02-11 00:30:36.252348+00:00 | USD/CAD | already LONG |
+| 2022-02-11 00:30:37.649836+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 00:30:39.691162+00:00 | NZD/USD | already LONG |
+| 2022-02-11 00:30:41.285584+00:00 | EUR/USD | already LONG |
+| 2022-02-11 00:30:43.055606+00:00 | GBP/USD | already LONG |
+| 2022-02-11 00:40:07.229490+00:00 | 20:24:52.770498 until termination |
+| 2022-02-11 00:45:14.302546+00:00 | Connection Status: established |
+| 2022-02-11 00:45:14.459075+00:00 | Updated current positions |
+| 2022-02-11 00:45:14.581431+00:00 | Updated trade amount |
+| 2022-02-11 00:45:22.698429+00:00 | 20:19:37.301552 until termination |
+| 2022-02-11 00:45:34.596393+00:00 | USD/JPY | already LONG |
+| 2022-02-11 00:45:36.010304+00:00 | USD/CHF | already LONG |
+| 2022-02-11 00:45:37.423999+00:00 | USD/CAD | already LONG |
+| 2022-02-11 00:45:38.717619+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 00:45:40.209112+00:00 | NZD/USD | already LONG |
+| 2022-02-11 00:45:41.654685+00:00 | EUR/USD | already LONG |
+| 2022-02-11 00:45:43.105948+00:00 | GBP/USD | already LONG |
+| 2022-02-11 00:55:07.915114+00:00 | 20:09:52.084875 until termination |
+| 2022-02-11 01:00:14.152388+00:00 | Connection Status: established |
+| 2022-02-11 01:00:14.255055+00:00 | Updated current positions |
+| 2022-02-11 01:00:14.310812+00:00 | Updated trade amount |
+| 2022-02-11 01:00:23.067805+00:00 | 20:04:36.932181 until termination |
+| 2022-02-11 01:00:34.806810+00:00 | USD/JPY | already LONG |
+| 2022-02-11 01:00:36.301183+00:00 | USD/CHF | already LONG |
+| 2022-02-11 01:00:39.122165+00:00 | USD/CAD | already LONG |
+| 2022-02-11 01:00:41.284126+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 01:00:42.732416+00:00 | NZD/USD | already LONG |
+| 2022-02-11 01:00:44.113394+00:00 | EUR/USD | already LONG |
+| 2022-02-11 01:00:45.417199+00:00 | GBP/USD | already LONG |
+| 2022-02-11 01:10:07.774475+00:00 | 19:54:52.225506 until termination |
+| 2022-02-11 01:15:13.811130+00:00 | Connection Status: established |
+| 2022-02-11 01:15:13.997618+00:00 | Updated current positions |
+| 2022-02-11 01:15:14.287561+00:00 | Updated trade amount |
+| 2022-02-11 01:15:22.057555+00:00 | 19:49:37.942425 until termination |
+| 2022-02-11 01:15:33.803986+00:00 | USD/JPY | already LONG |
+| 2022-02-11 01:15:35.232766+00:00 | USD/CHF | already LONG |
+| 2022-02-11 01:15:36.649888+00:00 | USD/CAD | already LONG |
+| 2022-02-11 01:15:37.869018+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 01:15:39.342711+00:00 | NZD/USD | already LONG |
+| 2022-02-11 01:15:40.589958+00:00 | EUR/USD | already LONG |
+| 2022-02-11 01:15:42.089747+00:00 | GBP/USD | already LONG |
+| 2022-02-11 01:25:07.662848+00:00 | 19:39:52.337140 until termination |
+| 2022-02-11 01:30:14.102384+00:00 | Connection Status: established |
+| 2022-02-11 01:30:14.158578+00:00 | Updated current positions |
+| 2022-02-11 01:30:14.229014+00:00 | Updated trade amount |
+| 2022-02-11 01:30:22.430918+00:00 | 19:34:37.569070 until termination |
+| 2022-02-11 01:30:33.855696+00:00 | USD/JPY | already LONG |
+| 2022-02-11 01:30:35.319962+00:00 | USD/CHF | already LONG |
+| 2022-02-11 01:30:36.629321+00:00 | USD/CAD | already LONG |
+| 2022-02-11 01:30:38.200129+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 01:30:39.592809+00:00 | NZD/USD | already LONG |
+| 2022-02-11 01:30:40.895711+00:00 | EUR/USD | already LONG |
+| 2022-02-11 01:30:42.277708+00:00 | GBP/USD | already LONG |
+| 2022-02-11 01:40:07.986222+00:00 | 19:24:52.013767 until termination |
+| 2022-02-11 01:45:00.001523+00:00 |*** ERROR ***| get_candles_time | EUR/USD |
+| 2022-02-11 01:45:00.001720+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 01:45:00.001809+00:00 |*** restarting python script ***|
+| 2022-02-11 01:45:14.660283+00:00 | Connection Status: established |
+| 2022-02-11 01:45:14.732394+00:00 | Updated current positions |
+| 2022-02-11 01:45:14.812959+00:00 | Updated trade amount |
+| 2022-02-11 01:45:22.824189+00:00 | 19:19:37.175799 until termination |
+| 2022-02-11 01:45:34.842602+00:00 | USD/JPY | already LONG |
+| 2022-02-11 01:45:36.619362+00:00 | USD/CHF | already LONG |
+| 2022-02-11 01:45:37.907617+00:00 | USD/CAD | already LONG |
+| 2022-02-11 01:45:39.448596+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 01:45:40.664172+00:00 | NZD/USD | already LONG |
+| 2022-02-11 01:45:41.981261+00:00 | EUR/USD | already LONG |
+| 2022-02-11 01:45:43.549053+00:00 | GBP/USD | already LONG |
+| 2022-02-11 01:55:08.459757+00:00 | 19:09:51.540231 until termination |
+| 2022-02-11 02:00:13.285294+00:00 | Connection Status: established |
+| 2022-02-11 02:00:13.386785+00:00 | Updated current positions |
+| 2022-02-11 02:00:13.493581+00:00 | Updated trade amount |
+| 2022-02-11 02:00:21.304673+00:00 | 19:04:38.695307 until termination |
+| 2022-02-11 02:00:32.770388+00:00 | USD/JPY | already LONG |
+| 2022-02-11 02:00:34.161084+00:00 | USD/CHF | already LONG |
+| 2022-02-11 02:00:35.659149+00:00 | USD/CAD | already LONG |
+| 2022-02-11 02:00:37.067673+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 02:00:38.318011+00:00 | NZD/USD | already LONG |
+| 2022-02-11 02:00:40.670726+00:00 | EUR/USD | already LONG |
+| 2022-02-11 02:00:42.074256+00:00 | GBP/USD | already LONG |
+| 2022-02-11 02:10:07.758641+00:00 | 18:54:52.241347 until termination |
+| 2022-02-11 02:15:13.661629+00:00 | Connection Status: established |
+| 2022-02-11 02:15:13.742391+00:00 | Updated current positions |
+| 2022-02-11 02:15:14.026868+00:00 | Updated trade amount |
+| 2022-02-11 02:15:21.678555+00:00 | 18:49:38.321425 until termination |
+| 2022-02-11 02:15:33.262100+00:00 | USD/JPY | already LONG |
+| 2022-02-11 02:15:34.602488+00:00 | USD/CHF | already LONG |
+| 2022-02-11 02:15:36.281430+00:00 | USD/CAD | already LONG |
+| 2022-02-11 02:15:37.837471+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 02:15:39.372984+00:00 | NZD/USD | already LONG |
+| 2022-02-11 02:15:40.656760+00:00 | EUR/USD | already LONG |
+| 2022-02-11 02:15:41.897855+00:00 | GBP/USD | already LONG |
+| 2022-02-11 02:30:07.865637+00:00 | Connection Status: established |
+| 2022-02-11 02:30:08.041717+00:00 | Updated current positions |
+| 2022-02-11 02:30:08.155515+00:00 | Updated trade amount |
+| 2022-02-11 02:30:16.474668+00:00 | 18:34:43.525319 until termination |
+| 2022-02-11 02:30:33.081429+00:00 | USD/CHF | already LONG |
+| 2022-02-11 02:30:34.472446+00:00 | USD/CAD | already LONG |
+| 2022-02-11 02:30:35.697305+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 02:30:37.033234+00:00 | NZD/USD | already LONG |
+| 2022-02-11 02:30:38.448047+00:00 | EUR/USD | already LONG |
+| 2022-02-11 02:30:39.750104+00:00 | GBP/USD | already LONG |
+| 2022-02-11 02:30:41.249775+00:00 | USD/JPY | already LONG |
+| 2022-02-11 02:40:02.268712+00:00 | 18:24:57.731269 until termination |
+| 2022-02-11 02:45:12.687403+00:00 | Connection Status: established |
+| 2022-02-11 02:45:12.812381+00:00 | Updated current positions |
+| 2022-02-11 02:45:12.997535+00:00 | Updated trade amount |
+| 2022-02-11 02:45:21.237426+00:00 | 18:19:38.762555 until termination |
+| 2022-02-11 02:45:32.698666+00:00 | USD/JPY | already LONG |
+| 2022-02-11 02:45:34.082142+00:00 | USD/CHF | already LONG |
+| 2022-02-11 02:45:36.214668+00:00 | USD/CAD | already LONG |
+| 2022-02-11 02:45:37.778761+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 02:45:39.147704+00:00 | NZD/USD | already LONG |
+| 2022-02-11 02:45:40.363766+00:00 | EUR/USD | already LONG |
+| 2022-02-11 02:45:41.890715+00:00 | GBP/USD | already LONG |
+| 2022-02-11 03:00:06.355096+00:00 | Connection Status: established |
+| 2022-02-11 03:00:06.536327+00:00 | Updated current positions |
+| 2022-02-11 03:00:06.829832+00:00 | Updated trade amount |
+| 2022-02-11 03:00:14.493429+00:00 | 18:04:45.506499 until termination |
+| 2022-02-11 03:00:31.266290+00:00 | USD/CHF | already LONG |
+| 2022-02-11 03:00:32.600599+00:00 | USD/CAD | already LONG |
+| 2022-02-11 03:00:33.824039+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 03:00:35.292819+00:00 | NZD/USD | already LONG |
+| 2022-02-11 03:00:36.717711+00:00 | EUR/USD | already LONG |
+| 2022-02-11 03:00:38.031023+00:00 | GBP/USD | already LONG |
+| 2022-02-11 03:00:39.629781+00:00 | USD/JPY | already LONG |
+| 2022-02-11 03:15:07.611950+00:00 | Connection Status: established |
+| 2022-02-11 03:15:07.683977+00:00 | Updated current positions |
+| 2022-02-11 03:15:07.753296+00:00 | Updated trade amount |
+| 2022-02-11 03:15:15.712351+00:00 | 17:49:44.287634 until termination |
+| 2022-02-11 03:15:32.485697+00:00 | USD/CHF | already LONG |
+| 2022-02-11 03:15:33.767882+00:00 | USD/CAD | already LONG |
+| 2022-02-11 03:15:35.000064+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 03:15:36.256798+00:00 | NZD/USD | already LONG |
+| 2022-02-11 03:15:37.571040+00:00 | EUR/USD | already LONG |
+| 2022-02-11 03:15:38.844384+00:00 | GBP/USD | already LONG |
+| 2022-02-11 03:15:40.156209+00:00 | USD/JPY | already LONG |
+| 2022-02-11 03:30:08.717995+00:00 | Connection Status: established |
+| 2022-02-11 03:30:08.844525+00:00 | Updated current positions |
+| 2022-02-11 03:30:09.097606+00:00 | Updated trade amount |
+| 2022-02-11 03:30:18.359533+00:00 | 17:34:41.640451 until termination |
+| 2022-02-11 03:30:35.333025+00:00 | USD/CHF | already LONG |
+| 2022-02-11 03:30:36.731765+00:00 | USD/CAD | already LONG |
+| 2022-02-11 03:30:38.010572+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 03:30:39.274419+00:00 | NZD/USD | already LONG |
+| 2022-02-11 03:30:40.587867+00:00 | EUR/USD | already LONG |
+| 2022-02-11 03:30:42.124867+00:00 | GBP/USD | already LONG |
+| 2022-02-11 03:30:43.644221+00:00 | USD/JPY | already LONG |
+| 2022-02-11 03:45:08.546562+00:00 | Connection Status: established |
+| 2022-02-11 03:45:08.697327+00:00 | Updated current positions |
+| 2022-02-11 03:45:08.817881+00:00 | Updated trade amount |
+| 2022-02-11 03:45:16.820571+00:00 | 17:19:43.179417 until termination |
+| 2022-02-11 03:45:33.660969+00:00 | USD/CHF | already LONG |
+| 2022-02-11 03:45:35.135348+00:00 | USD/CAD | already LONG |
+| 2022-02-11 03:45:36.405786+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 03:45:37.912451+00:00 | NZD/USD | already LONG |
+| 2022-02-11 03:45:39.238355+00:00 | EUR/USD | already LONG |
+| 2022-02-11 03:45:40.574901+00:00 | GBP/USD | already LONG |
+| 2022-02-11 03:45:42.155993+00:00 | USD/JPY | already LONG |
+| 2022-02-11 04:00:07.930355+00:00 | Connection Status: established |
+| 2022-02-11 04:00:08.153923+00:00 | Updated current positions |
+| 2022-02-11 04:00:08.229841+00:00 | Updated trade amount |
+| 2022-02-11 04:00:16.587870+00:00 | 17:04:43.412118 until termination |
+| 2022-02-11 04:00:33.132480+00:00 | USD/CHF | already LONG |
+| 2022-02-11 04:00:34.458862+00:00 | USD/CAD | already LONG |
+| 2022-02-11 04:00:36.190923+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 04:00:37.738152+00:00 | NZD/USD | already LONG |
+| 2022-02-11 04:00:40.788914+00:00 |*** CLOSE ***| EUR/USD |
+| 2022-02-11 04:00:43.038552+00:00 |*** SHORT ***| EUR/USD | amount:5 |
+| 2022-02-11 04:00:44.397630+00:00 | GBP/USD | already LONG |
+| 2022-02-11 04:00:45.873249+00:00 | USD/JPY | already LONG |
+| 2022-02-11 04:15:07.999095+00:00 | Connection Status: established |
+| 2022-02-11 04:15:08.082506+00:00 | Updated current positions |
+| 2022-02-11 04:15:08.248667+00:00 | Updated trade amount |
+| 2022-02-11 04:15:16.232459+00:00 | 16:49:43.767529 until termination |
+| 2022-02-11 04:15:33.370625+00:00 | USD/CHF | already LONG |
+| 2022-02-11 04:15:34.908773+00:00 | USD/CAD | already LONG |
+| 2022-02-11 04:15:36.429662+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 04:15:37.668592+00:00 | NZD/USD | already LONG |
+| 2022-02-11 04:15:39.146632+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 04:15:40.633454+00:00 | GBP/USD | already LONG |
+| 2022-02-11 04:15:42.181180+00:00 | USD/JPY | already LONG |
+| 2022-02-11 04:25:02.842653+00:00 | 16:39:57.157336 until termination |
+| 2022-02-11 04:30:13.600065+00:00 | Connection Status: established |
+| 2022-02-11 04:30:13.677954+00:00 | Updated current positions |
+| 2022-02-11 04:30:13.759074+00:00 | Updated trade amount |
+| 2022-02-11 04:30:25.173469+00:00 | 16:34:34.826519 until termination |
+| 2022-02-11 04:30:31.842244+00:00 | GBP/USD | already LONG |
+| 2022-02-11 04:30:33.213310+00:00 | USD/JPY | already LONG |
+| 2022-02-11 04:30:34.653755+00:00 | USD/CHF | already LONG |
+| 2022-02-11 04:30:35.977108+00:00 | USD/CAD | already LONG |
+| 2022-02-11 04:30:37.573595+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 04:30:38.932226+00:00 | NZD/USD | already LONG |
+| 2022-02-11 04:30:40.452666+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 04:40:07.518824+00:00 | 16:24:52.481164 until termination |
+| 2022-02-11 04:45:14.687671+00:00 | Connection Status: established |
+| 2022-02-11 04:45:14.766343+00:00 | Updated current positions |
+| 2022-02-11 04:45:14.915279+00:00 | Updated trade amount |
+| 2022-02-11 04:45:23.145149+00:00 | 16:19:36.854832 until termination |
+| 2022-02-11 04:45:35.065882+00:00 | USD/JPY | already LONG |
+| 2022-02-11 04:45:36.598972+00:00 | USD/CHF | already LONG |
+| 2022-02-11 04:45:38.277322+00:00 | USD/CAD | already LONG |
+| 2022-02-11 04:45:39.787830+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 04:45:41.090839+00:00 | NZD/USD | already LONG |
+| 2022-02-11 04:45:42.644933+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 04:45:44.088491+00:00 | GBP/USD | already LONG |
+| 2022-02-11 05:00:08.788891+00:00 | Connection Status: established |
+| 2022-02-11 05:00:08.847729+00:00 | Updated current positions |
+| 2022-02-11 05:00:09.013192+00:00 | Updated trade amount |
+| 2022-02-11 05:00:17.126201+00:00 | 16:04:42.873787 until termination |
+| 2022-02-11 05:00:34.133970+00:00 | USD/CHF | already LONG |
+| 2022-02-11 05:00:35.914401+00:00 | USD/CAD | already LONG |
+| 2022-02-11 05:00:37.639751+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 05:00:39.858650+00:00 | NZD/USD | already LONG |
+| 2022-02-11 05:00:42.817528+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 05:00:44.157843+00:00 | GBP/USD | already LONG |
+| 2022-02-11 05:00:45.568273+00:00 | USD/JPY | already LONG |
+| 2022-02-11 05:10:03.098882+00:00 | 15:54:56.901107 until termination |
+| 2022-02-11 05:15:14.441637+00:00 | Connection Status: established |
+| 2022-02-11 05:15:14.523924+00:00 | Updated current positions |
+| 2022-02-11 05:15:14.635116+00:00 | Updated trade amount |
+| 2022-02-11 05:15:22.660024+00:00 | 15:49:37.339965 until termination |
+| 2022-02-11 05:15:34.184893+00:00 | USD/JPY | already LONG |
+| 2022-02-11 05:15:35.663148+00:00 | USD/CHF | already LONG |
+| 2022-02-11 05:15:36.990064+00:00 | USD/CAD | already LONG |
+| 2022-02-11 05:15:38.266729+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 05:15:39.742830+00:00 | NZD/USD | already LONG |
+| 2022-02-11 05:15:41.312466+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 05:15:42.701814+00:00 | GBP/USD | already LONG |
+| 2022-02-11 05:25:07.363158+00:00 | 15:39:52.636829 until termination |
+| 2022-02-11 05:30:13.839104+00:00 | Connection Status: established |
+| 2022-02-11 05:30:14.011213+00:00 | Updated current positions |
+| 2022-02-11 05:30:14.065315+00:00 | Updated trade amount |
+| 2022-02-11 05:30:22.167021+00:00 | 15:34:37.832967 until termination |
+| 2022-02-11 05:30:34.116433+00:00 | USD/JPY | already LONG |
+| 2022-02-11 05:30:35.624075+00:00 | USD/CHF | already LONG |
+| 2022-02-11 05:30:37.350481+00:00 | USD/CAD | already LONG |
+| 2022-02-11 05:30:39.064950+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 05:30:40.319208+00:00 | NZD/USD | already LONG |
+| 2022-02-11 05:30:41.754173+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 05:30:44.625769+00:00 |*** CLOSE ***| GBP/USD |
+| 2022-02-11 05:30:46.783799+00:00 |*** SHORT ***| GBP/USD | amount:4 |
+| 2022-02-11 05:45:07.551382+00:00 | Connection Status: established |
+| 2022-02-11 05:45:07.622557+00:00 | Updated current positions |
+| 2022-02-11 05:45:07.683623+00:00 | Updated trade amount |
+| 2022-02-11 05:45:15.807100+00:00 | 15:19:44.192889 until termination |
+| 2022-02-11 05:45:32.398454+00:00 | USD/CHF | already LONG |
+| 2022-02-11 05:45:33.780828+00:00 | USD/CAD | already LONG |
+| 2022-02-11 05:45:35.248136+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 05:45:36.600492+00:00 | NZD/USD | already LONG |
+| 2022-02-11 05:45:37.881986+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 05:45:39.248681+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 05:45:40.514193+00:00 | USD/JPY | already LONG |
+| 2022-02-11 05:55:02.285826+00:00 | 15:09:57.714162 until termination |
+| 2022-02-11 06:00:13.609860+00:00 | Connection Status: established |
+| 2022-02-11 06:00:13.714109+00:00 | Updated current positions |
+| 2022-02-11 06:00:13.778064+00:00 | Updated trade amount |
+| 2022-02-11 06:00:21.918713+00:00 | 15:04:38.081275 until termination |
+| 2022-02-11 06:00:33.878946+00:00 | USD/JPY | already LONG |
+| 2022-02-11 06:00:35.227675+00:00 | USD/CHF | already LONG |
+| 2022-02-11 06:00:36.715343+00:00 | USD/CAD | already LONG |
+| 2022-02-11 06:00:38.105145+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 06:00:39.485932+00:00 | NZD/USD | already LONG |
+| 2022-02-11 06:00:40.717272+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 06:00:42.101276+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 06:10:07.528583+00:00 | 14:54:52.471405 until termination |
+| 2022-02-11 06:15:13.981276+00:00 | Connection Status: established |
+| 2022-02-11 06:15:14.042564+00:00 | Updated current positions |
+| 2022-02-11 06:15:14.104080+00:00 | Updated trade amount |
+| 2022-02-11 06:15:21.913500+00:00 | 14:49:38.086475 until termination |
+| 2022-02-11 06:15:33.662705+00:00 | USD/JPY | already LONG |
+| 2022-02-11 06:15:35.037923+00:00 | USD/CHF | already LONG |
+| 2022-02-11 06:15:36.351353+00:00 | USD/CAD | already LONG |
+| 2022-02-11 06:15:37.798412+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 06:15:39.400706+00:00 | NZD/USD | already LONG |
+| 2022-02-11 06:15:40.680376+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 06:15:42.352161+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 06:30:07.902642+00:00 | Connection Status: established |
+| 2022-02-11 06:30:07.984844+00:00 | Updated current positions |
+| 2022-02-11 06:30:08.048887+00:00 | Updated trade amount |
+| 2022-02-11 06:30:15.859110+00:00 | 14:34:44.140877 until termination |
+| 2022-02-11 06:30:32.567308+00:00 | USD/CHF | already LONG |
+| 2022-02-11 06:30:34.017489+00:00 | USD/CAD | already LONG |
+| 2022-02-11 06:30:35.286927+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 06:30:36.602138+00:00 | NZD/USD | already LONG |
+| 2022-02-11 06:30:37.911882+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 06:30:39.219254+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 06:30:40.676852+00:00 | USD/JPY | already LONG |
+| 2022-02-11 06:45:06.846876+00:00 | Connection Status: established |
+| 2022-02-11 06:45:07.078464+00:00 | Updated current positions |
+| 2022-02-11 06:45:07.156352+00:00 | Updated trade amount |
+| 2022-02-11 06:45:15.053233+00:00 | 14:19:44.946755 until termination |
+| 2022-02-11 06:45:31.753860+00:00 | USD/CHF | already LONG |
+| 2022-02-11 06:45:33.158225+00:00 | USD/CAD | already LONG |
+| 2022-02-11 06:45:34.628593+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 06:45:36.228546+00:00 | NZD/USD | already LONG |
+| 2022-02-11 06:45:37.740400+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 06:45:39.144071+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 06:45:40.507048+00:00 | USD/JPY | already LONG |
+| 2022-02-11 07:00:08.562928+00:00 | Connection Status: established |
+| 2022-02-11 07:00:08.689931+00:00 | Updated current positions |
+| 2022-02-11 07:00:08.802424+00:00 | Updated trade amount |
+| 2022-02-11 07:00:16.618943+00:00 | 14:04:43.381045 until termination |
+| 2022-02-11 07:00:33.622535+00:00 | USD/CHF | already LONG |
+| 2022-02-11 07:00:35.000283+00:00 | USD/CAD | already LONG |
+| 2022-02-11 07:00:36.307947+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 07:00:37.826323+00:00 | NZD/USD | already LONG |
+| 2022-02-11 07:00:39.570594+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 07:00:41.152967+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 07:00:42.395019+00:00 | USD/JPY | already LONG |
+| 2022-02-11 07:10:03.162643+00:00 | 13:54:56.837345 until termination |
+| 2022-02-11 07:15:14.182712+00:00 | Connection Status: established |
+| 2022-02-11 07:15:14.253941+00:00 | Updated current positions |
+| 2022-02-11 07:15:14.333769+00:00 | Updated trade amount |
+| 2022-02-11 07:15:22.493170+00:00 | 13:49:37.506818 until termination |
+| 2022-02-11 07:15:34.131987+00:00 | USD/JPY | already LONG |
+| 2022-02-11 07:15:35.373953+00:00 | USD/CHF | already LONG |
+| 2022-02-11 07:15:36.769622+00:00 | USD/CAD | already LONG |
+| 2022-02-11 07:15:38.327784+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 07:15:40.164772+00:00 | NZD/USD | already LONG |
+| 2022-02-11 07:15:41.575337+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 07:15:42.905548+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 07:25:08.207778+00:00 | 13:39:51.792210 until termination |
+| 2022-02-11 07:30:15.184712+00:00 | Connection Status: established |
+| 2022-02-11 07:30:15.303326+00:00 | Updated current positions |
+| 2022-02-11 07:30:15.652064+00:00 | Updated trade amount |
+| 2022-02-11 07:30:23.963257+00:00 | 13:34:36.036730 until termination |
+| 2022-02-11 07:30:30.393290+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 07:30:31.730416+00:00 | USD/JPY | already LONG |
+| 2022-02-11 07:30:33.089957+00:00 | USD/CHF | already LONG |
+| 2022-02-11 07:30:34.421800+00:00 | USD/CAD | already LONG |
+| 2022-02-11 07:30:36.033900+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 07:30:37.733027+00:00 | NZD/USD | already LONG |
+| 2022-02-11 07:30:39.044171+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 07:40:08.684440+00:00 | 13:24:51.315548 until termination |
+| 2022-02-11 07:45:13.841013+00:00 | Connection Status: established |
+| 2022-02-11 07:45:14.042098+00:00 | Updated current positions |
+| 2022-02-11 07:45:14.248047+00:00 | Updated trade amount |
+| 2022-02-11 07:45:22.727139+00:00 | 13:19:37.272848 until termination |
+| 2022-02-11 07:45:34.620938+00:00 | USD/JPY | already LONG |
+| 2022-02-11 07:45:36.193340+00:00 | USD/CHF | already LONG |
+| 2022-02-11 07:45:37.779316+00:00 | USD/CAD | already LONG |
+| 2022-02-11 07:45:39.284380+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 07:45:40.916469+00:00 | NZD/USD | already LONG |
+| 2022-02-11 07:45:42.262522+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 07:45:43.739753+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 07:55:07.043649+00:00 | 13:09:52.956338 until termination |
+| 2022-02-11 08:00:14.483682+00:00 | Connection Status: established |
+| 2022-02-11 08:00:14.626518+00:00 | Updated current positions |
+| 2022-02-11 08:00:14.730026+00:00 | Updated trade amount |
+| 2022-02-11 08:00:22.795991+00:00 | 13:04:37.203989 until termination |
+| 2022-02-11 08:00:34.391006+00:00 | USD/JPY | already LONG |
+| 2022-02-11 08:00:35.990327+00:00 | USD/CHF | already LONG |
+| 2022-02-11 08:00:37.322716+00:00 | USD/CAD | already LONG |
+| 2022-02-11 08:00:38.767157+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 08:00:41.169705+00:00 | NZD/USD | already LONG |
+| 2022-02-11 08:00:42.739078+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 08:00:44.275518+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 08:10:08.413850+00:00 | 12:54:51.586132 until termination |
+| 2022-02-11 08:15:14.212848+00:00 | Connection Status: established |
+| 2022-02-11 08:15:14.316962+00:00 | Updated current positions |
+| 2022-02-11 08:15:14.477238+00:00 | Updated trade amount |
+| 2022-02-11 08:15:22.878097+00:00 | 12:49:37.121882 until termination |
+| 2022-02-11 08:15:35.300049+00:00 | USD/JPY | already LONG |
+| 2022-02-11 08:15:36.705228+00:00 | USD/CHF | already LONG |
+| 2022-02-11 08:15:38.387948+00:00 | USD/CAD | already LONG |
+| 2022-02-11 08:15:39.771371+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 08:15:41.324782+00:00 | NZD/USD | already LONG |
+| 2022-02-11 08:15:42.672715+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 08:15:44.321000+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 08:25:07.281775+00:00 | 12:39:52.718214 until termination |
+| 2022-02-11 08:30:15.282459+00:00 | Connection Status: established |
+| 2022-02-11 08:30:15.342678+00:00 | Updated current positions |
+| 2022-02-11 08:30:15.666484+00:00 | Updated trade amount |
+| 2022-02-11 08:30:24.693685+00:00 | 12:34:35.306302 until termination |
+| 2022-02-11 08:30:31.602728+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 08:30:33.321336+00:00 | USD/JPY | already LONG |
+| 2022-02-11 08:30:34.688253+00:00 | USD/CHF | already LONG |
+| 2022-02-11 08:30:36.733820+00:00 | USD/CAD | already LONG |
+| 2022-02-11 08:30:38.334830+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 08:30:39.874308+00:00 | NZD/USD | already LONG |
+| 2022-02-11 08:30:41.746794+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 08:40:08.401497+00:00 |*** ERROR ***| log_portfolio |
+| 2022-02-11 08:40:08.401623+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 08:40:08.401677+00:00 |*** restarting python script ***|
+| 2022-02-11 08:40:17.304643+00:00 | Connection Status: established |
+| 2022-02-11 08:40:17.409934+00:00 | Updated current positions |
+| 2022-02-11 08:40:17.509113+00:00 | Updated trade amount |
+| 2022-02-11 08:40:26.183111+00:00 | 12:24:33.816877 until termination |
+| 2022-02-11 08:45:13.678957+00:00 | Connection Status: established |
+| 2022-02-11 08:45:13.805612+00:00 | Updated current positions |
+| 2022-02-11 08:45:14.110599+00:00 | Updated trade amount |
+| 2022-02-11 08:45:22.598900+00:00 | 12:19:37.401081 until termination |
+| 2022-02-11 08:45:34.434909+00:00 | USD/JPY | already LONG |
+| 2022-02-11 08:45:35.902747+00:00 | USD/CHF | already LONG |
+| 2022-02-11 08:45:37.639386+00:00 | USD/CAD | already LONG |
+| 2022-02-11 08:45:39.176907+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 08:45:40.728348+00:00 | NZD/USD | already LONG |
+| 2022-02-11 08:45:42.249021+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 08:45:43.706564+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 08:55:06.432738+00:00 |*** ERROR ***| log_portfolio |
+| 2022-02-11 08:55:06.432870+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 08:55:06.432926+00:00 |*** restarting python script ***|
+| 2022-02-11 08:55:13.820719+00:00 | Connection Status: established |
+| 2022-02-11 08:55:14.056983+00:00 | Updated current positions |
+| 2022-02-11 08:55:14.261964+00:00 | Updated trade amount |
+| 2022-02-11 08:55:22.771905+00:00 | 12:09:37.228083 until termination |
+| 2022-02-11 09:00:13.723565+00:00 | Connection Status: established |
+| 2022-02-11 09:00:13.781542+00:00 | Updated current positions |
+| 2022-02-11 09:00:13.845315+00:00 | Updated trade amount |
+| 2022-02-11 09:00:22.736644+00:00 | 12:04:37.263305 until termination |
+| 2022-02-11 09:00:34.609359+00:00 | USD/JPY | already LONG |
+| 2022-02-11 09:00:36.338335+00:00 | USD/CHF | already LONG |
+| 2022-02-11 09:00:37.817050+00:00 | USD/CAD | already LONG |
+| 2022-02-11 09:00:39.781896+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 09:00:41.580202+00:00 | NZD/USD | already LONG |
+| 2022-02-11 09:00:42.873222+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 09:00:44.700411+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 09:10:07.395624+00:00 | 11:54:52.604364 until termination |
+| 2022-02-11 09:15:14.083354+00:00 | Connection Status: established |
+| 2022-02-11 09:15:14.193318+00:00 | Updated current positions |
+| 2022-02-11 09:15:14.260804+00:00 | Updated trade amount |
+| 2022-02-11 09:15:22.409874+00:00 | 11:49:37.590114 until termination |
+| 2022-02-11 09:15:34.319004+00:00 | USD/JPY | already LONG |
+| 2022-02-11 09:15:35.698902+00:00 | USD/CHF | already LONG |
+| 2022-02-11 09:15:37.233723+00:00 | USD/CAD | already LONG |
+| 2022-02-11 09:15:38.597715+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 09:15:39.885958+00:00 | NZD/USD | already LONG |
+| 2022-02-11 09:15:41.635159+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 09:15:42.925071+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 09:25:07.255576+00:00 | 11:39:52.744411 until termination |
+| 2022-02-11 09:30:14.700414+00:00 | Connection Status: established |
+| 2022-02-11 09:30:14.770597+00:00 | Updated current positions |
+| 2022-02-11 09:30:15.284329+00:00 | Updated trade amount |
+| 2022-02-11 09:30:24.543071+00:00 | 11:34:35.456910 until termination |
+| 2022-02-11 09:30:31.096935+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 09:30:32.757059+00:00 | USD/JPY | already LONG |
+| 2022-02-11 09:30:34.262917+00:00 | USD/CHF | already LONG |
+| 2022-02-11 09:30:35.719883+00:00 | USD/CAD | already LONG |
+| 2022-02-11 09:30:37.341407+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 09:30:38.890393+00:00 | NZD/USD | already LONG |
+| 2022-02-11 09:30:40.337395+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 09:40:08.468631+00:00 | 11:24:51.531358 until termination |
+| 2022-02-11 09:45:14.035082+00:00 | Connection Status: established |
+| 2022-02-11 09:45:14.173317+00:00 | Updated current positions |
+| 2022-02-11 09:45:14.235517+00:00 | Updated trade amount |
+| 2022-02-11 09:45:22.166291+00:00 | 11:19:37.833697 until termination |
+| 2022-02-11 09:45:33.543934+00:00 | USD/JPY | already LONG |
+| 2022-02-11 09:45:34.829067+00:00 | USD/CHF | already LONG |
+| 2022-02-11 09:45:36.377950+00:00 | USD/CAD | already LONG |
+| 2022-02-11 09:45:38.105894+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 09:45:39.600882+00:00 | NZD/USD | already LONG |
+| 2022-02-11 09:45:41.099655+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 09:45:42.312315+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 09:55:07.573509+00:00 | 11:09:52.426480 until termination |
+| 2022-02-11 10:00:13.858947+00:00 | Connection Status: established |
+| 2022-02-11 10:00:14.102914+00:00 | Updated current positions |
+| 2022-02-11 10:00:14.193129+00:00 | Updated trade amount |
+| 2022-02-11 10:00:22.660905+00:00 | 11:04:37.339080 until termination |
+| 2022-02-11 10:00:34.405570+00:00 | USD/JPY | already LONG |
+| 2022-02-11 10:00:36.240979+00:00 | USD/CHF | already LONG |
+| 2022-02-11 10:00:37.948895+00:00 | USD/CAD | already LONG |
+| 2022-02-11 10:00:40.838039+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 10:00:42.408549+00:00 | NZD/USD | already LONG |
+| 2022-02-11 10:00:43.854258+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 10:00:45.638306+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 10:10:07.738649+00:00 | 10:54:52.261338 until termination |
+| 2022-02-11 10:15:13.851914+00:00 | Connection Status: established |
+| 2022-02-11 10:15:14.125429+00:00 | Updated current positions |
+| 2022-02-11 10:15:14.444755+00:00 | Updated trade amount |
+| 2022-02-11 10:15:22.578939+00:00 | 10:49:37.421044 until termination |
+| 2022-02-11 10:15:34.246252+00:00 | USD/JPY | already LONG |
+| 2022-02-11 10:15:35.725993+00:00 | USD/CHF | already LONG |
+| 2022-02-11 10:15:37.205528+00:00 | USD/CAD | already LONG |
+| 2022-02-11 10:15:38.572070+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 10:15:40.234547+00:00 | NZD/USD | already LONG |
+| 2022-02-11 10:15:41.566178+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 10:15:42.823904+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 10:25:07.563431+00:00 | 10:39:52.436518 until termination |
+| 2022-02-11 10:30:14.864830+00:00 | Connection Status: established |
+| 2022-02-11 10:30:15.196574+00:00 | Updated current positions |
+| 2022-02-11 10:30:15.277420+00:00 | Updated trade amount |
+| 2022-02-11 10:30:23.566816+00:00 | 10:34:36.433158 until termination |
+| 2022-02-11 10:30:35.545259+00:00 | USD/JPY | already LONG |
+| 2022-02-11 10:30:37.251380+00:00 | USD/CHF | already LONG |
+| 2022-02-11 10:30:38.633340+00:00 | USD/CAD | already LONG |
+| 2022-02-11 10:30:40.387488+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 10:30:41.887184+00:00 | NZD/USD | already LONG |
+| 2022-02-11 10:30:43.174516+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 10:30:44.622764+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 10:40:08.171289+00:00 | 10:24:51.828700 until termination |
+| 2022-02-11 10:45:14.145244+00:00 | Connection Status: established |
+| 2022-02-11 10:45:14.199164+00:00 | Updated current positions |
+| 2022-02-11 10:45:14.300239+00:00 | Updated trade amount |
+| 2022-02-11 10:45:22.893490+00:00 | 10:19:37.106496 until termination |
+| 2022-02-11 10:45:34.926819+00:00 | USD/JPY | already LONG |
+| 2022-02-11 10:45:36.608301+00:00 | USD/CHF | already LONG |
+| 2022-02-11 10:45:38.194453+00:00 | USD/CAD | already LONG |
+| 2022-02-11 10:45:39.492347+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 10:45:40.951348+00:00 | NZD/USD | already LONG |
+| 2022-02-11 10:45:42.526691+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 10:45:43.843911+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 10:55:08.489951+00:00 | 10:09:51.510037 until termination |
+| 2022-02-11 11:00:14.069374+00:00 | Connection Status: established |
+| 2022-02-11 11:00:14.161848+00:00 | Updated current positions |
+| 2022-02-11 11:00:14.400865+00:00 | Updated trade amount |
+| 2022-02-11 11:00:22.833469+00:00 | 10:04:37.166518 until termination |
+| 2022-02-11 11:00:34.841762+00:00 | USD/JPY | already LONG |
+| 2022-02-11 11:00:36.645344+00:00 | USD/CHF | already LONG |
+| 2022-02-11 11:00:38.284814+00:00 | USD/CAD | already LONG |
+| 2022-02-11 11:00:40.254691+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 11:00:41.619059+00:00 | NZD/USD | already LONG |
+| 2022-02-11 11:00:42.870185+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 11:00:44.669369+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 11:10:07.861383+00:00 | 9:54:52.138600 until termination |
+| 2022-02-11 11:15:13.009583+00:00 | Connection Status: established |
+| 2022-02-11 11:15:13.086047+00:00 | Updated current positions |
+| 2022-02-11 11:15:13.322947+00:00 | Updated trade amount |
+| 2022-02-11 11:15:21.340651+00:00 | 9:49:38.659334 until termination |
+| 2022-02-11 11:15:32.935529+00:00 | USD/JPY | already LONG |
+| 2022-02-11 11:15:34.295554+00:00 | USD/CHF | already LONG |
+| 2022-02-11 11:15:35.687589+00:00 | USD/CAD | already LONG |
+| 2022-02-11 11:15:36.965820+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 11:15:38.445238+00:00 | NZD/USD | already LONG |
+| 2022-02-11 11:15:39.776028+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 11:15:41.293676+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 11:25:07.306399+00:00 | 9:39:52.693590 until termination |
+| 2022-02-11 11:30:13.384821+00:00 | Connection Status: established |
+| 2022-02-11 11:30:13.621634+00:00 | Updated current positions |
+| 2022-02-11 11:30:13.698041+00:00 | Updated trade amount |
+| 2022-02-11 11:30:21.653241+00:00 | 9:34:38.346747 until termination |
+| 2022-02-11 11:30:33.310619+00:00 | USD/JPY | already LONG |
+| 2022-02-11 11:30:34.749616+00:00 | USD/CHF | already LONG |
+| 2022-02-11 11:30:36.218326+00:00 | USD/CAD | already LONG |
+| 2022-02-11 11:30:37.630946+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 11:30:38.934840+00:00 | NZD/USD | already LONG |
+| 2022-02-11 11:30:40.626106+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 11:30:41.867618+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 11:40:06.801692+00:00 | 9:24:53.198297 until termination |
+| 2022-02-11 11:45:12.893468+00:00 | Connection Status: established |
+| 2022-02-11 11:45:13.238859+00:00 | Updated current positions |
+| 2022-02-11 11:45:13.345333+00:00 | Updated trade amount |
+| 2022-02-11 11:45:21.606450+00:00 | 9:19:38.393538 until termination |
+| 2022-02-11 11:45:33.326082+00:00 | USD/JPY | already LONG |
+| 2022-02-11 11:45:34.626383+00:00 | USD/CHF | already LONG |
+| 2022-02-11 11:45:35.873055+00:00 | USD/CAD | already LONG |
+| 2022-02-11 11:45:37.360023+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 11:45:39.095572+00:00 | NZD/USD | already LONG |
+| 2022-02-11 11:45:40.386857+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 11:45:41.722518+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 11:55:07.214560+00:00 | 9:09:52.785428 until termination |
+| 2022-02-11 12:00:00.001608+00:00 |*** ERROR ***| get_candles_time | NZD/USD |
+| 2022-02-11 12:00:00.001761+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 12:00:00.001818+00:00 |*** restarting python script ***|
+| 2022-02-11 12:00:14.789611+00:00 | Connection Status: established |
+| 2022-02-11 12:00:15.148746+00:00 | Updated current positions |
+| 2022-02-11 12:00:15.237194+00:00 | Updated trade amount |
+| 2022-02-11 12:00:23.529683+00:00 | 9:04:36.470302 until termination |
+| 2022-02-11 12:00:35.330917+00:00 | USD/JPY | already LONG |
+| 2022-02-11 12:00:37.159555+00:00 | USD/CHF | already LONG |
+| 2022-02-11 12:00:39.849370+00:00 | USD/CAD | already LONG |
+| 2022-02-11 12:00:41.227494+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 12:00:42.637010+00:00 | NZD/USD | already LONG |
+| 2022-02-11 12:00:44.165309+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 12:00:45.557026+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 12:10:08.229047+00:00 | 8:54:51.770942 until termination |
+| 2022-02-11 12:15:15.000475+00:00 | Connection Status: established |
+| 2022-02-11 12:15:15.130451+00:00 | Updated current positions |
+| 2022-02-11 12:15:15.235154+00:00 | Updated trade amount |
+| 2022-02-11 12:15:23.369880+00:00 | 8:49:36.630100 until termination |
+| 2022-02-11 12:15:35.110097+00:00 | USD/JPY | already LONG |
+| 2022-02-11 12:15:36.594988+00:00 | USD/CHF | already LONG |
+| 2022-02-11 12:15:38.196757+00:00 | USD/CAD | already LONG |
+| 2022-02-11 12:15:39.666754+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 12:15:41.137001+00:00 | NZD/USD | already LONG |
+| 2022-02-11 12:15:42.761755+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 12:15:44.293373+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 12:25:08.913526+00:00 | 8:39:51.086462 until termination |
+| 2022-02-11 12:30:14.154829+00:00 | Connection Status: established |
+| 2022-02-11 12:30:14.301154+00:00 | Updated current positions |
+| 2022-02-11 12:30:14.526930+00:00 | Updated trade amount |
+| 2022-02-11 12:30:22.606825+00:00 | 8:34:37.393163 until termination |
+| 2022-02-11 12:30:34.840951+00:00 | USD/JPY | already LONG |
+| 2022-02-11 12:30:36.401252+00:00 | USD/CHF | already LONG |
+| 2022-02-11 12:30:37.779018+00:00 | USD/CAD | already LONG |
+| 2022-02-11 12:30:39.276785+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 12:30:40.594967+00:00 | NZD/USD | already LONG |
+| 2022-02-11 12:30:41.862826+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 12:30:43.758501+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 12:40:07.547403+00:00 | 8:24:52.452586 until termination |
+| 2022-02-11 12:45:14.812295+00:00 | Connection Status: established |
+| 2022-02-11 12:45:15.098577+00:00 | Updated current positions |
+| 2022-02-11 12:45:15.194728+00:00 | Updated trade amount |
+| 2022-02-11 12:45:24.679551+00:00 | 8:19:35.320436 until termination |
+| 2022-02-11 12:45:31.451980+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 12:45:32.847298+00:00 | USD/JPY | already LONG |
+| 2022-02-11 12:45:34.720520+00:00 | USD/CHF | already LONG |
+| 2022-02-11 12:45:36.161404+00:00 | USD/CAD | already LONG |
+| 2022-02-11 12:45:37.674786+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 12:45:39.284714+00:00 | NZD/USD | already LONG |
+| 2022-02-11 12:45:40.747418+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 12:55:08.161558+00:00 | 8:09:51.838430 until termination |
+| 2022-02-11 13:00:14.264195+00:00 | Connection Status: established |
+| 2022-02-11 13:00:14.329777+00:00 | Updated current positions |
+| 2022-02-11 13:00:14.587494+00:00 | Updated trade amount |
+| 2022-02-11 13:00:23.700622+00:00 | 8:04:36.299365 until termination |
+| 2022-02-11 13:00:35.320061+00:00 | USD/JPY | already LONG |
+| 2022-02-11 13:00:36.831721+00:00 | USD/CHF | already LONG |
+| 2022-02-11 13:00:38.299091+00:00 | USD/CAD | already LONG |
+| 2022-02-11 13:00:40.310635+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 13:00:41.928911+00:00 | NZD/USD | already LONG |
+| 2022-02-11 13:00:43.288494+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 13:00:44.775201+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 13:10:07.837733+00:00 | 7:54:52.162255 until termination |
+| 2022-02-11 13:15:13.505582+00:00 | Connection Status: established |
+| 2022-02-11 13:15:13.650905+00:00 | Updated current positions |
+| 2022-02-11 13:15:14.131035+00:00 | Updated trade amount |
+| 2022-02-11 13:15:22.628010+00:00 | 7:49:37.371977 until termination |
+| 2022-02-11 13:15:34.362948+00:00 | USD/JPY | already LONG |
+| 2022-02-11 13:15:36.203965+00:00 | USD/CHF | already LONG |
+| 2022-02-11 13:15:37.740437+00:00 | USD/CAD | already LONG |
+| 2022-02-11 13:15:39.445581+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 13:15:41.286450+00:00 | NZD/USD | already LONG |
+| 2022-02-11 13:15:42.813414+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 13:15:44.722811+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 13:25:07.662172+00:00 | 7:39:52.337815 until termination |
+| 2022-02-11 13:30:14.523529+00:00 | Connection Status: established |
+| 2022-02-11 13:30:14.729067+00:00 | Updated current positions |
+| 2022-02-11 13:30:14.827990+00:00 | Updated trade amount |
+| 2022-02-11 13:30:23.771150+00:00 | 7:34:36.228803 until termination |
+| 2022-02-11 13:30:30.726688+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 13:30:32.279396+00:00 | USD/JPY | already LONG |
+| 2022-02-11 13:30:33.802355+00:00 | USD/CHF | already LONG |
+| 2022-02-11 13:30:35.436065+00:00 | USD/CAD | already LONG |
+| 2022-02-11 13:30:36.803525+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 13:30:38.393570+00:00 | NZD/USD | already LONG |
+| 2022-02-11 13:30:40.249689+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 13:40:08.291880+00:00 | 7:24:51.708108 until termination |
+| 2022-02-11 13:45:14.279251+00:00 | Connection Status: established |
+| 2022-02-11 13:45:14.586913+00:00 | Updated current positions |
+| 2022-02-11 13:45:14.692053+00:00 | Updated trade amount |
+| 2022-02-11 13:45:23.541641+00:00 | 7:19:36.458346 until termination |
+| 2022-02-11 13:45:35.747373+00:00 | USD/JPY | already LONG |
+| 2022-02-11 13:45:37.173914+00:00 | USD/CHF | already LONG |
+| 2022-02-11 13:45:38.910684+00:00 | USD/CAD | already LONG |
+| 2022-02-11 13:45:40.381453+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 13:45:42.281571+00:00 | NZD/USD | already LONG |
+| 2022-02-11 13:45:44.263026+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 13:45:45.837624+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 13:55:07.517114+00:00 | 7:09:52.482875 until termination |
+| 2022-02-11 14:00:15.816669+00:00 | Connection Status: established |
+| 2022-02-11 14:00:16.238892+00:00 | Updated current positions |
+| 2022-02-11 14:00:16.365310+00:00 | Updated trade amount |
+| 2022-02-11 14:00:24.910612+00:00 | 7:04:35.089369 until termination |
+| 2022-02-11 14:00:31.806397+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 14:00:33.732664+00:00 | USD/JPY | already LONG |
+| 2022-02-11 14:00:36.226026+00:00 | USD/CHF | already LONG |
+| 2022-02-11 14:00:37.835206+00:00 | USD/CAD | already LONG |
+| 2022-02-11 14:00:40.746936+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 14:00:42.411501+00:00 | NZD/USD | already LONG |
+| 2022-02-11 14:00:43.932855+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 14:10:08.676561+00:00 | 6:54:51.323427 until termination |
+| 2022-02-11 14:15:14.267252+00:00 | Connection Status: established |
+| 2022-02-11 14:15:14.384682+00:00 | Updated current positions |
+| 2022-02-11 14:15:14.644219+00:00 | Updated trade amount |
+| 2022-02-11 14:15:22.822169+00:00 | 6:49:37.177819 until termination |
+| 2022-02-11 14:15:34.652387+00:00 | USD/JPY | already LONG |
+| 2022-02-11 14:15:36.213164+00:00 | USD/CHF | already LONG |
+| 2022-02-11 14:15:37.595485+00:00 | USD/CAD | already LONG |
+| 2022-02-11 14:15:39.086658+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 14:15:40.740155+00:00 | NZD/USD | already LONG |
+| 2022-02-11 14:15:42.520984+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 14:15:43.842754+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 14:25:08.190092+00:00 | 6:39:51.809896 until termination |
+| 2022-02-11 14:30:17.865227+00:00 | Connection Status: established |
+| 2022-02-11 14:30:18.344936+00:00 | Updated current positions |
+| 2022-02-11 14:30:18.833674+00:00 | Updated trade amount |
+| 2022-02-11 14:30:29.757230+00:00 | 6:34:30.242758 until termination |
+| 2022-02-11 14:30:31.785086+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 14:30:33.832099+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 14:30:35.760496+00:00 | USD/JPY | already LONG |
+| 2022-02-11 14:30:37.451072+00:00 | USD/CHF | already LONG |
+| 2022-02-11 14:30:39.419034+00:00 | USD/CAD | already LONG |
+| 2022-02-11 14:30:41.329921+00:00 | AUD/USD | already SHORT |
+| 2022-02-11 14:30:45.269460+00:00 |*** CLOSE ***| NZD/USD |
+| 2022-02-11 14:30:47.746866+00:00 |*** SHORT ***| NZD/USD | amount:9 |
+| 2022-02-11 14:40:08.746037+00:00 | 6:24:51.253947 until termination |
+| 2022-02-11 14:46:22.554809+00:00 |*** ERROR ***| connect |
+| 2022-02-11 14:46:22.555042+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 14:46:22.555143+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 14:46:22.555217+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 14:46:22.555269+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 14:46:22.555319+00:00 |*** restarting python script ***|
+| 2022-02-11 14:46:41.845255+00:00 |*** ERROR ***| connect |
+| 2022-02-11 14:46:41.845519+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 14:46:41.845586+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 14:46:41.845648+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 14:46:41.845692+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 14:46:41.845734+00:00 |*** restarting python script ***|
+| 2022-02-11 15:00:28.233471+00:00 | Connection Status: established |
+| 2022-02-11 15:00:30.249269+00:00 | Updated current positions |
+| 2022-02-11 15:00:32.422578+00:00 | Updated trade amount |
+| 2022-02-11 15:01:06.644177+00:00 | 6:03:53.355809 until termination |
+| 2022-02-11 15:01:16.465359+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 15:01:26.652534+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 15:01:55.685816+00:00 | USD/JPY | already LONG |
+| 2022-02-11 15:02:12.912600+00:00 | USD/CHF | already LONG |
+| 2022-02-11 15:02:17.113156+00:00 | USD/CAD | already LONG |
+| 2022-02-11 15:02:24.535330+00:00 |*** ERROR ***| check_margin |
+| 2022-02-11 15:02:24.535530+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 15:02:24.535597+00:00 |*** restarting python script ***|
+| 2022-02-11 15:02:45.093202+00:00 | Connection Status: established |
+| 2022-02-11 15:02:45.885882+00:00 | Updated current positions |
+| 2022-02-11 15:02:46.415379+00:00 | Updated trade amount |
+| 2022-02-11 15:03:09.773293+00:00 | 6:01:50.226694 until termination |
+| 2022-02-11 15:03:15.432966+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 15:03:17.821267+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 15:03:24.903306+00:00 | USD/JPY | already LONG |
+| 2022-02-11 15:03:28.841528+00:00 | USD/CHF | already LONG |
+| 2022-02-11 15:12:25.864858+00:00 | 5:52:34.135129 until termination |
+| 2022-02-11 15:15:29.870956+00:00 | Connection Status: established |
+| 2022-02-11 15:15:31.191685+00:00 | Updated current positions |
+| 2022-02-11 15:15:32.722053+00:00 | Updated trade amount |
+| 2022-02-11 15:15:55.731872+00:00 | 5:49:04.268116 until termination |
+| 2022-02-11 15:15:57.787287+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 15:16:00.734594+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 15:16:05.587434+00:00 | USD/JPY | already LONG |
+| 2022-02-11 15:16:07.850754+00:00 | USD/CHF | already LONG |
+| 2022-02-11 15:16:12.852945+00:00 | USD/CAD | already LONG |
+| 2022-02-11 15:16:17.871125+00:00 |*** CLOSE ***| AUD/USD |
+| 2022-02-11 15:16:25.283783+00:00 |*** LONG ***| AUD/USD | amount:9 |
+| 2022-02-11 15:16:36.198275+00:00 |*** CLOSE ***| NZD/USD |
+| 2022-02-11 15:16:41.998034+00:00 |*** LONG ***| NZD/USD | amount:9 |
+| 2022-02-11 15:25:08.784328+00:00 | 5:39:51.215661 until termination |
+| 2022-02-11 15:30:18.831053+00:00 | Connection Status: established |
+| 2022-02-11 15:30:19.674201+00:00 | Updated current positions |
+| 2022-02-11 15:30:19.896649+00:00 | Updated trade amount |
+| 2022-02-11 15:30:34.789517+00:00 | 5:34:25.210470 until termination |
+| 2022-02-11 15:30:37.870671+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 15:30:40.945924+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 15:30:43.855033+00:00 | USD/JPY | already LONG |
+| 2022-02-11 15:30:46.831052+00:00 | USD/CHF | already LONG |
+| 2022-02-11 15:30:49.888896+00:00 | USD/CAD | already LONG |
+| 2022-02-11 15:30:52.706998+00:00 | AUD/USD | already LONG |
+| 2022-02-11 15:30:55.850039+00:00 | NZD/USD | already LONG |
+| 2022-02-11 15:40:06.706924+00:00 | 5:24:53.293065 until termination |
+| 2022-02-11 15:45:21.617539+00:00 | Connection Status: established |
+| 2022-02-11 15:45:21.792166+00:00 | Updated current positions |
+| 2022-02-11 15:45:22.259603+00:00 | Updated trade amount |
+| 2022-02-11 15:45:32.878716+00:00 | 5:19:27.121272 until termination |
+| 2022-02-11 15:45:34.804835+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 15:45:37.681625+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 15:45:38.886033+00:00 | USD/JPY | already LONG |
+| 2022-02-11 15:45:41.834724+00:00 | USD/CHF | already LONG |
+| 2022-02-11 15:45:44.611234+00:00 | USD/CAD | already LONG |
+| 2022-02-11 15:45:46.782896+00:00 | AUD/USD | already LONG |
+| 2022-02-11 15:45:48.766545+00:00 | NZD/USD | already LONG |
+| 2022-02-11 15:55:08.671376+00:00 | 5:09:51.328611 until termination |
+| 2022-02-11 16:00:20.264492+00:00 | Connection Status: established |
+| 2022-02-11 16:00:20.542483+00:00 | Updated current positions |
+| 2022-02-11 16:00:20.822741+00:00 | Updated trade amount |
+| 2022-02-11 16:00:32.872663+00:00 | 5:04:27.127325 until termination |
+| 2022-02-11 16:00:35.744091+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 16:00:37.742989+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 16:00:48.377854+00:00 | USD/JPY | already LONG |
+| 2022-02-11 16:00:50.908012+00:00 | USD/CHF | already LONG |
+| 2022-02-11 16:00:53.815365+00:00 | USD/CAD | already LONG |
+| 2022-02-11 16:00:56.761308+00:00 | AUD/USD | already LONG |
+| 2022-02-11 16:00:59.363848+00:00 | NZD/USD | already LONG |
+| 2022-02-11 16:10:08.730686+00:00 | 4:54:51.269302 until termination |
+| 2022-02-11 16:15:19.475086+00:00 | Connection Status: established |
+| 2022-02-11 16:15:19.780140+00:00 | Updated current positions |
+| 2022-02-11 16:15:20.286099+00:00 | Updated trade amount |
+| 2022-02-11 16:15:29.774940+00:00 | 4:49:30.225041 until termination |
+| 2022-02-11 16:15:31.820678+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 16:15:33.674809+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 16:15:35.571413+00:00 | USD/JPY | already LONG |
+| 2022-02-11 16:15:37.647034+00:00 | USD/CHF | already LONG |
+| 2022-02-11 16:15:39.448777+00:00 | USD/CAD | already LONG |
+| 2022-02-11 16:15:41.758641+00:00 | AUD/USD | already LONG |
+| 2022-02-11 16:15:43.777508+00:00 | NZD/USD | already LONG |
+| 2022-02-11 16:25:07.812758+00:00 | 4:39:52.187223 until termination |
+| 2022-02-11 16:30:19.760547+00:00 | Connection Status: established |
+| 2022-02-11 16:30:19.853798+00:00 | Updated current positions |
+| 2022-02-11 16:30:20.341697+00:00 | Updated trade amount |
+| 2022-02-11 16:30:29.812263+00:00 | 4:34:30.187718 until termination |
+| 2022-02-11 16:30:31.576949+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 16:30:33.712441+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 16:30:35.450066+00:00 | USD/JPY | already LONG |
+| 2022-02-11 16:30:37.409301+00:00 | USD/CHF | already LONG |
+| 2022-02-11 16:30:39.587568+00:00 | USD/CAD | already LONG |
+| 2022-02-11 16:30:41.757083+00:00 | AUD/USD | already LONG |
+| 2022-02-11 16:30:43.773887+00:00 | NZD/USD | already LONG |
+| 2022-02-11 16:40:07.727702+00:00 | 4:24:52.272287 until termination |
+| 2022-02-11 16:45:10.774459+00:00 | Connection Status: established |
+| 2022-02-11 16:45:10.826542+00:00 | Updated current positions |
+| 2022-02-11 16:45:11.225124+00:00 | Updated trade amount |
+| 2022-02-11 16:45:22.743387+00:00 | 4:19:37.256597 until termination |
+| 2022-02-11 16:45:35.351000+00:00 | USD/JPY | already LONG |
+| 2022-02-11 16:45:36.781075+00:00 | USD/CHF | already LONG |
+| 2022-02-11 16:45:38.683417+00:00 | USD/CAD | already LONG |
+| 2022-02-11 16:45:40.310742+00:00 | AUD/USD | already LONG |
+| 2022-02-11 16:45:41.869275+00:00 | NZD/USD | already LONG |
+| 2022-02-11 16:45:43.712984+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 16:45:45.581995+00:00 | GBP/USD | already SHORT |
+| 2022-02-11 16:55:02.811537+00:00 | 4:09:57.188446 until termination |
+| 2022-02-11 17:00:00.000370+00:00 |*** ERROR ***| get_candles_time | USD/CAD |
+| 2022-02-11 17:00:00.001403+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 17:00:00.001686+00:00 |*** restarting python script ***|
+| 2022-02-11 17:00:17.699729+00:00 | Connection Status: established |
+| 2022-02-11 17:00:19.263788+00:00 | Updated current positions |
+| 2022-02-11 17:00:19.808349+00:00 | Updated trade amount |
+| 2022-02-11 17:00:29.820211+00:00 | 4:04:30.179774 until termination |
+| 2022-02-11 17:00:31.758806+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 17:00:34.784170+00:00 |*** CLOSE ***| GBP/USD |
+| 2022-02-11 17:00:36.341783+00:00 |*** LONG ***| GBP/USD | amount:4 |
+| 2022-02-11 17:00:37.863522+00:00 | USD/JPY | already LONG |
+| 2022-02-11 17:00:41.737292+00:00 | USD/CHF | already LONG |
+| 2022-02-11 17:00:44.790872+00:00 |*** CLOSE ***| USD/CAD |
+| 2022-02-11 17:00:46.543958+00:00 |*** SHORT ***| USD/CAD | amount:7 |
+| 2022-02-11 17:00:47.847147+00:00 | AUD/USD | already LONG |
+| 2022-02-11 17:00:49.666973+00:00 | NZD/USD | already LONG |
+| 2022-02-11 17:10:08.806473+00:00 | 3:54:51.193515 until termination |
+| 2022-02-11 17:15:15.123584+00:00 | Connection Status: established |
+| 2022-02-11 17:15:15.299514+00:00 | Updated current positions |
+| 2022-02-11 17:15:15.592307+00:00 | Updated trade amount |
+| 2022-02-11 17:15:23.726743+00:00 | 3:49:36.273245 until termination |
+| 2022-02-11 17:15:35.636770+00:00 | USD/JPY | already LONG |
+| 2022-02-11 17:15:36.892824+00:00 | USD/CHF | already LONG |
+| 2022-02-11 17:15:38.665594+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 17:15:40.343020+00:00 | AUD/USD | already LONG |
+| 2022-02-11 17:15:41.840602+00:00 | NZD/USD | already LONG |
+| 2022-02-11 17:15:43.656229+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 17:15:45.369659+00:00 | GBP/USD | already LONG |
+| 2022-02-11 17:25:08.365238+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 17:25:08.372409+00:00 |*** restarting python script ***|
+| 2022-02-11 17:25:17.526142+00:00 | Connection Status: established |
+| 2022-02-11 17:25:17.592211+00:00 | Updated current positions |
+| 2022-02-11 17:25:17.676251+00:00 | Updated trade amount |
+| 2022-02-11 17:25:25.804003+00:00 | 3:39:34.195982 until termination |
+| 2022-02-11 17:30:13.442250+00:00 | Connection Status: established |
+| 2022-02-11 17:30:13.640517+00:00 | Updated current positions |
+| 2022-02-11 17:30:13.724119+00:00 | Updated trade amount |
+| 2022-02-11 17:30:22.828268+00:00 | 3:34:37.171719 until termination |
+| 2022-02-11 17:30:34.838216+00:00 | USD/JPY | already LONG |
+| 2022-02-11 17:30:36.747258+00:00 | USD/CHF | already LONG |
+| 2022-02-11 17:30:38.472012+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 17:30:39.795992+00:00 | AUD/USD | already LONG |
+| 2022-02-11 17:30:41.607541+00:00 | NZD/USD | already LONG |
+| 2022-02-11 17:30:43.380915+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 17:30:44.866152+00:00 | GBP/USD | already LONG |
+| 2022-02-11 17:40:07.294917+00:00 | 3:24:52.705071 until termination |
+| 2022-02-11 17:45:01.725906+00:00 |*** ERROR ***| get_candles_time | EUR/USD |
+| 2022-02-11 17:45:01.726076+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 17:45:01.726136+00:00 |*** restarting python script ***|
+| 2022-02-11 17:45:16.489109+00:00 | Connection Status: established |
+| 2022-02-11 17:45:16.557202+00:00 | Updated current positions |
+| 2022-02-11 17:45:16.656995+00:00 | Updated trade amount |
+| 2022-02-11 17:45:25.561340+00:00 | 3:19:34.438648 until termination |
+| 2022-02-11 17:45:31.870236+00:00 | GBP/USD | already LONG |
+| 2022-02-11 17:45:33.364167+00:00 | USD/JPY | already LONG |
+| 2022-02-11 17:45:34.782003+00:00 | USD/CHF | already LONG |
+| 2022-02-11 17:45:36.376324+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 17:45:37.805163+00:00 | AUD/USD | already LONG |
+| 2022-02-11 17:45:40.722009+00:00 |*** CLOSE ***| NZD/USD |
+| 2022-02-11 17:45:41.855128+00:00 |*** SHORT ***| NZD/USD | amount:9 |
+| 2022-02-11 17:45:43.700251+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 17:55:08.374387+00:00 | 3:09:51.625585 until termination |
+| 2022-02-11 18:00:00.004719+00:00 |*** ERROR ***| get_candles_time | USD/CHF |
+| 2022-02-11 18:00:00.004866+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 18:00:00.004922+00:00 |*** restarting python script ***|
+| 2022-02-11 18:00:15.803499+00:00 | Connection Status: established |
+| 2022-02-11 18:00:16.302718+00:00 | Updated current positions |
+| 2022-02-11 18:00:16.438989+00:00 | Updated trade amount |
+| 2022-02-11 18:00:24.839016+00:00 | 3:04:35.160971 until termination |
+| 2022-02-11 18:00:32.325462+00:00 | GBP/USD | already LONG |
+| 2022-02-11 18:00:33.672133+00:00 | USD/JPY | already LONG |
+| 2022-02-11 18:00:35.258890+00:00 | USD/CHF | already LONG |
+| 2022-02-11 18:00:36.589953+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 18:00:37.944372+00:00 | AUD/USD | already LONG |
+| 2022-02-11 18:00:40.817327+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 18:00:42.289402+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 18:10:09.642280+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 18:10:09.642424+00:00 |*** restarting python script ***|
+| 2022-02-11 18:10:17.481098+00:00 | Connection Status: established |
+| 2022-02-11 18:10:17.663495+00:00 | Updated current positions |
+| 2022-02-11 18:10:17.779483+00:00 | Updated trade amount |
+| 2022-02-11 18:10:26.190369+00:00 | 2:54:33.809619 until termination |
+| 2022-02-11 18:15:00.320336+00:00 |*** ERROR ***| get_candles_time | EUR/USD |
+| 2022-02-11 18:15:00.320508+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 18:15:00.320567+00:00 |*** restarting python script ***|
+| 2022-02-11 18:15:13.683543+00:00 | Connection Status: established |
+| 2022-02-11 18:15:13.808409+00:00 | Updated current positions |
+| 2022-02-11 18:15:14.344825+00:00 | Updated trade amount |
+| 2022-02-11 18:15:22.823497+00:00 | 2:49:37.176489 until termination |
+| 2022-02-11 18:15:35.209967+00:00 | USD/JPY | already LONG |
+| 2022-02-11 18:15:36.677084+00:00 | USD/CHF | already LONG |
+| 2022-02-11 18:15:37.912590+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 18:15:39.734018+00:00 | AUD/USD | already LONG |
+| 2022-02-11 18:15:41.556198+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 18:15:43.012546+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 18:15:44.735277+00:00 | GBP/USD | already LONG |
+| 2022-02-11 18:25:07.793092+00:00 | 2:39:52.206886 until termination |
+| 2022-02-11 18:30:15.498770+00:00 | Connection Status: established |
+| 2022-02-11 18:30:15.667894+00:00 | Updated current positions |
+| 2022-02-11 18:30:16.455356+00:00 | Updated trade amount |
+| 2022-02-11 18:30:24.920592+00:00 | 2:34:35.079396 until termination |
+| 2022-02-11 18:30:31.864980+00:00 | GBP/USD | already LONG |
+| 2022-02-11 18:30:33.852223+00:00 | USD/JPY | already LONG |
+| 2022-02-11 18:30:35.752386+00:00 | USD/CHF | already LONG |
+| 2022-02-11 18:30:37.727114+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 18:30:39.804890+00:00 | AUD/USD | already LONG |
+| 2022-02-11 18:30:41.405763+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 18:30:43.605434+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 18:40:08.938159+00:00 | 2:24:51.061829 until termination |
+| 2022-02-11 18:45:23.628037+00:00 | Connection Status: established |
+| 2022-02-11 18:45:23.808731+00:00 | Updated current positions |
+| 2022-02-11 18:45:24.473656+00:00 | Updated trade amount |
+| 2022-02-11 18:45:27.961629+00:00 |*** ERROR ***| get_candles_time | USD/JPY |
+| 2022-02-11 18:45:27.961794+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 18:45:28.687349+00:00 | 2:19:31.312639 until termination |
+| 2022-02-11 18:45:31.753501+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 18:45:36.290522+00:00 | GBP/USD | already LONG |
+| 2022-02-11 18:45:37.291891+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 18:45:37.292161+00:00 |*** restarting python script ***|
+| 2022-02-11 18:45:50.339386+00:00 | Connection Status: established |
+| 2022-02-11 18:45:50.703147+00:00 | Updated current positions |
+| 2022-02-11 18:45:50.802836+00:00 | Updated trade amount |
+| 2022-02-11 18:46:03.350450+00:00 | 2:18:56.649537 until termination |
+| 2022-02-11 18:46:06.139356+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 18:46:12.676532+00:00 | GBP/USD | already LONG |
+| 2022-02-11 18:46:14.944466+00:00 | USD/JPY | already LONG |
+| 2022-02-11 18:46:17.642233+00:00 | USD/CHF | already LONG |
+| 2022-02-11 18:46:19.792050+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 18:46:26.117298+00:00 | AUD/USD | already LONG |
+| 2022-02-11 18:46:33.073756+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 18:55:40.642716+00:00 | 2:09:19.357273 until termination |
+| 2022-02-11 19:00:27.971662+00:00 |*** ERROR ***| connect |
+| 2022-02-11 19:00:27.971833+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:00:27.971897+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 19:00:27.971957+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:00:27.972002+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:00:27.972044+00:00 |*** restarting python script ***|
+| 2022-02-11 19:00:52.591117+00:00 | Connection Status: established |
+| 2022-02-11 19:00:52.752619+00:00 | Updated current positions |
+| 2022-02-11 19:00:52.811204+00:00 | Updated trade amount |
+| 2022-02-11 19:01:03.826468+00:00 | 2:03:56.173521 until termination |
+| 2022-02-11 19:01:12.123020+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 19:01:18.700585+00:00 | GBP/USD | already LONG |
+| 2022-02-11 19:01:24.875120+00:00 | USD/JPY | already LONG |
+| 2022-02-11 19:01:31.674887+00:00 | USD/CHF | already LONG |
+| 2022-02-11 19:01:35.658673+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 19:01:36.882143+00:00 | AUD/USD | already LONG |
+| 2022-02-11 19:01:39.874011+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 19:10:35.257504+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:10:35.257643+00:00 |*** restarting python script ***|
+| 2022-02-11 19:15:52.332467+00:00 |*** ERROR ***| connect |
+| 2022-02-11 19:15:52.332614+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:15:52.332673+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 19:15:52.332733+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:15:52.332776+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:15:52.332819+00:00 |*** restarting python script ***|
+| 2022-02-11 19:15:59.059506+00:00 | Connection Status: established |
+| 2022-02-11 19:15:59.185521+00:00 | Updated current positions |
+| 2022-02-11 19:15:59.284141+00:00 | Updated trade amount |
+| 2022-02-11 19:16:08.739834+00:00 | 1:48:51.260151 until termination |
+| 2022-02-11 19:16:10.019337+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 19:16:11.459135+00:00 | GBP/USD | already LONG |
+| 2022-02-11 19:16:14.188834+00:00 |*** CLOSE ***| USD/JPY |
+| 2022-02-11 19:16:15.429382+00:00 |*** SHORT ***| USD/JPY | amount:7 |
+| 2022-02-11 19:16:16.777219+00:00 | USD/CHF | already LONG |
+| 2022-02-11 19:16:19.020516+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 19:16:20.385916+00:00 | AUD/USD | already LONG |
+| 2022-02-11 19:16:21.726654+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 19:25:53.340565+00:00 | 1:39:06.659423 until termination |
+| 2022-02-11 19:30:21.710884+00:00 | Connection Status: established |
+| 2022-02-11 19:30:22.418009+00:00 | Updated current positions |
+| 2022-02-11 19:30:22.886274+00:00 | Updated trade amount |
+| 2022-02-11 19:30:37.651387+00:00 | 1:34:22.348593 until termination |
+| 2022-02-11 19:30:39.609813+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 19:30:41.303415+00:00 | GBP/USD | already LONG |
+| 2022-02-11 19:30:43.482584+00:00 | USD/JPY | already SHORT |
+| 2022-02-11 19:30:45.720324+00:00 | USD/CHF | already LONG |
+| 2022-02-11 19:30:47.922453+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 19:30:51.774816+00:00 | AUD/USD | already LONG |
+| 2022-02-11 19:30:53.748763+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 19:40:08.364944+00:00 |*** ERROR ***| log_portfolio |
+| 2022-02-11 19:40:08.365075+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:40:08.365129+00:00 |*** restarting python script ***|
+| 2022-02-11 19:40:22.084945+00:00 | Connection Status: established |
+| 2022-02-11 19:40:24.423039+00:00 | Updated current positions |
+| 2022-02-11 19:40:24.894270+00:00 | Updated trade amount |
+| 2022-02-11 19:40:35.288923+00:00 | 1:24:24.711066 until termination |
+| 2022-02-11 19:45:11.245562+00:00 |*** ERROR ***| connect |
+| 2022-02-11 19:45:11.245815+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:45:11.245890+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 19:45:11.245949+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 19:45:11.245992+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:45:11.246034+00:00 |*** restarting python script ***|
+| 2022-02-11 19:45:26.317464+00:00 | Connection Status: established |
+| 2022-02-11 19:45:26.686757+00:00 | Updated current positions |
+| 2022-02-11 19:45:26.771383+00:00 | Updated trade amount |
+| 2022-02-11 19:45:40.870892+00:00 | 1:19:19.129090 until termination |
+| 2022-02-11 19:45:46.217895+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 19:45:47.674793+00:00 | GBP/USD | already LONG |
+| 2022-02-11 19:45:49.634654+00:00 | USD/JPY | already SHORT |
+| 2022-02-11 19:45:51.361024+00:00 | USD/CHF | already LONG |
+| 2022-02-11 19:45:53.754201+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 19:45:55.731717+00:00 | AUD/USD | already LONG |
+| 2022-02-11 19:45:57.457454+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 19:55:14.383745+00:00 |*** ERROR ***| log_portfolio |
+| 2022-02-11 19:55:14.383873+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 19:55:14.383930+00:00 |*** restarting python script ***|
+| 2022-02-11 20:00:22.995023+00:00 |*** ERROR ***| connect |
+| 2022-02-11 20:00:22.995199+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 20:00:22.995261+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 20:00:22.995319+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 20:00:22.995362+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 20:00:22.995403+00:00 |*** restarting python script ***|
+| 2022-02-11 20:00:37.344136+00:00 |*** ERROR ***| connect |
+| 2022-02-11 20:00:37.344320+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 20:00:37.344384+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 20:00:37.344445+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 20:00:37.344489+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 20:00:37.344531+00:00 |*** restarting python script ***|
+| 2022-02-11 20:15:30.838470+00:00 | Connection Status: established |
+| 2022-02-11 20:15:31.224059+00:00 | Updated current positions |
+| 2022-02-11 20:15:31.605608+00:00 | Updated trade amount |
+| 2022-02-11 20:15:36.071725+00:00 |*** ERROR ***| get_candles_time | GBP/USD |
+| 2022-02-11 20:15:36.071903+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 20:15:39.552258+00:00 | 0:49:20.447729 until termination |
+| 2022-02-11 20:15:40.884437+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 20:15:41.885861+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 20:15:41.886142+00:00 |*** restarting python script ***|
+| 2022-02-11 20:16:00.673998+00:00 | Connection Status: established |
+| 2022-02-11 20:16:00.751413+00:00 | Updated current positions |
+| 2022-02-11 20:16:00.821793+00:00 | Updated trade amount |
+| 2022-02-11 20:16:15.258055+00:00 |*** ERROR ***| get_candles_time | NZD/USD |
+| 2022-02-11 20:16:15.258259+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 20:16:15.774878+00:00 | 0:48:44.225109 until termination |
+| 2022-02-11 20:16:17.815536+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 20:16:19.774021+00:00 | GBP/USD | already LONG |
+| 2022-02-11 20:16:22.507211+00:00 | USD/JPY | already SHORT |
+| 2022-02-11 20:16:24.432085+00:00 | USD/CHF | already LONG |
+| 2022-02-11 20:16:28.809001+00:00 | USD/CAD | already SHORT |
+| 2022-02-11 20:16:30.736733+00:00 | AUD/USD | already LONG |
+| 2022-02-11 20:16:31.738104+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 20:16:31.738330+00:00 |*** restarting python script ***|
+| 2022-02-11 20:30:25.915485+00:00 | Connection Status: established |
+| 2022-02-11 20:30:27.329982+00:00 | Updated current positions |
+| 2022-02-11 20:30:28.195357+00:00 | Updated trade amount |
+| 2022-02-11 20:30:37.845734+00:00 | 0:34:22.154255 until termination |
+| 2022-02-11 20:30:44.811257+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 20:30:48.849194+00:00 | GBP/USD | already LONG |
+| 2022-02-11 20:30:52.945086+00:00 | USD/JPY | already SHORT |
+| 2022-02-11 20:30:54.685036+00:00 | USD/CHF | already LONG |
+| 2022-02-11 20:30:57.776871+00:00 |*** CLOSE ***| USD/CAD |
+| 2022-02-11 20:31:02.825891+00:00 |*** LONG ***| USD/CAD | amount:7 |
+| 2022-02-11 20:31:05.473384+00:00 | AUD/USD | already LONG |
+| 2022-02-11 20:31:06.810489+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 20:40:03.529708+00:00 | 0:24:56.470278 until termination |
+| 2022-02-11 20:45:20.755071+00:00 | Connection Status: established |
+| 2022-02-11 20:45:21.754054+00:00 | Updated current positions |
+| 2022-02-11 20:45:22.992372+00:00 | Updated trade amount |
+| 2022-02-11 20:45:35.646339+00:00 | 0:19:24.353648 until termination |
+| 2022-02-11 20:45:40.534187+00:00 | EUR/USD | already SHORT |
+| 2022-02-11 20:45:46.373295+00:00 | GBP/USD | already LONG |
+| 2022-02-11 20:45:47.810507+00:00 | USD/JPY | already SHORT |
+| 2022-02-11 20:45:50.734604+00:00 | USD/CHF | already LONG |
+| 2022-02-11 20:45:55.343383+00:00 | USD/CAD | already LONG |
+| 2022-02-11 20:45:56.784730+00:00 | AUD/USD | already LONG |
+| 2022-02-11 20:45:58.383092+00:00 | NZD/USD | already SHORT |
+| 2022-02-11 20:55:12.131041+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 20:55:12.131196+00:00 |*** restarting python script ***|
+| 2022-02-11 20:55:23.301661+00:00 | Connection Status: established |
+| 2022-02-11 20:55:23.683815+00:00 | Updated current positions |
+| 2022-02-11 20:55:26.304241+00:00 | Updated trade amount |
+| 2022-02-11 20:55:39.691266+00:00 | 0:09:20.308722 until termination |
+| 2022-02-11 21:00:32.028749+00:00 |*** ERROR ***| connect |
+| 2022-02-11 21:00:32.028928+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 21:00:32.028994+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 21:00:32.029055+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 21:00:32.029099+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 21:00:32.029142+00:00 |*** restarting python script ***|
+| 2022-02-11 21:00:37.424284+00:00 |*** ERROR ***| connect |
+| 2022-02-11 21:00:37.424546+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 21:00:37.424618+00:00 |*** ERROR ***| initiate |
+| 2022-02-11 21:00:37.424681+00:00 |*** ERROR ***| update_current_positions |
+| 2022-02-11 21:00:37.424726+00:00 |*** ERROR ***| start_trading |
+| 2022-02-11 21:00:37.424769+00:00 |*** restarting python script ***|
+| 2022-02-11 21:10:12.018813+00:00 | Connection Status: established |
+| 2022-02-11 21:10:17.585817+00:00 | 0:29:44.459423 until termination |
+| 2022-02-11 21:10:20.601296+00:00 | Connection Status: unset |
