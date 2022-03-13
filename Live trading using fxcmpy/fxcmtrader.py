@@ -78,17 +78,18 @@ class FXCMTrader():
         add to next_candles_time to get the next next_candles_time
     """
 
-    def __init__(self, TOKEN, symbol_list, margin_dict, time_frame, 
-                 min_len, end_time, position_pct=0.02, margin_pct=0.5, 
+    def __init__(self, TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                 start_time, end_time, position_pct=0.02, margin_pct=0.5, 
                  account_type='DEMO', time_zone="UTC", log_path='log_files',
                  log_header=['balance', 'equity', 'dayPL', 'usdMr', 'usableMargin', 'date'],
-                 log_freq_min=5, update_amount_freq_min=10, #restart_freq_min=60, 
-                 update_pos_freq_min=10):
+                 log_freq_min=30, update_amount_freq_min=30, #restart_freq_min=60, 
+                 update_pos_freq_min=30):
 
         self.token = TOKEN
         self.symbol_list = symbol_list
         self.time_frame = time_frame
         self.min_len = int(min_len)
+        self.start_time = start_time
         self.end_time = end_time
         self.account_type = account_type
         self.time_zone = time_zone
@@ -119,28 +120,21 @@ class FXCMTrader():
         """Make connection to FXCM server."""
 
         if self.con is None:
-            # self.log_trade(f'| {self.get_current_time()} | self.con is None |')
             try:
                 self.con = fxcmpy.fxcmpy(access_token=self.token, log_level='error', server='demo', log_file='log.txt')
-                # self.log_trade(f'| {self.get_current_time()} | sleep 1 secs |')
-                time.sleep(0.5)
+                time.sleep(1)
                 if self.con.is_connected() is True:
                     self.print_connection_status()
                 elif self.con.is_connected() is False:
-                    # self.log_trade(f'| {self.get_current_time()} | self.con is None | is_connected is False |')
                     self.connect()
             except:
                 self.log_trade(f'| {self.get_current_time()} |*** ERROR ***| connect |')
         else:
-            # self.log_trade(f'| {self.get_current_time()} | self.con is not None |')
             if self.con.is_connected() is True:
                 self.log_trade(f'| {self.get_current_time()} | already connected |')
                 self.print_connection_status()
             elif self.con.is_connected() is False:
-                # self.log_trade(f'| {self.get_current_time()} | is_connected is False | reconnect |')
                 self.con.connect()
-                # self.log_trade(f'| {self.get_current_time()} | sleep 1 secs |')
-                # time.sleep(1)
                 self.connect()
 
     def disconnect(self):
@@ -234,7 +228,7 @@ class FXCMTrader():
                 self.next_candles_time[symbol] = candle_time
             else:
                 self.next_candles_time[symbol] = candle_time + self.add_candle_time
-            # time.sleep(1)
+            time.sleep(1)
 
     def initiate(self):
         """initiate all necessity before start trading."""
@@ -291,7 +285,7 @@ class FXCMTrader():
 
         try:
             self.con.create_market_buy_order(symbol, amount)
-            time.sleep(0.5)
+            time.sleep(1)
             if self.check_order(symbol) == 'Buy':
                 self.current_positions[symbol] = 1
                 self.log_trade(f"| {self.get_current_time()} |*** LONG ***| {symbol} | amount:{amount} |")
@@ -313,7 +307,7 @@ class FXCMTrader():
 
         try:
             self.con.create_market_sell_order(symbol, amount)
-            time.sleep(0.5)
+            time.sleep(1)
             if self.check_order(symbol) == 'Sell':
                 self.current_positions[symbol] = -1
                 self.log_trade(f"| {self.get_current_time()} |*** SHORT ***| {symbol} | amount:{amount} |")
@@ -333,7 +327,7 @@ class FXCMTrader():
 
         try:
             self.con.close_all_for_symbol(symbol)
-            time.sleep(0.5)
+            time.sleep(1)
             if self.check_order(symbol) == 'Closed':
                 self.current_positions[symbol] = 0
                 self.log_trade(f"| {self.get_current_time()} |*** CLOSE ***| {symbol} |")
@@ -408,8 +402,7 @@ class FXCMTrader():
         """
 
         try:
-            candle_time = self.con.get_candles(
-                symbol, period=self.time_frame, number=1, with_index=True, columns=['date']).index[-1]
+            candle_time = self.con.get_candles(symbol, period=self.time_frame, number=1, with_index=True, columns=['date']).index[-1]
         except:
             self.log_trade(f'| {self.get_current_time()} |*** ERROR ***| get_candles_time | {symbol} |')
         candle_time = pytz.UTC.localize(candle_time.to_pydatetime())
@@ -467,7 +460,7 @@ class FXCMTrader():
             True if current time less than end time 
             False otherwise
         """
-        return self.get_current_time() < self.end_time
+        return self.get_current_time() >= self.start_time and self.get_current_time() <= self.end_time
 
     def get_signal(self, symbol):
         """implement in child class (different for each strategy).
@@ -564,7 +557,7 @@ class FXCMTrader():
             else:
                 print(f'Try closing all positions(attempt{attempts}).')
                 self.con.close_all()
-                time.sleep(0.5)
+                time.sleep(1)
                 attempts += 1
                 continue
 
@@ -579,15 +572,15 @@ class FXCMTrader():
                 
             if self.get_current_time() >= self.update_pos_time:
                 self.update_current_positions()
-                time.sleep(0.5)
+                time.sleep(1)
                 
             if self.get_current_time() >= self.update_amount_time:
                 self.update_trade_amount()
-                time.sleep(0.5)
+                time.sleep(1)
                 
             if self.get_current_time() >= self.log_time:
                 self.log_portfolio()
-                time.sleep(0.5)
+                time.sleep(1)
                 
             for symbol in self.symbol_list:
                 
@@ -627,7 +620,7 @@ class FXCMTrader():
                                     self.close_symbol(symbol)
                                     
                             self.next_candles_time[symbol] = candles_time + self.add_candle_time
-                            time.sleep(0.5)
+                            time.sleep(1)
                         else:
                             self.log_trade(f'| {self.get_current_time()} |*** Not enough margin to trade ***|')
                             continue
@@ -640,7 +633,7 @@ class FXCMTrader():
         self.log_trade("-"*50)
         self.log_trade(f'| {self.get_current_time()} |***** Finishing trading *****|')
         self.close_all_positions()
-        # time.sleep(5)
+        time.sleep(5)
         self.check_positions()
         self.log_portfolio()
         self.log_trade(f'| {self.get_current_time()} |***** TERMINATE TRADING *****|')
@@ -656,6 +649,8 @@ class FXCMTrader():
     def start_trading(self):
         """Start algorithmic trading"""
         if self.is_trading_time():
+            # self.initiate()
+            # self.trading()
             try:
                 self.initiate()
                 self.trading()
@@ -672,15 +667,15 @@ class FXCMTrader():
 
 
 class RandomTrader(FXCMTrader):
-    def __init__(self, TOKEN, symbol_list, margin_dict, time_frame, 
-                 min_len, end_time, position_pct=0.02, margin_pct=0.5,
+    def __init__(self, TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                 start_time, end_time, position_pct=0.02, margin_pct=0.5,
                  account_type='DEMO', time_zone="UTC", log_path='log_files',
                  log_header=['balance', 'equity', 'dayPL', 'usdMr', 'usableMargin', 'date'],
-                 log_freq_min=5, update_amount_freq_min=10, #restart_freq_min=60, 
-                 update_pos_freq_min=10):
+                 log_freq_min=10, update_amount_freq_min=20, #restart_freq_min=60, 
+                 update_pos_freq_min=20):
 
-        super().__init__(TOKEN, symbol_list, margin_dict, time_frame,
-                         min_len, end_time, position_pct, margin_pct,
+        super().__init__(TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                         start_time, end_time, position_pct, margin_pct,
                          account_type, time_zone, log_path, log_header,
                          log_freq_min, update_amount_freq_min, #restart_freq_min, 
                          update_pos_freq_min)
@@ -695,15 +690,15 @@ class RandomTrader(FXCMTrader):
 
 class SMATrader(FXCMTrader):
     def __init__(self, short_period, long_period,
-                 TOKEN, symbol_list, margin_dict, time_frame,
-                 min_len, end_time, position_pct=0.02, margin_pct=0.5,
+                 TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                 start_time, end_time, position_pct=0.02, margin_pct=0.5,
                  account_type='DEMO', time_zone="UTC", log_path='log_files',
                  log_header=['balance', 'equity', 'dayPL', 'usdMr', 'usableMargin', 'date'],
-                 log_freq_min=5, update_amount_freq_min=10, #restart_freq_min=60, 
-                 update_pos_freq_min=10):
+                 log_freq_min=10, update_amount_freq_min=20, #restart_freq_min=60, 
+                 update_pos_freq_min=20):
 
-        super().__init__(TOKEN, symbol_list, margin_dict, time_frame,
-                         min_len, end_time, position_pct, margin_pct,
+        super().__init__(TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                         start_time, end_time, position_pct, margin_pct,
                          account_type, time_zone, log_path, log_header,
                          log_freq_min, update_amount_freq_min, #restart_freq_min, 
                          update_pos_freq_min)
@@ -763,15 +758,15 @@ class SMATrader(FXCMTrader):
 
 class MultiMATrader(FXCMTrader):
     def __init__(self, params_path,
-                 TOKEN, symbol_list, margin_dict, time_frame,
-                 min_len, end_time, position_pct=0.02, margin_pct=0.5,
+                 TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                 start_time, end_time, position_pct=0.02, margin_pct=0.5,
                  account_type='DEMO', time_zone="UTC", log_path='log_files',
                  log_header=['balance', 'equity', 'dayPL', 'usdMr', 'usableMargin', 'date'],
-                 log_freq_min=5, update_amount_freq_min=10, #restart_freq_min=60, 
-                 update_pos_freq_min=10):
+                 log_freq_min=10, update_amount_freq_min=20, #restart_freq_min=60, 
+                 update_pos_freq_min=20):
 
-        super().__init__(TOKEN, symbol_list, margin_dict, time_frame,
-                         min_len, end_time, position_pct, margin_pct,
+        super().__init__(TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                         start_time, end_time, position_pct, margin_pct,
                          account_type, time_zone, log_path, log_header,
                          log_freq_min, update_amount_freq_min, #restart_freq_min, 
                          update_pos_freq_min)
@@ -804,11 +799,9 @@ class MultiMATrader(FXCMTrader):
         indicators = {
             'SMA': talib.SMA,
             'EMA': talib.EMA,
-            # 'DEMA' : talib.DEMA,
             'KAMA': talib.KAMA,
             'MIDPOINT': talib.MIDPOINT,
             'MIDPRICE': talib.MIDPRICE,
-            # 'TEMA' : talib.TEMA,
             'TRIMA': talib.TRIMA,
             'WMA': talib.WMA
         }
@@ -834,7 +827,83 @@ class MultiMATrader(FXCMTrader):
             data[f"{name}_signal"] = data[f"{name}_signal"].ffill().fillna(0)
             signal_col.append(f"{name}_signal")
         
-        signals = data[signal_col].mode(axis=1)[0] # get signals mode (i.e., majority vote)
+        signals = data[signal_col].mode(axis=1).iloc[:, 0] # get signals mode (i.e., majority vote)
         return int(signals[-1]) # return the last signal
 
 # -------------------------------------------------------------------------------------------------------------------#
+
+# Three Indicators --> EMA, RSI, Bollinger Bands
+
+
+class ThreeIndicatorsTrader(FXCMTrader):
+    def __init__(self, params_path,
+                 TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                 start_time, end_time, position_pct=0.02, margin_pct=0.5,
+                 account_type='DEMO', time_zone="UTC", log_path='log_files',
+                 log_header=['balance', 'equity', 'dayPL', 'usdMr', 'usableMargin', 'date'],
+                 log_freq_min=5, update_amount_freq_min=30, #restart_freq_min=60, 
+                 update_pos_freq_min=30):
+
+        super().__init__(TOKEN, symbol_list, margin_dict, time_frame, min_len, 
+                         start_time, end_time, position_pct, margin_pct,
+                         account_type, time_zone, log_path, log_header,
+                         log_freq_min, update_amount_freq_min, #restart_freq_min, 
+                         update_pos_freq_min)
+        self.params_path = params_path
+        self.parameters = self.load_parameters()
+        
+    def load_parameters(self):
+        with open(self.params_path, 'r') as f:
+            parameters = json.load(f)
+        return parameters
+
+    def get_signal(self, symbol):
+        """implement in child class (different for each strategy).
+
+        Parameters
+        ----------
+        symbol : str
+            symbol of the asset
+
+        Returns
+        -------
+        int 
+            trade signal
+            1 --> LONG
+            0 --> NEUTRAL
+            -1 --> SHORT
+        """
+        
+        data = self.get_data(symbol) # get data
+        columns = ['open', 'high', 'low', 'close']
+        for col in columns:
+            data[col] = data[['bid'+col, 'ask'+col]].mean(axis=1)
+            
+        # get indicators
+        params = self.parameters['ThreeInds'][symbol]
+        data['ema'] = talib.EMA(data.close, params[0])
+        data['rsi'] = talib.RSI(data.close, params[1])
+        data['bb_upper'], data['bb_mid'], data['bb_lower'] = talib.BBANDS(data.close, params[2])
+        data.dropna(axis=0, inplace=True)
+        
+        # get signals
+        data['ema_signal'] = np.where(data.close > data.ema, 1, -1)
+
+        data['rsi_signal'] = np.where(data.rsi > 70, -1, np.where(data.rsi < 30, 1, np.nan))
+        data['rsi_less_50'] = np.where(data.rsi < 50, 1, -1)
+        data.loc[(data.rsi_less_50 * data.rsi_less_50.shift(1) < 0), 'rsi_signal'] = 0
+        data.rsi_signal.ffill(inplace=True)
+        data.rsi_signal.fillna(0, inplace=True)
+        
+        data['bb_signal'] = np.where(data.close > data.bb_upper, -1, 
+                                    np.where(data.close < data.bb_lower, 1, np.nan))
+        data['bb_less_mid'] = np.where(data.close < data.bb_mid, 1, -1)
+        data.loc[(data.bb_less_mid * data.bb_less_mid.shift(1) < 0), 'bb_signal'] = 0
+        data.bb_signal.ffill(inplace=True)
+        data.bb_signal.fillna(0, inplace=True)
+
+        data = data.iloc[-5:, :]
+        signal_cols = ['ema_signal', 'rsi_signal', 'bb_signal']
+        signals = data.loc[:,signal_cols].mode(axis=1).iloc[:, 0]
+        
+        return int(signals[-1])

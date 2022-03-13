@@ -34,6 +34,7 @@ def get_price_data(time, tickers, main_folder='PriceData', max_attempt=5):
         assets = instruments
     elif tickers == 'majorforex':
         assets = major_forex_pairs
+        
     for ticker in tqdm(assets):
         if len(ticker) < 1: # empty name ''
             pass
@@ -86,6 +87,12 @@ if __name__ == "__main__":
     except:
         print('Usage: python fxcm_save_data_sql.py {time frame or "all"} {"all" or "majorforex"}')
         sys.exit()
+        
+    if not time in time_frame+['all']:
+        raise ValueError(f"Incorrect time frame '{time}'")
+
+    if not tickers in ['all', 'majorforex']:
+        raise ValueError(f"Incorrect assets '{tickers}'")
     
     if time == 'all':
         connect_fxcmpy()
