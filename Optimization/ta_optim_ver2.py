@@ -1,33 +1,38 @@
 import os 
-import sqlite3
 import sys
+import warnings
+import sqlite3
 import concurrent
 import json
 from backtester import *
 from tqdm import tqdm
 from fxcmtoken import major_forex_pairs, time_frame
 from datetime import datetime
-from sklearn.model_selection import train_test_split
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 class BaseClass:
         
     @staticmethod
-    def load_data(ticker, freq, split_data, data_path='PriceData', test_size=0.048):
+    def load_data(ticker, freq, split_data, high_param, data_path='PriceData', train_length=120, test_size=0.012):
         db_path = os.path.join(data_path, f'PriceData_{freq}.db')
         conn = sqlite3.connect(db_path)
         data = pd.read_sql(f"SELECT * FROM '{ticker}'", conn, parse_dates=['date'], index_col=['date'])
         conn.close()
         
         def split_data(data, test_size):
-            train_data, test_data = train_test_split(data, test_size=test_size, shuffle=False)
-            # slice data for faster training --> long data is not helping anyway(some data is too old)
-            train_data = train_data.iloc[-1500:]
-            return train_data
+            split_len = int(len(data) * test_size)
+            test_len = split_len + high_param
+            test_data = data[-test_len:]
+            train_data = data[-(train_length+split_len+high_param):-split_len]
+
+            return train_data, test_data
         
-        if split_data == True:
-            data = split_data(data, test_size)
+        if split_data:
+            data, _ = split_data(data, test_size)
         else:
-            data = data.iloc[-1500:] # slice data
+            data = data.iloc[-(train_length+high_param):] # slice data
+            
         return data
     
     @staticmethod
@@ -97,7 +102,8 @@ class Optimizer:
     @staticmethod
     def optim(args):
         ticker, freq, params = args
-        data = BaseClass.load_data(ticker, freq, split_data)
+        high_param = max(params)
+        data = BaseClass.load_data(ticker, freq, split_data, high_param)
         results = BaseClass.get_result(ticker, freq, data, params, backtester)
         return results
 
@@ -116,7 +122,23 @@ class MAOptimizers:
     
 # -------------------------------------------------------------------------------------------------------------------------------------------
 
+class ThreeIndsOptimizer:
+    
+    @ staticmethod
+    def get_args(ticker, freq, params_range):
+        # (ema, rsi, bb)
+        args_list = []
+        for i in params_range:
+            for j in params_range:
+                for k in params_range:
+                    p = (i, int(j/params_max*100), k)
+                    args_list.append((ticker, freq, p))
+        return args_list
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
 if __name__ == "__main__":
+    usage = "Usage:python forex_ta_optim.py {Ticker(s)} {TimeFrame} {Indicator} {TestSplit?} {ParamsMax} {ParamsStep} {Inverse?}"
     try:
         ticker = sys.argv[1]
         freq = sys.argv[2]
@@ -126,13 +148,13 @@ if __name__ == "__main__":
         params_step = int(sys.argv[6])
         inverse = sys.argv[7]
     except:
-        print("Usage:python forex_ta_optim.py Ticker(s) TimeFrame Indicator TestSplit? ParamsMax ParamsStep Inverse?")
+        print(usage)
         sys.exit()
         
     if freq not in time_frame:
         print(f"'{freq}' is NOT available.")
         print(f"Available time frames: {time_frame}")
-        print("Usage:python forex_ta_optim.py Ticker(s) TimeFrame Indicator TestSplit? MaxParams ParamsStep Inverse?")
+        print(usage)
         sys.exit()
         
     indicators_dict = {
@@ -143,32 +165,53 @@ if __name__ == "__main__":
         'MIDPRICE' : {'optim' : MAOptimizers, 'backtest' : MIDPRICEBacktester},
         'TRIMA' : {'optim' : MAOptimizers, 'backtest' : TRIMABacktester},
         'WMA' : {'optim' : MAOptimizers, 'backtest' : WMABacktester},
+        'MultiMA' : {'optim' : MAOptimizers, 'backtest' : MultiMABacktester},
+        'ThreeInds' : {'optim' : ThreeIndsOptimizer, 'backtest': ThreeIndicatorsBacktester}
                       }
     
+    print('-'*50)
+    print(f"{ticker} | {freq}")
+    if ticker == 'majorforex':
+        print(major_forex_pairs)
+        
     if indicator not in list(indicators_dict.keys())+['all']:
         print(f"'{indicator}' is NOT available.")
         print(f"Available indicators: {list(indicators_dict.keys())}")
-        print("Usage:python forex_ta_optim.py Ticker(s) TimeFrame Indicator TestSplit? MaxParams ParamsStep Inverse?")
+        print(usage)
         sys.exit()
+    print(f"Indicator: {indicator}")
+    if indicator == 'all':
+        print(indicators_dict.keys())
     
     if test_split == 'yes'.lower():
         split_data = True
+        print("Split data into Train/Test.")
     elif test_split == 'no'.lower():
         split_data = False
+        print("No data split.")
     else:
         print("Incorrect response. Please type 'yes' or 'no'.")
         sys.exit()
     
     if inverse == 'yes'.lower():
         inverse = True
+        print("Sorting by Ascending order.")
     elif inverse == 'no'.lower():
         inverse = False
+        print("Sorting by Descending order.")
     else:
         print("Incorrect response. Please type 'yes' or 'no'.")
         sys.exit()
         
     num_workers = 6
-    params_range = range(params_step, params_max + 1, params_step)
+    if params_step == 1:
+        params_start = 2
+    else:
+        params_start = params_step
+        
+    params_range = range(params_start, params_max + 1, params_step)
+    print(f"Parameters Range: {params_range}")
+    print('-'*50)
     
     if ticker == 'majorforex':
         if indicator == 'all':
@@ -191,6 +234,27 @@ if __name__ == "__main__":
                 else:
                     file_name=f"OPTIMIZE_params_{freq}_{params_max}_{params_step}"
                 BaseClass.save_json(params_dict, file_name)
+        else:
+            name = indicator
+            indicator_optim = indicators_dict[name]['optim']
+            backtester = indicators_dict[name]['backtest']
+            params_dict = {}
+            params_dict[name] = {}
+            for ticker in tqdm(major_forex_pairs, leave=True, desc=name):
+                args_list = indicator_optim.get_args(ticker, freq, params_range)
+                with concurrent.futures.ProcessPoolExecutor(max_workers=num_workers) as ex:
+                    results = list(tqdm(ex.map(Optimizer.optim, args_list), total=len(args_list), leave=False, desc=ticker))
+                # print(results)
+                results_df = BaseClass.sort_results(results)
+                BaseClass.save_txt(results_df, ticker, freq, name, inverse)
+                results_params = BaseClass.get_best_params(results_df, inverse)
+                params_dict[name][ticker] = results_params
+                # print(params_dict)
+            if inverse == True:
+                file_name=f"OPTIMIZE_params_{freq}_{params_max}_{params_step}_negative"
+            else:
+                file_name=f"OPTIMIZE_params_{freq}_{params_max}_{params_step}"
+            BaseClass.save_json(params_dict, file_name)
                     
     else:
         if indicator == 'all':
