@@ -1,0 +1,770 @@
+2022-08-07 15:13:38.565323 | --------------------------------------------------
+2022-08-07 15:13:38.565489 | Connecting...
+2022-08-07 15:13:41.220648 | CONNECTED
+2022-08-07 15:13:41.220808 | connection status: established
+2022-08-07 15:13:41.220858 | --------------------------------------------------
+2022-08-07 15:13:41.220917 | Updated current positions...BEGIN
+2022-08-07 15:13:41.293154 | Updated current positions...DONE
+2022-08-07 15:13:41.293311 | Warming up data.....BEGIN
+2022-08-07 15:13:43.752249 | Warming up data.....DONE
+2022-08-07 15:13:43.752406 | Updated trade amounts...BEGIN
+2022-08-07 15:13:43.802321 | Updated trade amounts...DONE
+2022-08-07 15:25:49.627869 | --------------------------------------------------
+2022-08-07 15:25:49.627983 | Connecting...
+2022-08-07 15:25:52.207200 | CONNECTED
+2022-08-07 15:25:52.207350 | connection status: established
+2022-08-07 15:25:52.207406 | --------------------------------------------------
+2022-08-07 15:25:52.207467 | Updated current positions...BEGIN
+2022-08-07 15:25:52.259031 | Updated current positions...DONE
+2022-08-07 15:25:52.259177 | Warming up data.....BEGIN
+2022-08-07 15:25:54.668785 | Warming up data.....DONE
+2022-08-07 15:25:54.668940 | Updated trade amounts...BEGIN
+2022-08-07 15:25:54.714913 | Updated trade amounts...DONE
+2022-08-07 15:25:54.765049 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:25:59.818706 | ERROR | subscribe market data | 1.....retrying in 5 seconds
+2022-08-07 15:26:04.877952 | ERROR | subscribe market data | 1.....retrying in 5 seconds
+2022-08-07 15:26:09.934483 | ERROR | subscribe market data | 1.....retrying in 5 seconds
+2022-08-07 15:26:14.988875 | ERROR | subscribe market data | 1.....retrying in 5 seconds
+2022-08-07 15:30:08.098728 | --------------------------------------------------
+2022-08-07 15:30:08.098843 | Connecting...
+2022-08-07 15:30:10.614635 | CONNECTED
+2022-08-07 15:30:10.614784 | connection status: established
+2022-08-07 15:30:10.614839 | --------------------------------------------------
+2022-08-07 15:30:10.614902 | Updated current positions...BEGIN
+2022-08-07 15:30:10.662797 | Updated current positions...DONE
+2022-08-07 15:30:10.662954 | Warming up data.....BEGIN
+2022-08-07 15:30:13.049315 | Warming up data.....DONE
+2022-08-07 15:30:13.049481 | Updated trade amounts...BEGIN
+2022-08-07 15:30:13.097671 | Updated trade amounts...DONE
+2022-08-07 15:30:13.144980 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:18.201201 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:23.255690 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:28.312734 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:33.372815 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:38.433430 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:43.438738 | --------------------------------------------------
+2022-08-07 15:30:43.438995 | Disconnecting...
+2022-08-07 15:30:46.452878 | DISCONNECTED
+2022-08-07 15:30:46.453121 | connection status: unset
+2022-08-07 15:30:46.453212 | *** restarting python script ***|
+2022-08-07 15:30:47.053264 | --------------------------------------------------
+2022-08-07 15:30:47.053382 | Connecting...
+2022-08-07 15:30:49.562686 | CONNECTED
+2022-08-07 15:30:49.562844 | connection status: established
+2022-08-07 15:30:49.562897 | --------------------------------------------------
+2022-08-07 15:30:49.562959 | Updated current positions...BEGIN
+2022-08-07 15:30:49.612762 | Updated current positions...DONE
+2022-08-07 15:30:49.612939 | Warming up data.....BEGIN
+2022-08-07 15:30:51.947039 | Warming up data.....DONE
+2022-08-07 15:30:51.947208 | Updated trade amounts...BEGIN
+2022-08-07 15:30:51.996410 | Updated trade amounts...DONE
+2022-08-07 15:30:52.045129 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:30:57.101613 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:31:02.175398 | ERROR | subscribe market data | EUR/USD.....retrying in 5 seconds
+2022-08-07 15:32:55.481771 | --------------------------------------------------
+2022-08-07 15:32:55.481887 | Connecting...
+2022-08-07 15:32:59.036299 | CONNECTED
+2022-08-07 15:32:59.036444 | connection status: established
+2022-08-07 15:32:59.036493 | --------------------------------------------------
+2022-08-07 15:32:59.036557 | Updated current positions...BEGIN
+2022-08-07 15:32:59.085296 | Updated current positions...DONE
+2022-08-07 15:32:59.085466 | Warming up data.....BEGIN
+2022-08-07 15:33:01.443837 | Warming up data.....DONE
+2022-08-07 15:33:01.443999 | Updated trade amounts...BEGIN
+2022-08-07 15:33:01.498277 | Updated trade amounts...DONE
+2022-08-07 15:33:01.545679 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 15:33:06.600729 | ERROR | subscribe market data | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-07 15:33:11.655860 | ERROR | subscribe market data | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-07 15:33:16.709533 | ERROR | subscribe market data | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-07 15:33:21.766594 | ERROR | subscribe market data | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-07 15:33:26.825084 | ERROR | subscribe market data | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-07 15:33:31.830296 | --------------------------------------------------
+2022-08-07 15:33:31.830553 | Disconnecting...
+2022-08-07 15:33:34.844337 | DISCONNECTED
+2022-08-07 15:33:34.844588 | connection status: unset
+2022-08-07 15:33:34.844668 | *** restarting python script ***|
+2022-08-07 15:33:35.442228 | --------------------------------------------------
+2022-08-07 15:33:35.442339 | Connecting...
+2022-08-07 15:33:37.957539 | CONNECTED
+2022-08-07 15:33:37.957686 | connection status: established
+2022-08-07 15:33:37.957736 | --------------------------------------------------
+2022-08-07 15:33:37.957799 | Updated current positions...BEGIN
+2022-08-07 15:33:38.010493 | Updated current positions...DONE
+2022-08-07 15:33:38.010646 | Warming up data.....BEGIN
+2022-08-07 15:33:44.377751 | Warming up data.....DONE
+2022-08-07 15:33:44.377919 | Updated trade amounts...BEGIN
+2022-08-07 15:33:44.427332 | Updated trade amounts...DONE
+2022-08-07 15:33:44.473841 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 15:33:49.533400 | ERROR | subscribe market data | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-07 15:33:54.597511 | ERROR | subscribe market data | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-07 15:33:59.656741 | ERROR | subscribe market data | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-07 15:34:04.717286 | ERROR | subscribe market data | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-07 15:34:09.780788 | ERROR | subscribe market data | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-07 15:34:14.786038 | --------------------------------------------------
+2022-08-07 15:34:14.786309 | Disconnecting...
+2022-08-07 15:34:17.799915 | DISCONNECTED
+2022-08-07 15:34:17.800152 | connection status: unset
+2022-08-07 15:34:17.800224 | *** restarting python script ***|
+2022-08-07 15:34:18.393706 | --------------------------------------------------
+2022-08-07 15:34:18.393817 | Connecting...
+2022-08-07 15:34:20.897995 | CONNECTED
+2022-08-07 15:34:20.898164 | connection status: established
+2022-08-07 15:34:20.898222 | --------------------------------------------------
+2022-08-07 15:34:20.898283 | Updated current positions...BEGIN
+2022-08-07 15:34:20.949723 | Updated current positions...DONE
+2022-08-07 15:34:20.949891 | Warming up data.....BEGIN
+2022-08-07 15:34:24.300741 | Warming up data.....DONE
+2022-08-07 15:34:24.300910 | Updated trade amounts...BEGIN
+2022-08-07 15:34:24.349548 | Updated trade amounts...DONE
+2022-08-07 15:34:24.406167 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 15:34:29.460361 | ERROR | subscribe market data | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-07 15:34:34.520339 | ERROR | subscribe market data | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-07 15:34:39.579799 | ERROR | subscribe market data | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-07 15:34:44.639404 | ERROR | subscribe market data | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-07 15:34:49.695875 | ERROR | subscribe market data | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-07 15:34:54.701151 | --------------------------------------------------
+2022-08-07 15:34:54.701411 | Disconnecting...
+2022-08-07 15:34:57.715235 | DISCONNECTED
+2022-08-07 15:34:57.715486 | connection status: unset
+2022-08-07 15:34:57.715597 | *** restarting python script ***|
+2022-08-07 15:34:58.303558 | --------------------------------------------------
+2022-08-07 15:34:58.303675 | Connecting...
+2022-08-07 15:35:00.815025 | CONNECTED
+2022-08-07 15:35:00.815178 | connection status: established
+2022-08-07 15:35:00.815233 | --------------------------------------------------
+2022-08-07 15:35:00.815296 | Updated current positions...BEGIN
+2022-08-07 15:35:00.863599 | Updated current positions...DONE
+2022-08-07 15:35:00.863757 | Warming up data.....BEGIN
+2022-08-07 15:35:03.220399 | Warming up data.....DONE
+2022-08-07 15:35:03.220570 | Updated trade amounts...BEGIN
+2022-08-07 15:35:03.267874 | Updated trade amounts...DONE
+2022-08-07 15:35:03.319435 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 15:35:08.373763 | ERROR | subscribe market data | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-07 15:35:13.431271 | ERROR | subscribe market data | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-07 15:35:18.487926 | ERROR | subscribe market data | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-07 15:35:23.559081 | ERROR | subscribe market data | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-07 15:35:28.619182 | ERROR | subscribe market data | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-07 15:35:33.624440 | --------------------------------------------------
+2022-08-07 15:35:33.624704 | Disconnecting...
+2022-08-07 15:35:36.638389 | DISCONNECTED
+2022-08-07 15:35:36.638604 | connection status: unset
+2022-08-07 15:35:36.638658 | *** restarting python script ***|
+2022-08-07 15:35:37.226716 | --------------------------------------------------
+2022-08-07 15:35:37.226828 | Connecting...
+2022-08-07 15:35:39.724898 | CONNECTED
+2022-08-07 15:35:39.725040 | connection status: established
+2022-08-07 15:35:39.725096 | --------------------------------------------------
+2022-08-07 15:35:39.725158 | Updated current positions...BEGIN
+2022-08-07 15:35:39.775017 | Updated current positions...DONE
+2022-08-07 15:35:39.775162 | Warming up data.....BEGIN
+2022-08-07 15:35:42.146728 | Warming up data.....DONE
+2022-08-07 15:35:42.146885 | Updated trade amounts...BEGIN
+2022-08-07 15:35:42.195741 | Updated trade amounts...DONE
+2022-08-07 15:35:42.243751 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 15:35:47.298934 | ERROR | subscribe market data | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-07 15:35:52.353128 | ERROR | subscribe market data | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-07 15:35:57.409721 | ERROR | subscribe market data | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-07 15:36:02.471602 | ERROR | subscribe market data | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-07 15:36:07.531963 | ERROR | subscribe market data | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-07 15:36:12.537206 | --------------------------------------------------
+2022-08-07 15:36:12.537455 | Disconnecting...
+2022-08-07 15:36:15.551548 | DISCONNECTED
+2022-08-07 15:36:15.551798 | connection status: unset
+2022-08-07 15:36:15.551878 | *** restarting python script ***|
+2022-08-07 15:36:16.145271 | --------------------------------------------------
+2022-08-07 15:36:16.145384 | Connecting...
+2022-08-07 15:36:18.651176 | CONNECTED
+2022-08-07 15:36:18.651329 | connection status: established
+2022-08-07 15:36:18.651392 | --------------------------------------------------
+2022-08-07 15:36:18.651456 | Updated current positions...BEGIN
+2022-08-07 15:36:18.698886 | Updated current positions...DONE
+2022-08-07 15:36:18.699037 | Warming up data.....BEGIN
+2022-08-07 15:36:21.098956 | Warming up data.....DONE
+2022-08-07 15:36:21.099116 | Updated trade amounts...BEGIN
+2022-08-07 15:36:21.148786 | Updated trade amounts...DONE
+2022-08-07 15:36:21.198252 | ERROR | subscribe market data | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-07 21:00:02.214599 | --------------------------------------------------
+2022-08-07 21:00:02.214700 | Connecting...
+2022-08-07 21:00:06.544291 | CONNECTED
+2022-08-07 21:00:06.544443 | connection status: established
+2022-08-07 21:00:06.544491 | --------------------------------------------------
+2022-08-07 21:00:06.544548 | Updated current positions...BEGIN
+2022-08-07 21:00:06.645432 | Updated current positions...DONE
+2022-08-07 21:00:06.645585 | Warming up data.....BEGIN
+2022-08-07 21:00:09.344863 | Warming up data.....DONE
+2022-08-07 21:00:09.345025 | Updated trade amounts...BEGIN
+2022-08-07 21:00:09.395274 | Updated trade amounts...DONE
+2022-08-07 21:00:09.447187 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:00:09.545621 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:00:09.597255 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:00:09.709393 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:00:09.773052 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:00:09.821963 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:00:09.918453 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:00:09.965476 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:00:15.022299 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:00:20.077286 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:00:25.157430 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:00:26.430917 | CLOSE LONG.....EUR/USD
+2022-08-07 21:00:30.213523 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:00:32.493346 | OPEN SHORT.....EUR/USD.....21 units
+2022-08-07 21:00:35.272538 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:00:40.277728 | --------------------------------------------------
+2022-08-07 21:00:40.277988 | Disconnecting...
+2022-08-07 21:00:43.292465 | DISCONNECTED
+2022-08-07 21:00:43.292695 | connection status: unset
+2022-08-07 21:00:43.292756 | *** restarting python script ***|
+2022-08-07 21:00:43.896258 | --------------------------------------------------
+2022-08-07 21:00:43.896355 | Connecting...
+2022-08-07 21:00:46.430557 | CONNECTED
+2022-08-07 21:00:46.430710 | connection status: established
+2022-08-07 21:00:46.430755 | --------------------------------------------------
+2022-08-07 21:00:46.430806 | Updated current positions...BEGIN
+2022-08-07 21:00:46.482361 | Updated current positions...DONE
+2022-08-07 21:00:46.482527 | Warming up data.....BEGIN
+2022-08-07 21:00:48.986196 | Warming up data.....DONE
+2022-08-07 21:00:48.986336 | Updated trade amounts...BEGIN
+2022-08-07 21:00:49.036860 | Updated trade amounts...DONE
+2022-08-07 21:00:49.087301 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:00:49.140514 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:00:49.189706 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:00:49.238012 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:00:49.290720 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:00:49.340439 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:00:49.388887 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:00:49.467799 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:00:54.521976 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:00:59.581366 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:01:04.641769 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:01:09.699901 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:01:14.758353 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:01:19.763606 | --------------------------------------------------
+2022-08-07 21:01:19.763842 | Disconnecting...
+2022-08-07 21:01:24.398907 | DISCONNECTED
+2022-08-07 21:01:24.399142 | connection status: unset
+2022-08-07 21:01:24.399210 | *** restarting python script ***|
+2022-08-07 21:01:24.999011 | --------------------------------------------------
+2022-08-07 21:01:24.999120 | Connecting...
+2022-08-07 21:01:27.510238 | CONNECTED
+2022-08-07 21:01:27.510367 | connection status: established
+2022-08-07 21:01:27.510409 | --------------------------------------------------
+2022-08-07 21:01:27.510463 | Updated current positions...BEGIN
+2022-08-07 21:01:27.560569 | Updated current positions...DONE
+2022-08-07 21:01:27.560710 | Warming up data.....BEGIN
+2022-08-07 21:01:30.000421 | Warming up data.....DONE
+2022-08-07 21:01:30.000549 | Updated trade amounts...BEGIN
+2022-08-07 21:01:30.050195 | Updated trade amounts...DONE
+2022-08-07 21:01:30.100085 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:01:30.148257 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:01:30.196877 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:01:30.281046 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:01:30.330852 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:01:30.440656 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:01:30.489508 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:01:30.537345 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:01:35.593784 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:01:40.651263 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:01:45.706033 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:01:50.761010 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:01:55.819904 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:02:00.822157 | --------------------------------------------------
+2022-08-07 21:02:00.822365 | Disconnecting...
+2022-08-07 21:02:03.838156 | DISCONNECTED
+2022-08-07 21:02:03.838406 | connection status: unset
+2022-08-07 21:02:03.838468 | *** restarting python script ***|
+2022-08-07 21:02:04.438615 | --------------------------------------------------
+2022-08-07 21:02:04.438711 | Connecting...
+2022-08-07 21:02:06.949786 | CONNECTED
+2022-08-07 21:02:06.949913 | connection status: established
+2022-08-07 21:02:06.949953 | --------------------------------------------------
+2022-08-07 21:02:06.950004 | Updated current positions...BEGIN
+2022-08-07 21:02:07.002612 | Updated current positions...DONE
+2022-08-07 21:02:07.002756 | Warming up data.....BEGIN
+2022-08-07 21:02:09.510133 | Warming up data.....DONE
+2022-08-07 21:02:09.510273 | Updated trade amounts...BEGIN
+2022-08-07 21:02:09.575528 | Updated trade amounts...DONE
+2022-08-07 21:02:09.634154 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:02:09.683626 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:02:09.732355 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:02:09.780576 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:02:09.831241 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:02:09.879732 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:02:09.929029 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:02:09.976199 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:02:15.039372 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:02:20.098597 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:02:25.192036 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:02:30.248652 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:02:35.309835 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:02:40.315019 | --------------------------------------------------
+2022-08-07 21:02:40.315244 | Disconnecting...
+2022-08-07 21:02:43.328425 | DISCONNECTED
+2022-08-07 21:02:43.328646 | connection status: unset
+2022-08-07 21:02:43.328707 | *** restarting python script ***|
+2022-08-07 21:02:43.912779 | --------------------------------------------------
+2022-08-07 21:02:43.912872 | Connecting...
+2022-08-07 21:02:46.439405 | CONNECTED
+2022-08-07 21:02:46.439543 | connection status: established
+2022-08-07 21:02:46.439585 | --------------------------------------------------
+2022-08-07 21:02:46.439635 | Updated current positions...BEGIN
+2022-08-07 21:02:46.488366 | Updated current positions...DONE
+2022-08-07 21:02:46.488510 | Warming up data.....BEGIN
+2022-08-07 21:02:48.910760 | Warming up data.....DONE
+2022-08-07 21:02:48.910896 | Updated trade amounts...BEGIN
+2022-08-07 21:02:48.959006 | Updated trade amounts...DONE
+2022-08-07 21:02:49.008732 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:02:49.060079 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:02:49.109800 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:02:49.158514 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:02:49.213638 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:02:49.261581 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:02:49.311805 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:02:49.383619 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:02:54.437702 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:02:59.491595 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:03:04.548238 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:03:09.604847 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:03:14.659868 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:03:19.665049 | --------------------------------------------------
+2022-08-07 21:03:19.665293 | Disconnecting...
+2022-08-07 21:03:22.679312 | DISCONNECTED
+2022-08-07 21:03:22.679544 | connection status: unset
+2022-08-07 21:03:22.679605 | *** restarting python script ***|
+2022-08-07 21:03:23.267063 | --------------------------------------------------
+2022-08-07 21:03:23.267157 | Connecting...
+2022-08-07 21:03:25.824503 | CONNECTED
+2022-08-07 21:03:25.824639 | connection status: established
+2022-08-07 21:03:25.824686 | --------------------------------------------------
+2022-08-07 21:03:25.824744 | Updated current positions...BEGIN
+2022-08-07 21:03:25.872800 | Updated current positions...DONE
+2022-08-07 21:03:25.872921 | Warming up data.....BEGIN
+2022-08-07 21:03:28.238087 | Warming up data.....DONE
+2022-08-07 21:03:28.238227 | Updated trade amounts...BEGIN
+2022-08-07 21:03:28.286881 | Updated trade amounts...DONE
+2022-08-07 21:03:28.336405 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:03:28.384719 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:03:28.434752 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:03:28.483233 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:03:28.532726 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:03:28.581626 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:03:28.668818 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:03:28.716508 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:03:33.773196 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:03:40.626205 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:03:45.682879 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:03:50.740352 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:03:55.798435 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:04:00.803626 | --------------------------------------------------
+2022-08-07 21:04:00.803851 | Disconnecting...
+2022-08-07 21:04:03.817117 | DISCONNECTED
+2022-08-07 21:04:03.817336 | connection status: unset
+2022-08-07 21:04:03.817397 | *** restarting python script ***|
+2022-08-07 21:04:04.410251 | --------------------------------------------------
+2022-08-07 21:04:04.410346 | Connecting...
+2022-08-07 21:04:06.983208 | CONNECTED
+2022-08-07 21:04:06.983358 | connection status: established
+2022-08-07 21:04:06.983407 | --------------------------------------------------
+2022-08-07 21:04:06.983465 | Updated current positions...BEGIN
+2022-08-07 21:04:07.033167 | Updated current positions...DONE
+2022-08-07 21:04:07.033321 | Warming up data.....BEGIN
+2022-08-07 21:04:09.436212 | Warming up data.....DONE
+2022-08-07 21:04:09.436360 | Updated trade amounts...BEGIN
+2022-08-07 21:04:09.502867 | Updated trade amounts...DONE
+2022-08-07 21:04:09.551145 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:04:09.599658 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:04:09.647274 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:04:09.698328 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:04:09.747419 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:04:09.795520 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:04:09.845553 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:04:09.891821 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:04:14.946802 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:04:20.001650 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:04:25.056141 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:04:30.146278 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:04:35.201903 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:04:40.207088 | --------------------------------------------------
+2022-08-07 21:04:40.207303 | Disconnecting...
+2022-08-07 21:04:43.245774 | DISCONNECTED
+2022-08-07 21:04:43.246012 | connection status: unset
+2022-08-07 21:04:43.246115 | *** restarting python script ***|
+2022-08-07 21:04:43.836170 | --------------------------------------------------
+2022-08-07 21:04:43.836266 | Connecting...
+2022-08-07 21:04:46.371686 | CONNECTED
+2022-08-07 21:04:46.371815 | connection status: established
+2022-08-07 21:04:46.371858 | --------------------------------------------------
+2022-08-07 21:04:46.371913 | Updated current positions...BEGIN
+2022-08-07 21:04:46.423690 | Updated current positions...DONE
+2022-08-07 21:04:46.423849 | Warming up data.....BEGIN
+2022-08-07 21:04:48.868362 | Warming up data.....DONE
+2022-08-07 21:04:48.868504 | Updated trade amounts...BEGIN
+2022-08-07 21:04:48.917992 | Updated trade amounts...DONE
+2022-08-07 21:04:48.967788 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:04:49.016524 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:04:49.065685 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:04:49.112319 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:04:49.159233 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:04:49.207651 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:04:49.257019 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:04:49.319153 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:04:54.378333 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:04:59.436195 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:05:04.492161 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:05:09.551798 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:05:14.616284 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:05:19.621529 | --------------------------------------------------
+2022-08-07 21:05:19.621767 | Disconnecting...
+2022-08-07 21:05:22.635402 | DISCONNECTED
+2022-08-07 21:05:22.635629 | connection status: unset
+2022-08-07 21:05:22.635684 | *** restarting python script ***|
+2022-08-07 21:05:23.231212 | --------------------------------------------------
+2022-08-07 21:05:23.231309 | Connecting...
+2022-08-07 21:05:25.792606 | CONNECTED
+2022-08-07 21:05:25.792738 | connection status: established
+2022-08-07 21:05:25.792780 | --------------------------------------------------
+2022-08-07 21:05:25.792832 | Updated current positions...BEGIN
+2022-08-07 21:05:25.841493 | Updated current positions...DONE
+2022-08-07 21:05:25.841621 | Warming up data.....BEGIN
+2022-08-07 21:05:28.218407 | Warming up data.....DONE
+2022-08-07 21:05:28.218547 | Updated trade amounts...BEGIN
+2022-08-07 21:05:28.283806 | Updated trade amounts...DONE
+2022-08-07 21:05:28.332202 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:05:28.380925 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:05:28.429753 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:05:28.478191 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:05:28.526767 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:05:28.599458 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:05:28.655822 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:05:28.702955 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:05:33.757517 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:05:38.814447 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:05:43.873099 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:05:48.932275 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:05:53.987517 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:05:58.992931 | --------------------------------------------------
+2022-08-07 21:05:58.993173 | Disconnecting...
+2022-08-07 21:06:02.006855 | DISCONNECTED
+2022-08-07 21:06:02.007093 | connection status: unset
+2022-08-07 21:06:02.007165 | *** restarting python script ***|
+2022-08-07 21:06:02.598750 | --------------------------------------------------
+2022-08-07 21:06:02.598845 | Connecting...
+2022-08-07 21:06:05.140922 | CONNECTED
+2022-08-07 21:06:05.141053 | connection status: established
+2022-08-07 21:06:05.141095 | --------------------------------------------------
+2022-08-07 21:06:05.141149 | Updated current positions...BEGIN
+2022-08-07 21:06:05.191107 | Updated current positions...DONE
+2022-08-07 21:06:05.191270 | Warming up data.....BEGIN
+2022-08-07 21:06:07.629400 | Warming up data.....DONE
+2022-08-07 21:06:07.629528 | Updated trade amounts...BEGIN
+2022-08-07 21:06:07.676230 | Updated trade amounts...DONE
+2022-08-07 21:06:07.729604 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:06:07.777732 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:06:07.825517 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:06:07.912067 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:06:07.959951 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:06:08.009048 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:06:08.058329 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:06:08.105630 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:06:13.160545 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:06:18.215945 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:06:23.277464 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:06:28.336565 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:06:33.396308 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:06:38.401551 | --------------------------------------------------
+2022-08-07 21:06:38.401792 | Disconnecting...
+2022-08-07 21:06:41.415162 | DISCONNECTED
+2022-08-07 21:06:41.415412 | connection status: unset
+2022-08-07 21:06:41.415490 | *** restarting python script ***|
+2022-08-07 21:06:42.032400 | --------------------------------------------------
+2022-08-07 21:06:42.032498 | Connecting...
+2022-08-07 21:06:44.560324 | CONNECTED
+2022-08-07 21:06:44.560457 | connection status: established
+2022-08-07 21:06:44.560500 | --------------------------------------------------
+2022-08-07 21:06:44.560550 | Updated current positions...BEGIN
+2022-08-07 21:06:44.609680 | Updated current positions...DONE
+2022-08-07 21:06:44.609808 | Warming up data.....BEGIN
+2022-08-07 21:06:47.063508 | Warming up data.....DONE
+2022-08-07 21:06:47.063646 | Updated trade amounts...BEGIN
+2022-08-07 21:06:47.111245 | Updated trade amounts...DONE
+2022-08-07 21:06:47.161451 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:06:47.239628 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:06:47.289842 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:06:47.338758 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:06:47.397414 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:06:47.445338 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:06:47.495013 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:06:47.543213 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:06:52.597994 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:06:57.655097 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:07:02.711097 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:07:07.766842 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:07:12.823895 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:07:17.829082 | --------------------------------------------------
+2022-08-07 21:07:17.829301 | Disconnecting...
+2022-08-07 21:07:20.842672 | DISCONNECTED
+2022-08-07 21:07:20.842972 | connection status: unset
+2022-08-07 21:07:20.843036 | *** restarting python script ***|
+2022-08-07 21:07:21.436011 | --------------------------------------------------
+2022-08-07 21:07:21.436109 | Connecting...
+2022-08-07 21:07:23.957003 | CONNECTED
+2022-08-07 21:07:23.957139 | connection status: established
+2022-08-07 21:07:23.957187 | --------------------------------------------------
+2022-08-07 21:07:23.957244 | Updated current positions...BEGIN
+2022-08-07 21:07:24.007236 | Updated current positions...DONE
+2022-08-07 21:07:24.007367 | Warming up data.....BEGIN
+2022-08-07 21:07:26.441434 | Warming up data.....DONE
+2022-08-07 21:07:26.441563 | Updated trade amounts...BEGIN
+2022-08-07 21:07:26.544744 | Updated trade amounts...DONE
+2022-08-07 21:07:26.595004 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:07:26.642129 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:07:26.691513 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:07:26.740244 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:07:26.796004 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:07:26.844677 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:07:26.894818 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:07:26.946167 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:07:32.005193 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:07:37.099833 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:07:42.152760 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:07:47.216929 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:07:52.276591 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:07:57.281821 | --------------------------------------------------
+2022-08-07 21:07:57.282241 | Disconnecting...
+2022-08-07 21:08:00.296518 | DISCONNECTED
+2022-08-07 21:08:00.296874 | connection status: unset
+2022-08-07 21:08:00.296975 | *** restarting python script ***|
+2022-08-07 21:08:00.887388 | --------------------------------------------------
+2022-08-07 21:08:00.887497 | Connecting...
+2022-08-07 21:08:03.409475 | CONNECTED
+2022-08-07 21:08:03.409620 | connection status: established
+2022-08-07 21:08:03.409662 | --------------------------------------------------
+2022-08-07 21:08:03.409713 | Updated current positions...BEGIN
+2022-08-07 21:08:03.457701 | Updated current positions...DONE
+2022-08-07 21:08:03.457844 | Warming up data.....BEGIN
+2022-08-07 21:08:05.853474 | Warming up data.....DONE
+2022-08-07 21:08:05.853613 | Updated trade amounts...BEGIN
+2022-08-07 21:08:05.900376 | Updated trade amounts...DONE
+2022-08-07 21:08:05.948500 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:08:05.996596 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:08:06.044952 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:08:06.092868 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:08:06.141880 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:08:06.190895 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:08:06.246112 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:08:06.316640 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:08:11.371404 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:08:16.434522 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:08:21.488760 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:08:26.547830 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:08:31.607506 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:08:36.612688 | --------------------------------------------------
+2022-08-07 21:08:36.612899 | Disconnecting...
+2022-08-07 21:08:39.627316 | DISCONNECTED
+2022-08-07 21:08:39.627540 | connection status: unset
+2022-08-07 21:08:39.627601 | *** restarting python script ***|
+2022-08-07 21:08:40.222096 | --------------------------------------------------
+2022-08-07 21:08:40.222193 | Connecting...
+2022-08-07 21:08:42.743530 | CONNECTED
+2022-08-07 21:08:42.743660 | connection status: established
+2022-08-07 21:08:42.743701 | --------------------------------------------------
+2022-08-07 21:08:42.743752 | Updated current positions...BEGIN
+2022-08-07 21:08:42.791782 | Updated current positions...DONE
+2022-08-07 21:08:42.791927 | Warming up data.....BEGIN
+2022-08-07 21:08:45.113043 | Warming up data.....DONE
+2022-08-07 21:08:45.113179 | Updated trade amounts...BEGIN
+2022-08-07 21:08:45.162029 | Updated trade amounts...DONE
+2022-08-07 21:08:45.210588 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:08:45.258712 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:08:45.307091 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:08:45.356204 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:08:45.404414 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:08:45.452235 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:08:45.499613 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:08:45.547592 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:08:50.603432 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:08:55.702681 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:09:00.766431 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:09:05.824359 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:09:10.886505 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:09:15.891730 | --------------------------------------------------
+2022-08-07 21:09:15.891961 | Disconnecting...
+2022-08-07 21:09:18.906687 | DISCONNECTED
+2022-08-07 21:09:18.906898 | connection status: unset
+2022-08-07 21:09:18.906961 | *** restarting python script ***|
+2022-08-07 21:09:19.497119 | --------------------------------------------------
+2022-08-07 21:09:19.497215 | Connecting...
+2022-08-07 21:09:22.030876 | CONNECTED
+2022-08-07 21:09:22.031018 | connection status: established
+2022-08-07 21:09:22.031061 | --------------------------------------------------
+2022-08-07 21:09:22.031113 | Updated current positions...BEGIN
+2022-08-07 21:09:22.079118 | Updated current positions...DONE
+2022-08-07 21:09:22.079258 | Warming up data.....BEGIN
+2022-08-07 21:09:24.442142 | Warming up data.....DONE
+2022-08-07 21:09:24.442271 | Updated trade amounts...BEGIN
+2022-08-07 21:09:24.489749 | Updated trade amounts...DONE
+2022-08-07 21:09:24.537903 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:09:24.587573 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:09:24.636809 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:09:24.685732 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:09:24.732600 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:09:24.789973 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:09:24.857369 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:09:24.903438 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:09:29.968574 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:09:35.028094 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:09:40.088117 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:09:45.147497 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:09:50.209728 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:09:55.215199 | --------------------------------------------------
+2022-08-07 21:09:55.215413 | Disconnecting...
+2022-08-07 21:09:58.228939 | DISCONNECTED
+2022-08-07 21:09:58.229164 | connection status: unset
+2022-08-07 21:09:58.229227 | *** restarting python script ***|
+2022-08-07 21:09:58.823929 | --------------------------------------------------
+2022-08-07 21:09:58.824024 | Connecting...
+2022-08-07 21:10:01.337388 | CONNECTED
+2022-08-07 21:10:01.337526 | connection status: established
+2022-08-07 21:10:01.337569 | --------------------------------------------------
+2022-08-07 21:10:01.337619 | Updated current positions...BEGIN
+2022-08-07 21:10:01.386440 | Updated current positions...DONE
+2022-08-07 21:10:01.386593 | Warming up data.....BEGIN
+2022-08-07 21:10:03.791767 | Warming up data.....DONE
+2022-08-07 21:10:03.791901 | Updated trade amounts...BEGIN
+2022-08-07 21:10:03.841577 | Updated trade amounts...DONE
+2022-08-07 21:10:03.891467 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:10:03.939608 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:10:03.988379 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:10:04.039444 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:10:04.122904 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:10:04.173169 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:10:04.220132 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:10:04.267188 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:10:09.322403 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:10:14.376646 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:10:20.122813 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:10:25.178022 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:10:30.239329 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:10:35.244573 | --------------------------------------------------
+2022-08-07 21:10:35.244819 | Disconnecting...
+2022-08-07 21:10:38.258601 | DISCONNECTED
+2022-08-07 21:10:38.258818 | connection status: unset
+2022-08-07 21:10:38.258882 | *** restarting python script ***|
+2022-08-07 21:10:38.849400 | --------------------------------------------------
+2022-08-07 21:10:38.849495 | Connecting...
+2022-08-07 21:10:41.422084 | CONNECTED
+2022-08-07 21:10:41.422227 | connection status: established
+2022-08-07 21:10:41.422268 | --------------------------------------------------
+2022-08-07 21:10:41.422331 | Updated current positions...BEGIN
+2022-08-07 21:10:41.478840 | Updated current positions...DONE
+2022-08-07 21:10:41.478981 | Warming up data.....BEGIN
+2022-08-07 21:10:44.012260 | Warming up data.....DONE
+2022-08-07 21:10:44.012402 | Updated trade amounts...BEGIN
+2022-08-07 21:10:44.062417 | Updated trade amounts...DONE
+2022-08-07 21:10:44.111292 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:10:44.159110 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:10:44.208154 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:10:44.255560 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:10:44.303956 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:10:44.352129 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:10:44.402262 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:10:44.457606 | ERROR | subscribe market data | Bund | attempt1.....retrying in 5 seconds
+2022-08-07 21:10:49.520864 | ERROR | subscribe market data | Bund | attempt2.....retrying in 5 seconds
+2022-08-07 21:10:54.577816 | ERROR | subscribe market data | Bund | attempt3.....retrying in 5 seconds
+2022-08-07 21:10:59.639265 | ERROR | subscribe market data | Bund | attempt4.....retrying in 5 seconds
+2022-08-07 21:11:04.697918 | ERROR | subscribe market data | Bund | attempt5.....retrying in 5 seconds
+2022-08-07 21:11:09.762738 | ERROR | subscribe market data | Bund | attempt6.....retrying in 5 seconds
+2022-08-07 21:11:14.767922 | --------------------------------------------------
+2022-08-07 21:11:14.768154 | Disconnecting...
+2022-08-07 21:11:17.781954 | DISCONNECTED
+2022-08-07 21:11:17.782180 | connection status: unset
+2022-08-07 21:11:17.782243 | *** restarting python script ***|
+2022-08-07 21:11:18.374807 | --------------------------------------------------
+2022-08-07 21:11:18.374905 | Connecting...
+2022-08-07 21:11:48.375119 | ERROR to connect...try again in 30 seconds
+2022-08-07 21:12:18.405477 | --------------------------------------------------
+2022-08-07 21:12:18.405707 | Connecting...
+2022-08-07 21:12:18.406620 | ERROR to connect...try again in 30 seconds
+2022-08-07 21:12:48.436891 | --------------------------------------------------
+2022-08-07 21:12:48.437120 | Connecting...
+2022-08-07 21:12:48.437937 | ERROR to connect...try again in 30 seconds
+2022-08-07 21:33:41.963933 | --------------------------------------------------
+2022-08-07 21:33:41.964048 | Connecting...
+2022-08-07 21:33:44.592535 | CONNECTED
+2022-08-07 21:33:44.592685 | connection status: established
+2022-08-07 21:33:44.592735 | --------------------------------------------------
+2022-08-07 21:33:44.592797 | Updated current positions...BEGIN
+2022-08-07 21:33:44.640676 | Updated current positions...DONE
+2022-08-07 21:33:44.640834 | Warming up data.....BEGIN
+2022-08-07 21:33:47.244159 | Warming up data.....DONE
+2022-08-07 21:33:47.244318 | Updated trade amounts...BEGIN
+2022-08-07 21:33:47.325400 | Updated trade amounts...DONE
+2022-08-07 21:33:47.377375 | SUBSCRIBED Market Data | EUR/USD
+2022-08-07 21:33:47.426146 | SUBSCRIBED Market Data | USD/JPY
+2022-08-07 21:33:47.476071 | SUBSCRIBED Market Data | GBP/USD
+2022-08-07 21:33:47.524027 | SUBSCRIBED Market Data | USD/CHF
+2022-08-07 21:33:47.573270 | SUBSCRIBED Market Data | AUD/USD
+2022-08-07 21:33:47.622152 | SUBSCRIBED Market Data | USD/CAD
+2022-08-07 21:33:47.669642 | SUBSCRIBED Market Data | NZD/USD
+2022-08-07 21:33:47.717894 | ERROR | subscribe market data | Bund.....retrying in 1 hour
+2022-08-07 21:33:47.767663 | ERROR | subscribe market data | AUS200.....retrying in 1 hour
+2022-08-07 21:33:47.815455 | ERROR | subscribe market data | CHN50.....retrying in 1 hour
+2022-08-07 21:33:47.862862 | ERROR | subscribe market data | ESP35.....retrying in 1 hour
+2022-08-07 21:33:47.918664 | ERROR | subscribe market data | EUSTX50.....retrying in 1 hour
+2022-08-07 21:33:47.966911 | ERROR | subscribe market data | FRA40.....retrying in 1 hour
+2022-08-07 21:33:48.014894 | ERROR | subscribe market data | GER30.....retrying in 1 hour
+2022-08-07 21:33:48.077157 | ERROR | subscribe market data | HKG33.....retrying in 1 hour
+2022-08-07 21:33:48.127562 | ERROR | subscribe market data | JPN225.....retrying in 1 hour
+2022-08-07 21:33:48.180361 | ERROR | subscribe market data | NAS100.....retrying in 1 hour
+2022-08-07 21:33:48.229343 | ERROR | subscribe market data | SPX500.....retrying in 1 hour
+2022-08-07 21:33:48.277119 | ERROR | subscribe market data | UK100.....retrying in 1 hour
+2022-08-07 21:33:48.325527 | ERROR | subscribe market data | US30.....retrying in 1 hour
+2022-08-07 21:33:48.372606 | ERROR | subscribe market data | Copper.....retrying in 1 hour
+2022-08-07 21:33:48.467103 | ERROR | subscribe market data | NGAS.....retrying in 1 hour
+2022-08-07 21:33:48.515734 | ERROR | subscribe market data | UKOil.....retrying in 1 hour
+2022-08-07 21:33:48.566308 | ERROR | subscribe market data | USOil.....retrying in 1 hour
+2022-08-07 21:33:48.614671 | ERROR | subscribe market data | XAU/USD.....retrying in 1 hour
+2022-08-07 21:33:48.663674 | ERROR | subscribe market data | XAG/USD.....retrying in 1 hour
+2022-08-07 21:33:48.663825 | ['Bund', 'AUS200', 'CHN50', 'ESP35', 'EUSTX50', 'FRA40', 'GER30', 'HKG33', 'JPN225', 'NAS100', 'SPX500', 'UK100', 'US30', 'Copper', 'NGAS', 'UKOil', 'USOil', 'XAU/USD', 'XAG/USD']
+2022-08-07 22:00:00.680733 | CLOSE SHORT.....USD/JPY
+2022-08-07 22:00:06.746083 | OPEN LONG.....USD/JPY.....25 units
+2022-08-07 22:10:01.176364 | Updated current positions...BEGIN
+2022-08-07 22:10:01.304078 | Updated current positions...DONE
+2022-08-07 22:15:01.088141 | Updated trade amounts...BEGIN
+2022-08-07 22:15:01.156785 | Updated trade amounts...DONE
+2022-08-07 22:33:48.830541 | ERROR | subscribe market data | Bund.....retrying in 1 hour
+2022-08-07 22:33:48.884981 | ERROR | subscribe market data | AUS200.....retrying in 1 hour
+2022-08-07 22:33:48.964134 | ERROR | subscribe market data | CHN50.....retrying in 1 hour
+2022-08-07 22:33:49.061269 | ERROR | subscribe market data | ESP35.....retrying in 1 hour
+2022-08-07 22:33:49.109637 | ERROR | subscribe market data | EUSTX50.....retrying in 1 hour
+2022-08-07 22:33:49.176241 | ERROR | subscribe market data | FRA40.....retrying in 1 hour
+2022-08-07 22:33:49.229244 | ERROR | subscribe market data | GER30.....retrying in 1 hour
+2022-08-07 22:33:49.324921 | ERROR | subscribe market data | HKG33.....retrying in 1 hour
+2022-08-07 22:33:49.371708 | SUBSCRIBED Market Data | JPN225
+2022-08-07 22:33:49.471205 | SUBSCRIBED Market Data | SPX500
+2022-08-07 22:33:49.547206 | SUBSCRIBED Market Data | US30
+2022-08-07 22:33:49.599441 | SUBSCRIBED Market Data | NGAS
+2022-08-07 22:33:49.649884 | SUBSCRIBED Market Data | USOil
+2022-08-07 22:33:49.698687 | SUBSCRIBED Market Data | XAG/USD
+2022-08-07 22:33:49.698850 | ['Bund', 'AUS200', 'CHN50', 'ESP35', 'EUSTX50', 'FRA40', 'GER30', 'HKG33', 'NAS100', 'UK100', 'Copper', 'UKOil', 'XAU/USD']
+2022-08-07 23:00:00.368010 | CLOSE SHORT.....USOil
+2022-08-07 23:00:03.212044 | CLOSE LONG.....XAG/USD
+2022-08-07 23:00:06.427030 | OPEN LONG.....USOil.....3 units
+2022-08-07 23:00:09.321429 | OPEN SHORT.....XAG/USD.....213 units
+2022-08-07 23:01:25.897930 | CLOSE LONG.....NGAS
+2022-08-07 23:01:31.966252 | OPEN SHORT.....NGAS.....2 units
+2022-08-07 23:10:00.630795 | Updated current positions...BEGIN
+2022-08-07 23:10:00.711950 | Updated current positions...DONE
+2022-08-07 23:15:00.469057 | Updated trade amounts...BEGIN
+2022-08-07 23:15:00.532544 | Updated trade amounts...DONE
+2022-08-07 23:33:49.944207 | ERROR | subscribe market data | Bund.....retrying in 1 hour
+2022-08-07 23:33:50.033533 | ERROR | subscribe market data | AUS200.....retrying in 1 hour
+2022-08-07 23:33:50.114190 | ERROR | subscribe market data | CHN50.....retrying in 1 hour
+2022-08-07 23:33:50.205874 | ERROR | subscribe market data | ESP35.....retrying in 1 hour
+2022-08-07 23:33:50.449410 | ERROR | subscribe market data | EUSTX50.....retrying in 1 hour
+2022-08-07 23:33:50.499894 | ERROR | subscribe market data | FRA40.....retrying in 1 hour
+2022-08-07 23:33:50.576832 | ERROR | subscribe market data | GER30.....retrying in 1 hour
+2022-08-07 23:33:50.626046 | ERROR | subscribe market data | HKG33.....retrying in 1 hour
+2022-08-07 23:33:50.703848 | SUBSCRIBED Market Data | NAS100
+2022-08-07 23:33:50.751666 | SUBSCRIBED Market Data | Copper
+2022-08-07 23:33:50.800707 | SUBSCRIBED Market Data | XAU/USD
+2022-08-07 23:33:50.800868 | ['Bund', 'AUS200', 'CHN50', 'ESP35', 'EUSTX50', 'FRA40', 'GER30', 'HKG33', 'UK100', 'UKOil']

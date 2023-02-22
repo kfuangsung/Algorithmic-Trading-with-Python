@@ -1,0 +1,67 @@
+2022-07-25 15:44:23.279253 | --------------------------------------------------
+2022-07-25 15:44:23.279542 | Connecting...
+2022-07-25 15:44:26.382512 | CONNECTED
+2022-07-25 15:44:26.382727 | connection status: established
+2022-07-25 15:44:26.382785 | --------------------------------------------------
+2022-07-25 15:44:26.473898 | Updated current positions |
+2022-07-25 15:44:28.806083 | Warming up data.....Done
+2022-07-25 15:44:28.966442 | Updated trade amounts
+2022-07-25 15:49:35.660756 | --------------------------------------------------
+2022-07-25 15:49:35.660923 | Connecting...
+2022-07-25 15:49:38.328443 | CONNECTED
+2022-07-25 15:49:38.328619 | connection status: established
+2022-07-25 15:49:38.328678 | --------------------------------------------------
+2022-07-25 15:49:38.405669 | Updated current positions |
+2022-07-25 15:49:40.726346 | Warming up data.....Done
+2022-07-25 15:49:40.781668 | Updated trade amounts
+2022-07-25 16:00:00.141481 | OPEN SHORT.....USD/CAD.....26 units
+2022-07-25 16:00:00.160183 | OPEN SHORT.....USD/JPY.....26 units
+2022-07-25 16:00:01.500068 | OPEN LONG.....XAU/USD.....6 units
+2022-07-25 16:00:01.715694 | OPEN LONG.....AUS200.....52 units
+2022-07-25 16:00:01.733438 | OPEN SHORT.....HKG33.....8 units
+2022-07-25 16:00:01.772371 | OPEN LONG.....UKOil.....3 units
+2022-07-25 16:00:01.775910 | OPEN LONG.....UK100.....27 units
+2022-07-25 16:00:01.809343 | OPEN SHORT.....USOil.....3 units
+2022-07-25 16:00:01.816316 | OPEN LONG.....GER30.....8 units
+2022-07-25 16:00:01.821224 | OPEN LONG.....US30.....3 units
+2022-07-25 16:00:01.830351 | OPEN SHORT.....JPN225.....120 units
+2022-07-25 16:00:01.837259 | OPEN LONG.....SPX500.....3 units
+2022-07-25 16:00:01.854211 | OPEN LONG.....AUD/USD.....33 units
+2022-07-25 16:00:01.867149 | OPEN SHORT.....NAS100.....10 units
+2022-07-25 16:00:01.888285 | OPEN LONG.....EUR/USD.....22 units
+2022-07-25 16:00:01.889390 | OPEN LONG.....GBP/USD.....18 units
+2022-07-25 16:00:01.891398 | OPEN SHORT.....USD/CHF.....13 units
+2022-07-25 16:00:02.109054 | OPEN LONG.....NGAS.....3 units
+2022-07-25 16:00:02.111699 | OPEN LONG.....Copper.....7 units
+2022-07-25 16:00:02.504032 | OPEN LONG.....NZD/USD.....37 units
+2022-07-25 16:00:02.505377 | OPEN SHORT.....XAG/USD.....220 units
+2022-07-25 16:00:03.472211 | OPEN LONG.....FRA40.....38 units
+2022-07-25 16:00:11.231692 | OPEN LONG.....EUSTX50.....64 units
+2022-07-25 16:00:16.503769 | OPEN LONG.....ESP35.....27 units
+2022-07-25 16:10:01.161957 | Updated current positions |
+2022-07-25 16:10:01.168587 | Updated trade amounts
+2022-07-25 17:00:00.774589 | CLOSE SHORT.....USOil
+2022-07-25 17:00:14.561830 | OPEN LONG.....USOil.....3 units
+2022-07-25 17:10:00.319972 | Updated trade amounts
+2022-07-25 17:10:14.290725 | Updated current positions |
+2022-07-25 18:05:02.147201 | --------------------------------------------------
+2022-07-25 18:05:02.147306 | Connecting...
+2022-07-25 18:05:04.958092 | CONNECTED
+2022-07-25 18:05:04.958247 | connection status: established
+2022-07-25 18:05:04.958291 | --------------------------------------------------
+2022-07-25 18:05:05.008760 | Updated current positions |
+2022-07-25 18:05:07.347812 | Warming up data.....Done
+2022-07-25 18:05:07.399135 | Updated trade amounts
+2022-07-25 19:10:00.543155 | Updated current positions |
+2022-07-25 19:10:00.549844 | Updated trade amounts
+2022-07-25 20:10:01.070447 | Updated trade amounts
+2022-07-25 20:10:01.078297 | Updated current positions |
+2022-07-25 21:10:01.587626 | Updated trade amounts
+2022-07-25 21:10:01.741227 | Updated current positions |
+2022-07-25 22:00:00.557967 | CLOSE LONG.....USOil
+2022-07-25 22:00:06.650156 | OPEN SHORT.....USOil.....3 units
+2022-07-25 22:04:18.358912 | OPEN LONG.....NGAS.....3 units
+2022-07-25 22:10:01.082823 | Updated current positions |
+2022-07-25 22:10:01.088345 | Updated trade amounts
+2022-07-25 23:10:00.655063 | Updated trade amounts
+2022-07-25 23:10:00.659888 | Updated current positions |

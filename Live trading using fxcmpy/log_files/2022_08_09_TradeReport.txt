@@ -1,0 +1,136 @@
+2022-08-09 00:10:00.902005 | Updated current positions...BEGIN
+2022-08-09 00:10:01.004033 | Updated current positions...DONE
+2022-08-09 00:15:00.425242 | Updated trade amounts...BEGIN
+2022-08-09 00:15:00.841440 | Updated trade amounts...DONE
+2022-08-09 01:10:00.176174 | Updated current positions...BEGIN
+2022-08-09 01:10:00.277746 | Updated current positions...DONE
+2022-08-09 01:15:00.885461 | Updated trade amounts...BEGIN
+2022-08-09 01:15:01.115982 | Updated trade amounts...DONE
+2022-08-09 02:10:00.362878 | Updated current positions...BEGIN
+2022-08-09 02:10:00.439921 | Updated current positions...DONE
+2022-08-09 02:15:00.216958 | Updated trade amounts...BEGIN
+2022-08-09 02:15:00.354653 | Updated trade amounts...DONE
+2022-08-09 03:10:00.444163 | Updated current positions...BEGIN
+2022-08-09 03:10:00.715587 | Updated current positions...DONE
+2022-08-09 03:15:00.529180 | Updated trade amounts...BEGIN
+2022-08-09 03:15:00.942321 | Updated trade amounts...DONE
+2022-08-09 04:10:00.800331 | Updated current positions...BEGIN
+2022-08-09 04:10:01.272751 | Updated current positions...DONE
+2022-08-09 04:15:01.124725 | Updated trade amounts...BEGIN
+2022-08-09 04:15:01.585477 | Updated trade amounts...DONE
+2022-08-09 05:00:01.165403 | CLOSE SHORT.....GBP/USD
+2022-08-09 05:00:17.407590 | OPEN LONG.....GBP/USD.....17 units
+2022-08-09 05:10:00.437030 | Updated current positions...BEGIN
+2022-08-09 05:10:01.547263 | Updated current positions...DONE
+2022-08-09 05:15:00.877458 | Updated trade amounts...BEGIN
+2022-08-09 05:15:01.691387 | Updated trade amounts...DONE
+2022-08-09 06:00:03.150861 | CLOSE LONG.....USD/CHF
+2022-08-09 06:00:04.236131 | CLOSE SHORT.....CHN50
+2022-08-09 06:00:08.388416 | FAILED | open short | USD/CHF
+2022-08-09 06:00:19.317017 | OPEN LONG.....CHN50.....1 units
+2022-08-09 06:10:00.880884 | Updated current positions...BEGIN
+2022-08-09 06:10:00.945142 | Updated current positions...DONE
+2022-08-09 06:15:01.225395 | Updated trade amounts...BEGIN
+2022-08-09 06:15:04.317105 | Updated trade amounts...DONE
+2022-08-09 07:00:23.809294 | OPEN SHORT.....USD/CHF.....12 units
+2022-08-09 07:10:01.178178 | Updated current positions...BEGIN
+2022-08-09 07:10:01.244057 | Updated current positions...DONE
+2022-08-09 07:15:00.512808 | Updated trade amounts...BEGIN
+2022-08-09 07:15:00.578785 | Updated trade amounts...DONE
+2022-08-09 08:00:00.796446 | CLOSE SHORT.....AUD/USD
+2022-08-09 08:00:15.917907 | OPEN LONG.....AUD/USD.....31 units
+2022-08-09 08:10:00.452107 | Updated current positions...BEGIN
+2022-08-09 08:10:00.507024 | Updated current positions...DONE
+2022-08-09 08:15:00.762715 | Updated trade amounts...BEGIN
+2022-08-09 08:15:00.831576 | Updated trade amounts...DONE
+2022-08-09 09:10:00.622875 | Updated current positions...BEGIN
+2022-08-09 09:10:00.736555 | Updated current positions...DONE
+2022-08-09 09:15:00.910536 | Updated trade amounts...BEGIN
+2022-08-09 09:15:00.994919 | Updated trade amounts...DONE
+2022-08-09 10:10:00.800672 | Updated current positions...BEGIN
+2022-08-09 10:10:00.893202 | Updated current positions...DONE
+2022-08-09 10:15:01.060179 | Updated trade amounts...BEGIN
+2022-08-09 10:15:01.135721 | Updated trade amounts...DONE
+2022-08-09 11:10:01.014840 | Updated current positions...BEGIN
+2022-08-09 11:10:01.117630 | Updated current positions...DONE
+2022-08-09 11:15:02.208267 | Updated trade amounts...BEGIN
+2022-08-09 11:15:02.439512 | ERROR | get_accounts_summary | attempt1.....retrying in 5 seconds
+2022-08-09 12:10:02.175057 | Updated current positions...BEGIN
+2022-08-09 12:10:03.217169 | Updated current positions...DONE
+2022-08-09 13:10:00.486146 | Updated current positions...BEGIN
+2022-08-09 13:10:00.692161 | Updated current positions...DONE
+2022-08-09 14:10:01.152291 | Updated current positions...BEGIN
+2022-08-09 14:10:02.812083 | Updated current positions...DONE
+2022-08-09 15:10:00.875033 | Updated current positions...BEGIN
+2022-08-09 15:10:02.407189 | Updated current positions...DONE
+2022-08-09 15:18:35.276584 | --------------------------------------------------
+2022-08-09 15:18:35.276701 | Connecting...
+2022-08-09 15:18:42.321041 | CONNECTED
+2022-08-09 15:18:42.321238 | connection status: established
+2022-08-09 15:18:42.321297 | --------------------------------------------------
+2022-08-09 15:18:42.321368 | Updated current positions...BEGIN
+2022-08-09 15:18:42.381372 | Updated current positions...DONE
+2022-08-09 15:18:42.381548 | Warming up data.....BEGIN
+2022-08-09 15:18:54.943531 | Warming up data.....DONE
+2022-08-09 15:18:54.943702 | Updated trade amounts...BEGIN
+2022-08-09 15:18:54.992374 | Updated trade amounts...DONE
+2022-08-09 15:18:55.501424 | SUBSCRIBED Market Data | EUR/USD
+2022-08-09 15:18:55.557368 | SUBSCRIBED Market Data | USD/JPY
+2022-08-09 15:18:56.052069 | SUBSCRIBED Market Data | GBP/USD
+2022-08-09 15:18:56.106299 | SUBSCRIBED Market Data | USD/CHF
+2022-08-09 15:18:56.156980 | SUBSCRIBED Market Data | AUD/USD
+2022-08-09 15:18:56.311391 | SUBSCRIBED Market Data | USD/CAD
+2022-08-09 15:18:56.561762 | SUBSCRIBED Market Data | NZD/USD
+2022-08-09 15:18:56.612183 | SUBSCRIBED Market Data | Bund
+2022-08-09 15:18:56.686157 | SUBSCRIBED Market Data | AUS200
+2022-08-09 15:18:56.933305 | SUBSCRIBED Market Data | CHN50
+2022-08-09 15:18:57.169524 | SUBSCRIBED Market Data | ESP35
+2022-08-09 15:18:57.221372 | SUBSCRIBED Market Data | EUSTX50
+2022-08-09 15:18:57.271267 | SUBSCRIBED Market Data | FRA40
+2022-08-09 15:18:57.685043 | SUBSCRIBED Market Data | GER30
+2022-08-09 15:18:57.968510 | SUBSCRIBED Market Data | HKG33
+2022-08-09 15:18:58.019391 | SUBSCRIBED Market Data | JPN225
+2022-08-09 15:18:58.229803 | SUBSCRIBED Market Data | NAS100
+2022-08-09 15:18:59.028967 | SUBSCRIBED Market Data | SPX500
+2022-08-09 15:18:59.399634 | SUBSCRIBED Market Data | UK100
+2022-08-09 15:18:59.451133 | SUBSCRIBED Market Data | US30
+2022-08-09 15:19:00.138672 | SUBSCRIBED Market Data | Copper
+2022-08-09 15:19:00.412937 | SUBSCRIBED Market Data | NGAS
+2022-08-09 15:19:03.706167 | SUBSCRIBED Market Data | UKOil
+2022-08-09 15:19:11.266456 | SUBSCRIBED Market Data | USOil
+2022-08-09 15:19:14.148248 | SUBSCRIBED Market Data | XAU/USD
+2022-08-09 15:19:15.643481 | SUBSCRIBED Market Data | XAG/USD
+2022-08-09 16:10:00.281695 | Updated current positions...BEGIN
+2022-08-09 16:10:01.886726 | ERROR | get_open_positions | attempt1.....retrying in 5 seconds
+2022-08-09 16:10:08.180584 | ERROR | get_open_positions | attempt2.....retrying in 5 seconds
+2022-08-09 16:10:15.196152 | ERROR | get_open_positions | attempt3.....retrying in 5 seconds
+2022-08-09 16:10:21.314598 | ERROR | get_open_positions | attempt4.....retrying in 5 seconds
+2022-08-09 16:10:27.556402 | ERROR | get_open_positions | attempt5.....retrying in 5 seconds
+2022-08-09 16:10:33.890567 | ERROR | get_open_positions | attempt6.....retrying in 5 seconds
+2022-08-09 16:10:38.895833 | --------------------------------------------------
+2022-08-09 16:10:38.896063 | Disconnecting...
+2022-08-09 16:10:38.896145 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:10:43.901365 | --------------------------------------------------
+2022-08-09 16:10:43.901775 | Disconnecting...
+2022-08-09 16:10:43.901975 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:10:48.907254 | --------------------------------------------------
+2022-08-09 16:10:48.907497 | Disconnecting...
+2022-08-09 16:10:48.907843 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:10:53.913079 | --------------------------------------------------
+2022-08-09 16:10:53.913494 | Disconnecting...
+2022-08-09 16:10:53.913707 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:10:58.918991 | --------------------------------------------------
+2022-08-09 16:10:58.919392 | Disconnecting...
+2022-08-09 16:10:58.919857 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:11:03.925044 | --------------------------------------------------
+2022-08-09 16:11:03.925226 | Disconnecting...
+2022-08-09 16:11:03.925663 | ERROR | close connection...try again in 5 seconds
+2022-08-09 16:11:08.930351 | *** restarting python script ***|
+2022-08-09 16:11:09.537746 | --------------------------------------------------
+2022-08-09 16:11:09.537868 | Connecting...
+2022-08-09 16:11:25.913631 | CONNECTED
+2022-08-09 16:11:25.913803 | connection status: established
+2022-08-09 16:11:25.913867 | --------------------------------------------------
+2022-08-09 16:11:25.913936 | Updated current positions...BEGIN
+2022-08-09 16:11:28.805631 | Updated current positions...DONE
+2022-08-09 16:11:28.805812 | Warming up data.....BEGIN

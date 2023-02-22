@@ -1,0 +1,220 @@
+2022-11-15 00:10:01.281437 | Check duplicate positions...BEGIN
+2022-11-15 00:10:01.476446 | Check duplicate positions...DONE
+2022-11-15 00:15:00.881703 | Update current positions...BEGIN
+2022-11-15 00:15:00.984359 | Update current positions...DONE
+2022-11-15 00:15:00.984508 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 00:20:00.451108 | Update trade amounts...BEGIN
+2022-11-15 00:20:00.587932 | Update trade amounts...DONE
+2022-11-15 00:25:00.692262 | Log account report.....BEGIN
+2022-11-15 00:25:00.969366 | Log account report.....DONE
+2022-11-15 01:10:00.486489 | Check duplicate positions...BEGIN
+2022-11-15 01:10:00.752737 | Check duplicate positions...DONE
+2022-11-15 01:15:01.037761 | Update current positions...BEGIN
+2022-11-15 01:15:01.166746 | Update current positions...DONE
+2022-11-15 01:15:01.166913 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 01:20:00.708548 | Update trade amounts...BEGIN
+2022-11-15 01:20:01.169771 | Update trade amounts...DONE
+2022-11-15 01:25:01.350200 | Log account report.....BEGIN
+2022-11-15 01:25:01.518275 | Log account report.....DONE
+2022-11-15 02:10:00.756642 | Check duplicate positions...BEGIN
+2022-11-15 02:10:00.931458 | Check duplicate positions...DONE
+2022-11-15 02:15:00.244087 | Update current positions...BEGIN
+2022-11-15 02:15:00.701619 | Update current positions...DONE
+2022-11-15 02:15:00.702148 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 02:20:00.613679 | Update trade amounts...BEGIN
+2022-11-15 02:20:00.702252 | Update trade amounts...DONE
+2022-11-15 02:25:00.676615 | Log account report.....BEGIN
+2022-11-15 02:25:00.745090 | Log account report.....DONE
+2022-11-15 03:10:01.001029 | Check duplicate positions...BEGIN
+2022-11-15 03:10:01.372001 | Check duplicate positions...DONE
+2022-11-15 03:15:00.848381 | Update current positions...BEGIN
+2022-11-15 03:15:01.056219 | Update current positions...DONE
+2022-11-15 03:15:01.056364 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 03:20:00.811715 | Update trade amounts...BEGIN
+2022-11-15 03:20:01.047991 | Update trade amounts...DONE
+2022-11-15 03:25:01.033864 | Log account report.....BEGIN
+2022-11-15 03:25:01.509837 | Log account report.....DONE
+2022-11-15 04:10:00.389401 | Check duplicate positions...BEGIN
+2022-11-15 04:10:00.556055 | Check duplicate positions...DONE
+2022-11-15 04:15:00.431066 | Update current positions...BEGIN
+2022-11-15 04:15:00.530879 | Update current positions...DONE
+2022-11-15 04:15:00.531049 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 04:20:00.210850 | Update trade amounts...BEGIN
+2022-11-15 04:20:00.333444 | Update trade amounts...DONE
+2022-11-15 04:25:00.708256 | Log account report.....BEGIN
+2022-11-15 04:25:01.015600 | Log account report.....DONE
+2022-11-15 05:10:00.762760 | Check duplicate positions...BEGIN
+2022-11-15 05:10:00.915051 | Check duplicate positions...DONE
+2022-11-15 05:15:00.844584 | Update current positions...BEGIN
+2022-11-15 05:15:01.032022 | Update current positions...DONE
+2022-11-15 05:15:01.032169 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 05:20:00.530052 | Update trade amounts...BEGIN
+2022-11-15 05:20:00.633279 | Update trade amounts...DONE
+2022-11-15 05:25:00.468124 | Log account report.....BEGIN
+2022-11-15 05:25:00.583398 | Log account report.....DONE
+2022-11-15 06:10:01.124203 | Check duplicate positions...BEGIN
+2022-11-15 06:10:01.345247 | Check duplicate positions...DONE
+2022-11-15 06:15:00.036812 | Update current positions...BEGIN
+2022-11-15 06:15:00.434145 | Update current positions...DONE
+2022-11-15 06:15:00.434297 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 06:20:00.732612 | Update trade amounts...BEGIN
+2022-11-15 06:20:00.835165 | Update trade amounts...DONE
+2022-11-15 06:25:00.876309 | Log account report.....BEGIN
+2022-11-15 06:25:01.074827 | Log account report.....DONE
+2022-11-15 07:10:00.362879 | Check duplicate positions...BEGIN
+2022-11-15 07:10:01.207465 | Check duplicate positions...DONE
+2022-11-15 07:15:00.620029 | Update current positions...BEGIN
+2022-11-15 07:15:00.716475 | Update current positions...DONE
+2022-11-15 07:15:00.721526 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 07:20:00.856528 | Update trade amounts...BEGIN
+2022-11-15 07:20:01.279432 | Update trade amounts...DONE
+2022-11-15 07:25:00.358181 | Log account report.....BEGIN
+2022-11-15 07:25:00.635979 | Log account report.....DONE
+2022-11-15 08:10:00.371546 | Check duplicate positions...BEGIN
+2022-11-15 08:10:01.344458 | Check duplicate positions...DONE
+2022-11-15 08:15:01.639904 | Update current positions...BEGIN
+2022-11-15 08:15:08.588882 | Update current positions...DONE
+2022-11-15 08:15:08.589158 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 08:20:00.616265 | Update trade amounts...BEGIN
+2022-11-15 08:20:00.758944 | Update trade amounts...DONE
+2022-11-15 08:25:04.598768 | Log account report.....BEGIN
+2022-11-15 08:25:07.727211 | Log account report.....DONE
+2022-11-15 09:10:00.490820 | Check duplicate positions...BEGIN
+2022-11-15 09:10:00.880357 | Check duplicate positions...DONE
+2022-11-15 09:15:00.943897 | Update current positions...BEGIN
+2022-11-15 09:15:01.093374 | Update current positions...DONE
+2022-11-15 09:15:01.093516 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 09:20:00.839492 | Update trade amounts...BEGIN
+2022-11-15 09:20:01.297360 | Update trade amounts...DONE
+2022-11-15 09:25:01.053078 | Log account report.....BEGIN
+2022-11-15 09:25:01.221654 | Log account report.....DONE
+2022-11-15 10:10:01.398457 | Check duplicate positions...BEGIN
+2022-11-15 10:10:01.972358 | Check duplicate positions...DONE
+2022-11-15 10:15:00.321656 | Update current positions...BEGIN
+2022-11-15 10:15:00.420031 | Update current positions...DONE
+2022-11-15 10:15:00.420180 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 10:20:00.537875 | Update trade amounts...BEGIN
+2022-11-15 10:20:00.636927 | Update trade amounts...DONE
+2022-11-15 10:25:00.396543 | Log account report.....BEGIN
+2022-11-15 10:25:00.703045 | Log account report.....DONE
+2022-11-15 11:10:01.773058 | Check duplicate positions...BEGIN
+2022-11-15 11:10:02.033312 | Check duplicate positions...DONE
+2022-11-15 11:15:00.839183 | Update current positions...BEGIN
+2022-11-15 11:15:01.493559 | Update current positions...DONE
+2022-11-15 11:15:01.493709 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 11:20:00.700665 | Update trade amounts...BEGIN
+2022-11-15 11:20:01.147831 | Update trade amounts...DONE
+2022-11-15 11:25:00.704378 | Log account report.....BEGIN
+2022-11-15 11:25:00.843921 | Log account report.....DONE
+2022-11-15 12:10:00.092323 | Check duplicate positions...BEGIN
+2022-11-15 12:10:00.278561 | Check duplicate positions...DONE
+2022-11-15 12:15:00.614831 | Update current positions...BEGIN
+2022-11-15 12:15:00.896569 | Update current positions...DONE
+2022-11-15 12:15:00.896718 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 12:20:00.241351 | Update trade amounts...BEGIN
+2022-11-15 12:20:00.298768 | Update trade amounts...DONE
+2022-11-15 12:25:00.844920 | Log account report.....BEGIN
+2022-11-15 12:25:01.173285 | Log account report.....DONE
+2022-11-15 13:10:00.554146 | Check duplicate positions...BEGIN
+2022-11-15 13:10:00.739030 | Check duplicate positions...DONE
+2022-11-15 13:15:00.914462 | Update current positions...BEGIN
+2022-11-15 13:15:01.822395 | Update current positions...DONE
+2022-11-15 13:15:01.822528 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 13:20:00.308772 | Update trade amounts...BEGIN
+2022-11-15 13:20:00.387488 | Update trade amounts...DONE
+2022-11-15 13:25:00.339426 | Log account report.....BEGIN
+2022-11-15 13:25:01.085954 | Log account report.....DONE
+2022-11-15 14:10:00.739560 | Check duplicate positions...BEGIN
+2022-11-15 14:10:01.068805 | ERROR | get_open_positions | attempt1.....retrying in 10 seconds
+2022-11-15 14:10:01.069105 | ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-11-15 14:10:11.247298 | ERROR | get_open_positions | attempt2.....retrying in 10 seconds
+2022-11-15 14:10:11.247957 | ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-11-15 14:10:21.941862 | Check duplicate positions...DONE
+2022-11-15 14:15:00.977069 | Update current positions...BEGIN
+2022-11-15 14:15:01.212553 | Update current positions...DONE
+2022-11-15 14:15:01.212703 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 14:20:00.553481 | Update trade amounts...BEGIN
+2022-11-15 14:20:00.938957 | Update trade amounts...DONE
+2022-11-15 14:25:00.533113 | Log account report.....BEGIN
+2022-11-15 14:25:00.696062 | Log account report.....DONE
+2022-11-15 15:10:01.298241 | Check duplicate positions...BEGIN
+2022-11-15 15:10:02.061394 | Check duplicate positions...DONE
+2022-11-15 15:15:00.971025 | Update current positions...BEGIN
+2022-11-15 15:15:02.957991 | Update current positions...DONE
+2022-11-15 15:15:02.961940 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 15:20:01.496053 | Update trade amounts...BEGIN
+2022-11-15 15:20:04.035154 | Update trade amounts...DONE
+2022-11-15 15:25:00.796422 | Log account report.....BEGIN
+2022-11-15 15:25:01.634586 | Log account report.....DONE
+2022-11-15 16:10:00.297636 | Check duplicate positions...BEGIN
+2022-11-15 16:10:01.209741 | Check duplicate positions...DONE
+2022-11-15 16:15:01.192230 | Update current positions...BEGIN
+2022-11-15 16:15:02.660689 | Update current positions...DONE
+2022-11-15 16:15:02.660838 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 16:20:00.097953 | Update trade amounts...BEGIN
+2022-11-15 16:20:00.685143 | Update trade amounts...DONE
+2022-11-15 16:25:00.789835 | Log account report.....BEGIN
+2022-11-15 16:25:00.901447 | Log account report.....DONE
+2022-11-15 17:10:00.652714 | Check duplicate positions...BEGIN
+2022-11-15 17:10:01.174085 | Check duplicate positions...DONE
+2022-11-15 17:15:00.888562 | Update current positions...BEGIN
+2022-11-15 17:15:01.619450 | Update current positions...DONE
+2022-11-15 17:15:01.623708 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 17:20:00.807581 | Update trade amounts...BEGIN
+2022-11-15 17:20:00.907498 | Update trade amounts...DONE
+2022-11-15 17:25:00.904707 | Log account report.....BEGIN
+2022-11-15 17:25:01.498105 | Log account report.....DONE
+2022-11-15 18:10:01.562231 | Check duplicate positions...BEGIN
+2022-11-15 18:10:03.070692 | Check duplicate positions...DONE
+2022-11-15 18:15:08.423473 | Update current positions...BEGIN
+2022-11-15 18:15:14.022846 | Update current positions...DONE
+2022-11-15 18:15:14.023010 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 18:20:01.098646 | Update trade amounts...BEGIN
+2022-11-15 18:20:01.724753 | Update trade amounts...DONE
+2022-11-15 18:25:01.191982 | Log account report.....BEGIN
+2022-11-15 18:25:03.970861 | Log account report.....DONE
+2022-11-15 19:10:00.396091 | Check duplicate positions...BEGIN
+2022-11-15 19:10:00.968409 | Check duplicate positions...DONE
+2022-11-15 19:15:00.166833 | Update current positions...BEGIN
+2022-11-15 19:15:00.794225 | Update current positions...DONE
+2022-11-15 19:15:00.794383 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 19:20:00.725703 | Update trade amounts...BEGIN
+2022-11-15 19:20:01.575609 | Update trade amounts...DONE
+2022-11-15 19:25:00.971654 | Log account report.....BEGIN
+2022-11-15 19:25:01.855884 | Log account report.....DONE
+2022-11-15 20:10:01.221656 | Check duplicate positions...BEGIN
+2022-11-15 20:10:02.616305 | Check duplicate positions...DONE
+2022-11-15 20:15:01.212452 | Update current positions...BEGIN
+2022-11-15 20:15:02.456432 | Update current positions...DONE
+2022-11-15 20:15:02.460340 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 20:20:01.056075 | Update trade amounts...BEGIN
+2022-11-15 20:20:02.378921 | Update trade amounts...DONE
+2022-11-15 20:25:01.169435 | Log account report.....BEGIN
+2022-11-15 20:25:01.595926 | Log account report.....DONE
+2022-11-15 21:10:00.717471 | Check duplicate positions...BEGIN
+2022-11-15 21:10:01.221717 | Check duplicate positions...DONE
+2022-11-15 21:15:00.520105 | Update current positions...BEGIN
+2022-11-15 21:15:02.295463 | Update current positions...DONE
+2022-11-15 21:15:02.295611 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 21:20:00.538503 | Update trade amounts...BEGIN
+2022-11-15 21:20:00.645879 | Update trade amounts...DONE
+2022-11-15 21:25:00.801259 | Log account report.....BEGIN
+2022-11-15 21:25:00.962796 | Log account report.....DONE
+2022-11-15 22:10:00.308231 | Check duplicate positions...BEGIN
+2022-11-15 22:10:00.517561 | Check duplicate positions...DONE
+2022-11-15 22:15:00.532192 | Update current positions...BEGIN
+2022-11-15 22:15:00.807886 | Update current positions...DONE
+2022-11-15 22:15:00.808036 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 22:20:07.960285 | Update trade amounts...BEGIN
+2022-11-15 22:20:08.112106 | Update trade amounts...DONE
+2022-11-15 22:25:03.766199 | Log account report.....BEGIN
+2022-11-15 22:25:03.823132 | Log account report.....DONE
+2022-11-15 23:10:00.519849 | Check duplicate positions...BEGIN
+2022-11-15 23:10:00.684191 | Check duplicate positions...DONE
+2022-11-15 23:15:00.842392 | Update current positions...BEGIN
+2022-11-15 23:15:00.915231 | Update current positions...DONE
+2022-11-15 23:15:00.915442 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'USOil': 1, 'XAU/USD': 1}
+2022-11-15 23:20:00.218950 | Update trade amounts...BEGIN
+2022-11-15 23:20:00.288179 | Update trade amounts...DONE
+2022-11-15 23:25:01.199107 | Log account report.....BEGIN
+2022-11-15 23:25:01.421580 | Log account report.....DONE

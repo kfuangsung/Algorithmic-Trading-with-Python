@@ -1,0 +1,167 @@
+2022-08-14 11:19:42.294479 | --------------------------------------------------
+2022-08-14 11:19:42.294624 | Connecting...
+2022-08-14 11:19:44.934785 | CONNECTED
+2022-08-14 11:19:44.935022 | connection status: established
+2022-08-14 11:19:44.935336 | --------------------------------------------------
+2022-08-14 11:19:44.935452 | Update current positions...BEGIN
+2022-08-14 11:19:45.017942 | Update current positions...DONE
+2022-08-14 11:19:45.018055 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 2, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-14 11:19:45.018194 | Warming up data.....BEGIN
+2022-08-14 11:19:47.564526 | Warming up data.....DONE
+2022-08-14 11:19:47.564702 | Update trade amounts...BEGIN
+2022-08-14 11:19:47.616171 | Update trade amounts...DONE
+2022-08-14 11:19:47.666400 | SUBSCRIBED Market Data | EUR/USD
+2022-08-14 11:19:47.718361 | SUBSCRIBED Market Data | USD/JPY
+2022-08-14 11:19:47.767272 | SUBSCRIBED Market Data | GBP/USD
+2022-08-14 11:19:47.815867 | SUBSCRIBED Market Data | USD/CHF
+2022-08-14 11:19:47.867466 | SUBSCRIBED Market Data | AUD/USD
+2022-08-14 11:19:47.918228 | SUBSCRIBED Market Data | USD/CAD
+2022-08-14 11:19:47.972169 | SUBSCRIBED Market Data | NZD/USD
+2022-08-14 11:19:48.022120 | SUBSCRIBED Market Data | Bund
+2022-08-14 11:19:48.076110 | SUBSCRIBED Market Data | AUS200
+2022-08-14 11:19:48.126721 | SUBSCRIBED Market Data | CHN50
+2022-08-14 11:19:48.183202 | SUBSCRIBED Market Data | ESP35
+2022-08-14 11:19:48.233643 | SUBSCRIBED Market Data | EUSTX50
+2022-08-14 11:19:48.286326 | SUBSCRIBED Market Data | FRA40
+2022-08-14 11:19:48.337622 | SUBSCRIBED Market Data | GER30
+2022-08-14 11:19:48.390207 | SUBSCRIBED Market Data | HKG33
+2022-08-14 11:19:48.441965 | SUBSCRIBED Market Data | JPN225
+2022-08-14 11:19:48.500956 | SUBSCRIBED Market Data | NAS100
+2022-08-14 11:19:48.553299 | SUBSCRIBED Market Data | SPX500
+2022-08-14 11:19:48.604448 | SUBSCRIBED Market Data | UK100
+2022-08-14 11:19:48.656052 | SUBSCRIBED Market Data | US30
+2022-08-14 11:19:48.706633 | SUBSCRIBED Market Data | Copper
+2022-08-14 11:19:48.757823 | SUBSCRIBED Market Data | NGAS
+2022-08-14 11:19:48.808314 | SUBSCRIBED Market Data | UKOil
+2022-08-14 11:19:48.858329 | SUBSCRIBED Market Data | USOil
+2022-08-14 11:19:48.910992 | SUBSCRIBED Market Data | XAU/USD
+2022-08-14 11:19:48.968266 | SUBSCRIBED Market Data | XAG/USD
+2022-08-14 21:00:01.885762 | --------------------------------------------------
+2022-08-14 21:00:01.885922 | Connecting...
+2022-08-14 21:00:04.699662 | CONNECTED
+2022-08-14 21:00:04.699836 | connection status: established
+2022-08-14 21:00:04.699895 | --------------------------------------------------
+2022-08-14 21:00:04.699965 | Update current positions...BEGIN
+2022-08-14 21:00:04.752416 | Update current positions...DONE
+2022-08-14 21:00:04.752562 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 2, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-14 21:00:04.752646 | Warming up data.....BEGIN
+2022-08-14 21:00:08.575704 | Warming up data.....DONE
+2022-08-14 21:00:08.575887 | Update trade amounts...BEGIN
+2022-08-14 21:00:08.624860 | Update trade amounts...DONE
+2022-08-14 21:00:08.675745 | SUBSCRIBED Market Data | EUR/USD
+2022-08-14 21:00:08.725212 | SUBSCRIBED Market Data | USD/JPY
+2022-08-14 21:00:08.777554 | SUBSCRIBED Market Data | GBP/USD
+2022-08-14 21:00:08.827162 | SUBSCRIBED Market Data | USD/CHF
+2022-08-14 21:00:08.877659 | SUBSCRIBED Market Data | AUD/USD
+2022-08-14 21:00:08.925596 | SUBSCRIBED Market Data | USD/CAD
+2022-08-14 21:00:08.982242 | SUBSCRIBED Market Data | NZD/USD
+2022-08-14 21:00:09.031938 | SUBSCRIBED Market Data | Bund
+2022-08-14 21:00:09.158138 | SUBSCRIBED Market Data | AUS200
+2022-08-14 21:00:09.221220 | SUBSCRIBED Market Data | CHN50
+2022-08-14 21:00:09.274701 | SUBSCRIBED Market Data | ESP35
+2022-08-14 21:00:09.325381 | SUBSCRIBED Market Data | EUSTX50
+2022-08-14 21:00:09.375267 | SUBSCRIBED Market Data | FRA40
+2022-08-14 21:00:09.425925 | SUBSCRIBED Market Data | GER30
+2022-08-14 21:00:09.474071 | SUBSCRIBED Market Data | HKG33
+2022-08-14 21:00:09.525324 | SUBSCRIBED Market Data | JPN225
+2022-08-14 21:00:09.577541 | SUBSCRIBED Market Data | NAS100
+2022-08-14 21:00:09.630627 | SUBSCRIBED Market Data | SPX500
+2022-08-14 21:00:09.681877 | SUBSCRIBED Market Data | UK100
+2022-08-14 21:00:09.730635 | SUBSCRIBED Market Data | US30
+2022-08-14 21:00:09.781206 | SUBSCRIBED Market Data | Copper
+2022-08-14 21:00:09.831338 | SUBSCRIBED Market Data | NGAS
+2022-08-14 21:00:09.943757 | SUBSCRIBED Market Data | UKOil
+2022-08-14 21:00:09.997510 | SUBSCRIBED Market Data | USOil
+2022-08-14 21:00:10.047266 | SUBSCRIBED Market Data | XAU/USD
+2022-08-14 21:00:10.099770 | SUBSCRIBED Market Data | XAG/USD
+2022-08-14 21:00:17.220972 | CLOSE LONG.....EUR/USD
+2022-08-14 21:00:48.308299 | OPEN SHORT.....EUR/USD.....24 units
+2022-08-14 21:09:53.652206 | CLOSE SHORT.....USD/JPY
+2022-08-14 21:10:26.861416 | OPEN LONG.....USD/JPY.....28 units
+2022-08-14 21:30:00.438518 | CLOSE LONG.....GBP/USD
+2022-08-14 21:30:31.572080 | OPEN SHORT.....GBP/USD.....20 units
+2022-08-14 22:00:01.468134 | CLOSE LONG.....USD/JPY
+2022-08-14 22:00:01.484624 | CLOSE LONG.....NGAS
+2022-08-14 22:00:01.619754 | CLOSE LONG.....JPN225
+2022-08-14 22:00:01.623381 | CLOSE SHORT.....USD/CHF
+2022-08-14 22:00:31.712888 | OPEN SHORT.....JPN225.....126 units
+2022-08-14 22:00:32.582432 | OPEN SHORT.....USD/JPY.....28 units
+2022-08-14 22:00:32.584443 | OPEN SHORT.....NGAS.....2 units
+2022-08-14 22:00:32.712823 | OPEN LONG.....USD/CHF.....14 units
+2022-08-14 22:03:31.443493 | CLOSE SHORT.....Copper
+2022-08-14 22:04:01.517455 | OPEN LONG.....Copper.....9 units
+2022-08-14 22:10:01.160962 | Update current positions...BEGIN
+2022-08-14 22:10:01.230332 | ERROR | get_open_positions | attempt1.....retrying in 5 seconds
+2022-08-14 22:10:06.301296 | ERROR | get_open_positions | attempt2.....retrying in 5 seconds
+2022-08-14 22:10:11.369717 | ERROR | get_open_positions | attempt3.....retrying in 5 seconds
+2022-08-14 22:10:16.427380 | ERROR | get_open_positions | attempt4.....retrying in 5 seconds
+2022-08-14 22:10:21.490012 | ERROR | get_open_positions | attempt5.....retrying in 5 seconds
+2022-08-14 22:10:26.550874 | ERROR | get_open_positions | attempt6.....retrying in 5 seconds
+2022-08-14 22:10:31.556331 | --------------------------------------------------
+2022-08-14 22:10:31.556607 | Disconnecting...
+2022-08-14 22:10:31.557413 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:10:36.562677 | --------------------------------------------------
+2022-08-14 22:10:36.563113 | Disconnecting...
+2022-08-14 22:10:36.563839 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:10:41.569054 | --------------------------------------------------
+2022-08-14 22:10:41.569395 | Disconnecting...
+2022-08-14 22:10:41.570138 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:10:46.575325 | --------------------------------------------------
+2022-08-14 22:10:46.575588 | Disconnecting...
+2022-08-14 22:10:46.576497 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:10:51.581818 | --------------------------------------------------
+2022-08-14 22:10:51.582132 | Disconnecting...
+2022-08-14 22:10:51.582711 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:10:56.587890 | --------------------------------------------------
+2022-08-14 22:10:56.588141 | Disconnecting...
+2022-08-14 22:10:56.588763 | ERROR | close connection...try again in 5 seconds
+2022-08-14 22:11:01.593980 | *** restarting python script ***
+2022-08-14 22:11:02.413582 | --------------------------------------------------
+2022-08-14 22:11:02.413715 | Connecting...
+2022-08-14 22:11:04.958592 | CONNECTED
+2022-08-14 22:11:04.958739 | connection status: established
+2022-08-14 22:11:04.958860 | --------------------------------------------------
+2022-08-14 22:11:04.958926 | Update current positions...BEGIN
+2022-08-14 22:11:05.014504 | Update current positions...DONE
+2022-08-14 22:11:05.014646 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 2, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-14 22:11:05.014720 | Warming up data.....BEGIN
+2022-08-14 22:11:07.599834 | Warming up data.....DONE
+2022-08-14 22:11:07.600866 | Update trade amounts...BEGIN
+2022-08-14 22:11:07.651423 | Update trade amounts...DONE
+2022-08-14 22:11:07.708363 | SUBSCRIBED Market Data | EUR/USD
+2022-08-14 22:11:07.760816 | SUBSCRIBED Market Data | USD/JPY
+2022-08-14 22:11:07.811646 | SUBSCRIBED Market Data | GBP/USD
+2022-08-14 22:11:07.861484 | SUBSCRIBED Market Data | USD/CHF
+2022-08-14 22:11:07.913849 | SUBSCRIBED Market Data | AUD/USD
+2022-08-14 22:11:07.964055 | SUBSCRIBED Market Data | USD/CAD
+2022-08-14 22:11:08.016154 | SUBSCRIBED Market Data | NZD/USD
+2022-08-14 22:11:08.070550 | SUBSCRIBED Market Data | Bund
+2022-08-14 22:11:08.129029 | SUBSCRIBED Market Data | AUS200
+2022-08-14 22:11:08.181242 | SUBSCRIBED Market Data | CHN50
+2022-08-14 22:11:08.232108 | SUBSCRIBED Market Data | ESP35
+2022-08-14 22:11:08.284637 | SUBSCRIBED Market Data | EUSTX50
+2022-08-14 22:11:08.334090 | SUBSCRIBED Market Data | FRA40
+2022-08-14 22:11:08.386462 | SUBSCRIBED Market Data | GER30
+2022-08-14 22:11:08.435661 | SUBSCRIBED Market Data | HKG33
+2022-08-14 22:11:08.485700 | SUBSCRIBED Market Data | JPN225
+2022-08-14 22:11:08.537137 | SUBSCRIBED Market Data | NAS100
+2022-08-14 22:11:08.592433 | SUBSCRIBED Market Data | SPX500
+2022-08-14 22:11:08.642206 | SUBSCRIBED Market Data | UK100
+2022-08-14 22:11:08.693767 | SUBSCRIBED Market Data | US30
+2022-08-14 22:11:08.743258 | SUBSCRIBED Market Data | Copper
+2022-08-14 22:11:08.796337 | SUBSCRIBED Market Data | NGAS
+2022-08-14 22:11:08.846805 | SUBSCRIBED Market Data | UKOil
+2022-08-14 22:11:08.896643 | SUBSCRIBED Market Data | USOil
+2022-08-14 22:11:08.946067 | SUBSCRIBED Market Data | XAU/USD
+2022-08-14 22:11:08.996316 | SUBSCRIBED Market Data | XAG/USD
+2022-08-14 23:00:00.909882 | CLOSE SHORT.....Copper
+2022-08-14 23:00:00.927247 | CLOSE SHORT.....USD/JPY
+2022-08-14 23:00:32.020996 | OPEN LONG.....Copper.....9 units
+2022-08-14 23:00:32.021163 | OPEN LONG.....USD/JPY.....28 units
+2022-08-14 23:10:00.587642 | Update current positions...BEGIN
+2022-08-14 23:10:00.654418 | Update current positions...DONE
+2022-08-14 23:10:00.654576 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-14 23:15:00.725277 | Update trade amounts...BEGIN
+2022-08-14 23:15:00.789185 | Update trade amounts...DONE
+2022-08-14 23:20:00.415224 | Log account report.....BEGIN
+2022-08-14 23:20:00.501086 | Log account report.....DONE

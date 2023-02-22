@@ -1,0 +1,1438 @@
+2022-08-21 14:30:16.847279 | --------------------------------------------------
+2022-08-21 14:30:16.847469 | Connecting...
+2022-08-21 14:30:19.586252 | CONNECTED
+2022-08-21 14:30:19.586427 | connection status: established
+2022-08-21 14:30:19.586490 | --------------------------------------------------
+2022-08-21 14:30:19.586563 | Update current positions...BEGIN
+2022-08-21 14:30:19.696304 | Update current positions...DONE
+2022-08-21 14:30:19.696493 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 1, 'USOil': 0, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 14:30:19.696594 | Warming up data.....BEGIN
+2022-08-21 14:30:22.227187 | Warming up data.....DONE
+2022-08-21 14:30:22.227372 | Update trade amounts...BEGIN
+2022-08-21 14:30:22.278895 | Update trade amounts...DONE
+2022-08-21 14:30:22.332544 | SUBSCRIBED Market Data | EUR/USD
+2022-08-21 14:30:22.381589 | SUBSCRIBED Market Data | USD/JPY
+2022-08-21 14:30:22.434664 | SUBSCRIBED Market Data | GBP/USD
+2022-08-21 14:30:22.493173 | SUBSCRIBED Market Data | USD/CHF
+2022-08-21 14:30:22.545446 | SUBSCRIBED Market Data | AUD/USD
+2022-08-21 14:30:22.598906 | SUBSCRIBED Market Data | USD/CAD
+2022-08-21 14:30:22.651362 | SUBSCRIBED Market Data | NZD/USD
+2022-08-21 14:30:22.705159 | SUBSCRIBED Market Data | Bund
+2022-08-21 14:30:22.758603 | SUBSCRIBED Market Data | AUS200
+2022-08-21 14:30:22.810969 | SUBSCRIBED Market Data | ESP35
+2022-08-21 14:30:22.863025 | SUBSCRIBED Market Data | EUSTX50
+2022-08-21 14:30:22.917977 | SUBSCRIBED Market Data | FRA40
+2022-08-21 14:30:22.969996 | SUBSCRIBED Market Data | GER30
+2022-08-21 14:30:23.022030 | SUBSCRIBED Market Data | HKG33
+2022-08-21 14:30:23.078955 | SUBSCRIBED Market Data | JPN225
+2022-08-21 14:30:23.130511 | SUBSCRIBED Market Data | NAS100
+2022-08-21 14:30:23.180466 | SUBSCRIBED Market Data | SPX500
+2022-08-21 14:30:23.233252 | SUBSCRIBED Market Data | UK100
+2022-08-21 14:30:23.285082 | SUBSCRIBED Market Data | US30
+2022-08-21 14:30:23.339873 | SUBSCRIBED Market Data | Copper
+2022-08-21 14:30:23.393233 | SUBSCRIBED Market Data | NGAS
+2022-08-21 14:30:23.443578 | SUBSCRIBED Market Data | UKOil
+2022-08-21 14:30:23.494055 | SUBSCRIBED Market Data | USOil
+2022-08-21 14:30:23.544720 | SUBSCRIBED Market Data | XAU/USD
+2022-08-21 14:30:23.600307 | SUBSCRIBED Market Data | XAG/USD
+2022-08-21 21:00:02.585421 | --------------------------------------------------
+2022-08-21 21:00:02.585533 | Connecting...
+2022-08-21 21:00:10.312298 | CONNECTED
+2022-08-21 21:00:10.312456 | connection status: established
+2022-08-21 21:00:10.312508 | --------------------------------------------------
+2022-08-21 21:00:10.312570 | Update current positions...BEGIN
+2022-08-21 21:00:10.421186 | Update current positions...DONE
+2022-08-21 21:00:10.421343 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 1, 'USOil': 0, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 21:00:10.421416 | Warming up data.....BEGIN
+2022-08-21 21:00:14.163392 | Warming up data.....DONE
+2022-08-21 21:00:14.163559 | Update trade amounts...BEGIN
+2022-08-21 21:00:14.213376 | Update trade amounts...DONE
+2022-08-21 21:00:14.314377 | SUBSCRIBED Market Data | EUR/USD
+2022-08-21 21:00:14.366502 | SUBSCRIBED Market Data | USD/JPY
+2022-08-21 21:00:14.418972 | SUBSCRIBED Market Data | GBP/USD
+2022-08-21 21:00:14.518549 | SUBSCRIBED Market Data | USD/CHF
+2022-08-21 21:00:14.576504 | SUBSCRIBED Market Data | AUD/USD
+2022-08-21 21:00:14.628786 | SUBSCRIBED Market Data | USD/CAD
+2022-08-21 21:00:14.680603 | SUBSCRIBED Market Data | NZD/USD
+2022-08-21 21:00:14.732260 | SUBSCRIBED Market Data | Bund
+2022-08-21 21:00:14.783275 | SUBSCRIBED Market Data | AUS200
+2022-08-21 21:00:14.834202 | SUBSCRIBED Market Data | ESP35
+2022-08-21 21:00:14.886956 | SUBSCRIBED Market Data | EUSTX50
+2022-08-21 21:00:15.012291 | SUBSCRIBED Market Data | FRA40
+2022-08-21 21:00:15.065271 | SUBSCRIBED Market Data | GER30
+2022-08-21 21:00:15.118536 | SUBSCRIBED Market Data | HKG33
+2022-08-21 21:00:15.170688 | SUBSCRIBED Market Data | JPN225
+2022-08-21 21:00:15.221566 | SUBSCRIBED Market Data | NAS100
+2022-08-21 21:00:15.275843 | SUBSCRIBED Market Data | SPX500
+2022-08-21 21:00:15.328998 | SUBSCRIBED Market Data | UK100
+2022-08-21 21:00:15.383227 | SUBSCRIBED Market Data | US30
+2022-08-21 21:00:15.437574 | SUBSCRIBED Market Data | Copper
+2022-08-21 21:00:15.540943 | SUBSCRIBED Market Data | NGAS
+2022-08-21 21:00:15.596881 | SUBSCRIBED Market Data | UKOil
+2022-08-21 21:00:15.655203 | SUBSCRIBED Market Data | USOil
+2022-08-21 21:00:15.706755 | SUBSCRIBED Market Data | XAU/USD
+2022-08-21 21:00:15.763806 | SUBSCRIBED Market Data | XAG/USD
+2022-08-21 21:05:01.694653 | CLOSE LONG.....AUD/USD
+2022-08-21 21:05:32.787679 | OPEN SHORT.....AUD/USD.....39 units
+2022-08-21 22:00:00.353782 | CLOSE LONG.....NAS100
+2022-08-21 22:00:00.355522 | CLOSE LONG.....SPX500
+2022-08-21 22:00:00.857748 | OPEN SHORT.....USOil.....4 units
+2022-08-21 22:00:00.858061 | CLOSE SHORT.....NGAS
+2022-08-21 22:00:01.395187 | CLOSE LONG.....US30
+2022-08-21 22:00:30.942917 | OPEN LONG.....NGAS.....3 units
+2022-08-21 22:00:31.534166 | OPEN SHORT.....NAS100.....11 units
+2022-08-21 22:00:31.535575 | OPEN SHORT.....SPX500.....3 units
+2022-08-21 22:00:32.552598 | OPEN SHORT.....US30.....4 units
+2022-08-21 22:10:00.953521 | Update current positions...BEGIN
+2022-08-21 22:10:01.072771 | Update current positions...DONE
+2022-08-21 22:10:01.072929 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 2, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 2, 'Copper': 1, 'NGAS': 2, 'UKOil': 1, 'USOil': 0, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 22:20:00.762998 | Update trade amounts...BEGIN
+2022-08-21 22:20:00.856487 | Update trade amounts...DONE
+2022-08-21 22:30:00.790052 | Log account report.....BEGIN
+2022-08-21 22:30:00.931481 | ERROR | get_model | attempt1.....retrying in 30 seconds
+2022-08-21 22:30:00.931881 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:30:31.017996 | ERROR | get_model | attempt2.....retrying in 30 seconds
+2022-08-21 22:30:31.018337 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:31:01.103770 | ERROR | get_model | attempt3.....retrying in 30 seconds
+2022-08-21 22:31:01.104072 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:31:31.216837 | ERROR | get_model | attempt4.....retrying in 30 seconds
+2022-08-21 22:31:31.217171 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:32:01.300831 | ERROR | get_model | attempt5.....retrying in 30 seconds
+2022-08-21 22:32:01.301168 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:32:31.390326 | ERROR | get_model | attempt6.....retrying in 30 seconds
+2022-08-21 22:32:31.390729 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 22:33:01.420966 | --------------------------------------------------
+2022-08-21 22:33:01.421267 | Disconnecting...
+2022-08-21 22:33:01.421385 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:33:01.432800 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:33:31.442277 | --------------------------------------------------
+2022-08-21 22:33:31.442508 | Disconnecting...
+2022-08-21 22:33:31.442578 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:33:31.442918 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:34:01.472450 | --------------------------------------------------
+2022-08-21 22:34:01.472618 | Disconnecting...
+2022-08-21 22:34:01.472683 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:34:01.473017 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:34:31.478255 | --------------------------------------------------
+2022-08-21 22:34:31.478495 | Disconnecting...
+2022-08-21 22:34:31.478566 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:34:31.478966 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:35:01.507977 | --------------------------------------------------
+2022-08-21 22:35:01.510201 | Disconnecting...
+2022-08-21 22:35:01.516561 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:35:01.519440 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:35:31.549680 | --------------------------------------------------
+2022-08-21 22:35:31.549962 | Disconnecting...
+2022-08-21 22:35:31.550074 | ERROR | close connection...try again in 30 seconds
+2022-08-21 22:35:31.550772 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 22:36:01.562371 | *** restarting python script ***
+2022-08-21 22:36:02.310703 | --------------------------------------------------
+2022-08-21 22:36:02.310844 | Connecting...
+2022-08-21 22:36:06.037946 | CONNECTED
+2022-08-21 22:36:06.038102 | connection status: established
+2022-08-21 22:36:06.038179 | --------------------------------------------------
+2022-08-21 22:36:06.038245 | Update current positions...BEGIN
+2022-08-21 22:36:06.198753 | Update current positions...DONE
+2022-08-21 22:36:06.198899 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 2, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 2, 'Copper': 1, 'NGAS': 2, 'UKOil': 1, 'USOil': 0, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 22:36:06.198974 | Warming up data.....BEGIN
+2022-08-21 22:36:09.095403 | Warming up data.....DONE
+2022-08-21 22:36:09.095571 | Update trade amounts...BEGIN
+2022-08-21 22:36:09.149545 | Update trade amounts...DONE
+2022-08-21 22:36:09.201299 | SUBSCRIBED Market Data | EUR/USD
+2022-08-21 22:36:09.252715 | SUBSCRIBED Market Data | USD/JPY
+2022-08-21 22:36:09.417329 | SUBSCRIBED Market Data | GBP/USD
+2022-08-21 22:36:09.470224 | SUBSCRIBED Market Data | USD/CHF
+2022-08-21 22:36:09.526281 | SUBSCRIBED Market Data | AUD/USD
+2022-08-21 22:36:09.578683 | SUBSCRIBED Market Data | USD/CAD
+2022-08-21 22:36:09.629639 | SUBSCRIBED Market Data | NZD/USD
+2022-08-21 22:36:09.687393 | SUBSCRIBED Market Data | Bund
+2022-08-21 22:36:09.799715 | SUBSCRIBED Market Data | AUS200
+2022-08-21 22:36:09.877523 | SUBSCRIBED Market Data | ESP35
+2022-08-21 22:36:09.981175 | SUBSCRIBED Market Data | EUSTX50
+2022-08-21 22:36:10.033837 | SUBSCRIBED Market Data | FRA40
+2022-08-21 22:36:10.085960 | SUBSCRIBED Market Data | GER30
+2022-08-21 22:36:10.139105 | SUBSCRIBED Market Data | HKG33
+2022-08-21 22:36:10.189882 | SUBSCRIBED Market Data | JPN225
+2022-08-21 22:36:10.274705 | SUBSCRIBED Market Data | NAS100
+2022-08-21 22:36:10.393245 | SUBSCRIBED Market Data | SPX500
+2022-08-21 22:36:10.446431 | SUBSCRIBED Market Data | UK100
+2022-08-21 22:36:10.499218 | SUBSCRIBED Market Data | US30
+2022-08-21 22:36:10.551029 | SUBSCRIBED Market Data | Copper
+2022-08-21 22:36:10.613997 | SUBSCRIBED Market Data | NGAS
+2022-08-21 22:36:10.678892 | SUBSCRIBED Market Data | UKOil
+2022-08-21 22:36:10.731728 | SUBSCRIBED Market Data | USOil
+2022-08-21 22:36:10.788519 | SUBSCRIBED Market Data | XAU/USD
+2022-08-21 22:36:10.902973 | SUBSCRIBED Market Data | XAG/USD
+2022-08-21 23:00:01.703097 | OPEN LONG.....USOil.....4 units
+2022-08-21 23:00:34.072220 | CLOSE SHORT.....NGAS
+2022-08-21 23:01:06.477349 | OPEN LONG.....NGAS.....3 units
+2022-08-21 23:10:00.701018 | Update current positions...BEGIN
+2022-08-21 23:10:00.914344 | Update current positions...DONE
+2022-08-21 23:10:00.914494 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 2, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 2, 'Copper': 1, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 23:20:00.501203 | Update trade amounts...BEGIN
+2022-08-21 23:20:00.565286 | Update trade amounts...DONE
+2022-08-21 23:30:00.699666 | Log account report.....BEGIN
+2022-08-21 23:30:00.802686 | ERROR | get_model | attempt1.....retrying in 30 seconds
+2022-08-21 23:30:00.803496 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:30:30.905937 | ERROR | get_model | attempt2.....retrying in 30 seconds
+2022-08-21 23:30:30.906375 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:31:00.985439 | ERROR | get_model | attempt3.....retrying in 30 seconds
+2022-08-21 23:31:00.986240 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:31:31.114000 | ERROR | get_model | attempt4.....retrying in 30 seconds
+2022-08-21 23:31:31.114383 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:32:02.223609 | ERROR | get_model | attempt5.....retrying in 30 seconds
+2022-08-21 23:32:02.232432 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:32:32.325986 | ERROR | get_model | attempt6.....retrying in 30 seconds
+2022-08-21 23:32:32.326369 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+2022-08-21 23:33:02.356528 | --------------------------------------------------
+2022-08-21 23:33:02.356720 | Disconnecting...
+2022-08-21 23:33:02.356800 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:33:02.357247 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:33:32.387545 | --------------------------------------------------
+2022-08-21 23:33:32.387791 | Disconnecting...
+2022-08-21 23:33:32.387882 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:33:32.388216 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:34:02.414285 | --------------------------------------------------
+2022-08-21 23:34:02.414581 | Disconnecting...
+2022-08-21 23:34:02.414696 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:34:02.415277 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:34:32.442263 | --------------------------------------------------
+2022-08-21 23:34:32.442502 | Disconnecting...
+2022-08-21 23:34:32.442572 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:34:32.442964 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:35:02.473133 | --------------------------------------------------
+2022-08-21 23:35:02.473377 | Disconnecting...
+2022-08-21 23:35:02.473466 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:35:02.473927 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:35:32.504214 | --------------------------------------------------
+2022-08-21 23:35:32.504519 | Disconnecting...
+2022-08-21 23:35:32.504647 | ERROR | close connection...try again in 30 seconds
+2022-08-21 23:35:32.505332 | Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 445, in get_fxcm_account_info
+    raise ValueError('Account is None')
+ValueError: Account is None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/azureuser/fxcmpy/base_trader.py", line 114, in close_connection
+    self.close_fxcmpy()
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/site-packages/timeout_decorator/timeout_decorator.py", line 75, in new_function
+    old = signal.signal(signal.SIGALRM, handler)
+  File "/home/azureuser/anaconda3/envs/fxcm/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+
+2022-08-21 23:36:02.535632 | *** restarting python script ***
+2022-08-21 23:36:03.284421 | --------------------------------------------------
+2022-08-21 23:36:03.284534 | Connecting...
+2022-08-21 23:36:06.958443 | CONNECTED
+2022-08-21 23:36:06.958666 | connection status: established
+2022-08-21 23:36:06.958992 | --------------------------------------------------
+2022-08-21 23:36:06.959066 | Update current positions...BEGIN
+2022-08-21 23:36:07.067246 | Update current positions...DONE
+2022-08-21 23:36:07.067407 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 2, 'USD/CAD': 1, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 2, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 2, 'Copper': 1, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 2, 'XAG/USD': 2}
+2022-08-21 23:36:07.067481 | Warming up data.....BEGIN
+2022-08-21 23:36:09.873459 | Warming up data.....DONE
+2022-08-21 23:36:09.873631 | Update trade amounts...BEGIN
+2022-08-21 23:36:09.927773 | Update trade amounts...DONE
+2022-08-21 23:36:09.980861 | SUBSCRIBED Market Data | EUR/USD
+2022-08-21 23:36:10.034810 | SUBSCRIBED Market Data | USD/JPY
+2022-08-21 23:36:10.089470 | SUBSCRIBED Market Data | GBP/USD
+2022-08-21 23:36:10.145028 | SUBSCRIBED Market Data | USD/CHF
+2022-08-21 23:36:10.197583 | SUBSCRIBED Market Data | AUD/USD
+2022-08-21 23:36:10.248279 | SUBSCRIBED Market Data | USD/CAD
+2022-08-21 23:36:10.302009 | SUBSCRIBED Market Data | NZD/USD
+2022-08-21 23:36:10.354775 | SUBSCRIBED Market Data | Bund
+2022-08-21 23:36:10.437951 | SUBSCRIBED Market Data | AUS200
+2022-08-21 23:36:10.501174 | SUBSCRIBED Market Data | ESP35
+2022-08-21 23:36:10.551706 | SUBSCRIBED Market Data | EUSTX50
+2022-08-21 23:36:10.603826 | SUBSCRIBED Market Data | FRA40
+2022-08-21 23:36:10.656493 | SUBSCRIBED Market Data | GER30
+2022-08-21 23:36:10.708046 | SUBSCRIBED Market Data | HKG33
+2022-08-21 23:36:10.761963 | SUBSCRIBED Market Data | JPN225
+2022-08-21 23:36:10.815349 | SUBSCRIBED Market Data | NAS100
+2022-08-21 23:36:10.866983 | SUBSCRIBED Market Data | SPX500
+2022-08-21 23:36:10.948379 | SUBSCRIBED Market Data | UK100
+2022-08-21 23:36:11.005303 | SUBSCRIBED Market Data | US30
+2022-08-21 23:36:11.057092 | SUBSCRIBED Market Data | Copper
+2022-08-21 23:36:11.109439 | SUBSCRIBED Market Data | NGAS
+2022-08-21 23:36:11.162212 | SUBSCRIBED Market Data | UKOil
+2022-08-21 23:36:11.214953 | SUBSCRIBED Market Data | USOil
+2022-08-21 23:36:11.267350 | SUBSCRIBED Market Data | XAU/USD
+2022-08-21 23:36:11.319002 | SUBSCRIBED Market Data | XAG/USD
+2022-08-21 23:50:00.885065 | CLOSE LONG.....AUS200
+2022-08-21 23:50:32.004474 | OPEN SHORT.....AUS200.....60 units

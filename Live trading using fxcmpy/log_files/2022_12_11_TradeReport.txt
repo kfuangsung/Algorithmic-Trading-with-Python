@@ -1,0 +1,339 @@
+2022-12-11 16:45:05.699310 | --------------------------------------------------
+2022-12-11 16:45:05.701916 | Connecting...
+2022-12-11 16:45:10.446230 | CONNECTED
+2022-12-11 16:45:10.446364 | connection status: established
+2022-12-11 16:45:10.446405 | --------------------------------------------------
+2022-12-11 16:45:10.446452 | Update current positions...BEGIN
+2022-12-11 16:45:10.495457 | Update current positions...DONE
+2022-12-11 16:45:10.495601 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 16:45:10.495667 | Check duplicate positions...BEGIN
+2022-12-11 16:45:10.607827 | Check duplicate positions...DONE
+2022-12-11 16:45:10.608019 | Warming up data.....BEGIN
+2022-12-11 16:45:16.618513 | Warming up data.....DONE
+2022-12-11 16:45:16.618663 | Update trade amounts...BEGIN
+2022-12-11 16:45:16.666876 | Update trade amounts...DONE
+2022-12-11 16:45:16.717441 | SUBSCRIBED Market Data | EUR/USD
+2022-12-11 16:45:16.766200 | SUBSCRIBED Market Data | USD/JPY
+2022-12-11 16:45:16.815356 | SUBSCRIBED Market Data | GBP/USD
+2022-12-11 16:45:16.863151 | SUBSCRIBED Market Data | USD/CHF
+2022-12-11 16:45:16.911736 | SUBSCRIBED Market Data | AUD/USD
+2022-12-11 16:45:16.981587 | SUBSCRIBED Market Data | USD/CAD
+2022-12-11 16:45:17.029332 | SUBSCRIBED Market Data | NZD/USD
+2022-12-11 16:45:17.078905 | SUBSCRIBED Market Data | Bund
+2022-12-11 16:45:17.157071 | SUBSCRIBED Market Data | AUS200
+2022-12-11 16:45:17.206785 | SUBSCRIBED Market Data | ESP35
+2022-12-11 16:45:17.255465 | SUBSCRIBED Market Data | EUSTX50
+2022-12-11 16:45:17.305088 | SUBSCRIBED Market Data | FRA40
+2022-12-11 16:45:17.354746 | SUBSCRIBED Market Data | GER30
+2022-12-11 16:45:17.404517 | SUBSCRIBED Market Data | HKG33
+2022-12-11 16:45:17.457073 | SUBSCRIBED Market Data | JPN225
+2022-12-11 16:45:17.505779 | SUBSCRIBED Market Data | NAS100
+2022-12-11 16:45:17.555744 | SUBSCRIBED Market Data | USOil
+2022-12-11 16:45:17.604379 | SUBSCRIBED Market Data | XAU/USD
+2022-12-11 17:50:02.172033 | --------------------------------------------------
+2022-12-11 17:50:02.172130 | Connecting...
+2022-12-11 17:50:06.065765 | CONNECTED
+2022-12-11 17:50:06.065896 | connection status: established
+2022-12-11 17:50:06.065938 | --------------------------------------------------
+2022-12-11 17:50:06.065986 | Update current positions...BEGIN
+2022-12-11 17:50:06.114325 | Update current positions...DONE
+2022-12-11 17:50:06.114453 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 17:50:06.114511 | Check duplicate positions...BEGIN
+2022-12-11 17:50:06.218107 | Check duplicate positions...DONE
+2022-12-11 17:50:06.218296 | Warming up data.....BEGIN
+2022-12-11 17:50:11.913836 | Warming up data.....DONE
+2022-12-11 17:50:11.913998 | Update trade amounts...BEGIN
+2022-12-11 17:50:11.965003 | Update trade amounts...DONE
+2022-12-11 17:50:12.015186 | SUBSCRIBED Market Data | EUR/USD
+2022-12-11 17:50:12.114380 | SUBSCRIBED Market Data | USD/JPY
+2022-12-11 17:50:12.241421 | SUBSCRIBED Market Data | GBP/USD
+2022-12-11 17:50:12.288786 | SUBSCRIBED Market Data | USD/CHF
+2022-12-11 17:50:12.337642 | SUBSCRIBED Market Data | AUD/USD
+2022-12-11 17:50:12.391636 | SUBSCRIBED Market Data | USD/CAD
+2022-12-11 17:50:12.439116 | SUBSCRIBED Market Data | NZD/USD
+2022-12-11 17:50:12.488211 | SUBSCRIBED Market Data | Bund
+2022-12-11 17:50:12.581609 | SUBSCRIBED Market Data | AUS200
+2022-12-11 17:50:12.631765 | SUBSCRIBED Market Data | ESP35
+2022-12-11 17:50:12.682701 | SUBSCRIBED Market Data | EUSTX50
+2022-12-11 17:50:12.732985 | SUBSCRIBED Market Data | FRA40
+2022-12-11 17:50:12.787772 | SUBSCRIBED Market Data | GER30
+2022-12-11 17:50:12.837321 | SUBSCRIBED Market Data | HKG33
+2022-12-11 17:50:12.884258 | SUBSCRIBED Market Data | JPN225
+2022-12-11 17:50:12.934773 | SUBSCRIBED Market Data | NAS100
+2022-12-11 17:50:12.980919 | SUBSCRIBED Market Data | USOil
+2022-12-11 17:50:13.029972 | SUBSCRIBED Market Data | XAU/USD
+2022-12-11 18:55:01.756720 | --------------------------------------------------
+2022-12-11 18:55:01.756825 | Connecting...
+2022-12-11 18:55:05.528093 | CONNECTED
+2022-12-11 18:55:05.528229 | connection status: established
+2022-12-11 18:55:05.528276 | --------------------------------------------------
+2022-12-11 18:55:05.528331 | Update current positions...BEGIN
+2022-12-11 18:55:05.578822 | Update current positions...DONE
+2022-12-11 18:55:05.578948 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 18:55:05.579011 | Check duplicate positions...BEGIN
+2022-12-11 18:55:05.678276 | Check duplicate positions...DONE
+2022-12-11 18:55:05.678446 | Warming up data.....BEGIN
+2022-12-11 18:55:11.514309 | Warming up data.....DONE
+2022-12-11 18:55:11.514462 | Update trade amounts...BEGIN
+2022-12-11 18:55:11.564550 | Update trade amounts...DONE
+2022-12-11 18:55:11.614829 | SUBSCRIBED Market Data | EUR/USD
+2022-12-11 18:55:11.664787 | SUBSCRIBED Market Data | USD/JPY
+2022-12-11 18:55:11.718418 | SUBSCRIBED Market Data | GBP/USD
+2022-12-11 18:55:11.766766 | SUBSCRIBED Market Data | USD/CHF
+2022-12-11 18:55:11.822850 | SUBSCRIBED Market Data | AUD/USD
+2022-12-11 18:55:11.873251 | SUBSCRIBED Market Data | USD/CAD
+2022-12-11 18:55:11.949236 | SUBSCRIBED Market Data | NZD/USD
+2022-12-11 18:55:11.997629 | SUBSCRIBED Market Data | Bund
+2022-12-11 18:55:12.048076 | SUBSCRIBED Market Data | AUS200
+2022-12-11 18:55:12.096785 | SUBSCRIBED Market Data | ESP35
+2022-12-11 18:55:12.147471 | SUBSCRIBED Market Data | EUSTX50
+2022-12-11 18:55:12.198542 | SUBSCRIBED Market Data | FRA40
+2022-12-11 18:55:12.249409 | SUBSCRIBED Market Data | GER30
+2022-12-11 18:55:12.297958 | SUBSCRIBED Market Data | HKG33
+2022-12-11 18:55:12.347040 | SUBSCRIBED Market Data | JPN225
+2022-12-11 18:55:12.396168 | SUBSCRIBED Market Data | NAS100
+2022-12-11 18:55:12.445008 | SUBSCRIBED Market Data | USOil
+2022-12-11 18:55:12.496368 | SUBSCRIBED Market Data | XAU/USD
+2022-12-11 19:12:36.219347 | Check duplicate positions...BEGIN
+2022-12-11 19:12:36.322530 | Check duplicate positions...DONE
+2022-12-11 19:16:11.254344 | Update current positions...BEGIN
+2022-12-11 19:16:11.305626 | Update current positions...DONE
+2022-12-11 19:16:11.305756 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 19:16:11.374123 | NEUTRAL.....EUR/USD
+2022-12-11 19:16:22.467154 | OPEN LONG.....EUR/USD.....43 units
+2022-12-11 19:17:56.401310 | NEUTRAL.....USD/JPY
+2022-12-11 19:18:07.470587 | OPEN LONG.....USD/JPY.....51 units
+2022-12-11 19:21:02.965159 | Update trade amounts...BEGIN
+2022-12-11 19:21:03.056575 | Update trade amounts...DONE
+2022-12-11 19:22:10.655928 | NEUTRAL.....GBP/USD
+2022-12-11 19:22:21.729043 | OPEN LONG.....GBP/USD.....36 units
+2022-12-11 19:25:10.143548 | Log account report.....BEGIN
+2022-12-11 19:25:10.248979 | Log account report.....DONE
+2022-12-11 20:01:00.533499 | FAILED | close position | AUD/USD
+2022-12-11 20:01:00.533676 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:03:05.647533 | FAILED | close position | AUD/USD
+2022-12-11 20:03:05.647725 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:03:44.614158 | FAILED | close position | AUD/USD
+2022-12-11 20:03:44.614375 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:04:28.691135 | FAILED | close position | NZD/USD
+2022-12-11 20:04:28.691364 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:05:10.703076 | FAILED | close position | AUD/USD
+2022-12-11 20:05:10.703270 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:05:49.706807 | FAILED | close position | AUD/USD
+2022-12-11 20:05:49.707037 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:06:33.814983 | FAILED | close position | NZD/USD
+2022-12-11 20:06:33.815172 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:07:15.759710 | FAILED | close position | AUD/USD
+2022-12-11 20:07:15.759877 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:07:54.759114 | FAILED | close position | AUD/USD
+2022-12-11 20:07:54.759324 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:08:38.912478 | FAILED | close position | NZD/USD
+2022-12-11 20:08:38.912696 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:09:30.826128 | FAILED | open short | AUD/USD
+2022-12-11 20:09:30.826750 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:09:59.814231 | FAILED | close position | AUD/USD
+2022-12-11 20:09:59.814412 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:10:12.762108 | Check duplicate positions...BEGIN
+2022-12-11 20:10:12.863810 | Check duplicate positions...DONE
+2022-12-11 20:10:43.964730 | FAILED | close position | NZD/USD
+2022-12-11 20:10:43.964916 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:11:35.923183 | FAILED | open short | AUD/USD
+2022-12-11 20:11:35.923388 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:12:14.924281 | FAILED | open short | AUD/USD
+2022-12-11 20:12:14.924454 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:12:59.125499 | FAILED | open short | NZD/USD
+2022-12-11 20:12:59.126137 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:13:41.019248 | FAILED | open short | AUD/USD
+2022-12-11 20:13:41.019450 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:14:20.021342 | FAILED | open short | AUD/USD
+2022-12-11 20:14:20.021630 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:15:04.278990 | FAILED | open short | NZD/USD
+2022-12-11 20:15:04.279183 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:15:17.062037 | Update current positions...BEGIN
+2022-12-11 20:15:17.120428 | Update current positions...DONE
+2022-12-11 20:15:17.120566 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 20:15:46.071473 | FAILED | open short | AUD/USD
+2022-12-11 20:15:46.071710 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:16:25.076559 | FAILED | open short | AUD/USD
+2022-12-11 20:16:25.076734 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:17:09.348600 | FAILED | open short | NZD/USD
+2022-12-11 20:17:09.348779 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:18:30.131217 | FAILED | open short | AUD/USD
+2022-12-11 20:18:30.131455 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:19:14.405790 | FAILED | open short | NZD/USD
+2022-12-11 20:19:14.405969 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 20:20:59.673749 | Update trade amounts...BEGIN
+2022-12-11 20:20:59.725159 | Update trade amounts...DONE
+2022-12-11 20:26:17.802171 | Log account report.....BEGIN
+2022-12-11 20:26:17.894148 | Log account report.....DONE
+2022-12-11 21:02:09.046403 | FAILED | close position | NZD/USD
+2022-12-11 21:02:09.046603 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:04:14.148189 | FAILED | close position | NZD/USD
+2022-12-11 21:04:14.148393 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:06:19.280798 | FAILED | close position | NZD/USD
+2022-12-11 21:06:19.280966 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:08:24.360990 | FAILED | close position | NZD/USD
+2022-12-11 21:08:24.361179 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:10:07.631755 | Check duplicate positions...BEGIN
+2022-12-11 21:10:07.733572 | Check duplicate positions...DONE
+2022-12-11 21:10:39.447547 | FAILED | open short | NZD/USD
+2022-12-11 21:10:39.447746 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:12:44.504325 | FAILED | open short | NZD/USD
+2022-12-11 21:12:44.504513 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:14:49.599106 | FAILED | open short | NZD/USD
+2022-12-11 21:14:49.599321 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:15:04.384375 | Update current positions...BEGIN
+2022-12-11 21:15:04.744093 | Update current positions...DONE
+2022-12-11 21:15:04.744241 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 21:16:54.652056 | FAILED | open short | NZD/USD
+2022-12-11 21:16:54.652231 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:20:26.830687 | Update trade amounts...BEGIN
+2022-12-11 21:20:26.925487 | Update trade amounts...DONE
+2022-12-11 21:26:41.410705 | Log account report.....BEGIN
+2022-12-11 21:26:41.460810 | Log account report.....DONE
+2022-12-11 21:31:21.070643 | FAILED | close position | AUD/USD
+2022-12-11 21:31:21.070809 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:33:26.131230 | FAILED | close position | AUD/USD
+2022-12-11 21:33:26.131464 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:35:31.188644 | FAILED | close position | AUD/USD
+2022-12-11 21:35:31.188839 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:37:36.264728 | FAILED | close position | AUD/USD
+2022-12-11 21:37:36.264994 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:39:51.369191 | FAILED | open short | AUD/USD
+2022-12-11 21:39:51.369371 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:41:56.489028 | FAILED | open short | AUD/USD
+2022-12-11 21:41:56.489221 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:44:01.589236 | FAILED | open short | AUD/USD
+2022-12-11 21:44:01.589413 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 21:46:06.688088 | FAILED | open short | AUD/USD
+2022-12-11 21:46:06.688755 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:02:00.511040 | FAILED | close position | EUR/USD
+2022-12-11 22:02:00.511232 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:04:05.564243 | FAILED | close position | EUR/USD
+2022-12-11 22:04:05.564421 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:05:26.832918 | FAILED | close position | NZD/USD
+2022-12-11 22:05:26.833097 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:06:10.628583 | FAILED | close position | EUR/USD
+2022-12-11 22:06:10.628771 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:07:31.920569 | FAILED | close position | NZD/USD
+2022-12-11 22:07:31.920760 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:08:15.679732 | FAILED | close position | EUR/USD
+2022-12-11 22:08:15.679927 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:08:57.508360 | FAILED | close position | AUD/USD
+2022-12-11 22:08:57.508568 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:09:37.020549 | FAILED | close position | NZD/USD
+2022-12-11 22:09:37.020727 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:10:06.094915 | Check duplicate positions...BEGIN
+2022-12-11 22:10:06.262892 | Check duplicate positions...DONE
+2022-12-11 22:10:30.763665 | FAILED | open short | EUR/USD
+2022-12-11 22:10:30.764256 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:11:02.561942 | FAILED | close position | AUD/USD
+2022-12-11 22:11:02.562117 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:11:42.114706 | FAILED | close position | NZD/USD
+2022-12-11 22:11:42.114880 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:12:35.817754 | FAILED | open short | EUR/USD
+2022-12-11 22:12:35.817942 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:13:07.618918 | FAILED | close position | AUD/USD
+2022-12-11 22:13:07.619137 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:13:57.202912 | FAILED | open short | NZD/USD
+2022-12-11 22:13:57.203081 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:14:40.914132 | FAILED | open short | EUR/USD
+2022-12-11 22:14:40.915559 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:15:00.965036 | Update current positions...BEGIN
+2022-12-11 22:15:01.019218 | Update current positions...DONE
+2022-12-11 22:15:01.019366 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 22:15:12.712614 | FAILED | close position | AUD/USD
+2022-12-11 22:15:12.712781 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:16:02.332738 | FAILED | open short | NZD/USD
+2022-12-11 22:16:02.332916 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:16:45.970547 | FAILED | open short | EUR/USD
+2022-12-11 22:16:45.970808 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:17:27.839454 | FAILED | open short | AUD/USD
+2022-12-11 22:17:27.840008 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:18:07.433093 | FAILED | open short | NZD/USD
+2022-12-11 22:18:07.433281 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:19:32.890935 | FAILED | open short | AUD/USD
+2022-12-11 22:19:32.891111 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:20:01.965308 | Update trade amounts...BEGIN
+2022-12-11 22:20:02.061119 | Update trade amounts...DONE
+2022-12-11 22:20:12.495042 | FAILED | open short | NZD/USD
+2022-12-11 22:20:12.495219 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:21:37.990466 | FAILED | open short | AUD/USD
+2022-12-11 22:21:37.990627 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:23:43.062920 | FAILED | open short | AUD/USD
+2022-12-11 22:23:43.063096 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 22:25:02.514318 | Log account report.....BEGIN
+2022-12-11 22:25:02.571813 | Log account report.....DONE
+2022-12-11 23:02:00.439399 | FAILED | close position | AUD/USD
+2022-12-11 23:02:00.439199 | FAILED | close position | NZD/USD
+2022-12-11 23:02:00.444738 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:02:00.446672 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:02:00.477531 | FAILED | close position | EUR/USD
+2022-12-11 23:02:00.479129 | FAILED | close position | NAS100
+2022-12-11 23:02:00.479615 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:02:00.479786 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:04:05.587870 | FAILED | close position | AUD/USD
+2022-12-11 23:04:05.588054 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:04:05.591760 | FAILED | close position | EUR/USD
+2022-12-11 23:04:05.591862 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:04:05.592490 | FAILED | close position | NZD/USD
+2022-12-11 23:04:05.592610 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:04:05.598137 | FAILED | close position | NAS100
+2022-12-11 23:04:05.598352 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:06:10.641384 | FAILED | close position | NZD/USD
+2022-12-11 23:06:10.641551 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:06:10.642730 | FAILED | close position | EUR/USD
+2022-12-11 23:06:10.642859 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:06:10.652132 | FAILED | close position | AUD/USD
+2022-12-11 23:06:10.652262 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:06:10.734169 | FAILED | close position | NAS100
+2022-12-11 23:06:10.734311 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:08:15.699544 | FAILED | close position | EUR/USD
+2022-12-11 23:08:15.699697 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:08:15.700736 | FAILED | close position | NZD/USD
+2022-12-11 23:08:15.700859 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:08:15.744989 | FAILED | close position | AUD/USD
+2022-12-11 23:08:15.745150 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:08:15.811978 | FAILED | close position | NAS100
+2022-12-11 23:08:15.812144 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:10:00.548161 | Check duplicate positions...BEGIN
+2022-12-11 23:10:00.761241 | Check duplicate positions...DONE
+2022-12-11 23:10:30.814294 | FAILED | open short | NZD/USD
+2022-12-11 23:10:30.814465 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:10:30.818062 | FAILED | open short | AUD/USD
+2022-12-11 23:10:30.818161 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:10:30.819420 | FAILED | open short | EUR/USD
+2022-12-11 23:10:30.821439 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:10:30.878184 | FAILED | open short | NAS100
+2022-12-11 23:10:30.880133 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:12:35.874086 | FAILED | open short | EUR/USD
+2022-12-11 23:12:35.873510 | FAILED | open short | NZD/USD
+2022-12-11 23:12:35.877480 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:12:35.879423 | FAILED | open short | AUD/USD
+2022-12-11 23:12:35.879931 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:12:35.880546 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:12:35.994265 | FAILED | open short | NAS100
+2022-12-11 23:12:35.994418 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:14:40.978123 | FAILED | open short | AUD/USD
+2022-12-11 23:14:40.978307 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:14:40.982440 | FAILED | open short | EUR/USD
+2022-12-11 23:14:40.982563 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:14:40.982833 | FAILED | open short | NZD/USD
+2022-12-11 23:14:40.982969 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:14:41.047627 | FAILED | open short | NAS100
+2022-12-11 23:14:41.047807 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:15:00.315196 | Update current positions...BEGIN
+2022-12-11 23:15:00.402146 | Update current positions...DONE
+2022-12-11 23:15:00.403585 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 0, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-11 23:16:46.069281 | FAILED | open short | EUR/USD
+2022-12-11 23:16:46.069454 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:16:46.073418 | FAILED | open short | AUD/USD
+2022-12-11 23:16:46.073521 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:16:46.077130 | FAILED | open short | NZD/USD
+2022-12-11 23:16:46.077219 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:16:46.099239 | FAILED | open short | NAS100
+2022-12-11 23:16:46.099524 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-11 23:20:00.305586 | Update trade amounts...BEGIN
+2022-12-11 23:20:00.372917 | Update trade amounts...DONE
+2022-12-11 23:25:00.912910 | Log account report.....BEGIN
+2022-12-11 23:25:00.969293 | Log account report.....DONE

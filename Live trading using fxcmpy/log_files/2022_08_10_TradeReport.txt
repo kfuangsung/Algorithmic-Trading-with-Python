@@ -1,0 +1,383 @@
+2022-08-10 14:24:31.782204 | --------------------------------------------------
+2022-08-10 14:24:31.782347 | Connecting...
+2022-08-10 14:24:58.747541 | CONNECTED
+2022-08-10 14:24:58.747693 | connection status: established
+2022-08-10 14:24:58.747750 | --------------------------------------------------
+2022-08-10 14:24:58.747812 | Updated current positions...BEGIN
+2022-08-10 14:24:58.819169 | Updated current positions...DONE
+2022-08-10 14:24:58.819343 | Warming up data.....BEGIN
+2022-08-10 14:25:21.620303 | ERROR | get_candles | NGAS | attempt1.....retrying in 5 seconds
+2022-08-10 14:29:17.191987 | --------------------------------------------------
+2022-08-10 14:29:17.192105 | Connecting...
+2022-08-10 14:29:23.423059 | CONNECTED
+2022-08-10 14:29:23.423236 | connection status: established
+2022-08-10 14:29:23.423287 | --------------------------------------------------
+2022-08-10 14:29:23.423344 | Updated current positions...BEGIN
+2022-08-10 14:29:23.483225 | Updated current positions...DONE
+2022-08-10 14:29:23.483396 | Warming up data.....BEGIN
+2022-08-10 14:29:23.729338 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:29:28.844250 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:29:34.391269 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:29:40.206716 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:29:46.301231 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:29:52.415388 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:29:57.420679 | --------------------------------------------------
+2022-08-10 14:29:57.420925 | Disconnecting...
+2022-08-10 14:30:00.574713 | DISCONNECTED
+2022-08-10 14:30:00.574970 | connection status: unset
+2022-08-10 14:30:00.575070 | *** restarting python script ***|
+2022-08-10 14:30:01.181320 | --------------------------------------------------
+2022-08-10 14:30:01.181438 | Connecting...
+2022-08-10 14:30:07.456095 | CONNECTED
+2022-08-10 14:30:07.456283 | connection status: established
+2022-08-10 14:30:07.456349 | --------------------------------------------------
+2022-08-10 14:30:07.456422 | Updated current positions...BEGIN
+2022-08-10 14:30:07.522777 | Updated current positions...DONE
+2022-08-10 14:30:07.522964 | Warming up data.....BEGIN
+2022-08-10 14:30:07.811106 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:30:12.928775 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:30:18.530239 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:30:23.689327 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:30:29.636985 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:30:36.553169 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:30:41.558528 | --------------------------------------------------
+2022-08-10 14:30:41.558781 | Disconnecting...
+2022-08-10 14:30:45.476186 | DISCONNECTED
+2022-08-10 14:30:45.476445 | connection status: unset
+2022-08-10 14:30:45.476529 | *** restarting python script ***|
+2022-08-10 14:30:46.087566 | --------------------------------------------------
+2022-08-10 14:30:46.087680 | Connecting...
+2022-08-10 14:30:55.967122 | CONNECTED
+2022-08-10 14:30:55.967314 | connection status: established
+2022-08-10 14:30:55.967369 | --------------------------------------------------
+2022-08-10 14:30:55.967444 | Updated current positions...BEGIN
+2022-08-10 14:30:56.692730 | Updated current positions...DONE
+2022-08-10 14:30:56.692912 | Warming up data.....BEGIN
+2022-08-10 14:30:57.438440 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:31:02.768094 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:31:10.519642 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:31:18.415517 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:31:24.273681 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:31:29.977373 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:31:34.982911 | --------------------------------------------------
+2022-08-10 14:31:34.983155 | Disconnecting...
+2022-08-10 14:31:38.119593 | DISCONNECTED
+2022-08-10 14:31:38.119842 | connection status: unset
+2022-08-10 14:31:38.120153 | *** restarting python script ***|
+2022-08-10 14:31:38.714306 | --------------------------------------------------
+2022-08-10 14:31:38.714418 | Connecting...
+2022-08-10 14:31:43.110143 | CONNECTED
+2022-08-10 14:31:43.110307 | connection status: established
+2022-08-10 14:31:43.110359 | --------------------------------------------------
+2022-08-10 14:31:43.110422 | Updated current positions...BEGIN
+2022-08-10 14:31:43.530980 | Updated current positions...DONE
+2022-08-10 14:31:43.531183 | Warming up data.....BEGIN
+2022-08-10 14:31:44.097298 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:31:50.085517 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:31:55.579530 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:32:01.206301 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:32:06.627403 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:32:12.059470 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:32:17.064703 | --------------------------------------------------
+2022-08-10 14:32:17.064932 | Disconnecting...
+2022-08-10 14:32:20.175552 | DISCONNECTED
+2022-08-10 14:32:20.175812 | connection status: unset
+2022-08-10 14:32:20.176028 | *** restarting python script ***|
+2022-08-10 14:32:20.765667 | --------------------------------------------------
+2022-08-10 14:32:20.765783 | Connecting...
+2022-08-10 14:32:50.766010 | ERROR to connect...try again in 60 seconds
+2022-08-10 14:33:50.810138 | --------------------------------------------------
+2022-08-10 14:33:50.810407 | Connecting...
+2022-08-10 14:33:50.811734 | ERROR to connect...try again in 60 seconds
+2022-08-10 14:34:50.818133 | --------------------------------------------------
+2022-08-10 14:34:50.818362 | Connecting...
+2022-08-10 14:34:50.819143 | ERROR to connect...try again in 60 seconds
+2022-08-10 14:35:50.871692 | --------------------------------------------------
+2022-08-10 14:35:50.871933 | Connecting...
+2022-08-10 14:35:50.872676 | ERROR to connect...try again in 60 seconds
+2022-08-10 14:55:01.517076 | --------------------------------------------------
+2022-08-10 14:55:01.517193 | Connecting...
+2022-08-10 14:55:06.124255 | CONNECTED
+2022-08-10 14:55:06.124413 | connection status: established
+2022-08-10 14:55:06.124469 | --------------------------------------------------
+2022-08-10 14:55:06.124531 | Updated current positions...BEGIN
+2022-08-10 14:55:06.184820 | Updated current positions...DONE
+2022-08-10 14:55:06.184979 | Warming up data.....BEGIN
+2022-08-10 14:55:06.432863 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:55:11.523757 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:55:16.892576 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:55:21.996665 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:55:27.273327 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:55:32.686200 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:55:37.690210 | --------------------------------------------------
+2022-08-10 14:55:37.690466 | Disconnecting...
+2022-08-10 14:55:40.696809 | DISCONNECTED
+2022-08-10 14:55:40.697047 | connection status: unset
+2022-08-10 14:55:40.697130 | *** restarting python script ***|
+2022-08-10 14:55:41.294318 | --------------------------------------------------
+2022-08-10 14:55:41.294434 | Connecting...
+2022-08-10 14:55:45.735305 | CONNECTED
+2022-08-10 14:55:45.735476 | connection status: established
+2022-08-10 14:55:45.735531 | --------------------------------------------------
+2022-08-10 14:55:45.735600 | Updated current positions...BEGIN
+2022-08-10 14:55:46.104778 | Updated current positions...DONE
+2022-08-10 14:55:46.104970 | Warming up data.....BEGIN
+2022-08-10 14:55:46.226608 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:55:51.363724 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:55:56.871773 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:56:02.177758 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:56:08.249416 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:56:13.352516 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:56:18.357807 | --------------------------------------------------
+2022-08-10 14:56:18.358082 | Disconnecting...
+2022-08-10 14:56:21.366176 | DISCONNECTED
+2022-08-10 14:56:21.366385 | connection status: unset
+2022-08-10 14:56:21.366442 | *** restarting python script ***|
+2022-08-10 14:56:21.964570 | --------------------------------------------------
+2022-08-10 14:56:21.964687 | Connecting...
+2022-08-10 14:56:26.148109 | CONNECTED
+2022-08-10 14:56:26.148300 | connection status: established
+2022-08-10 14:56:26.148366 | --------------------------------------------------
+2022-08-10 14:56:26.148439 | Updated current positions...BEGIN
+2022-08-10 14:56:26.254487 | Updated current positions...DONE
+2022-08-10 14:56:26.254654 | Warming up data.....BEGIN
+2022-08-10 14:56:26.425596 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:56:31.535002 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:56:36.942266 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:56:42.945721 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:56:48.125641 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 14:56:53.475942 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 14:56:58.481230 | --------------------------------------------------
+2022-08-10 14:56:58.481604 | Disconnecting...
+2022-08-10 14:56:59.957340 | ERROR | close connection...try again in 5 seconds
+2022-08-10 14:57:04.962704 | --------------------------------------------------
+2022-08-10 14:57:04.962960 | Disconnecting...
+2022-08-10 14:57:04.963169 | DISCONNECTED
+2022-08-10 14:57:04.963264 | connection status: unset
+2022-08-10 14:57:04.963321 | --------------------------------------------------
+2022-08-10 14:57:04.963371 | *** restarting python script ***|
+2022-08-10 14:57:05.556223 | --------------------------------------------------
+2022-08-10 14:57:05.556333 | Connecting...
+2022-08-10 14:57:06.732063 | ERROR to connect...try again in 60 seconds
+2022-08-10 14:57:49.155214 | --------------------------------------------------
+2022-08-10 14:57:49.155347 | Connecting...
+2022-08-10 14:58:01.025686 | CONNECTED
+2022-08-10 14:58:01.025857 | connection status: established
+2022-08-10 14:58:01.025922 | --------------------------------------------------
+2022-08-10 14:58:01.025986 | Updated current positions...BEGIN
+2022-08-10 14:58:01.085093 | Updated current positions...DONE
+2022-08-10 14:58:01.085283 | Warming up data.....BEGIN
+2022-08-10 14:58:01.222306 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 14:58:06.366684 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 14:58:13.637964 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 14:58:18.765612 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 14:58:26.152400 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 15:09:58.268116 | --------------------------------------------------
+2022-08-10 15:09:58.268230 | Connecting...
+2022-08-10 15:10:07.784997 | CONNECTED
+2022-08-10 15:10:07.785171 | connection status: established
+2022-08-10 15:10:07.785222 | --------------------------------------------------
+2022-08-10 15:10:07.785287 | Updated current positions...BEGIN
+2022-08-10 15:10:08.169639 | Updated current positions...DONE
+2022-08-10 15:10:08.169820 | Warming up data.....BEGIN
+2022-08-10 15:10:08.301750 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 15:10:13.517524 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 15:10:19.678567 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 15:12:31.581636 | --------------------------------------------------
+2022-08-10 15:12:31.581750 | Connecting...
+2022-08-10 15:12:46.051789 | CONNECTED
+2022-08-10 15:12:46.051972 | connection status: established
+2022-08-10 15:12:46.052028 | --------------------------------------------------
+2022-08-10 15:12:46.052100 | Updated current positions...BEGIN
+2022-08-10 15:12:46.864822 | FAILED | get_open_positions | attempt1
+2022-08-10 15:12:48.649507 | FAILED | get_open_positions | attempt2
+2022-08-10 15:12:49.903839 | FAILED | get_open_positions | attempt3
+2022-08-10 15:12:50.125437 | FAILED | get_open_positions | attempt4
+2022-08-10 15:12:50.292389 | FAILED | get_open_positions | attempt5
+2022-08-10 15:12:50.445136 | FAILED | get_open_positions | attempt6
+2022-08-10 15:12:50.445322 | --------------------------------------------------
+2022-08-10 15:12:50.445384 | Disconnecting...
+2022-08-10 15:12:53.762854 | DISCONNECTED
+2022-08-10 15:12:53.763094 | connection status: unset
+2022-08-10 15:12:53.763174 | *** restarting python script ***|
+2022-08-10 15:12:54.361618 | --------------------------------------------------
+2022-08-10 15:12:54.361734 | Connecting...
+2022-08-10 15:13:12.413680 | CONNECTED
+2022-08-10 15:13:12.413865 | connection status: established
+2022-08-10 15:13:12.413922 | --------------------------------------------------
+2022-08-10 15:13:12.413994 | Updated current positions...BEGIN
+2022-08-10 15:13:13.980169 | FAILED | get_open_positions | attempt1
+2022-08-10 15:13:15.608227 | FAILED | get_open_positions | attempt2
+2022-08-10 15:13:16.955858 | FAILED | get_open_positions | attempt3
+2022-08-10 15:13:18.135460 | ERROR | get_open_positions | attempt4.....retrying in 5 seconds
+2022-08-10 15:13:18.684401 | ERROR | get_open_positions | attempt3.....retrying in 5 seconds
+2022-08-10 15:13:19.631895 | ERROR | get_open_positions | attempt2.....retrying in 5 seconds
+2022-08-10 15:13:19.874191 | ERROR | get_open_positions | attempt1.....retrying in 5 seconds
+2022-08-10 15:17:53.278987 | --------------------------------------------------
+2022-08-10 15:17:53.279102 | Connecting...
+2022-08-10 15:17:57.423156 | CONNECTED
+2022-08-10 15:17:57.423613 | connection status: established
+2022-08-10 15:17:57.423841 | --------------------------------------------------
+2022-08-10 15:17:57.424036 | Updated current positions...BEGIN
+2022-08-10 15:17:57.805945 | Updated current positions...DONE
+2022-08-10 15:17:57.806271 | Warming up data.....BEGIN
+2022-08-10 15:17:57.953290 | ERROR | get_candles | EUR/USD | attempt1.....retrying in 5 seconds
+2022-08-10 15:18:03.066567 | ERROR | get_candles | EUR/USD | attempt2.....retrying in 5 seconds
+2022-08-10 15:18:08.516106 | ERROR | get_candles | EUR/USD | attempt3.....retrying in 5 seconds
+2022-08-10 15:18:13.628435 | ERROR | get_candles | EUR/USD | attempt4.....retrying in 5 seconds
+2022-08-10 15:18:18.739235 | ERROR | get_candles | EUR/USD | attempt5.....retrying in 5 seconds
+2022-08-10 15:18:30.798839 | ERROR | get_candles | EUR/USD | attempt6.....retrying in 5 seconds
+2022-08-10 15:18:35.804337 | --------------------------------------------------
+2022-08-10 15:18:35.804576 | Disconnecting...
+2022-08-10 15:18:39.046291 | DISCONNECTED
+2022-08-10 15:18:39.046536 | connection status: unset
+2022-08-10 15:18:39.046805 | *** restarting python script ***|
+2022-08-10 15:18:39.645925 | --------------------------------------------------
+2022-08-10 15:18:39.646076 | Connecting...
+2022-08-10 15:18:41.797804 | ERROR to connect...try again in 60 seconds
+2022-08-10 15:26:23.594738 | --------------------------------------------------
+2022-08-10 15:26:23.594854 | Connecting...
+2022-08-10 15:26:28.798210 | CONNECTED
+2022-08-10 15:26:28.798391 | connection status: established
+2022-08-10 15:26:28.798454 | --------------------------------------------------
+2022-08-10 15:26:28.798524 | Updated current positions...BEGIN
+2022-08-10 15:26:29.028593 | Updated current positions...DONE
+2022-08-10 15:26:29.028787 | Warming up data.....BEGIN
+2022-08-10 15:26:39.097519 | Warming up data.....DONE
+2022-08-10 15:26:39.097693 | Updated trade amounts...BEGIN
+2022-08-10 15:26:39.251806 | Updated trade amounts...DONE
+2022-08-10 15:26:39.736784 | SUBSCRIBED Market Data | EUR/USD
+2022-08-10 15:26:40.183373 | SUBSCRIBED Market Data | USD/JPY
+2022-08-10 15:26:40.432737 | SUBSCRIBED Market Data | GBP/USD
+2022-08-10 15:26:40.581872 | SUBSCRIBED Market Data | USD/CHF
+2022-08-10 15:26:41.160394 | SUBSCRIBED Market Data | AUD/USD
+2022-08-10 15:26:41.646021 | SUBSCRIBED Market Data | USD/CAD
+2022-08-10 15:26:41.870937 | SUBSCRIBED Market Data | NZD/USD
+2022-08-10 15:26:42.164329 | SUBSCRIBED Market Data | Bund
+2022-08-10 15:26:42.446594 | SUBSCRIBED Market Data | AUS200
+2022-08-10 15:26:42.496874 | SUBSCRIBED Market Data | CHN50
+2022-08-10 15:26:42.546421 | SUBSCRIBED Market Data | ESP35
+2022-08-10 15:26:42.597365 | SUBSCRIBED Market Data | EUSTX50
+2022-08-10 15:26:42.648164 | SUBSCRIBED Market Data | FRA40
+2022-08-10 15:26:42.697627 | SUBSCRIBED Market Data | GER30
+2022-08-10 15:26:42.944424 | SUBSCRIBED Market Data | HKG33
+2022-08-10 15:26:43.298972 | SUBSCRIBED Market Data | JPN225
+2022-08-10 15:26:43.356503 | SUBSCRIBED Market Data | NAS100
+2022-08-10 15:26:43.407287 | SUBSCRIBED Market Data | SPX500
+2022-08-10 15:26:43.682199 | SUBSCRIBED Market Data | UK100
+2022-08-10 15:26:43.742945 | SUBSCRIBED Market Data | US30
+2022-08-10 15:26:44.125647 | SUBSCRIBED Market Data | Copper
+2022-08-10 15:26:44.476210 | SUBSCRIBED Market Data | NGAS
+2022-08-10 15:26:44.569084 | SUBSCRIBED Market Data | SOYF
+2022-08-10 15:26:44.620064 | SUBSCRIBED Market Data | UKOil
+2022-08-10 15:26:44.763993 | SUBSCRIBED Market Data | USOil
+2022-08-10 15:26:45.009016 | SUBSCRIBED Market Data | XAU/USD
+2022-08-10 15:26:45.151432 | SUBSCRIBED Market Data | XAG/USD
+2022-08-10 15:39:28.624956 | --------------------------------------------------
+2022-08-10 15:39:28.625072 | Connecting...
+2022-08-10 15:39:36.664308 | CONNECTED
+2022-08-10 15:39:36.664480 | connection status: established
+2022-08-10 15:39:36.664531 | --------------------------------------------------
+2022-08-10 15:39:36.664595 | Updated current positions...BEGIN
+2022-08-10 15:39:36.905311 | Updated current positions...DONE
+2022-08-10 15:39:36.905478 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'SOYF': 0, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 15:39:36.905556 | Warming up data.....BEGIN
+2022-08-10 15:39:47.279762 | ERROR | get_candles | USOil | attempt1.....retrying in 5 seconds
+2022-08-10 15:41:54.757737 | --------------------------------------------------
+2022-08-10 15:41:54.757851 | Connecting...
+2022-08-10 15:42:05.577346 | CONNECTED
+2022-08-10 15:42:05.577557 | connection status: established
+2022-08-10 15:42:05.578235 | --------------------------------------------------
+2022-08-10 15:42:05.578566 | Updated current positions...BEGIN
+2022-08-10 15:42:06.033033 | Updated current positions...DONE
+2022-08-10 15:42:06.033195 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 15:42:06.033290 | Warming up data.....BEGIN
+2022-08-10 15:42:16.476861 | Warming up data.....DONE
+2022-08-10 15:42:16.477483 | Updated trade amounts...BEGIN
+2022-08-10 15:42:16.733740 | Updated trade amounts...DONE
+2022-08-10 15:42:17.395036 | SUBSCRIBED Market Data | EUR/USD
+2022-08-10 15:42:17.972429 | SUBSCRIBED Market Data | USD/JPY
+2022-08-10 15:42:18.381538 | SUBSCRIBED Market Data | GBP/USD
+2022-08-10 15:42:18.998443 | SUBSCRIBED Market Data | USD/CHF
+2022-08-10 15:42:19.838782 | SUBSCRIBED Market Data | AUD/USD
+2022-08-10 15:42:20.158946 | SUBSCRIBED Market Data | USD/CAD
+2022-08-10 15:42:20.672950 | SUBSCRIBED Market Data | NZD/USD
+2022-08-10 15:42:21.358662 | SUBSCRIBED Market Data | Bund
+2022-08-10 15:42:22.150996 | SUBSCRIBED Market Data | AUS200
+2022-08-10 15:42:22.261385 | SUBSCRIBED Market Data | CHN50
+2022-08-10 15:42:25.956632 | SUBSCRIBED Market Data | ESP35
+2022-08-10 15:42:27.495030 | SUBSCRIBED Market Data | EUSTX50
+2022-08-10 15:42:27.545321 | SUBSCRIBED Market Data | FRA40
+2022-08-10 15:42:27.612724 | SUBSCRIBED Market Data | GER30
+2022-08-10 15:42:27.900284 | SUBSCRIBED Market Data | HKG33
+2022-08-10 15:42:28.282864 | SUBSCRIBED Market Data | JPN225
+2022-08-10 15:42:28.395948 | SUBSCRIBED Market Data | NAS100
+2022-08-10 15:42:28.447265 | SUBSCRIBED Market Data | SPX500
+2022-08-10 15:42:28.750630 | SUBSCRIBED Market Data | UK100
+2022-08-10 15:42:29.034459 | SUBSCRIBED Market Data | US30
+2022-08-10 15:42:29.439241 | SUBSCRIBED Market Data | Copper
+2022-08-10 15:42:29.978810 | SUBSCRIBED Market Data | NGAS
+2022-08-10 15:42:30.422253 | SUBSCRIBED Market Data | UKOil
+2022-08-10 15:42:30.730219 | SUBSCRIBED Market Data | USOil
+2022-08-10 15:42:31.148207 | SUBSCRIBED Market Data | XAU/USD
+2022-08-10 15:42:31.198784 | SUBSCRIBED Market Data | XAG/USD
+2022-08-10 16:00:23.717044 | CLOSE SHORT.....NZD/USD
+2022-08-10 16:00:46.912780 | CLOSE LONG.....USOil
+2022-08-10 16:01:11.907876 | CLOSE LONG.....FRA40
+2022-08-10 16:01:18.372965 | CLOSE LONG.....CHN50
+2022-08-10 16:01:19.645780 | OPEN SHORT.....FRA40.....38 units
+2022-08-10 16:01:24.606907 | OPEN SHORT.....CHN50.....2 units
+2022-08-10 16:01:24.622376 | CLOSE LONG.....SPX500
+2022-08-10 16:01:28.419818 | CLOSE LONG.....NAS100
+2022-08-10 16:01:31.781887 | OPEN SHORT.....SPX500.....3 units
+2022-08-10 16:01:34.379398 | OPEN SHORT.....NAS100.....9 units
+2022-08-10 16:02:08.605995 | FAILED | open long | NZD/USD
+2022-08-10 16:02:08.626698 | FAILED | open short | USOil
+2022-08-10 16:10:01.231374 | Updated current positions...BEGIN
+2022-08-10 16:10:05.335833 | Updated current positions...DONE
+2022-08-10 16:10:05.336002 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 0, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 0, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 0, 'SPX500': 0, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 16:15:00.763918 | Updated trade amounts...BEGIN
+2022-08-10 16:15:01.691945 | Updated trade amounts...DONE
+2022-08-10 17:00:11.075324 | OPEN SHORT.....FRA40.....38 units
+2022-08-10 17:00:11.516158 | OPEN SHORT.....NAS100.....9 units
+2022-08-10 17:00:11.613636 | OPEN SHORT.....SPX500.....3 units
+2022-08-10 17:00:15.032562 | OPEN SHORT.....CHN50.....2 units
+2022-08-10 17:10:00.399307 | Updated current positions...BEGIN
+2022-08-10 17:10:00.840711 | Updated current positions...DONE
+2022-08-10 17:10:00.840875 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 17:15:00.818333 | Updated trade amounts...BEGIN
+2022-08-10 17:15:00.932439 | Updated trade amounts...DONE
+2022-08-10 18:10:01.073088 | Updated current positions...BEGIN
+2022-08-10 18:10:09.957435 | Updated current positions...DONE
+2022-08-10 18:10:09.957629 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 18:15:01.218921 | Updated trade amounts...BEGIN
+2022-08-10 18:15:01.570646 | Updated trade amounts...DONE
+2022-08-10 19:10:02.595971 | Updated current positions...BEGIN
+2022-08-10 19:10:10.456062 | Updated current positions...DONE
+2022-08-10 19:10:10.456237 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 19:15:00.659486 | Updated trade amounts...BEGIN
+2022-08-10 19:15:01.504430 | Updated trade amounts...DONE
+2022-08-10 20:10:00.467869 | Updated current positions...BEGIN
+2022-08-10 20:10:00.702959 | Updated current positions...DONE
+2022-08-10 20:10:00.703131 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 20:15:00.801118 | Updated trade amounts...BEGIN
+2022-08-10 20:15:00.869904 | Updated trade amounts...DONE
+2022-08-10 21:10:01.267006 | Updated current positions...BEGIN
+2022-08-10 21:10:01.336014 | Updated current positions...DONE
+2022-08-10 21:10:01.336186 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 21:15:09.793995 | Updated trade amounts...BEGIN
+2022-08-10 21:15:11.908932 | Updated trade amounts...DONE
+2022-08-10 22:10:00.419492 | Updated current positions...BEGIN
+2022-08-10 22:10:00.607067 | Updated current positions...DONE
+2022-08-10 22:10:00.607236 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 2, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 22:15:01.058932 | Updated trade amounts...BEGIN
+2022-08-10 22:15:01.536449 | Updated trade amounts...DONE
+2022-08-10 23:00:17.931222 | CLOSE SHORT.....USOil
+2022-08-10 23:00:18.113887 | CLOSE SHORT.....SPX500
+2022-08-10 23:00:35.406402 | OPEN LONG.....USOil.....4 units
+2022-08-10 23:00:35.543261 | OPEN LONG.....SPX500.....3 units
+2022-08-10 23:10:00.660704 | Updated current positions...BEGIN
+2022-08-10 23:10:00.761580 | Updated current positions...DONE
+2022-08-10 23:10:00.761742 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-10 23:15:00.559925 | Updated trade amounts...BEGIN
+2022-08-10 23:15:00.713603 | Updated trade amounts...DONE

@@ -1,0 +1,53 @@
+2022-07-29 00:05:02.367923 | --------------------------------------------------
+2022-07-29 00:05:02.368127 | Connecting...
+2022-07-29 00:05:06.345978 | CONNECTED
+2022-07-29 00:05:06.346157 | connection status: established
+2022-07-29 00:05:06.346199 | --------------------------------------------------
+2022-07-29 00:05:06.771526 | Updated current positions |
+2022-07-29 00:05:13.225993 | Warming up data.....Done
+2022-07-29 00:05:13.504240 | Updated trade amounts
+2022-07-29 01:00:01.945851 | OPEN LONG.....UKOil.....4 units
+2022-07-29 01:10:00.810342 | Updated trade amounts
+2022-07-29 01:10:00.813038 | Updated current positions |
+2022-07-29 02:10:01.554318 | Updated trade amounts
+2022-07-29 02:10:01.556193 | Updated current positions |
+2022-07-29 03:10:01.409208 | Updated current positions |
+2022-07-29 03:10:01.928478 | Updated trade amounts
+2022-07-29 04:00:01.609357 | CLOSE SHORT.....JPN225
+2022-07-29 04:00:08.511431 | OPEN LONG.....JPN225.....141 units
+2022-07-29 04:10:00.761736 | Updated current positions |
+2022-07-29 04:10:01.188700 | Updated trade amounts
+2022-07-29 05:10:00.498143 | Updated trade amounts
+2022-07-29 05:10:01.083866 | Updated current positions |
+2022-07-29 06:10:00.333501 | Updated current positions |
+2022-07-29 06:10:00.624270 | Updated trade amounts
+2022-07-29 07:10:01.676129 | Updated current positions |
+2022-07-29 07:10:01.674392 | Updated trade amounts
+2022-07-29 08:10:01.038369 | Updated trade amounts
+2022-07-29 08:10:01.041029 | Updated current positions |
+2022-07-29 10:00:01.307906 | CLOSE LONG.....UKOil
+2022-07-29 10:00:01.308022 | CLOSE LONG.....USOil
+2022-07-29 10:00:06.656929 | OPEN SHORT.....UKOil.....4 units
+2022-07-29 10:00:06.657312 | OPEN SHORT.....USOil.....4 units
+2022-07-29 12:05:02.596969 | --------------------------------------------------
+2022-07-29 12:05:02.597069 | Connecting...
+2022-07-29 12:05:06.633927 | CONNECTED
+2022-07-29 12:05:06.634079 | connection status: established
+2022-07-29 12:05:06.634122 | --------------------------------------------------
+2022-07-29 12:05:06.796175 | Updated current positions |
+2022-07-29 12:05:09.745825 | Warming up data.....Done
+2022-07-29 12:05:09.795831 | Updated trade amounts
+2022-07-29 13:00:00.869443 | CLOSE LONG.....UKOil
+2022-07-29 13:00:00.871470 | CLOSE LONG.....USOil
+2022-07-29 13:00:06.729769 | OPEN SHORT.....UKOil.....4 units
+2022-07-29 13:00:07.737620 | OPEN SHORT.....USOil.....4 units
+2022-07-29 13:10:00.982893 | Updated trade amounts
+2022-07-29 13:10:00.986307 | Updated current positions |
+2022-07-29 14:10:01.492974 | Updated trade amounts
+2022-07-29 14:10:01.495334 | Updated current positions |
+2022-07-29 17:00:03.964246 | CLOSE LONG.....NGAS
+2022-07-29 17:00:19.744885 | OPEN SHORT.....NGAS.....4 units
+2022-07-29 18:00:01.100160 | CLOSE SHORT.....USOil
+2022-07-29 18:00:01.276752 | CLOSE LONG.....AUD/USD
+2022-07-29 19:00:01.481846 | OPEN SHORT.....AUD/USD.....42 units
+2022-07-29 19:00:01.918252 | OPEN LONG.....USOil.....4 units

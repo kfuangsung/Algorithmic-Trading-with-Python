@@ -1,0 +1,40 @@
+2022-08-04 00:05:02.066556 | --------------------------------------------------
+2022-08-04 00:05:02.066709 | Connecting...
+2022-08-04 00:05:19.442642 | CONNECTED
+2022-08-04 00:05:19.442820 | connection status: established
+2022-08-04 00:05:19.442864 | --------------------------------------------------
+2022-08-04 00:05:19.801146 | Updated current positions |
+2022-08-04 00:05:28.539189 | Warming up data.....Done
+2022-08-04 00:05:28.591889 | Updated trade amounts
+2022-08-04 01:00:03.266537 | CLOSE SHORT.....NGAS
+2022-08-04 01:00:33.439611 | OPEN LONG.....NGAS.....2 units
+2022-08-04 05:00:01.274081 | CLOSE LONG.....Copper
+2022-08-04 06:00:01.277087 | OPEN SHORT.....Copper.....8 units
+2022-08-04 09:00:02.392296 | CLOSE SHORT.....XAG/USD
+2022-08-04 09:00:20.690517 | OPEN LONG.....XAG/USD.....226 units
+2022-08-04 12:05:02.285358 | --------------------------------------------------
+2022-08-04 12:05:02.285474 | Connecting...
+2022-08-04 12:05:05.247402 | CONNECTED
+2022-08-04 12:05:05.247597 | connection status: established
+2022-08-04 12:05:05.247648 | --------------------------------------------------
+2022-08-04 12:05:05.298621 | Updated current positions |
+2022-08-04 12:05:08.484890 | Warming up data.....Done
+2022-08-04 12:05:08.601249 | Updated trade amounts
+2022-08-04 13:00:03.568881 | OPEN SHORT.....Copper.....9 units
+2022-08-04 13:10:02.165523 | Updated current positions |
+2022-08-04 14:10:00.343294 | Updated current positions |
+2022-08-04 15:10:01.413453 | Updated current positions |
+2022-08-04 16:10:00.646213 | Updated current positions |
+2022-08-04 17:10:01.517962 | Updated current positions |
+2022-08-04 18:00:00.674103 | CLOSE LONG.....GBP/USD
+2022-08-04 18:00:18.559896 | OPEN SHORT.....GBP/USD.....19 units
+2022-08-04 18:10:01.354256 | Updated current positions |
+2022-08-04 19:10:01.090318 | Updated current positions |
+2022-08-04 20:10:00.310582 | Updated current positions |
+2022-08-04 21:10:02.268056 | Updated current positions |
+2022-08-04 22:00:26.420931 | CLOSE LONG.....JPN225
+2022-08-04 22:00:31.529779 | OPEN SHORT.....JPN225.....120 units
+2022-08-04 22:10:00.407754 | Updated current positions |
+2022-08-04 23:00:01.965670 | CLOSE LONG.....JPN225
+2022-08-04 23:00:07.412879 | OPEN SHORT.....JPN225.....120 units
+2022-08-04 23:10:00.544703 | Updated current positions |

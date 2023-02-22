@@ -1,0 +1,483 @@
+2022-08-26 00:00:00.850717 | CLOSE SHORT.....XAU/USD
+2022-08-26 00:00:00.855793 | CLOSE SHORT.....SPX500
+2022-08-26 00:00:00.858096 | CLOSE LONG.....UKOil
+2022-08-26 00:00:31.987658 | OPEN LONG.....SPX500.....3 units
+2022-08-26 00:00:31.989749 | OPEN SHORT.....UKOil.....4 units
+2022-08-26 00:00:31.992386 | OPEN LONG.....XAU/USD.....7 units
+2022-08-26 00:10:00.962444 | Update current positions...BEGIN
+2022-08-26 00:10:01.153149 | Update current positions...DONE
+2022-08-26 00:10:01.153327 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 00:20:00.259096 | Update trade amounts...BEGIN
+2022-08-26 00:20:00.688658 | Update trade amounts...DONE
+2022-08-26 00:30:00.539961 | Log account report.....BEGIN
+2022-08-26 00:30:00.975884 | Log account report.....DONE
+2022-08-26 01:10:00.426959 | Update current positions...BEGIN
+2022-08-26 01:10:00.711215 | Update current positions...DONE
+2022-08-26 01:10:00.711398 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 01:20:01.247372 | Update trade amounts...BEGIN
+2022-08-26 01:20:02.283518 | Update trade amounts...DONE
+2022-08-26 01:30:00.988264 | Log account report.....BEGIN
+2022-08-26 01:30:01.430062 | Log account report.....DONE
+2022-08-26 02:10:01.135215 | Update current positions...BEGIN
+2022-08-26 02:10:04.031815 | Update current positions...DONE
+2022-08-26 02:10:04.031991 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 02:20:00.617848 | Update trade amounts...BEGIN
+2022-08-26 02:20:01.188068 | Update trade amounts...DONE
+2022-08-26 02:30:00.667553 | Log account report.....BEGIN
+2022-08-26 02:30:01.119852 | Log account report.....DONE
+2022-08-26 03:00:02.605283 | CLOSE SHORT.....GER30
+2022-08-26 03:00:34.276415 | OPEN LONG.....GER30.....9 units
+2022-08-26 03:10:00.037548 | Update current positions...BEGIN
+2022-08-26 03:10:00.292004 | Update current positions...DONE
+2022-08-26 03:10:00.292242 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 03:20:00.236841 | Update trade amounts...BEGIN
+2022-08-26 03:20:00.337221 | Update trade amounts...DONE
+2022-08-26 03:30:00.161526 | Log account report.....BEGIN
+2022-08-26 03:30:00.746319 | Log account report.....DONE
+2022-08-26 04:10:00.545802 | Update current positions...BEGIN
+2022-08-26 04:10:01.067511 | Update current positions...DONE
+2022-08-26 04:10:01.067686 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 04:20:00.816844 | Update trade amounts...BEGIN
+2022-08-26 04:20:01.831482 | Update trade amounts...DONE
+2022-08-26 04:30:01.531272 | Log account report.....BEGIN
+2022-08-26 04:30:02.244700 | Log account report.....DONE
+2022-08-26 05:00:01.955257 | CLOSE SHORT.....HKG33
+2022-08-26 05:00:33.579151 | OPEN LONG.....HKG33.....9 units
+2022-08-26 05:10:00.072197 | Update current positions...BEGIN
+2022-08-26 05:10:00.650872 | Update current positions...DONE
+2022-08-26 05:10:00.651047 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 05:20:01.398351 | Update trade amounts...BEGIN
+2022-08-26 05:20:03.929711 | Update trade amounts...DONE
+2022-08-26 05:30:00.318570 | Log account report.....BEGIN
+2022-08-26 05:30:00.890785 | Log account report.....DONE
+2022-08-26 06:10:00.685569 | Update current positions...BEGIN
+2022-08-26 06:10:01.202475 | Update current positions...DONE
+2022-08-26 06:10:01.202657 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 06:20:01.427763 | Update trade amounts...BEGIN
+2022-08-26 06:20:04.564264 | Update trade amounts...DONE
+2022-08-26 06:30:00.914744 | Log account report.....BEGIN
+2022-08-26 06:30:02.511066 | Log account report.....DONE
+2022-08-26 07:00:03.787667 | CLOSE LONG.....GBP/USD
+2022-08-26 07:01:06.371371 | OPEN SHORT.....GBP/USD.....20 units
+2022-08-26 07:10:00.779593 | Update current positions...BEGIN
+2022-08-26 07:10:01.258336 | Update current positions...DONE
+2022-08-26 07:10:01.258940 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 2, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 07:10:03.929207 | CLOSE SHORT.....AUS200
+2022-08-26 07:10:34.738864 | OPEN LONG.....AUS200.....54 units
+2022-08-26 07:20:00.674054 | Update trade amounts...BEGIN
+2022-08-26 07:20:03.216455 | Update trade amounts...DONE
+2022-08-26 07:30:01.157496 | Log account report.....BEGIN
+2022-08-26 07:30:06.555798 | Log account report.....DONE
+2022-08-26 08:10:00.261507 | Update current positions...BEGIN
+2022-08-26 08:10:00.645274 | Update current positions...DONE
+2022-08-26 08:10:00.645974 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 08:20:00.226321 | Update trade amounts...BEGIN
+2022-08-26 08:20:00.407484 | Update trade amounts...DONE
+2022-08-26 08:30:00.996261 | Log account report.....BEGIN
+2022-08-26 08:30:02.394841 | Log account report.....DONE
+2022-08-26 09:10:01.525662 | Update current positions...BEGIN
+2022-08-26 09:10:03.673666 | Update current positions...DONE
+2022-08-26 09:10:03.673850 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 09:20:01.194754 | Update trade amounts...BEGIN
+2022-08-26 09:20:04.541968 | Update trade amounts...DONE
+2022-08-26 09:30:02.110083 | Log account report.....BEGIN
+2022-08-26 09:30:04.071538 | ERROR | get_model | attempt1.....retrying in 30 seconds
+2022-08-26 09:30:04.071808 | ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-08-26 10:10:00.679369 | Update current positions...BEGIN
+2022-08-26 10:10:01.280662 | Update current positions...DONE
+2022-08-26 10:10:01.280843 | {'EUR/USD': 1, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 10:20:00.695566 | Update trade amounts...BEGIN
+2022-08-26 10:20:01.040148 | Update trade amounts...DONE
+2022-08-26 11:00:05.507093 | CLOSE SHORT.....USD/JPY
+2022-08-26 11:00:43.614215 | OPEN LONG.....USD/JPY.....29 units
+2022-08-26 11:10:00.303106 | Update current positions...BEGIN
+2022-08-26 11:10:00.470384 | Update current positions...DONE
+2022-08-26 11:10:00.470589 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 11:20:00.340518 | Update trade amounts...BEGIN
+2022-08-26 11:20:00.519391 | Update trade amounts...DONE
+2022-08-26 12:00:08.171068 | CLOSE SHORT.....NAS100
+2022-08-26 12:00:41.815528 | OPEN LONG.....NAS100.....10 units
+2022-08-26 12:10:01.259632 | Update current positions...BEGIN
+2022-08-26 12:10:02.069766 | ERROR | get_open_positions | attempt1.....retrying in 30 seconds
+2022-08-26 12:10:02.069904 | 'open_positions'
+2022-08-26 12:10:32.351962 | ERROR | get_open_positions | attempt2.....retrying in 30 seconds
+2022-08-26 12:10:32.352177 | 'open_positions'
+2022-08-26 12:11:04.570441 | ERROR | get_open_positions | attempt3.....retrying in 30 seconds
+2022-08-26 12:11:04.570595 | 'open_positions'
+2022-08-26 12:11:37.061615 | ERROR | get_open_positions | attempt4.....retrying in 30 seconds
+2022-08-26 12:11:37.061833 | 'open_positions'
+2022-08-26 12:12:09.452827 | ERROR | get_open_positions | attempt5.....retrying in 30 seconds
+2022-08-26 12:12:09.452989 | 'open_positions'
+2022-08-26 12:12:39.792053 | ERROR | get_open_positions | attempt6.....retrying in 30 seconds
+2022-08-26 12:12:39.792207 | 'open_positions'
+2022-08-26 12:13:09.822363 | --------------------------------------------------
+2022-08-26 12:13:09.822617 | Disconnecting...
+2022-08-26 12:13:09.822698 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:13:09.822758 | signal only works in main thread of the main interpreter
+2022-08-26 12:13:39.834272 | --------------------------------------------------
+2022-08-26 12:13:39.834528 | Disconnecting...
+2022-08-26 12:13:39.834617 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:13:39.834674 | signal only works in main thread of the main interpreter
+2022-08-26 12:14:09.862264 | --------------------------------------------------
+2022-08-26 12:14:09.862512 | Disconnecting...
+2022-08-26 12:14:09.862600 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:14:09.862652 | signal only works in main thread of the main interpreter
+2022-08-26 12:14:39.892720 | --------------------------------------------------
+2022-08-26 12:14:39.908446 | Disconnecting...
+2022-08-26 12:14:39.908579 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:14:39.908638 | signal only works in main thread of the main interpreter
+2022-08-26 12:15:09.939355 | --------------------------------------------------
+2022-08-26 12:15:09.957690 | Disconnecting...
+2022-08-26 12:15:09.964088 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:15:09.969766 | signal only works in main thread of the main interpreter
+2022-08-26 12:15:39.999990 | --------------------------------------------------
+2022-08-26 12:15:40.000318 | Disconnecting...
+2022-08-26 12:15:40.000453 | ERROR | close connection...try again in 30 seconds
+2022-08-26 12:15:40.000546 | signal only works in main thread of the main interpreter
+2022-08-26 12:16:10.010345 | *** restarting python script ***
+2022-08-26 12:16:10.745481 | --------------------------------------------------
+2022-08-26 12:16:10.745604 | Connecting...
+2022-08-26 12:16:28.815272 | CONNECTED
+2022-08-26 12:16:28.815456 | connection status: established
+2022-08-26 12:16:28.815580 | --------------------------------------------------
+2022-08-26 12:16:28.815664 | Update current positions...BEGIN
+2022-08-26 12:16:29.188786 | Update current positions...DONE
+2022-08-26 12:16:29.188963 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 1, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-26 12:16:29.189052 | Warming up data.....BEGIN
+2022-08-26 12:16:58.768370 | Warming up data.....DONE
+2022-08-26 12:16:58.768563 | Update trade amounts...BEGIN
+2022-08-26 12:16:59.171288 | Update trade amounts...DONE
+2022-08-26 12:16:59.696763 | SUBSCRIBED Market Data | EUR/USD
+2022-08-26 12:16:59.970081 | SUBSCRIBED Market Data | USD/JPY
+2022-08-26 12:17:00.066779 | SUBSCRIBED Market Data | GBP/USD
+2022-08-26 12:17:00.119015 | SUBSCRIBED Market Data | USD/CHF
+2022-08-26 12:17:00.171509 | SUBSCRIBED Market Data | AUD/USD
+2022-08-26 12:17:00.394591 | SUBSCRIBED Market Data | USD/CAD
+2022-08-26 12:17:00.451538 | SUBSCRIBED Market Data | NZD/USD
+2022-08-26 12:17:00.983024 | SUBSCRIBED Market Data | Bund
+2022-08-26 12:17:01.790527 | SUBSCRIBED Market Data | AUS200
+2022-08-26 12:17:02.391641 | SUBSCRIBED Market Data | ESP35
+2022-08-26 12:17:03.110660 | SUBSCRIBED Market Data | EUSTX50
+2022-08-26 12:17:03.793451 | SUBSCRIBED Market Data | FRA40
+2022-08-26 12:17:04.639768 | SUBSCRIBED Market Data | GER30
+2022-08-26 12:17:06.146790 | SUBSCRIBED Market Data | HKG33
+2022-08-26 12:17:06.652101 | SUBSCRIBED Market Data | JPN225
+2022-08-26 12:17:07.233054 | SUBSCRIBED Market Data | NAS100
+2022-08-26 12:17:07.795681 | SUBSCRIBED Market Data | SPX500
+2022-08-26 12:17:10.102443 | SUBSCRIBED Market Data | UK100
+2022-08-26 12:17:12.760979 | SUBSCRIBED Market Data | US30
+2022-08-26 12:17:14.421090 | SUBSCRIBED Market Data | Copper
+2022-08-26 12:17:15.537000 | SUBSCRIBED Market Data | NGAS
+2022-08-26 12:17:16.189087 | SUBSCRIBED Market Data | UKOil
+2022-08-26 12:17:16.718061 | SUBSCRIBED Market Data | USOil
+2022-08-26 12:17:18.027429 | SUBSCRIBED Market Data | XAU/USD
+2022-08-26 12:17:18.811070 | SUBSCRIBED Market Data | XAG/USD
+2022-08-26 13:01:23.329381 | CLOSE LONG.....UKOil
+2022-08-26 13:01:24.241176 | CLOSE LONG.....XAU/USD
+2022-08-26 13:02:31.399509 | OPEN SHORT.....XAU/USD.....7 units
+2022-08-26 13:02:39.639218 | OPEN SHORT.....UKOil.....4 units
+2022-08-26 13:10:00.974138 | Update current positions...BEGIN
+2022-08-26 13:10:01.235222 | Update current positions...DONE
+2022-08-26 13:10:01.235472 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 13:20:00.834862 | Update trade amounts...BEGIN
+2022-08-26 13:20:01.186090 | Update trade amounts...DONE
+2022-08-26 13:30:01.127889 | Log account report.....BEGIN
+2022-08-26 13:30:02.241918 | Log account report.....DONE
+2022-08-26 14:10:00.287434 | Update current positions...BEGIN
+2022-08-26 14:10:00.294409 | ERROR | get_open_positions | attempt1.....retrying in 30 seconds
+2022-08-26 14:10:00.294571 | Connection aborted, failed to reconnect
+2022-08-26 14:10:30.298725 | ERROR | get_open_positions | attempt2.....retrying in 30 seconds
+2022-08-26 14:10:30.298960 | Connection aborted, failed to reconnect
+2022-08-26 14:11:00.329789 | ERROR | get_open_positions | attempt3.....retrying in 30 seconds
+2022-08-26 14:11:00.330052 | Connection aborted, failed to reconnect
+2022-08-26 14:11:30.360612 | ERROR | get_open_positions | attempt4.....retrying in 30 seconds
+2022-08-26 14:11:30.360796 | Connection aborted, failed to reconnect
+2022-08-26 14:12:00.391709 | ERROR | get_open_positions | attempt5.....retrying in 30 seconds
+2022-08-26 14:12:00.392234 | Connection aborted, failed to reconnect
+2022-08-26 14:12:30.423265 | ERROR | get_open_positions | attempt6.....retrying in 30 seconds
+2022-08-26 14:12:30.423522 | Connection aborted, failed to reconnect
+2022-08-26 14:13:00.453913 | --------------------------------------------------
+2022-08-26 14:13:00.454223 | Disconnecting...
+2022-08-26 14:13:00.454565 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:13:00.454667 | signal only works in main thread of the main interpreter
+2022-08-26 14:13:30.484993 | --------------------------------------------------
+2022-08-26 14:13:30.485333 | Disconnecting...
+2022-08-26 14:13:30.485497 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:13:30.485592 | signal only works in main thread of the main interpreter
+2022-08-26 14:14:00.514978 | --------------------------------------------------
+2022-08-26 14:14:00.528545 | Disconnecting...
+2022-08-26 14:14:00.553780 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:14:00.570083 | signal only works in main thread of the main interpreter
+2022-08-26 14:14:30.600364 | --------------------------------------------------
+2022-08-26 14:14:30.600662 | Disconnecting...
+2022-08-26 14:14:30.600819 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:14:30.600920 | signal only works in main thread of the main interpreter
+2022-08-26 14:15:00.630822 | --------------------------------------------------
+2022-08-26 14:15:00.637054 | Disconnecting...
+2022-08-26 14:15:00.637176 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:15:00.637233 | signal only works in main thread of the main interpreter
+2022-08-26 14:15:30.672062 | --------------------------------------------------
+2022-08-26 14:15:30.681505 | Disconnecting...
+2022-08-26 14:15:30.681623 | ERROR | close connection...try again in 30 seconds
+2022-08-26 14:15:30.681679 | signal only works in main thread of the main interpreter
+2022-08-26 14:16:00.711879 | *** restarting python script ***
+2022-08-26 14:16:01.451787 | --------------------------------------------------
+2022-08-26 14:16:01.451921 | Connecting...
+2022-08-26 14:16:05.183076 | CONNECTED
+2022-08-26 14:16:05.183265 | connection status: established
+2022-08-26 14:16:05.183318 | --------------------------------------------------
+2022-08-26 14:16:05.183380 | Update current positions...BEGIN
+2022-08-26 14:16:05.399013 | Update current positions...DONE
+2022-08-26 14:16:05.399726 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 14:16:05.399873 | Warming up data.....BEGIN
+2022-08-26 14:16:08.200647 | Warming up data.....DONE
+2022-08-26 14:16:08.200841 | Update trade amounts...BEGIN
+2022-08-26 14:16:08.273179 | Update trade amounts...DONE
+2022-08-26 14:16:08.345444 | SUBSCRIBED Market Data | EUR/USD
+2022-08-26 14:16:08.398890 | SUBSCRIBED Market Data | USD/JPY
+2022-08-26 14:16:08.461481 | SUBSCRIBED Market Data | GBP/USD
+2022-08-26 14:16:08.518363 | SUBSCRIBED Market Data | USD/CHF
+2022-08-26 14:16:08.738754 | SUBSCRIBED Market Data | AUD/USD
+2022-08-26 14:16:08.797235 | SUBSCRIBED Market Data | USD/CAD
+2022-08-26 14:16:08.854872 | SUBSCRIBED Market Data | NZD/USD
+2022-08-26 14:16:08.948693 | SUBSCRIBED Market Data | Bund
+2022-08-26 14:16:09.014671 | SUBSCRIBED Market Data | AUS200
+2022-08-26 14:16:09.067462 | SUBSCRIBED Market Data | ESP35
+2022-08-26 14:16:09.125364 | SUBSCRIBED Market Data | EUSTX50
+2022-08-26 14:16:09.188703 | SUBSCRIBED Market Data | FRA40
+2022-08-26 14:16:09.359725 | SUBSCRIBED Market Data | GER30
+2022-08-26 14:16:09.423486 | SUBSCRIBED Market Data | HKG33
+2022-08-26 14:16:09.482301 | SUBSCRIBED Market Data | JPN225
+2022-08-26 14:16:09.618764 | SUBSCRIBED Market Data | NAS100
+2022-08-26 14:16:09.678808 | SUBSCRIBED Market Data | SPX500
+2022-08-26 14:16:09.732800 | SUBSCRIBED Market Data | UK100
+2022-08-26 14:16:09.785937 | SUBSCRIBED Market Data | US30
+2022-08-26 14:16:09.849031 | SUBSCRIBED Market Data | Copper
+2022-08-26 14:16:10.030470 | SUBSCRIBED Market Data | NGAS
+2022-08-26 14:16:10.087553 | SUBSCRIBED Market Data | UKOil
+2022-08-26 14:16:10.157227 | SUBSCRIBED Market Data | USOil
+2022-08-26 14:16:10.226887 | SUBSCRIBED Market Data | XAU/USD
+2022-08-26 14:16:10.340178 | SUBSCRIBED Market Data | XAG/USD
+2022-08-26 15:10:00.600779 | Update current positions...BEGIN
+2022-08-26 15:10:00.920859 | Update current positions...DONE
+2022-08-26 15:10:00.921072 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 15:20:00.954520 | Update trade amounts...BEGIN
+2022-08-26 15:20:16.215330 | Update trade amounts...DONE
+2022-08-26 15:30:00.453574 | Log account report.....BEGIN
+2022-08-26 15:30:04.813712 | Log account report.....DONE
+2022-08-26 16:00:00.603726 | CLOSE SHORT.....NGAS
+2022-08-26 16:00:31.781052 | OPEN LONG.....NGAS.....2 units
+2022-08-26 16:10:19.068335 | Update current positions...BEGIN
+2022-08-26 16:10:19.307230 | ERROR | get_open_positions | attempt1.....retrying in 30 seconds
+2022-08-26 16:10:19.315238 | 'open_positions'
+2022-08-26 16:10:50.261894 | ERROR | get_open_positions | attempt2.....retrying in 30 seconds
+2022-08-26 16:10:50.262472 | 'open_positions'
+2022-08-26 16:11:20.946109 | ERROR | get_open_positions | attempt3.....retrying in 30 seconds
+2022-08-26 16:11:20.946288 | 'open_positions'
+2022-08-26 16:11:51.042666 | ERROR | get_open_positions | attempt4.....retrying in 30 seconds
+2022-08-26 16:11:51.042830 | 'open_positions'
+2022-08-26 16:12:21.652136 | ERROR | get_open_positions | attempt5.....retrying in 30 seconds
+2022-08-26 16:12:21.652455 | 'open_positions'
+2022-08-26 16:12:51.978135 | ERROR | get_open_positions | attempt6.....retrying in 30 seconds
+2022-08-26 16:12:51.978304 | 'open_positions'
+2022-08-26 16:13:22.008438 | --------------------------------------------------
+2022-08-26 16:13:22.008678 | Disconnecting...
+2022-08-26 16:13:22.008774 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:13:22.008829 | signal only works in main thread of the main interpreter
+2022-08-26 16:13:52.039019 | --------------------------------------------------
+2022-08-26 16:13:52.039337 | Disconnecting...
+2022-08-26 16:13:52.039487 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:13:52.039580 | signal only works in main thread of the main interpreter
+2022-08-26 16:14:22.066541 | --------------------------------------------------
+2022-08-26 16:14:22.066731 | Disconnecting...
+2022-08-26 16:14:22.066811 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:14:22.066864 | signal only works in main thread of the main interpreter
+2022-08-26 16:14:52.097009 | --------------------------------------------------
+2022-08-26 16:14:52.097267 | Disconnecting...
+2022-08-26 16:14:52.097353 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:14:52.097407 | signal only works in main thread of the main interpreter
+2022-08-26 16:15:22.127509 | --------------------------------------------------
+2022-08-26 16:15:22.127703 | Disconnecting...
+2022-08-26 16:15:22.127775 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:15:22.127836 | signal only works in main thread of the main interpreter
+2022-08-26 16:15:52.155315 | --------------------------------------------------
+2022-08-26 16:15:52.158144 | Disconnecting...
+2022-08-26 16:15:52.158538 | ERROR | close connection...try again in 30 seconds
+2022-08-26 16:15:52.160214 | signal only works in main thread of the main interpreter
+2022-08-26 16:16:22.178257 | *** restarting python script ***
+2022-08-26 16:16:22.925909 | --------------------------------------------------
+2022-08-26 16:16:22.926039 | Connecting...
+2022-08-26 16:16:29.918374 | CONNECTED
+2022-08-26 16:16:29.918558 | connection status: established
+2022-08-26 16:16:29.918852 | --------------------------------------------------
+2022-08-26 16:16:29.918932 | Update current positions...BEGIN
+2022-08-26 16:16:30.025234 | Update current positions...DONE
+2022-08-26 16:16:30.025395 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 16:16:30.025488 | Warming up data.....BEGIN
+2022-08-26 16:16:36.350617 | Warming up data.....DONE
+2022-08-26 16:16:36.350913 | Update trade amounts...BEGIN
+2022-08-26 16:16:36.703946 | Update trade amounts...DONE
+2022-08-26 16:16:36.812801 | SUBSCRIBED Market Data | EUR/USD
+2022-08-26 16:16:37.126458 | SUBSCRIBED Market Data | USD/JPY
+2022-08-26 16:16:37.259646 | SUBSCRIBED Market Data | GBP/USD
+2022-08-26 16:16:37.313916 | SUBSCRIBED Market Data | USD/CHF
+2022-08-26 16:16:37.423334 | SUBSCRIBED Market Data | AUD/USD
+2022-08-26 16:16:37.531832 | SUBSCRIBED Market Data | USD/CAD
+2022-08-26 16:16:37.796285 | SUBSCRIBED Market Data | NZD/USD
+2022-08-26 16:16:37.963413 | SUBSCRIBED Market Data | Bund
+2022-08-26 16:16:38.017096 | SUBSCRIBED Market Data | AUS200
+2022-08-26 16:16:38.069775 | SUBSCRIBED Market Data | ESP35
+2022-08-26 16:16:38.121000 | SUBSCRIBED Market Data | EUSTX50
+2022-08-26 16:16:38.476477 | SUBSCRIBED Market Data | FRA40
+2022-08-26 16:16:38.652096 | SUBSCRIBED Market Data | GER30
+2022-08-26 16:16:38.705701 | SUBSCRIBED Market Data | HKG33
+2022-08-26 16:16:38.996104 | SUBSCRIBED Market Data | JPN225
+2022-08-26 16:16:39.153729 | SUBSCRIBED Market Data | NAS100
+2022-08-26 16:16:39.423097 | SUBSCRIBED Market Data | SPX500
+2022-08-26 16:16:39.622126 | SUBSCRIBED Market Data | UK100
+2022-08-26 16:16:39.679180 | SUBSCRIBED Market Data | US30
+2022-08-26 16:16:39.921028 | SUBSCRIBED Market Data | Copper
+2022-08-26 16:16:39.975455 | SUBSCRIBED Market Data | NGAS
+2022-08-26 16:16:40.158307 | SUBSCRIBED Market Data | UKOil
+2022-08-26 16:16:40.414690 | SUBSCRIBED Market Data | USOil
+2022-08-26 16:16:40.766315 | SUBSCRIBED Market Data | XAU/USD
+2022-08-26 16:16:40.978285 | SUBSCRIBED Market Data | XAG/USD
+2022-08-26 17:00:01.552468 | CLOSE LONG.....NZD/USD
+2022-08-26 17:00:32.665337 | OPEN SHORT.....NZD/USD.....38 units
+2022-08-26 17:10:01.075332 | Update current positions...BEGIN
+2022-08-26 17:10:01.540280 | Update current positions...DONE
+2022-08-26 17:10:01.540454 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 17:20:00.968531 | Update trade amounts...BEGIN
+2022-08-26 17:20:01.338953 | Update trade amounts...DONE
+2022-08-26 17:30:01.176834 | Log account report.....BEGIN
+2022-08-26 17:30:01.259764 | Log account report.....DONE
+2022-08-26 18:10:00.545263 | Update current positions...BEGIN
+2022-08-26 18:10:01.017577 | Update current positions...DONE
+2022-08-26 18:10:01.039746 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 18:20:00.568297 | Update trade amounts...BEGIN
+2022-08-26 18:20:00.899110 | Update trade amounts...DONE
+2022-08-26 18:30:00.662597 | Log account report.....BEGIN
+2022-08-26 18:30:00.753394 | Log account report.....DONE
+2022-08-26 19:00:09.626307 | CLOSE LONG.....NAS100
+2022-08-26 19:00:11.289848 | CLOSE LONG.....EUSTX50
+2022-08-26 19:00:40.725984 | OPEN SHORT.....NAS100.....9 units
+2022-08-26 19:00:42.382292 | OPEN SHORT.....EUSTX50.....63 units
+2022-08-26 19:10:00.064919 | Update current positions...BEGIN
+2022-08-26 19:10:00.211789 | ERROR | get_open_positions | attempt1.....retrying in 30 seconds
+2022-08-26 19:10:00.211937 | 'open_positions'
+2022-08-26 19:10:30.307704 | ERROR | get_open_positions | attempt2.....retrying in 30 seconds
+2022-08-26 19:10:30.307848 | 'open_positions'
+2022-08-26 19:11:00.584865 | ERROR | get_open_positions | attempt3.....retrying in 30 seconds
+2022-08-26 19:11:00.585804 | 'open_positions'
+2022-08-26 19:11:30.889133 | ERROR | get_open_positions | attempt4.....retrying in 30 seconds
+2022-08-26 19:11:30.889287 | 'open_positions'
+2022-08-26 19:12:01.364518 | ERROR | get_open_positions | attempt5.....retrying in 30 seconds
+2022-08-26 19:12:01.369812 | 'open_positions'
+2022-08-26 19:12:31.440775 | ERROR | get_open_positions | attempt6.....retrying in 30 seconds
+2022-08-26 19:12:31.440924 | 'open_positions'
+2022-08-26 19:13:01.458251 | --------------------------------------------------
+2022-08-26 19:13:01.458497 | Disconnecting...
+2022-08-26 19:13:01.458611 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:13:01.458667 | signal only works in main thread of the main interpreter
+2022-08-26 19:13:31.482247 | --------------------------------------------------
+2022-08-26 19:13:31.482504 | Disconnecting...
+2022-08-26 19:13:31.482590 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:13:31.482642 | signal only works in main thread of the main interpreter
+2022-08-26 19:14:01.498586 | --------------------------------------------------
+2022-08-26 19:14:01.498839 | Disconnecting...
+2022-08-26 19:14:01.498929 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:14:01.498985 | signal only works in main thread of the main interpreter
+2022-08-26 19:14:31.526263 | --------------------------------------------------
+2022-08-26 19:14:31.526461 | Disconnecting...
+2022-08-26 19:14:31.526556 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:14:31.526612 | signal only works in main thread of the main interpreter
+2022-08-26 19:15:01.556834 | --------------------------------------------------
+2022-08-26 19:15:01.557180 | Disconnecting...
+2022-08-26 19:15:01.557359 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:15:01.557463 | signal only works in main thread of the main interpreter
+2022-08-26 19:15:31.587704 | --------------------------------------------------
+2022-08-26 19:15:31.587972 | Disconnecting...
+2022-08-26 19:15:31.588084 | ERROR | close connection...try again in 30 seconds
+2022-08-26 19:15:31.588154 | signal only works in main thread of the main interpreter
+2022-08-26 19:16:01.618369 | *** restarting python script ***
+2022-08-26 19:16:02.388681 | --------------------------------------------------
+2022-08-26 19:16:02.388807 | Connecting...
+2022-08-26 19:16:11.632726 | CONNECTED
+2022-08-26 19:16:11.632919 | connection status: established
+2022-08-26 19:16:11.632979 | --------------------------------------------------
+2022-08-26 19:16:11.633053 | Update current positions...BEGIN
+2022-08-26 19:16:11.739407 | Update current positions...DONE
+2022-08-26 19:16:11.739573 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 2, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 19:16:11.739690 | Warming up data.....BEGIN
+2022-08-26 19:16:31.712038 | Warming up data.....DONE
+2022-08-26 19:16:31.712224 | Update trade amounts...BEGIN
+2022-08-26 19:16:31.976029 | Update trade amounts...DONE
+2022-08-26 19:16:32.035555 | SUBSCRIBED Market Data | EUR/USD
+2022-08-26 19:16:32.092636 | SUBSCRIBED Market Data | USD/JPY
+2022-08-26 19:16:32.146835 | SUBSCRIBED Market Data | GBP/USD
+2022-08-26 19:16:32.198734 | SUBSCRIBED Market Data | USD/CHF
+2022-08-26 19:16:32.582482 | SUBSCRIBED Market Data | AUD/USD
+2022-08-26 19:16:33.119685 | SUBSCRIBED Market Data | USD/CAD
+2022-08-26 19:16:34.193075 | SUBSCRIBED Market Data | NZD/USD
+2022-08-26 19:16:34.829973 | SUBSCRIBED Market Data | Bund
+2022-08-26 19:16:35.064613 | SUBSCRIBED Market Data | AUS200
+2022-08-26 19:16:35.542774 | SUBSCRIBED Market Data | ESP35
+2022-08-26 19:16:35.941512 | SUBSCRIBED Market Data | EUSTX50
+2022-08-26 19:16:35.995125 | SUBSCRIBED Market Data | FRA40
+2022-08-26 19:16:36.050278 | SUBSCRIBED Market Data | GER30
+2022-08-26 19:16:36.371303 | SUBSCRIBED Market Data | HKG33
+2022-08-26 19:16:36.987200 | SUBSCRIBED Market Data | JPN225
+2022-08-26 19:16:37.159609 | SUBSCRIBED Market Data | NAS100
+2022-08-26 19:16:37.218742 | SUBSCRIBED Market Data | SPX500
+2022-08-26 19:16:37.510109 | SUBSCRIBED Market Data | UK100
+2022-08-26 19:16:37.897656 | SUBSCRIBED Market Data | US30
+2022-08-26 19:16:38.190291 | SUBSCRIBED Market Data | Copper
+2022-08-26 19:16:38.251425 | SUBSCRIBED Market Data | NGAS
+2022-08-26 19:16:38.303253 | SUBSCRIBED Market Data | UKOil
+2022-08-26 19:16:38.667210 | SUBSCRIBED Market Data | USOil
+2022-08-26 19:16:39.416570 | SUBSCRIBED Market Data | XAU/USD
+2022-08-26 19:16:39.860663 | SUBSCRIBED Market Data | XAG/USD
+2022-08-26 20:10:00.855624 | Update current positions...BEGIN
+2022-08-26 20:10:01.297972 | Update current positions...DONE
+2022-08-26 20:10:01.298264 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 2, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 20:20:00.581008 | Update trade amounts...BEGIN
+2022-08-26 20:20:00.839797 | Update trade amounts...DONE
+2022-08-26 20:30:00.554640 | Log account report.....BEGIN
+2022-08-26 20:30:00.955365 | Log account report.....DONE
+2022-08-26 21:45:01.906739 | --------------------------------------------------
+2022-08-26 21:45:01.906862 | Connecting...
+2022-08-26 21:45:05.653820 | CONNECTED
+2022-08-26 21:45:05.654091 | connection status: established
+2022-08-26 21:45:05.654312 | --------------------------------------------------
+2022-08-26 21:45:05.654390 | Update current positions...BEGIN
+2022-08-26 21:45:05.764853 | Update current positions...DONE
+2022-08-26 21:45:05.765010 | {'EUR/USD': 1, 'USD/JPY': 1, 'GBP/USD': 2, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 2, 'Bund': 2, 'AUS200': 1, 'ESP35': 2, 'EUSTX50': 2, 'FRA40': 2, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 2, 'SPX500': 1, 'UK100': 2, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 2, 'XAG/USD': 1}
+2022-08-26 21:45:05.765091 | Warming up data.....BEGIN
+2022-08-26 21:45:10.025714 | Warming up data.....DONE
+2022-08-26 21:45:10.025882 | Update trade amounts...BEGIN
+2022-08-26 21:45:10.077924 | Update trade amounts...DONE
+2022-08-26 21:45:10.136506 | SUBSCRIBED Market Data | EUR/USD
+2022-08-26 21:45:10.206297 | SUBSCRIBED Market Data | USD/JPY
+2022-08-26 21:45:10.259612 | SUBSCRIBED Market Data | GBP/USD
+2022-08-26 21:45:10.311032 | SUBSCRIBED Market Data | USD/CHF
+2022-08-26 21:45:10.369433 | SUBSCRIBED Market Data | AUD/USD
+2022-08-26 21:45:10.423647 | SUBSCRIBED Market Data | USD/CAD
+2022-08-26 21:45:10.477788 | SUBSCRIBED Market Data | NZD/USD
+2022-08-26 21:45:10.532331 | SUBSCRIBED Market Data | Bund
+2022-08-26 21:45:10.589577 | SUBSCRIBED Market Data | AUS200
+2022-08-26 21:45:10.642557 | SUBSCRIBED Market Data | ESP35
+2022-08-26 21:45:10.696199 | SUBSCRIBED Market Data | EUSTX50
+2022-08-26 21:45:10.750439 | SUBSCRIBED Market Data | FRA40
+2022-08-26 21:45:10.803599 | SUBSCRIBED Market Data | GER30
+2022-08-26 21:45:10.864076 | SUBSCRIBED Market Data | HKG33
+2022-08-26 21:45:10.916126 | SUBSCRIBED Market Data | JPN225
+2022-08-26 21:45:10.968210 | SUBSCRIBED Market Data | NAS100
+2022-08-26 21:45:11.021850 | SUBSCRIBED Market Data | SPX500
+2022-08-26 21:45:11.076956 | SUBSCRIBED Market Data | UK100
+2022-08-26 21:45:11.127992 | SUBSCRIBED Market Data | US30
+2022-08-26 21:45:11.180731 | SUBSCRIBED Market Data | Copper
+2022-08-26 21:45:11.233000 | SUBSCRIBED Market Data | NGAS
+2022-08-26 21:45:11.288397 | SUBSCRIBED Market Data | UKOil
+2022-08-26 21:45:11.342954 | SUBSCRIBED Market Data | USOil
+2022-08-26 21:45:11.394438 | SUBSCRIBED Market Data | XAU/USD
+2022-08-26 21:45:11.452409 | SUBSCRIBED Market Data | XAG/USD

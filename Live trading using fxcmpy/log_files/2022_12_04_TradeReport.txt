@@ -1,0 +1,173 @@
+2022-12-04 15:35:02.059850 | --------------------------------------------------
+2022-12-04 15:35:02.059992 | Connecting...
+2022-12-04 15:35:06.653718 | CONNECTED
+2022-12-04 15:35:06.653867 | connection status: established
+2022-12-04 15:35:06.653907 | --------------------------------------------------
+2022-12-04 15:35:06.653955 | Update current positions...BEGIN
+2022-12-04 15:35:06.747185 | Update current positions...DONE
+2022-12-04 15:35:06.747344 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 15:35:06.747620 | Check duplicate positions...BEGIN
+2022-12-04 15:35:06.857345 | Check duplicate positions...DONE
+2022-12-04 15:35:06.857547 | Warming up data.....BEGIN
+2022-12-04 15:35:12.502705 | Warming up data.....DONE
+2022-12-04 15:35:12.502866 | Update trade amounts...BEGIN
+2022-12-04 15:35:12.551578 | Update trade amounts...DONE
+2022-12-04 15:35:12.599644 | SUBSCRIBED Market Data | EUR/USD
+2022-12-04 15:35:12.648830 | SUBSCRIBED Market Data | USD/JPY
+2022-12-04 15:35:12.696884 | SUBSCRIBED Market Data | GBP/USD
+2022-12-04 15:35:12.745570 | SUBSCRIBED Market Data | USD/CHF
+2022-12-04 15:35:12.797758 | SUBSCRIBED Market Data | AUD/USD
+2022-12-04 15:35:12.846514 | SUBSCRIBED Market Data | USD/CAD
+2022-12-04 15:35:12.896069 | SUBSCRIBED Market Data | NZD/USD
+2022-12-04 15:35:12.946599 | SUBSCRIBED Market Data | Bund
+2022-12-04 15:35:12.997628 | SUBSCRIBED Market Data | AUS200
+2022-12-04 15:35:13.044437 | SUBSCRIBED Market Data | ESP35
+2022-12-04 15:35:13.095392 | SUBSCRIBED Market Data | EUSTX50
+2022-12-04 15:35:13.144125 | SUBSCRIBED Market Data | FRA40
+2022-12-04 15:35:13.191601 | SUBSCRIBED Market Data | GER30
+2022-12-04 15:35:13.239656 | SUBSCRIBED Market Data | HKG33
+2022-12-04 15:35:13.336419 | SUBSCRIBED Market Data | JPN225
+2022-12-04 15:35:13.385129 | SUBSCRIBED Market Data | NAS100
+2022-12-04 15:35:13.432731 | SUBSCRIBED Market Data | USOil
+2022-12-04 15:35:13.480105 | SUBSCRIBED Market Data | XAU/USD
+2022-12-04 16:40:01.680690 | --------------------------------------------------
+2022-12-04 16:40:01.680790 | Connecting...
+2022-12-04 16:40:05.625239 | CONNECTED
+2022-12-04 16:40:05.625387 | connection status: established
+2022-12-04 16:40:05.625427 | --------------------------------------------------
+2022-12-04 16:40:05.625478 | Update current positions...BEGIN
+2022-12-04 16:40:05.672105 | Update current positions...DONE
+2022-12-04 16:40:05.672241 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 16:40:05.672307 | Check duplicate positions...BEGIN
+2022-12-04 16:40:05.871924 | Check duplicate positions...DONE
+2022-12-04 16:40:05.872130 | Warming up data.....BEGIN
+2022-12-04 16:40:12.086519 | Warming up data.....DONE
+2022-12-04 16:40:12.086687 | Update trade amounts...BEGIN
+2022-12-04 16:40:12.133318 | Update trade amounts...DONE
+2022-12-04 16:40:12.188032 | SUBSCRIBED Market Data | EUR/USD
+2022-12-04 16:40:12.237731 | SUBSCRIBED Market Data | USD/JPY
+2022-12-04 16:40:12.286435 | SUBSCRIBED Market Data | GBP/USD
+2022-12-04 16:40:12.335013 | SUBSCRIBED Market Data | USD/CHF
+2022-12-04 16:40:12.495214 | SUBSCRIBED Market Data | AUD/USD
+2022-12-04 16:40:12.601286 | SUBSCRIBED Market Data | USD/CAD
+2022-12-04 16:40:12.650410 | SUBSCRIBED Market Data | NZD/USD
+2022-12-04 16:40:12.696905 | SUBSCRIBED Market Data | Bund
+2022-12-04 16:40:12.748030 | SUBSCRIBED Market Data | AUS200
+2022-12-04 16:40:12.795880 | SUBSCRIBED Market Data | ESP35
+2022-12-04 16:40:12.844518 | SUBSCRIBED Market Data | EUSTX50
+2022-12-04 16:40:12.892864 | SUBSCRIBED Market Data | FRA40
+2022-12-04 16:40:12.940444 | SUBSCRIBED Market Data | GER30
+2022-12-04 16:40:12.989895 | SUBSCRIBED Market Data | HKG33
+2022-12-04 16:40:13.039550 | SUBSCRIBED Market Data | JPN225
+2022-12-04 16:40:13.088173 | SUBSCRIBED Market Data | NAS100
+2022-12-04 16:40:13.134931 | SUBSCRIBED Market Data | USOil
+2022-12-04 16:40:13.183742 | SUBSCRIBED Market Data | XAU/USD
+2022-12-04 17:45:02.288029 | --------------------------------------------------
+2022-12-04 17:45:02.288129 | Connecting...
+2022-12-04 17:45:07.239592 | CONNECTED
+2022-12-04 17:45:07.239746 | connection status: established
+2022-12-04 17:45:07.239786 | --------------------------------------------------
+2022-12-04 17:45:07.239835 | Update current positions...BEGIN
+2022-12-04 17:45:07.290447 | Update current positions...DONE
+2022-12-04 17:45:07.290585 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 17:45:07.290644 | Check duplicate positions...BEGIN
+2022-12-04 17:45:07.407433 | Check duplicate positions...DONE
+2022-12-04 17:45:07.407616 | Warming up data.....BEGIN
+2022-12-04 17:45:13.386504 | Warming up data.....DONE
+2022-12-04 17:45:13.386673 | Update trade amounts...BEGIN
+2022-12-04 17:45:13.500933 | Update trade amounts...DONE
+2022-12-04 17:45:13.550603 | SUBSCRIBED Market Data | EUR/USD
+2022-12-04 17:45:13.596936 | SUBSCRIBED Market Data | USD/JPY
+2022-12-04 17:45:13.644762 | SUBSCRIBED Market Data | GBP/USD
+2022-12-04 17:45:13.692208 | SUBSCRIBED Market Data | USD/CHF
+2022-12-04 17:45:13.740347 | SUBSCRIBED Market Data | AUD/USD
+2022-12-04 17:45:13.788838 | SUBSCRIBED Market Data | USD/CAD
+2022-12-04 17:45:13.835389 | SUBSCRIBED Market Data | NZD/USD
+2022-12-04 17:45:13.886752 | SUBSCRIBED Market Data | Bund
+2022-12-04 17:45:13.940386 | SUBSCRIBED Market Data | AUS200
+2022-12-04 17:45:13.987358 | SUBSCRIBED Market Data | ESP35
+2022-12-04 17:45:14.033721 | SUBSCRIBED Market Data | EUSTX50
+2022-12-04 17:45:14.145961 | SUBSCRIBED Market Data | FRA40
+2022-12-04 17:45:14.203260 | SUBSCRIBED Market Data | GER30
+2022-12-04 17:45:14.255881 | SUBSCRIBED Market Data | HKG33
+2022-12-04 17:45:14.320444 | SUBSCRIBED Market Data | JPN225
+2022-12-04 17:45:14.370419 | SUBSCRIBED Market Data | NAS100
+2022-12-04 17:45:14.418071 | SUBSCRIBED Market Data | USOil
+2022-12-04 17:45:14.464949 | SUBSCRIBED Market Data | XAU/USD
+2022-12-04 18:50:01.834240 | --------------------------------------------------
+2022-12-04 18:50:01.834339 | Connecting...
+2022-12-04 18:50:10.799524 | CONNECTED
+2022-12-04 18:50:10.799665 | connection status: established
+2022-12-04 18:50:10.799708 | --------------------------------------------------
+2022-12-04 18:50:10.799760 | Update current positions...BEGIN
+2022-12-04 18:50:10.936461 | Update current positions...DONE
+2022-12-04 18:50:10.936597 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 18:50:10.936658 | Check duplicate positions...BEGIN
+2022-12-04 18:50:11.068635 | Check duplicate positions...DONE
+2022-12-04 18:50:11.068827 | Warming up data.....BEGIN
+2022-12-04 18:50:16.894311 | Warming up data.....DONE
+2022-12-04 18:50:16.894493 | Update trade amounts...BEGIN
+2022-12-04 18:50:16.945547 | Update trade amounts...DONE
+2022-12-04 18:50:16.997483 | SUBSCRIBED Market Data | EUR/USD
+2022-12-04 18:50:17.048107 | SUBSCRIBED Market Data | USD/JPY
+2022-12-04 18:50:17.095956 | SUBSCRIBED Market Data | GBP/USD
+2022-12-04 18:50:17.150502 | SUBSCRIBED Market Data | USD/CHF
+2022-12-04 18:50:17.199867 | SUBSCRIBED Market Data | AUD/USD
+2022-12-04 18:50:17.248296 | SUBSCRIBED Market Data | USD/CAD
+2022-12-04 18:50:17.296918 | SUBSCRIBED Market Data | NZD/USD
+2022-12-04 18:50:17.344912 | SUBSCRIBED Market Data | Bund
+2022-12-04 18:50:17.391883 | SUBSCRIBED Market Data | AUS200
+2022-12-04 18:50:17.449829 | SUBSCRIBED Market Data | ESP35
+2022-12-04 18:50:17.496273 | SUBSCRIBED Market Data | EUSTX50
+2022-12-04 18:50:17.545887 | SUBSCRIBED Market Data | FRA40
+2022-12-04 18:50:17.640577 | SUBSCRIBED Market Data | GER30
+2022-12-04 18:50:17.689438 | SUBSCRIBED Market Data | HKG33
+2022-12-04 18:50:17.737562 | SUBSCRIBED Market Data | JPN225
+2022-12-04 18:50:17.785034 | SUBSCRIBED Market Data | NAS100
+2022-12-04 18:50:17.901318 | SUBSCRIBED Market Data | USOil
+2022-12-04 18:50:17.950798 | SUBSCRIBED Market Data | XAU/USD
+2022-12-04 19:47:07.570844 | Log account report.....BEGIN
+2022-12-04 19:47:07.672684 | Log account report.....DONE
+2022-12-04 19:47:07.672774 | Update trade amounts...BEGIN
+2022-12-04 19:47:07.800179 | Update trade amounts...DONE
+2022-12-04 19:47:07.800352 | Update current positions...BEGIN
+2022-12-04 19:47:07.928198 | Update current positions...DONE
+2022-12-04 19:47:07.928339 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 19:47:07.928410 | Check duplicate positions...BEGIN
+2022-12-04 19:47:08.029981 | Check duplicate positions...DONE
+2022-12-04 20:10:04.980507 | Check duplicate positions...BEGIN
+2022-12-04 20:10:05.163337 | Check duplicate positions...DONE
+2022-12-04 20:15:04.334579 | Update current positions...BEGIN
+2022-12-04 20:15:04.445631 | Update current positions...DONE
+2022-12-04 20:15:04.445778 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 20:20:22.480669 | Update trade amounts...BEGIN
+2022-12-04 20:20:22.575160 | Update trade amounts...DONE
+2022-12-04 20:25:20.601015 | Log account report.....BEGIN
+2022-12-04 20:25:20.779700 | Log account report.....DONE
+2022-12-04 21:10:13.113803 | Check duplicate positions...BEGIN
+2022-12-04 21:10:13.279078 | Check duplicate positions...DONE
+2022-12-04 21:15:00.734532 | Update current positions...BEGIN
+2022-12-04 21:15:00.790171 | Update current positions...DONE
+2022-12-04 21:15:00.790313 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 21:20:15.491986 | Update trade amounts...BEGIN
+2022-12-04 21:20:15.597582 | Update trade amounts...DONE
+2022-12-04 21:25:04.707815 | Log account report.....BEGIN
+2022-12-04 21:25:04.831594 | Log account report.....DONE
+2022-12-04 22:10:11.090138 | Check duplicate positions...BEGIN
+2022-12-04 22:10:11.264046 | Check duplicate positions...DONE
+2022-12-04 22:15:01.003563 | Update current positions...BEGIN
+2022-12-04 22:15:01.076937 | Update current positions...DONE
+2022-12-04 22:15:01.077102 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 22:20:02.105521 | Update trade amounts...BEGIN
+2022-12-04 22:20:02.205624 | Update trade amounts...DONE
+2022-12-04 22:25:02.736310 | Log account report.....BEGIN
+2022-12-04 22:25:02.898438 | Log account report.....DONE
+2022-12-04 23:10:00.546883 | Check duplicate positions...BEGIN
+2022-12-04 23:10:00.751079 | Check duplicate positions...DONE
+2022-12-04 23:15:00.228707 | Update current positions...BEGIN
+2022-12-04 23:15:00.356929 | Update current positions...DONE
+2022-12-04 23:15:00.358345 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-04 23:20:00.560523 | Update trade amounts...BEGIN
+2022-12-04 23:20:00.724483 | Update trade amounts...DONE
+2022-12-04 23:25:01.193227 | Log account report.....BEGIN
+2022-12-04 23:25:01.285784 | Log account report.....DONE

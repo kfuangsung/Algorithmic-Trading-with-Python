@@ -1,0 +1,1400 @@
+2022-12-05 00:10:01.203245 | Check duplicate positions...BEGIN
+2022-12-05 00:10:01.413282 | Check duplicate positions...DONE
+2022-12-05 00:15:00.365309 | Update current positions...BEGIN
+2022-12-05 00:15:00.466565 | Update current positions...DONE
+2022-12-05 00:15:00.466721 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 00:20:01.039558 | Update trade amounts...BEGIN
+2022-12-05 00:20:01.147641 | Update trade amounts...DONE
+2022-12-05 00:25:00.653662 | Log account report.....BEGIN
+2022-12-05 00:25:00.730927 | Log account report.....DONE
+2022-12-05 01:02:00.744223 | FAILED | close position | EUR/USD
+2022-12-05 01:02:00.744409 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:04:05.850276 | FAILED | close position | EUR/USD
+2022-12-05 01:04:05.850461 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:06:10.966513 | FAILED | close position | EUR/USD
+2022-12-05 01:06:10.966732 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:08:16.089741 | FAILED | close position | EUR/USD
+2022-12-05 01:08:16.089943 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:10:00.670921 | Check duplicate positions...BEGIN
+2022-12-05 01:10:00.842594 | Check duplicate positions...DONE
+2022-12-05 01:10:31.154381 | FAILED | open long | EUR/USD
+2022-12-05 01:10:31.154563 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:12:36.295170 | FAILED | open long | EUR/USD
+2022-12-05 01:12:36.295359 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:14:41.413037 | FAILED | open long | EUR/USD
+2022-12-05 01:14:41.413248 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:15:00.475942 | Update current positions...BEGIN
+2022-12-05 01:15:00.547702 | Update current positions...DONE
+2022-12-05 01:15:00.547854 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 01:16:46.531736 | FAILED | open long | EUR/USD
+2022-12-05 01:16:46.531882 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 01:20:00.519855 | Update trade amounts...BEGIN
+2022-12-05 01:20:00.654945 | Update trade amounts...DONE
+2022-12-05 01:25:00.757165 | Log account report.....BEGIN
+2022-12-05 01:25:00.834210 | Log account report.....DONE
+2022-12-05 02:02:00.539202 | FAILED | close position | EUR/USD
+2022-12-05 02:02:00.539404 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:04:05.640646 | FAILED | close position | EUR/USD
+2022-12-05 02:04:05.640861 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:06:10.694111 | FAILED | close position | EUR/USD
+2022-12-05 02:06:10.694352 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:08:15.746273 | FAILED | close position | EUR/USD
+2022-12-05 02:08:15.746465 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:10:00.914238 | Check duplicate positions...BEGIN
+2022-12-05 02:10:01.072185 | Check duplicate positions...DONE
+2022-12-05 02:10:30.831662 | FAILED | open long | EUR/USD
+2022-12-05 02:10:30.834163 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:12:35.927965 | FAILED | open long | EUR/USD
+2022-12-05 02:12:35.928150 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:14:41.003161 | FAILED | open long | EUR/USD
+2022-12-05 02:14:41.003352 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:15:00.548338 | Update current positions...BEGIN
+2022-12-05 02:15:00.624665 | Update current positions...DONE
+2022-12-05 02:15:00.624831 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 02:16:46.105607 | FAILED | open long | EUR/USD
+2022-12-05 02:16:46.105789 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 02:20:00.858498 | Update trade amounts...BEGIN
+2022-12-05 02:20:00.958763 | Update trade amounts...DONE
+2022-12-05 02:25:00.835012 | Log account report.....BEGIN
+2022-12-05 02:25:00.888944 | Log account report.....DONE
+2022-12-05 03:02:00.695013 | FAILED | close position | EUR/USD
+2022-12-05 03:02:00.695254 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:04:05.860443 | FAILED | close position | EUR/USD
+2022-12-05 03:04:05.860637 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:06:10.916183 | FAILED | close position | EUR/USD
+2022-12-05 03:06:10.916379 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:08:16.090415 | FAILED | close position | EUR/USD
+2022-12-05 03:08:16.090633 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:10:00.284658 | Check duplicate positions...BEGIN
+2022-12-05 03:10:00.386909 | Check duplicate positions...DONE
+2022-12-05 03:10:31.227909 | FAILED | open long | EUR/USD
+2022-12-05 03:10:31.228109 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:12:36.370302 | FAILED | open long | EUR/USD
+2022-12-05 03:12:36.370483 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:14:41.430362 | FAILED | open long | EUR/USD
+2022-12-05 03:14:41.430575 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:15:00.636579 | Update current positions...BEGIN
+2022-12-05 03:15:00.699944 | Update current positions...DONE
+2022-12-05 03:15:00.700673 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 03:16:46.572622 | FAILED | open long | EUR/USD
+2022-12-05 03:16:46.572828 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 03:20:01.085560 | Update trade amounts...BEGIN
+2022-12-05 03:20:01.234093 | Update trade amounts...DONE
+2022-12-05 03:25:01.032921 | Log account report.....BEGIN
+2022-12-05 03:25:01.158520 | Log account report.....DONE
+2022-12-05 04:02:00.695562 | FAILED | close position | EUR/USD
+2022-12-05 04:02:00.695763 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:04:05.852529 | FAILED | close position | EUR/USD
+2022-12-05 04:04:05.852713 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:06:10.957475 | FAILED | close position | EUR/USD
+2022-12-05 04:06:10.957670 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:08:16.075823 | FAILED | close position | EUR/USD
+2022-12-05 04:08:16.076020 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:10:00.444817 | Check duplicate positions...BEGIN
+2022-12-05 04:10:00.649566 | Check duplicate positions...DONE
+2022-12-05 04:10:31.248091 | FAILED | open long | EUR/USD
+2022-12-05 04:10:31.248325 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:12:36.348430 | FAILED | open long | EUR/USD
+2022-12-05 04:12:36.348628 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:14:41.399422 | FAILED | open long | EUR/USD
+2022-12-05 04:14:41.399630 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:15:00.701714 | Update current positions...BEGIN
+2022-12-05 04:15:00.765132 | Update current positions...DONE
+2022-12-05 04:15:00.768231 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 04:16:46.573151 | FAILED | open long | EUR/USD
+2022-12-05 04:16:46.573690 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 04:20:00.526162 | Update trade amounts...BEGIN
+2022-12-05 04:20:00.609037 | Update trade amounts...DONE
+2022-12-05 04:25:00.571923 | Log account report.....BEGIN
+2022-12-05 04:25:00.673886 | Log account report.....DONE
+2022-12-05 05:02:00.655329 | FAILED | close position | EUR/USD
+2022-12-05 05:02:00.655544 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:04:05.709683 | FAILED | close position | EUR/USD
+2022-12-05 05:04:05.709886 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:06:10.785090 | FAILED | close position | EUR/USD
+2022-12-05 05:06:10.785268 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:08:15.927196 | FAILED | close position | EUR/USD
+2022-12-05 05:08:15.927375 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:10:00.650264 | Check duplicate positions...BEGIN
+2022-12-05 05:10:00.806783 | Check duplicate positions...DONE
+2022-12-05 05:10:31.051051 | FAILED | open long | EUR/USD
+2022-12-05 05:10:31.051341 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:12:36.146255 | FAILED | open long | EUR/USD
+2022-12-05 05:12:36.146434 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:14:41.264074 | FAILED | open long | EUR/USD
+2022-12-05 05:14:41.264270 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:15:00.801986 | Update current positions...BEGIN
+2022-12-05 05:15:00.853076 | Update current positions...DONE
+2022-12-05 05:15:00.853237 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 05:16:46.383259 | FAILED | open long | EUR/USD
+2022-12-05 05:16:46.383455 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 05:20:00.816387 | Update trade amounts...BEGIN
+2022-12-05 05:20:00.917282 | Update trade amounts...DONE
+2022-12-05 05:25:00.881031 | Log account report.....BEGIN
+2022-12-05 05:25:00.985949 | Log account report.....DONE
+2022-12-05 06:02:00.379343 | FAILED | close position | EUR/USD
+2022-12-05 06:02:00.379540 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:04:05.527778 | FAILED | close position | EUR/USD
+2022-12-05 06:04:05.527974 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:06:10.617777 | FAILED | close position | EUR/USD
+2022-12-05 06:06:10.617960 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:08:15.745673 | FAILED | close position | EUR/USD
+2022-12-05 06:08:15.745879 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:10:00.863619 | Check duplicate positions...BEGIN
+2022-12-05 06:10:00.966839 | Check duplicate positions...DONE
+2022-12-05 06:10:30.812230 | FAILED | open long | EUR/USD
+2022-12-05 06:10:30.812465 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:12:35.866934 | FAILED | open long | EUR/USD
+2022-12-05 06:12:35.867179 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:14:40.971747 | FAILED | open long | EUR/USD
+2022-12-05 06:14:40.971932 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:15:00.865103 | Update current positions...BEGIN
+2022-12-05 06:15:00.923477 | Update current positions...DONE
+2022-12-05 06:15:00.932054 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 06:16:46.071692 | FAILED | open long | EUR/USD
+2022-12-05 06:16:46.071898 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 06:20:01.162557 | Update trade amounts...BEGIN
+2022-12-05 06:20:01.321500 | Update trade amounts...DONE
+2022-12-05 06:25:01.085475 | Log account report.....BEGIN
+2022-12-05 06:25:01.176208 | Log account report.....DONE
+2022-12-05 07:02:00.500225 | FAILED | close position | USD/CHF
+2022-12-05 07:02:00.500688 | FAILED | close position | EUR/USD
+2022-12-05 07:02:00.500772 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:02:00.500930 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:02:01.011622 | FAILED | close position | EUSTX50
+2022-12-05 07:02:01.011795 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:02:09.463624 | FAILED | close position | ESP35
+2022-12-05 07:02:09.463834 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:04:05.665168 | FAILED | close position | USD/CHF
+2022-12-05 07:04:05.665457 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:04:05.667449 | FAILED | close position | EUR/USD
+2022-12-05 07:04:05.667609 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:04:06.083751 | FAILED | close position | EUSTX50
+2022-12-05 07:04:06.083942 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:04:15.098574 | FAILED | close position | ESP35
+2022-12-05 07:04:15.098751 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:06:10.718816 | FAILED | close position | USD/CHF
+2022-12-05 07:06:10.719011 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:06:10.758801 | FAILED | close position | EUR/USD
+2022-12-05 07:06:10.758977 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:06:11.252205 | FAILED | close position | EUSTX50
+2022-12-05 07:06:11.252370 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:06:20.159006 | FAILED | close position | ESP35
+2022-12-05 07:06:20.159216 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:08:15.886173 | FAILED | close position | EUR/USD
+2022-12-05 07:08:15.885940 | FAILED | close position | USD/CHF
+2022-12-05 07:08:15.886389 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:08:15.886457 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:08:16.313817 | FAILED | close position | EUSTX50
+2022-12-05 07:08:16.316028 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:08:25.280127 | FAILED | close position | ESP35
+2022-12-05 07:08:25.280317 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:10:01.099718 | Check duplicate positions...BEGIN
+2022-12-05 07:10:01.225100 | Check duplicate positions...DONE
+2022-12-05 07:10:30.949441 | FAILED | open long | EUR/USD
+2022-12-05 07:10:30.950372 | FAILED | open short | USD/CHF
+2022-12-05 07:10:30.950468 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:10:30.950627 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:10:31.415481 | FAILED | open short | EUSTX50
+2022-12-05 07:10:31.415653 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:10:40.346646 | FAILED | open short | ESP35
+2022-12-05 07:10:40.346839 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:12:36.018902 | FAILED | open long | EUR/USD
+2022-12-05 07:12:36.020783 | FAILED | open short | USD/CHF
+2022-12-05 07:12:36.020875 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:12:36.021006 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:12:36.513673 | FAILED | open short | EUSTX50
+2022-12-05 07:12:36.515389 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:12:45.398182 | FAILED | open short | ESP35
+2022-12-05 07:12:45.399017 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:14:41.116245 | FAILED | open long | EUR/USD
+2022-12-05 07:14:41.116394 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:14:41.117031 | FAILED | open short | USD/CHF
+2022-12-05 07:14:41.117141 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:14:41.569857 | FAILED | open short | EUSTX50
+2022-12-05 07:14:41.570064 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:14:50.453418 | FAILED | open short | ESP35
+2022-12-05 07:14:50.453587 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:15:01.129446 | Update current positions...BEGIN
+2022-12-05 07:15:01.287849 | Update current positions...DONE
+2022-12-05 07:15:01.288008 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 07:16:46.217437 | FAILED | open short | USD/CHF
+2022-12-05 07:16:46.217610 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:16:46.219665 | FAILED | open long | EUR/USD
+2022-12-05 07:16:46.219804 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:16:46.622337 | FAILED | open short | EUSTX50
+2022-12-05 07:16:46.622526 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:16:55.546623 | FAILED | open short | ESP35
+2022-12-05 07:16:55.546812 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 07:20:00.348199 | Update trade amounts...BEGIN
+2022-12-05 07:20:00.425168 | Update trade amounts...DONE
+2022-12-05 07:25:00.400582 | Log account report.....BEGIN
+2022-12-05 07:25:00.489900 | Log account report.....DONE
+2022-12-05 08:02:00.346749 | FAILED | close position | EUSTX50
+2022-12-05 08:02:00.346908 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:02:00.491777 | FAILED | close position | USD/CHF
+2022-12-05 08:02:00.491957 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:02:00.493652 | FAILED | close position | EUR/USD
+2022-12-05 08:02:00.493835 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:02:02.109338 | FAILED | close position | ESP35
+2022-12-05 08:02:02.109512 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:04:05.516140 | FAILED | close position | EUSTX50
+2022-12-05 08:04:05.516342 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:04:05.618335 | FAILED | close position | USD/CHF
+2022-12-05 08:04:05.618512 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:04:05.621542 | FAILED | close position | EUR/USD
+2022-12-05 08:04:05.621635 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:04:07.164662 | FAILED | close position | ESP35
+2022-12-05 08:04:07.164851 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:06:10.566641 | FAILED | close position | EUSTX50
+2022-12-05 08:06:10.571688 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:06:10.667034 | FAILED | close position | USD/CHF
+2022-12-05 08:06:10.667265 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:06:10.668384 | FAILED | close position | EUR/USD
+2022-12-05 08:06:10.668506 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:06:12.256658 | FAILED | close position | ESP35
+2022-12-05 08:06:12.256843 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:08:15.713520 | FAILED | close position | EUSTX50
+2022-12-05 08:08:15.714264 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:08:15.796036 | FAILED | close position | USD/CHF
+2022-12-05 08:08:15.796406 | FAILED | close position | EUR/USD
+2022-12-05 08:08:15.796537 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:08:15.796664 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:08:17.371263 | FAILED | close position | ESP35
+2022-12-05 08:08:17.371456 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:10:00.245140 | Check duplicate positions...BEGIN
+2022-12-05 08:10:00.397218 | Check duplicate positions...DONE
+2022-12-05 08:10:30.778274 | FAILED | open short | EUSTX50
+2022-12-05 08:10:30.778458 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:10:30.883302 | FAILED | open short | USD/CHF
+2022-12-05 08:10:30.883486 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:10:30.884315 | FAILED | open long | EUR/USD
+2022-12-05 08:10:30.886504 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:10:32.458292 | FAILED | open short | ESP35
+2022-12-05 08:10:32.459853 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:12:35.940236 | FAILED | open long | EUR/USD
+2022-12-05 08:12:35.941422 | FAILED | open short | EUSTX50
+2022-12-05 08:12:35.941784 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:12:35.941706 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:12:35.943564 | FAILED | open short | USD/CHF
+2022-12-05 08:12:35.943855 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:12:37.515040 | FAILED | open short | ESP35
+2022-12-05 08:12:37.515248 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:14:41.050904 | FAILED | open long | EUR/USD
+2022-12-05 08:14:41.051150 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:14:41.052507 | FAILED | open short | EUSTX50
+2022-12-05 08:14:41.052633 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:14:41.058667 | FAILED | open short | USD/CHF
+2022-12-05 08:14:41.058759 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:14:42.624612 | FAILED | open short | ESP35
+2022-12-05 08:14:42.624816 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:15:00.593991 | Update current positions...BEGIN
+2022-12-05 08:15:00.647389 | Update current positions...DONE
+2022-12-05 08:15:00.649442 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 08:16:46.106817 | FAILED | open short | EUSTX50
+2022-12-05 08:16:46.106999 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:16:46.117525 | FAILED | open long | EUR/USD
+2022-12-05 08:16:46.117675 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:16:46.158440 | FAILED | open short | USD/CHF
+2022-12-05 08:16:46.158622 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:16:47.716958 | FAILED | open short | ESP35
+2022-12-05 08:16:47.717181 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 08:20:00.440879 | Update trade amounts...BEGIN
+2022-12-05 08:20:00.551338 | Update trade amounts...DONE
+2022-12-05 08:25:00.658473 | Log account report.....BEGIN
+2022-12-05 08:25:00.787420 | Log account report.....DONE
+2022-12-05 09:02:00.593130 | FAILED | close position | USD/CHF
+2022-12-05 09:02:00.593780 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:02:00.593647 | FAILED | close position | EUR/USD
+2022-12-05 09:02:00.593998 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:02:01.240983 | FAILED | close position | ESP35
+2022-12-05 09:02:01.241195 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:02:01.993750 | FAILED | close position | EUSTX50
+2022-12-05 09:02:01.994476 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:04:05.699212 | FAILED | close position | EUR/USD
+2022-12-05 09:04:05.699378 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:04:05.701627 | FAILED | close position | USD/CHF
+2022-12-05 09:04:05.701710 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:04:06.407242 | FAILED | close position | ESP35
+2022-12-05 09:04:06.407431 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:04:07.069805 | FAILED | close position | EUSTX50
+2022-12-05 09:04:07.070000 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:06:10.751909 | FAILED | close position | EUR/USD
+2022-12-05 09:06:10.752099 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:06:10.753316 | FAILED | close position | USD/CHF
+2022-12-05 09:06:10.753425 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:06:11.456311 | FAILED | close position | ESP35
+2022-12-05 09:06:11.456501 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:06:12.190566 | FAILED | close position | EUSTX50
+2022-12-05 09:06:12.190762 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:08:15.829444 | FAILED | close position | EUR/USD
+2022-12-05 09:08:15.829659 | FAILED | close position | USD/CHF
+2022-12-05 09:08:15.829864 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:08:15.830093 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:08:16.558474 | FAILED | close position | ESP35
+2022-12-05 09:08:16.558651 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:08:17.242425 | FAILED | close position | EUSTX50
+2022-12-05 09:08:17.244421 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:10:00.597357 | Check duplicate positions...BEGIN
+2022-12-05 09:10:00.697480 | Check duplicate positions...DONE
+2022-12-05 09:10:30.927331 | FAILED | open long | EUR/USD
+2022-12-05 09:10:30.930491 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:10:30.937992 | FAILED | open short | USD/CHF
+2022-12-05 09:10:30.945789 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:10:31.730083 | FAILED | open short | ESP35
+2022-12-05 09:10:31.730335 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:10:32.308129 | FAILED | open short | EUSTX50
+2022-12-05 09:10:32.308321 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:12:36.026991 | FAILED | open short | USD/CHF
+2022-12-05 09:12:36.028719 | FAILED | open long | EUR/USD
+2022-12-05 09:12:36.028789 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:12:36.028940 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:12:36.779330 | FAILED | open short | ESP35
+2022-12-05 09:12:36.780796 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:12:37.426499 | FAILED | open short | EUSTX50
+2022-12-05 09:12:37.427787 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:14:41.077084 | FAILED | open long | EUR/USD
+2022-12-05 09:14:41.077327 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:14:41.079424 | FAILED | open short | USD/CHF
+2022-12-05 09:14:41.079526 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:14:41.881348 | FAILED | open short | ESP35
+2022-12-05 09:14:41.881541 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:14:42.479245 | FAILED | open short | EUSTX50
+2022-12-05 09:14:42.479461 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:15:00.656083 | Update current positions...BEGIN
+2022-12-05 09:15:00.722858 | Update current positions...DONE
+2022-12-05 09:15:00.723017 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 09:16:46.129302 | FAILED | open long | EUR/USD
+2022-12-05 09:16:46.129904 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:16:46.132591 | FAILED | open short | USD/CHF
+2022-12-05 09:16:46.134826 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:16:46.993201 | FAILED | open short | ESP35
+2022-12-05 09:16:46.993395 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:16:47.576219 | FAILED | open short | EUSTX50
+2022-12-05 09:16:47.576372 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 09:20:00.778784 | Update trade amounts...BEGIN
+2022-12-05 09:20:00.856905 | Update trade amounts...DONE
+2022-12-05 09:25:01.028412 | Log account report.....BEGIN
+2022-12-05 09:25:01.126087 | Log account report.....DONE
+2022-12-05 10:02:00.435642 | FAILED | close position | EUR/USD
+2022-12-05 10:02:00.435897 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:02:00.436266 | FAILED | close position | USD/CHF
+2022-12-05 10:02:00.436472 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:02:06.805650 | FAILED | close position | EUSTX50
+2022-12-05 10:02:06.805845 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:02:10.569875 | FAILED | close position | ESP35
+2022-12-05 10:02:10.570066 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:04:05.554159 | FAILED | close position | USD/CHF
+2022-12-05 10:04:05.554719 | FAILED | close position | EUR/USD
+2022-12-05 10:04:05.554525 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:04:05.554897 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:04:11.915791 | FAILED | close position | EUSTX50
+2022-12-05 10:04:11.915973 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:04:15.662870 | FAILED | close position | ESP35
+2022-12-05 10:04:15.663049 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:06:10.685097 | FAILED | close position | EUR/USD
+2022-12-05 10:06:10.685263 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:06:10.685903 | FAILED | close position | USD/CHF
+2022-12-05 10:06:10.686016 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:06:17.043703 | FAILED | close position | EUSTX50
+2022-12-05 10:06:17.043905 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:06:20.828793 | FAILED | close position | ESP35
+2022-12-05 10:06:20.828979 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:08:15.769759 | FAILED | close position | USD/CHF
+2022-12-05 10:08:15.769961 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:08:15.770248 | FAILED | close position | EUR/USD
+2022-12-05 10:08:15.770315 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:08:22.094666 | FAILED | close position | EUSTX50
+2022-12-05 10:08:22.094856 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:08:25.880525 | FAILED | close position | ESP35
+2022-12-05 10:08:25.880715 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:10:00.808236 | Check duplicate positions...BEGIN
+2022-12-05 10:10:00.952870 | Check duplicate positions...DONE
+2022-12-05 10:10:30.872664 | FAILED | open long | EUR/USD
+2022-12-05 10:10:30.873563 | FAILED | open short | USD/CHF
+2022-12-05 10:10:30.873661 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:10:30.873820 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:10:37.207932 | FAILED | open short | EUSTX50
+2022-12-05 10:10:37.208552 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:10:40.943512 | FAILED | open short | ESP35
+2022-12-05 10:10:40.943656 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:12:36.000916 | FAILED | open short | USD/CHF
+2022-12-05 10:12:36.002690 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:12:36.002604 | FAILED | open long | EUR/USD
+2022-12-05 10:12:36.002860 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:12:42.263121 | FAILED | open short | EUSTX50
+2022-12-05 10:12:42.263794 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:12:45.998234 | FAILED | open short | ESP35
+2022-12-05 10:12:45.999906 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:14:41.131203 | FAILED | open short | USD/CHF
+2022-12-05 10:14:41.131393 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:14:41.138213 | FAILED | open long | EUR/USD
+2022-12-05 10:14:41.138318 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:14:47.363729 | FAILED | open short | EUSTX50
+2022-12-05 10:14:47.363927 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:14:51.134812 | FAILED | open short | ESP35
+2022-12-05 10:14:51.135588 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:15:00.954975 | Update current positions...BEGIN
+2022-12-05 10:15:01.015500 | Update current positions...DONE
+2022-12-05 10:15:01.015658 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 10:16:46.184353 | FAILED | open long | EUR/USD
+2022-12-05 10:16:46.184557 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:16:46.186543 | FAILED | open short | USD/CHF
+2022-12-05 10:16:46.186630 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:16:52.417261 | FAILED | open short | EUSTX50
+2022-12-05 10:16:52.417456 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:16:56.191977 | FAILED | open short | ESP35
+2022-12-05 10:16:56.192166 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 10:20:01.250506 | Update trade amounts...BEGIN
+2022-12-05 10:20:01.313449 | Update trade amounts...DONE
+2022-12-05 10:25:00.131023 | Log account report.....BEGIN
+2022-12-05 10:25:00.224230 | Log account report.....DONE
+2022-12-05 11:02:00.248793 | FAILED | close position | EUR/USD
+2022-12-05 11:02:00.248963 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:02:00.256030 | FAILED | close position | USD/CHF
+2022-12-05 11:02:00.256161 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:02:00.880074 | FAILED | close position | ESP35
+2022-12-05 11:02:00.880244 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:02:03.375626 | FAILED | close position | HKG33
+2022-12-05 11:02:03.375814 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:02:04.398794 | FAILED | close position | EUSTX50
+2022-12-05 11:02:04.399004 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:04:05.359979 | FAILED | close position | EUR/USD
+2022-12-05 11:04:05.360203 | FAILED | close position | USD/CHF
+2022-12-05 11:04:05.360469 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:04:05.360423 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:04:06.029833 | FAILED | close position | ESP35
+2022-12-05 11:04:06.030026 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:04:08.489484 | FAILED | close position | HKG33
+2022-12-05 11:04:08.489691 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:04:09.501139 | FAILED | close position | EUSTX50
+2022-12-05 11:04:09.501415 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:06:10.412151 | FAILED | close position | USD/CHF
+2022-12-05 11:06:10.412361 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:06:10.413925 | FAILED | close position | EUR/USD
+2022-12-05 11:06:10.414051 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:06:11.191700 | FAILED | close position | ESP35
+2022-12-05 11:06:11.191890 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:06:13.537469 | FAILED | close position | HKG33
+2022-12-05 11:06:13.537652 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:06:14.625058 | FAILED | close position | EUSTX50
+2022-12-05 11:06:14.625262 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:08:15.468154 | FAILED | close position | USD/CHF
+2022-12-05 11:08:15.468376 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:08:15.481450 | FAILED | close position | EUR/USD
+2022-12-05 11:08:15.482353 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:08:16.331281 | FAILED | close position | ESP35
+2022-12-05 11:08:16.331459 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:08:18.676755 | FAILED | close position | HKG33
+2022-12-05 11:08:18.676954 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:08:19.685574 | FAILED | close position | EUSTX50
+2022-12-05 11:08:19.685740 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:10:01.138424 | Check duplicate positions...BEGIN
+2022-12-05 11:10:01.263887 | Check duplicate positions...DONE
+2022-12-05 11:10:30.547756 | FAILED | open short | USD/CHF
+2022-12-05 11:10:30.547961 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:10:30.549278 | FAILED | open long | EUR/USD
+2022-12-05 11:10:30.549371 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:10:31.392910 | FAILED | open short | ESP35
+2022-12-05 11:10:31.393080 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:10:33.745141 | FAILED | open long | HKG33
+2022-12-05 11:10:33.745346 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:10:34.791013 | FAILED | open short | EUSTX50
+2022-12-05 11:10:34.791240 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:12:35.649744 | FAILED | open long | EUR/USD
+2022-12-05 11:12:35.650086 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:12:35.654173 | FAILED | open short | USD/CHF
+2022-12-05 11:12:35.654292 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:12:36.446140 | FAILED | open short | ESP35
+2022-12-05 11:12:36.446311 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:12:38.798683 | FAILED | open long | HKG33
+2022-12-05 11:12:38.798866 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:12:39.894268 | FAILED | open short | EUSTX50
+2022-12-05 11:12:39.894448 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:14:40.723973 | FAILED | open short | USD/CHF
+2022-12-05 11:14:40.724166 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:14:40.725263 | FAILED | open long | EUR/USD
+2022-12-05 11:14:40.725400 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:14:41.586244 | FAILED | open short | ESP35
+2022-12-05 11:14:41.586444 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:14:43.849105 | FAILED | open long | HKG33
+2022-12-05 11:14:43.849286 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:14:44.945707 | FAILED | open short | EUSTX50
+2022-12-05 11:14:44.945880 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:15:00.334140 | Update current positions...BEGIN
+2022-12-05 11:15:00.394868 | Update current positions...DONE
+2022-12-05 11:15:00.395027 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 11:16:45.814973 | FAILED | open short | USD/CHF
+2022-12-05 11:16:45.815187 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:16:45.816983 | FAILED | open long | EUR/USD
+2022-12-05 11:16:45.817137 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:16:46.693381 | FAILED | open short | ESP35
+2022-12-05 11:16:46.693584 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:16:48.899908 | FAILED | open long | HKG33
+2022-12-05 11:16:48.900109 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:16:50.040356 | FAILED | open short | EUSTX50
+2022-12-05 11:16:50.040868 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 11:20:00.570547 | Update trade amounts...BEGIN
+2022-12-05 11:20:00.682861 | Update trade amounts...DONE
+2022-12-05 11:25:00.236129 | Log account report.....BEGIN
+2022-12-05 11:25:00.300278 | Log account report.....DONE
+2022-12-05 12:02:00.672121 | FAILED | close position | HKG33
+2022-12-05 12:02:00.676818 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:02:00.712635 | FAILED | close position | EUR/USD
+2022-12-05 12:02:00.712834 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:02:00.799414 | FAILED | close position | USD/CHF
+2022-12-05 12:02:00.799579 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:02:02.273438 | FAILED | close position | EUSTX50
+2022-12-05 12:02:02.273635 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:02:07.846322 | FAILED | close position | ESP35
+2022-12-05 12:02:07.846521 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:04:05.725847 | FAILED | close position | HKG33
+2022-12-05 12:04:05.726005 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:04:05.874009 | FAILED | close position | USD/CHF
+2022-12-05 12:04:05.874214 | FAILED | close position | EUR/USD
+2022-12-05 12:04:05.874419 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:04:05.874478 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:04:07.402381 | FAILED | close position | EUSTX50
+2022-12-05 12:04:07.402569 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:04:12.897330 | FAILED | close position | ESP35
+2022-12-05 12:04:12.897504 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:06:10.910179 | FAILED | close position | HKG33
+2022-12-05 12:06:10.910379 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:06:10.928112 | FAILED | close position | EUR/USD
+2022-12-05 12:06:10.928293 | FAILED | close position | USD/CHF
+2022-12-05 12:06:10.935590 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:06:10.930098 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:06:12.458630 | FAILED | close position | EUSTX50
+2022-12-05 12:06:12.458834 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:06:17.942280 | FAILED | close position | ESP35
+2022-12-05 12:06:17.942472 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:08:16.029940 | FAILED | close position | EUR/USD
+2022-12-05 12:08:16.030365 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:08:16.033715 | FAILED | close position | USD/CHF
+2022-12-05 12:08:16.033536 | FAILED | close position | HKG33
+2022-12-05 12:08:16.033931 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:08:16.033863 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:08:17.523744 | FAILED | close position | EUSTX50
+2022-12-05 12:08:17.523957 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:08:23.033119 | FAILED | close position | ESP35
+2022-12-05 12:08:23.033299 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:10:00.725066 | Check duplicate positions...BEGIN
+2022-12-05 12:10:00.887060 | Check duplicate positions...DONE
+2022-12-05 12:10:31.175160 | FAILED | open long | EUR/USD
+2022-12-05 12:10:31.175356 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:10:31.178220 | FAILED | open short | USD/CHF
+2022-12-05 12:10:31.178324 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:10:31.178924 | FAILED | open long | HKG33
+2022-12-05 12:10:31.179040 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:10:32.693851 | FAILED | open short | EUSTX50
+2022-12-05 12:10:32.695427 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:10:38.225525 | FAILED | open short | ESP35
+2022-12-05 12:10:38.231624 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:12:36.279411 | FAILED | open short | USD/CHF
+2022-12-05 12:12:36.279606 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:12:36.281106 | FAILED | open long | EUR/USD
+2022-12-05 12:12:36.281246 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:12:36.283855 | FAILED | open long | HKG33
+2022-12-05 12:12:36.283950 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:12:37.748177 | FAILED | open short | EUSTX50
+2022-12-05 12:12:37.748329 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:12:43.285178 | FAILED | open short | ESP35
+2022-12-05 12:12:43.285343 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:14:41.414715 | FAILED | open short | USD/CHF
+2022-12-05 12:14:41.414920 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:14:41.416933 | FAILED | open long | EUR/USD
+2022-12-05 12:14:41.417036 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:14:41.422131 | FAILED | open long | HKG33
+2022-12-05 12:14:41.422226 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:14:42.834101 | FAILED | open short | EUSTX50
+2022-12-05 12:14:42.834256 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:14:48.334639 | FAILED | open short | ESP35
+2022-12-05 12:14:48.334813 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:15:00.429140 | Update current positions...BEGIN
+2022-12-05 12:15:00.477741 | Update current positions...DONE
+2022-12-05 12:15:00.477865 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 12:16:46.464791 | FAILED | open short | USD/CHF
+2022-12-05 12:16:46.464946 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:16:46.465339 | FAILED | open long | EUR/USD
+2022-12-05 12:16:46.465458 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:16:46.517018 | FAILED | open long | HKG33
+2022-12-05 12:16:46.517190 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:16:47.890000 | FAILED | open short | EUSTX50
+2022-12-05 12:16:47.890196 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:16:53.388296 | FAILED | open short | ESP35
+2022-12-05 12:16:53.388504 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 12:20:00.770000 | Update trade amounts...BEGIN
+2022-12-05 12:20:00.862646 | Update trade amounts...DONE
+2022-12-05 12:25:00.540834 | Log account report.....BEGIN
+2022-12-05 12:25:00.638813 | Log account report.....DONE
+2022-12-05 13:02:00.513824 | FAILED | close position | USD/CHF
+2022-12-05 13:02:00.514018 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:02:00.519875 | FAILED | close position | HKG33
+2022-12-05 13:02:00.519992 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:02:00.602365 | FAILED | close position | EUR/USD
+2022-12-05 13:02:00.602538 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:02:03.928372 | FAILED | close position | ESP35
+2022-12-05 13:02:03.928567 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:02:08.478096 | FAILED | close position | EUSTX50
+2022-12-05 13:02:08.478280 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:04:05.649328 | FAILED | close position | HKG33
+2022-12-05 13:04:05.649514 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:04:05.651924 | FAILED | close position | EUR/USD
+2022-12-05 13:04:05.652056 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:04:05.652879 | FAILED | close position | USD/CHF
+2022-12-05 13:04:05.652978 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:04:09.050876 | FAILED | close position | ESP35
+2022-12-05 13:04:09.051036 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:04:13.553561 | FAILED | close position | EUSTX50
+2022-12-05 13:04:13.553736 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:06:10.773625 | FAILED | close position | EUR/USD
+2022-12-05 13:06:10.773829 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:06:10.778815 | FAILED | close position | USD/CHF
+2022-12-05 13:06:10.778930 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:06:10.783344 | FAILED | close position | HKG33
+2022-12-05 13:06:10.783424 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:06:14.173541 | FAILED | close position | ESP35
+2022-12-05 13:06:14.173726 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:06:18.676754 | FAILED | close position | EUSTX50
+2022-12-05 13:06:18.676968 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:08:15.918852 | FAILED | close position | HKG33
+2022-12-05 13:08:15.919266 | FAILED | close position | USD/CHF
+2022-12-05 13:08:15.919481 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:08:15.919545 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:08:15.924681 | FAILED | close position | EUR/USD
+2022-12-05 13:08:15.924773 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:08:19.340018 | FAILED | close position | ESP35
+2022-12-05 13:08:19.340205 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:08:23.805674 | FAILED | close position | EUSTX50
+2022-12-05 13:08:23.805878 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:10:01.027397 | Check duplicate positions...BEGIN
+2022-12-05 13:10:01.167046 | Check duplicate positions...DONE
+2022-12-05 13:10:31.019616 | FAILED | open long | EUR/USD
+2022-12-05 13:10:31.019767 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:10:31.020903 | FAILED | open short | USD/CHF
+2022-12-05 13:10:31.021007 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:10:31.026473 | FAILED | open long | HKG33
+2022-12-05 13:10:31.026576 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:10:34.406161 | FAILED | open short | ESP35
+2022-12-05 13:10:34.406358 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:10:38.985245 | FAILED | open short | EUSTX50
+2022-12-05 13:10:38.985456 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:12:36.072851 | FAILED | open long | EUR/USD
+2022-12-05 13:12:36.073044 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:12:36.078439 | FAILED | open long | HKG33
+2022-12-05 13:12:36.078552 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:12:36.083043 | FAILED | open short | USD/CHF
+2022-12-05 13:12:36.083175 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:12:39.501054 | FAILED | open short | ESP35
+2022-12-05 13:12:39.501248 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:12:44.078591 | FAILED | open short | EUSTX50
+2022-12-05 13:12:44.078962 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:14:41.171369 | FAILED | open short | USD/CHF
+2022-12-05 13:14:41.171588 | FAILED | open long | HKG33
+2022-12-05 13:14:41.171867 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:14:41.171812 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:14:41.176502 | FAILED | open long | EUR/USD
+2022-12-05 13:14:41.176587 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:14:44.602574 | FAILED | open short | ESP35
+2022-12-05 13:14:44.603871 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:14:49.176591 | FAILED | open short | EUSTX50
+2022-12-05 13:14:49.176783 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:15:00.927041 | Update current positions...BEGIN
+2022-12-05 13:15:01.033368 | Update current positions...DONE
+2022-12-05 13:15:01.033510 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 13:16:46.223494 | FAILED | open long | HKG33
+2022-12-05 13:16:46.223680 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:16:46.224764 | FAILED | open long | EUR/USD
+2022-12-05 13:16:46.224892 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:16:46.225766 | FAILED | open short | USD/CHF
+2022-12-05 13:16:46.225849 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:16:49.658933 | FAILED | open short | ESP35
+2022-12-05 13:16:49.659154 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:16:54.229367 | FAILED | open short | EUSTX50
+2022-12-05 13:16:54.229576 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 13:20:00.906650 | Update trade amounts...BEGIN
+2022-12-05 13:20:00.972032 | Update trade amounts...DONE
+2022-12-05 13:25:00.781866 | Log account report.....BEGIN
+2022-12-05 13:25:00.833216 | Log account report.....DONE
+2022-12-05 14:02:00.575721 | FAILED | close position | EUR/USD
+2022-12-05 14:02:00.576162 | FAILED | close position | USD/CHF
+2022-12-05 14:02:00.576245 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:02:00.576419 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:02:00.821841 | FAILED | close position | EUSTX50
+2022-12-05 14:02:00.828262 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:02:00.864877 | FAILED | close position | ESP35
+2022-12-05 14:02:00.865164 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:02:03.538054 | FAILED | close position | HKG33
+2022-12-05 14:02:03.538199 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:04:05.749222 | FAILED | close position | USD/CHF
+2022-12-05 14:04:05.754110 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:04:05.754014 | FAILED | close position | EUR/USD
+2022-12-05 14:04:05.757907 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:04:05.876514 | FAILED | close position | EUSTX50
+2022-12-05 14:04:05.876708 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:04:05.918207 | FAILED | close position | ESP35
+2022-12-05 14:04:05.918379 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:04:08.590150 | FAILED | close position | HKG33
+2022-12-05 14:04:08.590358 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:06:10.908699 | FAILED | close position | EUR/USD
+2022-12-05 14:06:10.908922 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:06:10.913483 | FAILED | close position | USD/CHF
+2022-12-05 14:06:10.913630 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:06:10.999927 | FAILED | close position | EUSTX50
+2022-12-05 14:06:11.002455 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:06:11.004162 | FAILED | close position | ESP35
+2022-12-05 14:06:11.008004 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:06:13.709381 | FAILED | close position | HKG33
+2022-12-05 14:06:13.709572 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:08:16.081402 | FAILED | close position | EUR/USD
+2022-12-05 14:08:16.081814 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:08:16.081987 | FAILED | close position | USD/CHF
+2022-12-05 14:08:16.082055 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:08:16.124891 | FAILED | close position | ESP35
+2022-12-05 14:08:16.125460 | FAILED | close position | EUSTX50
+2022-12-05 14:08:16.125539 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:08:16.125725 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:08:18.869475 | FAILED | close position | HKG33
+2022-12-05 14:08:18.869621 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:10:00.287891 | Check duplicate positions...BEGIN
+2022-12-05 14:10:00.405218 | Check duplicate positions...DONE
+2022-12-05 14:10:31.141367 | FAILED | open short | USD/CHF
+2022-12-05 14:10:31.142992 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:10:31.143634 | FAILED | open long | EUR/USD
+2022-12-05 14:10:31.143767 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:10:31.237129 | FAILED | open short | ESP35
+2022-12-05 14:10:31.237309 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:10:31.238190 | FAILED | open short | EUSTX50
+2022-12-05 14:10:31.239622 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:10:33.980239 | FAILED | open long | HKG33
+2022-12-05 14:10:33.980471 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:12:36.299156 | FAILED | open short | EUSTX50
+2022-12-05 14:12:36.299351 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:12:36.300338 | FAILED | open short | USD/CHF
+2022-12-05 14:12:36.300474 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:12:36.304068 | FAILED | open short | ESP35
+2022-12-05 14:12:36.304174 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:12:36.313914 | FAILED | open long | EUR/USD
+2022-12-05 14:12:36.314011 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:12:39.075925 | FAILED | open long | HKG33
+2022-12-05 14:12:39.076115 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:14:41.385912 | FAILED | open short | ESP35
+2022-12-05 14:14:41.386057 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:14:41.390466 | FAILED | open short | USD/CHF
+2022-12-05 14:14:41.390554 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:14:41.396036 | FAILED | open long | EUR/USD
+2022-12-05 14:14:41.396142 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:14:41.396431 | FAILED | open short | EUSTX50
+2022-12-05 14:14:41.396561 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:14:44.221778 | FAILED | open long | HKG33
+2022-12-05 14:14:44.221984 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:15:00.337262 | Update current positions...BEGIN
+2022-12-05 14:15:00.446407 | Update current positions...DONE
+2022-12-05 14:15:00.446566 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 14:16:46.492843 | FAILED | open long | EUR/USD
+2022-12-05 14:16:46.492670 | FAILED | open short | EUSTX50
+2022-12-05 14:16:46.493155 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:16:46.493106 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:16:46.492436 | FAILED | open short | ESP35
+2022-12-05 14:16:46.493366 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:16:46.516562 | FAILED | open short | USD/CHF
+2022-12-05 14:16:46.526373 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:16:49.274264 | FAILED | open long | HKG33
+2022-12-05 14:16:49.274443 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 14:20:00.978522 | Update trade amounts...BEGIN
+2022-12-05 14:20:01.029359 | Update trade amounts...DONE
+2022-12-05 14:25:00.928842 | Log account report.....BEGIN
+2022-12-05 14:25:01.001401 | Log account report.....DONE
+2022-12-05 15:02:00.570222 | FAILED | close position | USD/CHF
+2022-12-05 15:02:00.570388 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:02:00.586134 | FAILED | close position | EUR/USD
+2022-12-05 15:02:00.586273 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:02:00.620892 | FAILED | close position | ESP35
+2022-12-05 15:02:00.621063 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:02:00.678334 | FAILED | close position | HKG33
+2022-12-05 15:02:00.678519 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:02:10.085995 | FAILED | close position | EUSTX50
+2022-12-05 15:02:10.086206 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:04:05.644864 | FAILED | close position | USD/CHF
+2022-12-05 15:04:05.645063 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:04:05.646264 | FAILED | close position | EUR/USD
+2022-12-05 15:04:05.646370 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:04:05.728943 | FAILED | close position | ESP35
+2022-12-05 15:04:05.733120 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:04:05.779988 | FAILED | close position | HKG33
+2022-12-05 15:04:05.780263 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:04:15.181768 | FAILED | close position | EUSTX50
+2022-12-05 15:04:15.181971 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:06:10.743812 | FAILED | close position | EUR/USD
+2022-12-05 15:06:10.743998 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:06:10.744551 | FAILED | close position | USD/CHF
+2022-12-05 15:06:10.744667 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:06:10.807480 | FAILED | close position | ESP35
+2022-12-05 15:06:10.808804 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:06:10.914409 | FAILED | close position | HKG33
+2022-12-05 15:06:10.914586 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:06:20.279078 | FAILED | close position | EUSTX50
+2022-12-05 15:06:20.280574 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:08:15.861580 | FAILED | close position | EUR/USD
+2022-12-05 15:08:15.861958 | FAILED | close position | USD/CHF
+2022-12-05 15:08:15.862142 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:08:15.862202 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:08:15.866287 | FAILED | close position | ESP35
+2022-12-05 15:08:15.866427 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:08:15.974473 | FAILED | close position | HKG33
+2022-12-05 15:08:15.974641 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:08:25.332237 | FAILED | close position | EUSTX50
+2022-12-05 15:08:25.332423 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:10:00.668772 | Check duplicate positions...BEGIN
+2022-12-05 15:10:00.771692 | Check duplicate positions...DONE
+2022-12-05 15:10:30.920610 | FAILED | open long | EUR/USD
+2022-12-05 15:10:30.920773 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:10:30.926139 | FAILED | open short | USD/CHF
+2022-12-05 15:10:30.926259 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:10:30.940860 | FAILED | open short | ESP35
+2022-12-05 15:10:30.941031 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:10:31.141761 | FAILED | open long | HKG33
+2022-12-05 15:10:31.141922 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:10:40.399731 | FAILED | open short | EUSTX50
+2022-12-05 15:10:40.399930 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:12:36.016356 | FAILED | open short | USD/CHF
+2022-12-05 15:12:36.016738 | FAILED | open short | ESP35
+2022-12-05 15:12:36.016926 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:12:36.017078 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:12:36.024231 | FAILED | open long | EUR/USD
+2022-12-05 15:12:36.024327 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:12:36.194186 | FAILED | open long | HKG33
+2022-12-05 15:12:36.194374 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:12:45.451919 | FAILED | open short | EUSTX50
+2022-12-05 15:12:45.452102 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:14:41.069563 | FAILED | open short | USD/CHF
+2022-12-05 15:14:41.069976 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:14:41.069789 | FAILED | open short | ESP35
+2022-12-05 15:14:41.070266 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:14:41.107203 | FAILED | open long | EUR/USD
+2022-12-05 15:14:41.107337 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:14:41.245251 | FAILED | open long | HKG33
+2022-12-05 15:14:41.245440 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:14:50.505116 | FAILED | open short | EUSTX50
+2022-12-05 15:14:50.505318 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:15:00.500055 | Update current positions...BEGIN
+2022-12-05 15:15:00.596322 | Update current positions...DONE
+2022-12-05 15:15:00.596479 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 15:16:46.183884 | FAILED | open short | USD/CHF
+2022-12-05 15:16:46.184061 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:16:46.186183 | FAILED | open short | ESP35
+2022-12-05 15:16:46.186305 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:16:46.187468 | FAILED | open long | EUR/USD
+2022-12-05 15:16:46.187571 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:16:46.345522 | FAILED | open long | HKG33
+2022-12-05 15:16:46.345707 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:16:55.563689 | FAILED | open short | EUSTX50
+2022-12-05 15:16:55.563846 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 15:20:00.211616 | Update trade amounts...BEGIN
+2022-12-05 15:20:00.315479 | Update trade amounts...DONE
+2022-12-05 15:25:00.004351 | Log account report.....BEGIN
+2022-12-05 15:25:00.714293 | Log account report.....DONE
+2022-12-05 16:02:00.396762 | FAILED | close position | USD/CHF
+2022-12-05 16:02:00.396947 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:02:00.397464 | FAILED | close position | EUR/USD
+2022-12-05 16:02:00.397595 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:02:00.647508 | FAILED | close position | ESP35
+2022-12-05 16:02:00.648258 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:02:01.274849 | FAILED | close position | HKG33
+2022-12-05 16:02:01.275237 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:02:10.885865 | FAILED | close position | EUSTX50
+2022-12-05 16:02:10.886075 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:04:05.473146 | FAILED | close position | EUR/USD
+2022-12-05 16:04:05.473353 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:04:05.474812 | FAILED | close position | USD/CHF
+2022-12-05 16:04:05.474934 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:04:05.786861 | FAILED | close position | ESP35
+2022-12-05 16:04:05.787059 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:04:06.375193 | FAILED | close position | HKG33
+2022-12-05 16:04:06.375427 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:04:15.960969 | FAILED | close position | EUSTX50
+2022-12-05 16:04:15.961177 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:06:10.544522 | FAILED | close position | EUR/USD
+2022-12-05 16:06:10.544754 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:06:10.550603 | FAILED | close position | USD/CHF
+2022-12-05 16:06:10.550705 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:06:10.835531 | FAILED | close position | ESP35
+2022-12-05 16:06:10.835679 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:06:11.505168 | FAILED | close position | HKG33
+2022-12-05 16:06:11.505352 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:06:21.117685 | FAILED | close position | EUSTX50
+2022-12-05 16:06:21.117892 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:08:15.598946 | FAILED | close position | EUR/USD
+2022-12-05 16:08:15.599204 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:08:15.670426 | FAILED | close position | USD/CHF
+2022-12-05 16:08:15.670603 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:08:15.884959 | FAILED | close position | ESP35
+2022-12-05 16:08:15.885126 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:08:16.616630 | FAILED | close position | HKG33
+2022-12-05 16:08:16.619585 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:08:26.165473 | FAILED | close position | EUSTX50
+2022-12-05 16:08:26.165649 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:10:01.056351 | Check duplicate positions...BEGIN
+2022-12-05 16:10:01.203798 | Check duplicate positions...DONE
+2022-12-05 16:10:30.706393 | FAILED | open long | EUR/USD
+2022-12-05 16:10:30.707948 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:10:30.736847 | FAILED | open short | USD/CHF
+2022-12-05 16:10:30.736999 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:10:30.966122 | FAILED | open short | ESP35
+2022-12-05 16:10:30.966311 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:10:31.691766 | FAILED | open long | HKG33
+2022-12-05 16:10:31.693454 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:10:41.273078 | FAILED | open short | EUSTX50
+2022-12-05 16:10:41.275190 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:12:35.802958 | FAILED | open short | USD/CHF
+2022-12-05 16:12:35.803451 | FAILED | open long | EUR/USD
+2022-12-05 16:12:35.803670 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:12:35.803603 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:12:36.074695 | FAILED | open short | ESP35
+2022-12-05 16:12:36.078906 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:12:36.766886 | FAILED | open long | HKG33
+2022-12-05 16:12:36.767128 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:12:46.343200 | FAILED | open short | EUSTX50
+2022-12-05 16:12:46.343392 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:14:40.902324 | FAILED | open long | EUR/USD
+2022-12-05 16:14:40.903579 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:14:40.902501 | FAILED | open short | USD/CHF
+2022-12-05 16:14:40.903673 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:14:41.132060 | FAILED | open short | ESP35
+2022-12-05 16:14:41.132255 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:14:41.834694 | FAILED | open long | HKG33
+2022-12-05 16:14:41.834861 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:14:51.401970 | FAILED | open short | EUSTX50
+2022-12-05 16:14:51.402161 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:15:00.938148 | Update current positions...BEGIN
+2022-12-05 16:15:01.070906 | Update current positions...DONE
+2022-12-05 16:15:01.072448 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 16:16:46.004422 | FAILED | open short | USD/CHF
+2022-12-05 16:16:46.004628 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:16:46.006389 | FAILED | open long | EUR/USD
+2022-12-05 16:16:46.006516 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:16:46.200640 | FAILED | open short | ESP35
+2022-12-05 16:16:46.200838 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:16:46.899195 | FAILED | open long | HKG33
+2022-12-05 16:16:46.899383 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:16:56.517903 | FAILED | open short | EUSTX50
+2022-12-05 16:16:56.518089 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 16:20:00.506979 | Update trade amounts...BEGIN
+2022-12-05 16:20:00.574501 | Update trade amounts...DONE
+2022-12-05 16:25:00.786349 | Log account report.....BEGIN
+2022-12-05 16:25:00.851053 | Log account report.....DONE
+2022-12-05 17:02:00.897276 | FAILED | close position | HKG33
+2022-12-05 17:02:00.897421 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:02:01.057905 | FAILED | close position | USD/CHF
+2022-12-05 17:02:01.058083 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:02:01.058267 | FAILED | close position | EUR/USD
+2022-12-05 17:02:01.058470 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:02:10.018720 | FAILED | close position | EUSTX50
+2022-12-05 17:02:10.020083 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:02:16.969172 | FAILED | close position | ESP35
+2022-12-05 17:02:16.969359 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:04:05.998755 | FAILED | close position | HKG33
+2022-12-05 17:04:05.998951 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:04:06.115500 | FAILED | close position | EUR/USD
+2022-12-05 17:04:06.115811 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:04:06.115989 | FAILED | close position | USD/CHF
+2022-12-05 17:04:06.116157 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:04:15.187045 | FAILED | close position | EUSTX50
+2022-12-05 17:04:15.187249 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:04:22.138519 | FAILED | close position | ESP35
+2022-12-05 17:04:22.138709 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:06:11.051975 | FAILED | close position | HKG33
+2022-12-05 17:06:11.052165 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:06:11.181804 | FAILED | close position | EUR/USD
+2022-12-05 17:06:11.181986 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:06:11.186705 | FAILED | close position | USD/CHF
+2022-12-05 17:06:11.186799 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:06:20.330318 | FAILED | close position | EUSTX50
+2022-12-05 17:06:20.343844 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:06:27.191787 | FAILED | close position | ESP35
+2022-12-05 17:06:27.191962 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:08:16.201958 | FAILED | close position | HKG33
+2022-12-05 17:08:16.204187 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:08:16.287552 | FAILED | close position | EUR/USD
+2022-12-05 17:08:16.287732 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:08:16.290569 | FAILED | close position | USD/CHF
+2022-12-05 17:08:16.290696 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:08:25.473046 | FAILED | close position | EUSTX50
+2022-12-05 17:08:25.473402 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:08:32.289720 | FAILED | close position | ESP35
+2022-12-05 17:08:32.289898 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:10:00.309853 | Check duplicate positions...BEGIN
+2022-12-05 17:10:00.520644 | Check duplicate positions...DONE
+2022-12-05 17:10:31.300708 | FAILED | open long | HKG33
+2022-12-05 17:10:31.300874 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:10:31.412561 | FAILED | open long | EUR/USD
+2022-12-05 17:10:31.412920 | FAILED | open short | USD/CHF
+2022-12-05 17:10:31.413102 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:10:31.413166 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:10:40.549381 | FAILED | open short | EUSTX50
+2022-12-05 17:10:40.552303 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:10:47.346733 | FAILED | open short | ESP35
+2022-12-05 17:10:47.348322 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:12:36.366611 | FAILED | open long | HKG33
+2022-12-05 17:12:36.373315 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:12:36.504594 | FAILED | open long | EUR/USD
+2022-12-05 17:12:36.504791 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:12:36.506321 | FAILED | open short | USD/CHF
+2022-12-05 17:12:36.506449 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:12:45.603643 | FAILED | open short | EUSTX50
+2022-12-05 17:12:45.603841 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:12:52.478222 | FAILED | open short | ESP35
+2022-12-05 17:12:52.479776 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:14:41.437046 | FAILED | open long | HKG33
+2022-12-05 17:14:41.437252 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:14:41.620828 | FAILED | open short | USD/CHF
+2022-12-05 17:14:41.621002 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:14:41.622770 | FAILED | open long | EUR/USD
+2022-12-05 17:14:41.622908 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:14:50.701810 | FAILED | open short | EUSTX50
+2022-12-05 17:14:50.702004 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:14:57.535893 | FAILED | open short | ESP35
+2022-12-05 17:14:57.536891 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:15:00.082657 | Update current positions...BEGIN
+2022-12-05 17:15:00.137958 | Update current positions...DONE
+2022-12-05 17:15:00.138108 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 17:16:46.533555 | FAILED | open long | HKG33
+2022-12-05 17:16:46.533745 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:16:46.711635 | FAILED | open long | EUR/USD
+2022-12-05 17:16:46.711850 | FAILED | open short | USD/CHF
+2022-12-05 17:16:46.712021 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:16:46.712122 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:16:55.806318 | FAILED | open short | EUSTX50
+2022-12-05 17:16:55.811979 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:17:02.603338 | FAILED | open short | ESP35
+2022-12-05 17:17:02.603490 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 17:20:01.007215 | Update trade amounts...BEGIN
+2022-12-05 17:20:01.130512 | Update trade amounts...DONE
+2022-12-05 17:25:00.893766 | Log account report.....BEGIN
+2022-12-05 17:25:00.965450 | Log account report.....DONE
+2022-12-05 18:02:00.410420 | FAILED | close position | USD/CHF
+2022-12-05 18:02:00.410651 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:02:00.557250 | FAILED | close position | EUR/USD
+2022-12-05 18:02:00.557444 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:02:00.656701 | FAILED | close position | HKG33
+2022-12-05 18:02:00.659027 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:02:05.672849 | FAILED | close position | EUSTX50
+2022-12-05 18:02:05.672996 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:02:13.421422 | FAILED | close position | ESP35
+2022-12-05 18:02:13.421607 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:04:05.566812 | FAILED | close position | USD/CHF
+2022-12-05 18:04:05.567007 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:04:05.607366 | FAILED | close position | EUR/USD
+2022-12-05 18:04:05.607547 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:04:05.784552 | FAILED | close position | HKG33
+2022-12-05 18:04:05.784726 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:04:10.737935 | FAILED | close position | EUSTX50
+2022-12-05 18:04:10.738139 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:04:18.561503 | FAILED | close position | ESP35
+2022-12-05 18:04:18.561686 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:06:10.616553 | FAILED | close position | USD/CHF
+2022-12-05 18:06:10.616788 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:06:10.725354 | FAILED | close position | EUR/USD
+2022-12-05 18:06:10.725525 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:06:10.836885 | FAILED | close position | HKG33
+2022-12-05 18:06:10.837140 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:06:15.845438 | FAILED | close position | EUSTX50
+2022-12-05 18:06:15.845581 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:06:23.608489 | FAILED | close position | ESP35
+2022-12-05 18:06:23.608685 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:08:15.718763 | FAILED | close position | USD/CHF
+2022-12-05 18:08:15.718957 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:08:15.889218 | FAILED | close position | EUR/USD
+2022-12-05 18:08:15.889385 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:08:15.889700 | FAILED | close position | HKG33
+2022-12-05 18:08:15.889775 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:08:20.966058 | FAILED | close position | EUSTX50
+2022-12-05 18:08:20.966251 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:08:28.663110 | FAILED | close position | ESP35
+2022-12-05 18:08:28.663270 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:10:00.616228 | Check duplicate positions...BEGIN
+2022-12-05 18:10:00.726141 | Check duplicate positions...DONE
+2022-12-05 18:10:30.782705 | FAILED | open short | USD/CHF
+2022-12-05 18:10:30.782960 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:10:30.954513 | FAILED | open long | HKG33
+2022-12-05 18:10:30.954703 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:10:31.056669 | FAILED | open long | EUR/USD
+2022-12-05 18:10:31.056853 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:10:36.027623 | FAILED | open short | EUSTX50
+2022-12-05 18:10:36.027788 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:10:43.728884 | FAILED | open short | ESP35
+2022-12-05 18:10:43.729071 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:12:35.826932 | FAILED | open short | USD/CHF
+2022-12-05 18:12:35.827144 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:12:36.053519 | FAILED | open long | HKG33
+2022-12-05 18:12:36.053676 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:12:36.155769 | FAILED | open long | EUR/USD
+2022-12-05 18:12:36.155938 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:12:41.081228 | FAILED | open short | EUSTX50
+2022-12-05 18:12:41.081384 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:12:48.821754 | FAILED | open short | ESP35
+2022-12-05 18:12:48.821937 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:14:40.966308 | FAILED | open short | USD/CHF
+2022-12-05 18:14:40.966517 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:14:41.108318 | FAILED | open long | HKG33
+2022-12-05 18:14:41.109710 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:14:41.208226 | FAILED | open long | EUR/USD
+2022-12-05 18:14:41.208422 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:14:46.131543 | FAILED | open short | EUSTX50
+2022-12-05 18:14:46.133276 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:14:53.875531 | FAILED | open short | ESP35
+2022-12-05 18:14:53.875712 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:15:00.343937 | Update current positions...BEGIN
+2022-12-05 18:15:00.413608 | Update current positions...DONE
+2022-12-05 18:15:00.414180 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 18:16:46.024293 | FAILED | open short | USD/CHF
+2022-12-05 18:16:46.024492 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:16:46.233570 | FAILED | open long | HKG33
+2022-12-05 18:16:46.233750 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:16:46.255558 | FAILED | open long | EUR/USD
+2022-12-05 18:16:46.255739 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:16:51.193385 | FAILED | open short | EUSTX50
+2022-12-05 18:16:51.198280 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:16:58.927199 | FAILED | open short | ESP35
+2022-12-05 18:16:58.927378 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 18:20:00.157734 | Update trade amounts...BEGIN
+2022-12-05 18:20:00.208576 | Update trade amounts...DONE
+2022-12-05 18:25:01.097574 | Log account report.....BEGIN
+2022-12-05 18:25:01.153074 | Log account report.....DONE
+2022-12-05 19:02:00.313578 | FAILED | close position | EUR/USD
+2022-12-05 19:02:00.313771 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:02:00.894242 | FAILED | close position | USD/CHF
+2022-12-05 19:02:00.894393 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:02:04.612952 | FAILED | close position | EUSTX50
+2022-12-05 19:02:04.613137 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:04:05.425098 | FAILED | close position | EUR/USD
+2022-12-05 19:04:05.425257 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:04:05.947915 | FAILED | close position | USD/CHF
+2022-12-05 19:04:05.948063 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:04:09.726525 | FAILED | close position | EUSTX50
+2022-12-05 19:04:09.726725 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:06:10.535417 | FAILED | close position | EUR/USD
+2022-12-05 19:06:10.535603 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:06:11.009022 | FAILED | close position | USD/CHF
+2022-12-05 19:06:11.009207 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:06:14.843957 | FAILED | close position | EUSTX50
+2022-12-05 19:06:14.846402 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:08:15.584756 | FAILED | close position | EUR/USD
+2022-12-05 19:08:15.584950 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:08:16.060579 | FAILED | close position | USD/CHF
+2022-12-05 19:08:16.060735 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:08:19.942767 | FAILED | close position | EUSTX50
+2022-12-05 19:08:19.942966 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:10:00.856201 | Check duplicate positions...BEGIN
+2022-12-05 19:10:00.987154 | Check duplicate positions...DONE
+2022-12-05 19:10:30.691456 | FAILED | open long | EUR/USD
+2022-12-05 19:10:30.691652 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:10:31.122739 | FAILED | open short | USD/CHF
+2022-12-05 19:10:31.128506 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:10:35.050767 | FAILED | open short | EUSTX50
+2022-12-05 19:10:35.051473 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:12:35.777613 | FAILED | open long | EUR/USD
+2022-12-05 19:12:35.777829 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:12:36.187858 | FAILED | open short | USD/CHF
+2022-12-05 19:12:36.188030 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:12:40.178560 | FAILED | open short | EUSTX50
+2022-12-05 19:12:40.178719 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:14:40.832606 | FAILED | open long | EUR/USD
+2022-12-05 19:14:40.834178 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:14:41.283464 | FAILED | open short | USD/CHF
+2022-12-05 19:14:41.284976 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:14:45.230850 | FAILED | open short | EUSTX50
+2022-12-05 19:14:45.231052 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:15:00.476796 | Update current positions...BEGIN
+2022-12-05 19:15:00.535621 | Update current positions...DONE
+2022-12-05 19:15:00.535787 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 19:16:45.908713 | FAILED | open long | EUR/USD
+2022-12-05 19:16:45.908905 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:16:46.337470 | FAILED | open short | USD/CHF
+2022-12-05 19:16:46.337668 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:16:50.332788 | FAILED | open short | EUSTX50
+2022-12-05 19:16:50.332993 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 19:20:00.250137 | Update trade amounts...BEGIN
+2022-12-05 19:20:00.305607 | Update trade amounts...DONE
+2022-12-05 19:25:00.167516 | Log account report.....BEGIN
+2022-12-05 19:25:00.236107 | Log account report.....DONE
+2022-12-05 20:02:00.514233 | FAILED | close position | EUR/USD
+2022-12-05 20:02:00.514458 | FAILED | close position | USD/CHF
+2022-12-05 20:02:00.514661 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:02:00.514715 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:02:05.015107 | FAILED | close position | EUSTX50
+2022-12-05 20:02:05.015350 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:04:05.706237 | FAILED | close position | USD/CHF
+2022-12-05 20:04:05.706687 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:04:05.706622 | FAILED | close position | EUR/USD
+2022-12-05 20:04:05.706844 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:04:10.096566 | FAILED | close position | EUSTX50
+2022-12-05 20:04:10.096766 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:06:10.760064 | FAILED | close position | EUR/USD
+2022-12-05 20:06:10.760244 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:06:10.760672 | FAILED | close position | USD/CHF
+2022-12-05 20:06:10.760794 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:06:15.240803 | FAILED | close position | EUSTX50
+2022-12-05 20:06:15.240978 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:08:15.897673 | FAILED | close position | USD/CHF
+2022-12-05 20:08:15.897861 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:08:15.902321 | FAILED | close position | EUR/USD
+2022-12-05 20:08:15.902532 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:08:20.298117 | FAILED | close position | EUSTX50
+2022-12-05 20:08:20.298307 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:10:00.996386 | Check duplicate positions...BEGIN
+2022-12-05 20:10:01.137926 | Check duplicate positions...DONE
+2022-12-05 20:10:30.975646 | FAILED | open long | EUR/USD
+2022-12-05 20:10:30.975896 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:10:30.982744 | FAILED | open short | USD/CHF
+2022-12-05 20:10:30.982874 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:10:35.362341 | FAILED | open short | EUSTX50
+2022-12-05 20:10:35.363000 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:12:36.105594 | FAILED | open long | EUR/USD
+2022-12-05 20:12:36.105801 | FAILED | open short | USD/CHF
+2022-12-05 20:12:36.109051 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:12:36.110134 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:12:40.463480 | FAILED | open short | EUSTX50
+2022-12-05 20:12:40.463679 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:14:41.213407 | FAILED | open short | USD/CHF
+2022-12-05 20:14:41.215006 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:14:41.216638 | FAILED | open long | EUR/USD
+2022-12-05 20:14:41.216782 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:14:45.551549 | FAILED | open short | EUSTX50
+2022-12-05 20:14:45.553014 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:15:00.812672 | Update current positions...BEGIN
+2022-12-05 20:15:00.887710 | Update current positions...DONE
+2022-12-05 20:15:00.887855 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 20:16:46.310513 | FAILED | open long | EUR/USD
+2022-12-05 20:16:46.312870 | FAILED | open short | USD/CHF
+2022-12-05 20:16:46.313777 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:16:46.313240 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:16:50.663537 | FAILED | open short | EUSTX50
+2022-12-05 20:16:50.663719 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 20:20:00.706906 | Update trade amounts...BEGIN
+2022-12-05 20:20:00.788283 | Update trade amounts...DONE
+2022-12-05 20:25:00.239623 | Log account report.....BEGIN
+2022-12-05 20:25:00.319484 | Log account report.....DONE
+2022-12-05 21:02:00.295917 | FAILED | close position | EUR/USD
+2022-12-05 21:02:00.296120 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:02:01.199006 | FAILED | close position | USD/CHF
+2022-12-05 21:02:01.199188 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:04:05.350778 | FAILED | close position | EUR/USD
+2022-12-05 21:04:05.351045 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:04:06.297063 | FAILED | close position | USD/CHF
+2022-12-05 21:04:06.297247 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:06:10.447286 | FAILED | close position | EUR/USD
+2022-12-05 21:06:10.447474 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:06:11.348243 | FAILED | close position | USD/CHF
+2022-12-05 21:06:11.348429 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:08:15.544261 | FAILED | close position | EUR/USD
+2022-12-05 21:08:15.544442 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:08:16.449848 | FAILED | close position | USD/CHF
+2022-12-05 21:08:16.450041 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:10:00.418553 | Check duplicate positions...BEGIN
+2022-12-05 21:10:00.524286 | Check duplicate positions...DONE
+2022-12-05 21:10:30.720106 | FAILED | open long | EUR/USD
+2022-12-05 21:10:30.720293 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:10:31.617550 | FAILED | open short | USD/CHF
+2022-12-05 21:10:31.617744 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:12:35.776257 | FAILED | open long | EUR/USD
+2022-12-05 21:12:35.778570 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:12:36.682567 | FAILED | open short | USD/CHF
+2022-12-05 21:12:36.686066 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:14:40.869869 | FAILED | open long | EUR/USD
+2022-12-05 21:14:40.870091 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:14:41.771024 | FAILED | open short | USD/CHF
+2022-12-05 21:14:41.771237 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:15:01.006232 | Update current positions...BEGIN
+2022-12-05 21:15:01.084602 | Update current positions...DONE
+2022-12-05 21:15:01.084765 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 21:16:45.925663 | FAILED | open long | EUR/USD
+2022-12-05 21:16:45.925862 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:16:46.890689 | FAILED | open short | USD/CHF
+2022-12-05 21:16:46.890900 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 21:20:01.004930 | Update trade amounts...BEGIN
+2022-12-05 21:20:01.098707 | Update trade amounts...DONE
+2022-12-05 21:25:00.752491 | Log account report.....BEGIN
+2022-12-05 21:25:00.854858 | Log account report.....DONE
+2022-12-05 22:02:00.560315 | FAILED | close position | USD/CHF
+2022-12-05 22:02:00.560507 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:03:20.702467 | FAILED | close position | EUR/USD
+2022-12-05 22:03:20.702633 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:04:05.653962 | FAILED | close position | USD/CHF
+2022-12-05 22:04:05.654160 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:05:25.821553 | FAILED | close position | EUR/USD
+2022-12-05 22:05:25.821759 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:06:10.761959 | FAILED | close position | USD/CHF
+2022-12-05 22:06:10.762152 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:07:30.963545 | FAILED | close position | EUR/USD
+2022-12-05 22:07:30.963732 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:08:15.817738 | FAILED | close position | USD/CHF
+2022-12-05 22:08:15.817935 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:09:36.088255 | FAILED | close position | EUR/USD
+2022-12-05 22:09:36.088454 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:10:00.600539 | Check duplicate positions...BEGIN
+2022-12-05 22:10:00.751558 | Check duplicate positions...DONE
+2022-12-05 22:10:30.982982 | FAILED | open short | USD/CHF
+2022-12-05 22:10:30.983219 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:11:51.219762 | FAILED | open long | EUR/USD
+2022-12-05 22:11:51.220051 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:12:36.037131 | FAILED | open short | USD/CHF
+2022-12-05 22:12:36.037300 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:13:56.301740 | FAILED | open long | EUR/USD
+2022-12-05 22:13:56.301926 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:14:41.138932 | FAILED | open short | USD/CHF
+2022-12-05 22:14:41.139224 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:15:02.409868 | Update current positions...BEGIN
+2022-12-05 22:15:02.459836 | Update current positions...DONE
+2022-12-05 22:15:02.459983 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 22:16:01.400626 | FAILED | open long | EUR/USD
+2022-12-05 22:16:01.400824 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:16:46.190581 | FAILED | open short | USD/CHF
+2022-12-05 22:16:46.190781 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:18:06.446674 | FAILED | open long | EUR/USD
+2022-12-05 22:18:06.446875 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 22:20:03.994570 | Update trade amounts...BEGIN
+2022-12-05 22:20:04.104547 | Update trade amounts...DONE
+2022-12-05 22:25:04.104149 | Log account report.....BEGIN
+2022-12-05 22:25:04.184088 | Log account report.....DONE
+2022-12-05 23:02:00.416438 | FAILED | close position | USD/CHF
+2022-12-05 23:02:00.416642 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:02:00.419341 | FAILED | close position | EUR/USD
+2022-12-05 23:02:00.419442 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:04:05.584576 | FAILED | close position | USD/CHF
+2022-12-05 23:04:05.584731 | FAILED | close position | EUR/USD
+2022-12-05 23:04:05.585668 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:04:05.585437 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:06:10.755189 | FAILED | close position | EUR/USD
+2022-12-05 23:06:10.758303 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:06:10.758809 | FAILED | close position | USD/CHF
+2022-12-05 23:06:10.758923 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:08:15.810469 | FAILED | close position | USD/CHF
+2022-12-05 23:08:15.810668 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:08:15.813189 | FAILED | close position | EUR/USD
+2022-12-05 23:08:15.813305 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:10:00.848366 | Check duplicate positions...BEGIN
+2022-12-05 23:10:01.013201 | Check duplicate positions...DONE
+2022-12-05 23:10:30.974370 | FAILED | open short | USD/CHF
+2022-12-05 23:10:30.975027 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:10:30.976254 | FAILED | open long | EUR/USD
+2022-12-05 23:10:30.976774 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:12:36.154089 | FAILED | open long | EUR/USD
+2022-12-05 23:12:36.154276 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:12:36.155794 | FAILED | open short | USD/CHF
+2022-12-05 23:12:36.155929 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:14:41.269904 | FAILED | open long | EUR/USD
+2022-12-05 23:14:41.270106 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:14:41.271521 | FAILED | open short | USD/CHF
+2022-12-05 23:14:41.271633 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:15:00.879502 | Update current positions...BEGIN
+2022-12-05 23:15:00.974804 | Update current positions...DONE
+2022-12-05 23:15:00.974969 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 1, 'NZD/USD': 1, 'Bund': 1, 'AUS200': 2, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 2, 'GER30': 2, 'HKG33': 2, 'JPN225': 2, 'NAS100': 1, 'USOil': 2, 'XAU/USD': 2}
+2022-12-05 23:16:46.330931 | FAILED | open short | USD/CHF
+2022-12-05 23:16:46.331153 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:16:46.334055 | FAILED | open long | EUR/USD
+2022-12-05 23:16:46.334154 | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-12-05 23:20:00.373231 | Update trade amounts...BEGIN
+2022-12-05 23:20:00.492752 | Update trade amounts...DONE
+2022-12-05 23:25:00.654054 | Log account report.....BEGIN
+2022-12-05 23:25:00.708323 | Log account report.....DONE

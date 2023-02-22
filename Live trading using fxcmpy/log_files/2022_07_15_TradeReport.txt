@@ -1,0 +1,171 @@
+2022-07-15 00:00:00.262080 | Updated current positions |
+2022-07-15 00:00:00.993788 | Updated trade amounts
+2022-07-15 00:30:03.142575 | Updated current positions |
+2022-07-15 01:00:02.334993 | Updated current positions |
+2022-07-15 01:00:03.067706 | Updated trade amounts
+2022-07-15 01:30:01.028364 | Updated current positions |
+2022-07-15 02:00:00.491911 | Updated current positions |
+2022-07-15 02:00:00.493587 | Updated trade amounts
+2022-07-15 14:23:36.773631 | --------------------------------------------------
+2022-07-15 14:23:36.773921 | Connecting...
+2022-07-15 14:23:48.652326 | CONNECTED
+2022-07-15 14:23:48.652990 | connection status: established
+2022-07-15 14:23:48.653094 | --------------------------------------------------
+2022-07-15 14:23:51.491647 | Updated current positions |
+2022-07-15 14:24:01.100801 | Warming up data.....Done
+2022-07-15 14:24:46.711390 | --------------------------------------------------
+2022-07-15 14:24:46.711554 | Connecting...
+2022-07-15 14:24:54.771341 | CONNECTED
+2022-07-15 14:24:54.771555 | connection status: established
+2022-07-15 14:24:54.771640 | --------------------------------------------------
+2022-07-15 14:24:55.088002 | Updated current positions |
+2022-07-15 14:24:56.453199 | Warming up data.....Done
+2022-07-15 14:24:59.335376 | Updated trade amounts
+2022-07-15 14:43:45.723527 | --------------------------------------------------
+2022-07-15 14:43:45.723661 | Connecting...
+2022-07-15 14:43:50.025311 | CONNECTED
+2022-07-15 14:43:50.025561 | connection status: established
+2022-07-15 14:43:50.026147 | --------------------------------------------------
+2022-07-15 14:47:29.474138 | --------------------------------------------------
+2022-07-15 14:47:29.474290 | Connecting...
+2022-07-15 14:47:32.071231 | CONNECTED
+2022-07-15 14:47:32.071396 | connection status: established
+2022-07-15 14:47:32.071476 | --------------------------------------------------
+2022-07-15 14:47:32.387295 | Updated current positions |
+2022-07-15 14:47:33.218164 | Warming up data.....Done
+2022-07-15 14:47:33.270350 | Updated trade amounts
+2022-07-15 14:50:00.624636 | CLOSE SHORT.....USOil
+2022-07-15 14:50:00.725342 | CLOSE SHORT.....SPX500
+2022-07-15 14:50:00.733524 | OPEN LONG.....USOil.....5 units
+2022-07-15 14:50:00.745960 | CLOSE SHORT.....GBP/USD
+2022-07-15 14:50:00.792003 | OPEN LONG.....SPX500.....4 units
+2022-07-15 14:50:00.809737 | OPEN LONG.....GBP/USD.....26 units
+2022-07-15 14:50:01.210447 | CLOSE SHORT.....BTC/USD
+2022-07-15 14:50:01.272081 | OPEN LONG.....BTC/USD.....1 units
+2022-07-15 14:50:01.866898 | CLOSE SHORT.....Bund
+2022-07-15 14:50:01.924892 | OPEN LONG.....Bund.....22 units
+2022-07-15 15:10:58.920566 | --------------------------------------------------
+2022-07-15 15:10:58.920726 | Connecting...
+2022-07-15 15:11:04.324173 | CONNECTED
+2022-07-15 15:11:04.324485 | connection status: established
+2022-07-15 15:11:04.324599 | --------------------------------------------------
+2022-07-15 15:11:04.376079 | Updated current positions |
+2022-07-15 15:11:05.256752 | Warming up data.....Done
+2022-07-15 15:11:05.337775 | Updated trade amounts
+2022-07-15 15:15:03.124702 | CLOSE SHORT.....EUR/USD
+2022-07-15 15:15:03.196837 | OPEN LONG.....EUR/USD.....30 units
+2022-07-15 15:15:04.127996 | OPEN LONG.....SPX500.....4 units
+2022-07-15 15:15:04.129994 | OPEN LONG.....BTC/USD.....1 units
+2022-07-15 15:15:04.132523 | OPEN LONG.....USOil.....5 units
+2022-07-15 15:15:04.134681 | OPEN LONG.....Bund.....22 units
+2022-07-15 15:15:04.137819 | OPEN LONG.....GBP/USD.....26 units
+2022-07-15 15:30:03.238790 | Updated current positions |
+2022-07-15 15:44:32.486518 | --------------------------------------------------
+2022-07-15 15:44:32.486741 | Connecting...
+2022-07-15 15:44:44.373380 | CONNECTED
+2022-07-15 15:44:44.373573 | connection status: established
+2022-07-15 15:44:44.373657 | --------------------------------------------------
+2022-07-15 15:44:44.506299 | Updated current positions |
+2022-07-15 15:44:45.457882 | Warming up data.....Done
+2022-07-15 15:44:45.514579 | Updated trade amounts
+2022-07-15 15:45:00.745716 | Updated current positions |
+2022-07-15 15:45:06.491350 | CLOSE SHORT.....XAU/USD
+2022-07-15 15:45:07.735446 | OPEN LONG.....EUR/USD.....30 units
+2022-07-15 15:45:07.738708 | OPEN LONG.....XAU/USD.....9 units
+2022-07-15 15:50:03.114342 | Updated current positions |
+2022-07-15 15:55:02.177309 | Updated current positions |
+2022-07-15 16:00:01.378226 | Updated trade amounts
+2022-07-15 16:00:01.380229 | Updated current positions |
+2022-07-15 16:00:10.891685 | CLOSE LONG.....BTC/USD
+2022-07-15 16:00:11.957794 | OPEN SHORT.....BTC/USD.....1 units
+2022-07-15 16:05:00.666373 | Updated current positions |
+2022-07-15 16:10:01.649643 | Updated current positions |
+2022-07-15 16:15:00.845302 | Updated current positions |
+2022-07-15 16:20:01.292778 | Updated current positions |
+2022-07-15 16:25:00.538441 | Updated current positions |
+2022-07-15 16:30:01.121480 | Updated current positions |
+2022-07-15 16:35:00.261614 | Updated current positions |
+2022-07-15 16:40:00.439387 | Updated current positions |
+2022-07-15 16:45:00.972337 | Updated current positions |
+2022-07-15 16:50:01.253438 | Updated current positions |
+2022-07-15 16:55:00.326114 | Updated current positions |
+2022-07-15 17:00:00.613751 | Updated trade amounts
+2022-07-15 17:00:00.615444 | Updated current positions |
+2022-07-15 17:05:00.886549 | Updated current positions |
+2022-07-15 17:10:01.280545 | Updated current positions |
+2022-07-15 17:15:00.517683 | Updated current positions |
+2022-07-15 17:20:01.075907 | Updated current positions |
+2022-07-15 17:25:07.951202 | Updated current positions |
+2022-07-15 17:30:01.507096 | Updated current positions |
+2022-07-15 17:35:00.946881 | Updated current positions |
+2022-07-15 17:40:01.289248 | Updated current positions |
+2022-07-15 17:45:00.709522 | Updated current positions |
+2022-07-15 17:50:01.538721 | Updated current positions |
+2022-07-15 17:55:00.516849 | CLOSE LONG.....GBP/USD
+2022-07-15 17:55:00.574727 | OPEN SHORT.....GBP/USD.....26 units
+2022-07-15 17:55:00.975202 | Updated current positions |
+2022-07-15 18:00:00.759962 | Updated trade amounts
+2022-07-15 18:00:00.833946 | CLOSE LONG.....EUR/USD
+2022-07-15 18:00:00.893136 | OPEN SHORT.....EUR/USD.....30 units
+2022-07-15 18:00:01.251045 | Updated current positions |
+2022-07-15 18:00:01.769117 | OPEN SHORT.....GBP/USD.....26 units
+2022-07-15 18:05:00.847992 | Updated current positions |
+2022-07-15 18:05:00.853342 | OPEN SHORT.....EUR/USD.....30 units
+2022-07-15 18:05:00.917595 | CLOSE LONG.....XAU/USD
+2022-07-15 18:05:00.978558 | OPEN SHORT.....XAU/USD.....9 units
+2022-07-15 18:10:01.414978 | Updated current positions |
+2022-07-15 18:15:00.866309 | Updated current positions |
+2022-07-15 18:15:04.125381 | OPEN SHORT.....XAU/USD.....9 units
+2022-07-15 18:20:01.398029 | Updated current positions |
+2022-07-15 18:25:03.919579 | Updated current positions |
+2022-07-15 18:30:02.650930 | Updated current positions |
+2022-07-15 18:35:00.815320 | Updated current positions |
+2022-07-15 18:35:04.757172 | CLOSE SHORT.....GBP/USD
+2022-07-15 18:35:04.818508 | OPEN LONG.....GBP/USD.....26 units
+2022-07-15 18:40:00.975410 | Updated current positions |
+2022-07-15 18:45:01.134615 | Updated current positions |
+2022-07-15 18:45:01.479731 | OPEN LONG.....GBP/USD.....26 units
+2022-07-15 18:50:00.251519 | Updated current positions |
+2022-07-15 18:55:00.781820 | Updated current positions |
+2022-07-15 19:00:02.226497 | Updated current positions |
+2022-07-15 19:00:02.229055 | Updated trade amounts
+2022-07-15 19:05:00.669022 | Updated current positions |
+2022-07-15 19:10:01.066782 | Updated current positions |
+2022-07-15 19:15:00.579755 | Updated current positions |
+2022-07-15 19:20:01.271264 | Updated current positions |
+2022-07-15 19:20:02.074261 | CLOSE SHORT.....BTC/USD
+2022-07-15 19:20:02.250767 | OPEN LONG.....BTC/USD.....1 units
+2022-07-15 19:25:00.783695 | Updated current positions |
+2022-07-15 19:25:02.226506 | OPEN LONG.....BTC/USD.....1 units
+2022-07-15 19:30:01.615794 | Updated current positions |
+2022-07-15 19:35:01.381385 | Updated current positions |
+2022-07-15 19:40:00.454184 | Updated current positions |
+2022-07-15 19:45:01.001392 | Updated current positions |
+2022-07-15 19:50:00.374861 | Updated current positions |
+2022-07-15 19:55:00.588993 | Updated current positions |
+2022-07-15 19:55:00.948336 | CLOSE LONG.....GBP/USD
+2022-07-15 19:55:01.004621 | OPEN SHORT.....GBP/USD.....26 units
+2022-07-15 20:00:00.282421 | CLOSE SHORT.....GBP/USD
+2022-07-15 20:00:00.631141 | Updated trade amounts
+2022-07-15 20:00:00.641113 | OPEN LONG.....GBP/USD.....26 units
+2022-07-15 20:00:00.667805 | Updated current positions |
+2022-07-15 20:05:00.796653 | Updated current positions |
+2022-07-15 20:10:01.296986 | Updated current positions |
+2022-07-15 20:15:02.823177 | Updated current positions |
+2022-07-15 20:15:10.715248 | CLOSE LONG.....USOil
+2022-07-15 20:15:10.793153 | OPEN SHORT.....USOil.....5 units
+2022-07-15 20:20:00.885609 | Updated current positions |
+2022-07-15 20:20:06.523226 | OPEN SHORT.....USOil.....5 units
+2022-07-15 20:25:01.353002 | Updated current positions |
+2022-07-15 20:30:00.836524 | CLOSE SHORT.....XAU/USD
+2022-07-15 20:30:00.967568 | Updated current positions |
+2022-07-15 20:30:00.983482 | OPEN LONG.....XAU/USD.....9 units
+2022-07-15 20:35:01.241735 | Updated current positions |
+2022-07-15 20:40:00.586364 | Updated current positions |
+2022-07-15 20:40:02.424539 | OPEN LONG.....XAU/USD.....9 units
+2022-07-15 20:45:00.529157 | CLOSE SHORT.....EUR/USD
+2022-07-15 20:45:00.591090 | OPEN LONG.....EUR/USD.....30 units
+2022-07-15 20:45:01.076772 | Updated current positions |
+2022-07-15 20:50:00.136813 | Updated current positions |
+2022-07-15 20:50:03.757377 | OPEN LONG.....EUR/USD.....30 units
+2022-07-15 20:55:00.808208 | Updated current positions |

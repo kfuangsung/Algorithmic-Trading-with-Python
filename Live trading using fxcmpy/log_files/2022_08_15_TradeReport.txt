@@ -1,0 +1,350 @@
+2022-08-15 00:00:00.294018 | CLOSE SHORT.....GBP/USD
+2022-08-15 00:00:00.305319 | CLOSE LONG.....UKOil
+2022-08-15 00:00:31.392486 | OPEN LONG.....GBP/USD.....20 units
+2022-08-15 00:00:31.416977 | OPEN SHORT.....UKOil.....4 units
+2022-08-15 00:10:01.076826 | Update current positions...BEGIN
+2022-08-15 00:10:01.153251 | Update current positions...DONE
+2022-08-15 00:10:01.153414 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 00:15:00.877403 | Update trade amounts...BEGIN
+2022-08-15 00:15:00.965093 | Update trade amounts...DONE
+2022-08-15 00:20:00.750377 | Log account report.....BEGIN
+2022-08-15 00:20:00.827362 | Log account report.....DONE
+2022-08-15 01:00:00.717486 | CLOSE SHORT.....UKOil
+2022-08-15 01:00:31.816747 | OPEN LONG.....UKOil.....4 units
+2022-08-15 01:10:00.327876 | Update current positions...BEGIN
+2022-08-15 01:10:00.438364 | Update current positions...DONE
+2022-08-15 01:10:00.438679 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 2, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 1, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 01:15:00.823379 | CLOSE SHORT.....HKG33
+2022-08-15 01:15:01.144898 | Update trade amounts...BEGIN
+2022-08-15 01:15:01.277040 | Update trade amounts...DONE
+2022-08-15 01:15:31.940283 | OPEN LONG.....HKG33.....9 units
+2022-08-15 01:20:01.238570 | Log account report.....BEGIN
+2022-08-15 01:20:01.562314 | Log account report.....DONE
+2022-08-15 02:00:02.005477 | CLOSE LONG.....UKOil
+2022-08-15 02:00:35.451537 | OPEN SHORT.....UKOil.....4 units
+2022-08-15 02:10:02.910754 | Update current positions...BEGIN
+2022-08-15 02:10:03.211326 | Update current positions...DONE
+2022-08-15 02:10:03.217615 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 02:15:00.570872 | Update trade amounts...BEGIN
+2022-08-15 02:15:00.667746 | Update trade amounts...DONE
+2022-08-15 02:20:01.475800 | Log account report.....BEGIN
+2022-08-15 02:20:01.740944 | Log account report.....DONE
+2022-08-15 03:10:00.222684 | Update current positions...BEGIN
+2022-08-15 03:10:00.302907 | Update current positions...DONE
+2022-08-15 03:10:00.303059 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 03:15:00.881093 | Update trade amounts...BEGIN
+2022-08-15 03:15:00.954799 | Update trade amounts...DONE
+2022-08-15 03:20:01.310816 | Log account report.....BEGIN
+2022-08-15 03:20:01.678365 | Log account report.....DONE
+2022-08-15 04:10:00.486495 | Update current positions...BEGIN
+2022-08-15 04:10:00.604598 | Update current positions...DONE
+2022-08-15 04:10:00.604813 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 04:15:01.095187 | Update trade amounts...BEGIN
+2022-08-15 04:15:01.228386 | Update trade amounts...DONE
+2022-08-15 04:20:00.716517 | Log account report.....BEGIN
+2022-08-15 04:20:00.780498 | Log account report.....DONE
+2022-08-15 05:00:20.086952 | CLOSE LONG.....USD/CHF
+2022-08-15 05:00:51.176912 | OPEN SHORT.....USD/CHF.....14 units
+2022-08-15 05:10:00.607793 | Update current positions...BEGIN
+2022-08-15 05:10:00.681216 | Update current positions...DONE
+2022-08-15 05:10:00.681348 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 05:15:00.383852 | Update trade amounts...BEGIN
+2022-08-15 05:15:00.475872 | Update trade amounts...DONE
+2022-08-15 05:20:01.011350 | Log account report.....BEGIN
+2022-08-15 05:20:01.103155 | Log account report.....DONE
+2022-08-15 06:00:25.685334 | CLOSE LONG.....ESP35
+2022-08-15 06:00:55.813928 | OPEN SHORT.....ESP35.....31 units
+2022-08-15 06:10:00.894335 | Update current positions...BEGIN
+2022-08-15 06:10:01.094036 | Update current positions...DONE
+2022-08-15 06:10:01.095110 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 1, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 06:15:00.643931 | Update trade amounts...BEGIN
+2022-08-15 06:15:00.729987 | Update trade amounts...DONE
+2022-08-15 06:20:00.165509 | Log account report.....BEGIN
+2022-08-15 06:20:00.225394 | Log account report.....DONE
+2022-08-15 07:00:03.680952 | CLOSE LONG.....ESP35
+2022-08-15 07:00:03.679283 | CLOSE LONG.....USOil
+2022-08-15 07:00:34.773566 | OPEN SHORT.....ESP35.....30 units
+2022-08-15 07:00:34.778834 | OPEN SHORT.....USOil.....4 units
+2022-08-15 07:10:01.549908 | Update current positions...BEGIN
+2022-08-15 07:10:05.123977 | Update current positions...DONE
+2022-08-15 07:10:05.124137 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 07:15:01.926348 | Update trade amounts...BEGIN
+2022-08-15 07:15:03.432557 | Update trade amounts...DONE
+2022-08-15 07:20:00.229301 | Log account report.....BEGIN
+2022-08-15 07:20:00.709807 | Log account report.....DONE
+2022-08-15 08:00:01.796573 | CLOSE LONG.....FRA40
+2022-08-15 08:00:31.931826 | OPEN SHORT.....FRA40.....38 units
+2022-08-15 08:10:00.283311 | Update current positions...BEGIN
+2022-08-15 08:10:00.358247 | ERROR | get_open_positions | attempt1.....retrying in 5 seconds
+2022-08-15 08:10:05.420021 | ERROR | get_open_positions | attempt2.....retrying in 5 seconds
+2022-08-15 08:10:10.480133 | ERROR | get_open_positions | attempt3.....retrying in 5 seconds
+2022-08-15 08:10:15.535119 | ERROR | get_open_positions | attempt4.....retrying in 5 seconds
+2022-08-15 08:10:20.645029 | ERROR | get_open_positions | attempt5.....retrying in 5 seconds
+2022-08-15 08:10:25.702669 | ERROR | get_open_positions | attempt6.....retrying in 5 seconds
+2022-08-15 08:10:30.708791 | --------------------------------------------------
+2022-08-15 08:10:30.709220 | Disconnecting...
+2022-08-15 08:10:30.715780 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:10:35.723132 | --------------------------------------------------
+2022-08-15 08:10:35.723325 | Disconnecting...
+2022-08-15 08:10:35.723454 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:10:40.727284 | --------------------------------------------------
+2022-08-15 08:10:40.727570 | Disconnecting...
+2022-08-15 08:10:40.728022 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:10:45.733290 | --------------------------------------------------
+2022-08-15 08:10:45.733537 | Disconnecting...
+2022-08-15 08:10:45.733855 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:10:50.739069 | --------------------------------------------------
+2022-08-15 08:10:50.739338 | Disconnecting...
+2022-08-15 08:10:50.739849 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:10:55.745014 | --------------------------------------------------
+2022-08-15 08:10:55.745313 | Disconnecting...
+2022-08-15 08:10:55.745674 | ERROR | close connection...try again in 5 seconds
+2022-08-15 08:11:00.748458 | *** restarting python script ***
+2022-08-15 08:11:01.558413 | --------------------------------------------------
+2022-08-15 08:11:01.558556 | Connecting...
+2022-08-15 08:11:04.288457 | CONNECTED
+2022-08-15 08:11:04.288606 | connection status: established
+2022-08-15 08:11:04.288665 | --------------------------------------------------
+2022-08-15 08:11:04.288736 | Update current positions...BEGIN
+2022-08-15 08:11:04.340799 | Update current positions...DONE
+2022-08-15 08:11:04.340894 | {'EUR/USD': 2, 'USD/JPY': 1, 'GBP/USD': 1, 'USD/CHF': 2, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 2, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 08:11:04.340966 | Warming up data.....BEGIN
+2022-08-15 08:11:06.847932 | Warming up data.....DONE
+2022-08-15 08:11:06.848078 | Update trade amounts...BEGIN
+2022-08-15 08:11:06.898399 | Update trade amounts...DONE
+2022-08-15 08:11:06.968222 | SUBSCRIBED Market Data | EUR/USD
+2022-08-15 08:11:07.019488 | SUBSCRIBED Market Data | USD/JPY
+2022-08-15 08:11:07.075240 | SUBSCRIBED Market Data | GBP/USD
+2022-08-15 08:11:07.211143 | SUBSCRIBED Market Data | USD/CHF
+2022-08-15 08:11:07.265926 | SUBSCRIBED Market Data | AUD/USD
+2022-08-15 08:11:07.316196 | SUBSCRIBED Market Data | USD/CAD
+2022-08-15 08:11:07.383744 | SUBSCRIBED Market Data | NZD/USD
+2022-08-15 08:11:07.433689 | SUBSCRIBED Market Data | Bund
+2022-08-15 08:11:07.557414 | SUBSCRIBED Market Data | AUS200
+2022-08-15 08:11:07.608632 | SUBSCRIBED Market Data | CHN50
+2022-08-15 08:11:07.723433 | SUBSCRIBED Market Data | ESP35
+2022-08-15 08:11:07.822046 | SUBSCRIBED Market Data | EUSTX50
+2022-08-15 08:11:07.874052 | SUBSCRIBED Market Data | FRA40
+2022-08-15 08:11:07.925654 | SUBSCRIBED Market Data | GER30
+2022-08-15 08:11:07.977856 | SUBSCRIBED Market Data | HKG33
+2022-08-15 08:11:08.029759 | SUBSCRIBED Market Data | JPN225
+2022-08-15 08:11:08.094735 | SUBSCRIBED Market Data | NAS100
+2022-08-15 08:11:08.150684 | SUBSCRIBED Market Data | SPX500
+2022-08-15 08:11:08.201549 | SUBSCRIBED Market Data | UK100
+2022-08-15 08:11:08.253258 | SUBSCRIBED Market Data | US30
+2022-08-15 08:11:08.303844 | SUBSCRIBED Market Data | Copper
+2022-08-15 08:11:08.354494 | SUBSCRIBED Market Data | NGAS
+2022-08-15 08:11:08.403193 | SUBSCRIBED Market Data | UKOil
+2022-08-15 08:11:08.453666 | SUBSCRIBED Market Data | USOil
+2022-08-15 08:11:08.580977 | SUBSCRIBED Market Data | XAU/USD
+2022-08-15 08:11:08.635964 | SUBSCRIBED Market Data | XAG/USD
+2022-08-15 09:00:00.700079 | CLOSE LONG.....USD/JPY
+2022-08-15 09:00:00.702992 | CLOSE SHORT.....USD/CHF
+2022-08-15 09:00:08.467054 | CLOSE SHORT.....ESP35
+2022-08-15 09:00:31.843688 | OPEN LONG.....USD/CHF.....13 units
+2022-08-15 09:00:31.845676 | OPEN SHORT.....USD/JPY.....26 units
+2022-08-15 09:00:39.733508 | OPEN LONG.....ESP35.....29 units
+2022-08-15 09:10:00.678066 | Update current positions...BEGIN
+2022-08-15 09:10:00.803727 | Update current positions...DONE
+2022-08-15 09:10:00.803930 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 1, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 09:15:00.643485 | Update trade amounts...BEGIN
+2022-08-15 09:15:00.732199 | Update trade amounts...DONE
+2022-08-15 09:20:00.816071 | Log account report.....BEGIN
+2022-08-15 09:20:00.958894 | Log account report.....DONE
+2022-08-15 10:00:00.851358 | CLOSE LONG.....GBP/USD
+2022-08-15 10:00:32.139156 | OPEN SHORT.....GBP/USD.....18 units
+2022-08-15 10:10:00.870124 | Update current positions...BEGIN
+2022-08-15 10:10:01.069203 | Update current positions...DONE
+2022-08-15 10:10:01.069371 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 10:15:01.301765 | Update trade amounts...BEGIN
+2022-08-15 10:15:01.467219 | Update trade amounts...DONE
+2022-08-15 10:20:01.088431 | Log account report.....BEGIN
+2022-08-15 10:20:01.334949 | Log account report.....DONE
+2022-08-15 11:10:00.088267 | Update current positions...BEGIN
+2022-08-15 11:10:00.298177 | Update current positions...DONE
+2022-08-15 11:10:00.304695 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 11:15:00.491843 | Update trade amounts...BEGIN
+2022-08-15 11:15:00.641651 | Update trade amounts...DONE
+2022-08-15 11:20:00.423395 | Log account report.....BEGIN
+2022-08-15 11:20:00.529697 | Log account report.....DONE
+2022-08-15 12:10:00.558262 | Update current positions...BEGIN
+2022-08-15 12:10:00.848156 | Update current positions...DONE
+2022-08-15 12:10:00.848322 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 12:15:01.116399 | Update trade amounts...BEGIN
+2022-08-15 12:15:01.644509 | Update trade amounts...DONE
+2022-08-15 12:20:00.702694 | Log account report.....BEGIN
+2022-08-15 12:20:01.108379 | Log account report.....DONE
+2022-08-15 13:10:01.196015 | Update current positions...BEGIN
+2022-08-15 13:10:01.267433 | Update current positions...DONE
+2022-08-15 13:10:01.282479 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 13:15:00.698672 | Update trade amounts...BEGIN
+2022-08-15 13:15:00.772195 | Update trade amounts...DONE
+2022-08-15 13:20:00.129766 | Log account report.....BEGIN
+2022-08-15 13:20:00.398185 | Log account report.....DONE
+2022-08-15 14:10:04.675822 | Update current positions...BEGIN
+2022-08-15 14:10:07.134156 | ERROR | get_open_positions | attempt1.....retrying in 5 seconds
+2022-08-15 14:10:13.561661 | ERROR | get_open_positions | attempt2.....retrying in 5 seconds
+2022-08-15 14:12:19.858013 | ERROR | get_open_positions | attempt3.....retrying in 5 seconds
+2022-08-15 14:12:45.935287 | ERROR | get_open_positions | attempt4.....retrying in 5 seconds
+2022-08-15 14:12:55.043002 | ERROR | get_open_positions | attempt5.....retrying in 5 seconds
+2022-08-15 14:13:04.094262 | ERROR | get_open_positions | attempt6.....retrying in 5 seconds
+2022-08-15 14:13:09.099563 | --------------------------------------------------
+2022-08-15 14:13:09.099801 | Disconnecting...
+2022-08-15 14:13:09.099910 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:14.105072 | --------------------------------------------------
+2022-08-15 14:13:14.105334 | Disconnecting...
+2022-08-15 14:13:14.105406 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:19.108201 | --------------------------------------------------
+2022-08-15 14:13:19.117981 | Disconnecting...
+2022-08-15 14:13:19.125849 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:24.156992 | --------------------------------------------------
+2022-08-15 14:13:24.157330 | Disconnecting...
+2022-08-15 14:13:24.157850 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:29.163126 | --------------------------------------------------
+2022-08-15 14:13:29.163397 | Disconnecting...
+2022-08-15 14:13:29.163672 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:34.167189 | --------------------------------------------------
+2022-08-15 14:13:34.167460 | Disconnecting...
+2022-08-15 14:13:34.168090 | ERROR | close connection...try again in 5 seconds
+2022-08-15 14:13:39.173332 | *** restarting python script ***
+2022-08-15 14:13:39.955996 | --------------------------------------------------
+2022-08-15 14:13:39.956114 | Connecting...
+2022-08-15 14:13:44.962741 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:14:45.023089 | --------------------------------------------------
+2022-08-15 14:14:45.023331 | Connecting...
+2022-08-15 14:14:46.025458 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:15:46.085841 | --------------------------------------------------
+2022-08-15 14:15:46.086083 | Connecting...
+2022-08-15 14:15:52.093839 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:16:52.151191 | --------------------------------------------------
+2022-08-15 14:16:52.151451 | Connecting...
+2022-08-15 14:16:57.158300 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:17:57.175151 | --------------------------------------------------
+2022-08-15 14:17:57.175377 | Connecting...
+2022-08-15 14:18:03.184127 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:19:03.244406 | --------------------------------------------------
+2022-08-15 14:19:03.244671 | Connecting...
+2022-08-15 14:19:09.253285 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:20:09.311207 | *** restarting python script ***
+2022-08-15 14:20:10.138095 | --------------------------------------------------
+2022-08-15 14:20:10.138213 | Connecting...
+2022-08-15 14:20:16.145940 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:21:16.151162 | --------------------------------------------------
+2022-08-15 14:21:16.151485 | Connecting...
+2022-08-15 14:21:45.553201 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:22:45.613976 | --------------------------------------------------
+2022-08-15 14:22:45.614280 | Connecting...
+2022-08-15 14:22:45.615932 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:23:45.671104 | --------------------------------------------------
+2022-08-15 14:23:45.671369 | Connecting...
+2022-08-15 14:23:45.673137 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:24:45.733363 | --------------------------------------------------
+2022-08-15 14:24:45.733651 | Connecting...
+2022-08-15 14:24:45.734906 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:25:45.791152 | --------------------------------------------------
+2022-08-15 14:25:45.791441 | Connecting...
+2022-08-15 14:25:45.792414 | ERROR to connect...try again in 60 seconds
+2022-08-15 14:26:45.847108 | *** restarting python script ***
+2022-08-15 14:26:46.592223 | --------------------------------------------------
+2022-08-15 14:26:46.592329 | Connecting...
+2022-08-15 14:26:51.863840 | CONNECTED
+2022-08-15 14:26:51.864025 | connection status: established
+2022-08-15 14:26:51.864082 | --------------------------------------------------
+2022-08-15 14:26:51.864150 | Update current positions...BEGIN
+2022-08-15 14:26:51.982536 | Update current positions...DONE
+2022-08-15 14:26:51.982701 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 14:26:51.982794 | Warming up data.....BEGIN
+2022-08-15 14:26:59.116998 | Warming up data.....DONE
+2022-08-15 14:26:59.117156 | Update trade amounts...BEGIN
+2022-08-15 14:26:59.167615 | Update trade amounts...DONE
+2022-08-15 14:26:59.526660 | SUBSCRIBED Market Data | EUR/USD
+2022-08-15 14:26:59.645268 | SUBSCRIBED Market Data | USD/JPY
+2022-08-15 14:26:59.699941 | SUBSCRIBED Market Data | GBP/USD
+2022-08-15 14:26:59.753897 | SUBSCRIBED Market Data | USD/CHF
+2022-08-15 14:26:59.814171 | SUBSCRIBED Market Data | AUD/USD
+2022-08-15 14:27:00.112246 | SUBSCRIBED Market Data | USD/CAD
+2022-08-15 14:27:00.752689 | SUBSCRIBED Market Data | NZD/USD
+2022-08-15 14:27:00.895739 | SUBSCRIBED Market Data | Bund
+2022-08-15 14:27:01.207775 | SUBSCRIBED Market Data | AUS200
+2022-08-15 14:27:01.465546 | SUBSCRIBED Market Data | CHN50
+2022-08-15 14:27:01.521814 | SUBSCRIBED Market Data | ESP35
+2022-08-15 14:27:01.580169 | SUBSCRIBED Market Data | EUSTX50
+2022-08-15 14:27:01.714285 | SUBSCRIBED Market Data | FRA40
+2022-08-15 14:27:02.218317 | SUBSCRIBED Market Data | GER30
+2022-08-15 14:27:02.311745 | SUBSCRIBED Market Data | HKG33
+2022-08-15 14:27:02.755195 | SUBSCRIBED Market Data | JPN225
+2022-08-15 14:27:03.295338 | SUBSCRIBED Market Data | NAS100
+2022-08-15 14:27:03.500370 | SUBSCRIBED Market Data | SPX500
+2022-08-15 14:27:03.562636 | SUBSCRIBED Market Data | UK100
+2022-08-15 14:27:03.613589 | SUBSCRIBED Market Data | US30
+2022-08-15 14:27:03.665103 | SUBSCRIBED Market Data | Copper
+2022-08-15 14:27:04.033574 | SUBSCRIBED Market Data | NGAS
+2022-08-15 14:27:04.345487 | SUBSCRIBED Market Data | UKOil
+2022-08-15 14:27:04.402784 | SUBSCRIBED Market Data | USOil
+2022-08-15 14:27:04.847290 | SUBSCRIBED Market Data | XAU/USD
+2022-08-15 14:27:05.132228 | SUBSCRIBED Market Data | XAG/USD
+2022-08-15 15:10:00.818609 | Update current positions...BEGIN
+2022-08-15 15:10:02.289374 | Update current positions...DONE
+2022-08-15 15:10:02.289541 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 15:15:00.771179 | Update trade amounts...BEGIN
+2022-08-15 15:15:02.112833 | Update trade amounts...DONE
+2022-08-15 15:20:00.791181 | Log account report.....BEGIN
+2022-08-15 15:20:01.692621 | Log account report.....DONE
+2022-08-15 16:10:00.439048 | Update current positions...BEGIN
+2022-08-15 16:10:00.800398 | Update current positions...DONE
+2022-08-15 16:10:00.800551 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 16:15:00.445855 | Update trade amounts...BEGIN
+2022-08-15 16:15:00.523921 | Update trade amounts...DONE
+2022-08-15 16:20:00.745725 | Log account report.....BEGIN
+2022-08-15 16:20:01.341477 | Log account report.....DONE
+2022-08-15 17:10:00.847734 | Update current positions...BEGIN
+2022-08-15 17:10:03.013641 | Update current positions...DONE
+2022-08-15 17:10:03.013808 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 17:15:00.600858 | Update trade amounts...BEGIN
+2022-08-15 17:15:00.823713 | Update trade amounts...DONE
+2022-08-15 17:20:00.414837 | Log account report.....BEGIN
+2022-08-15 17:20:01.940547 | Log account report.....DONE
+2022-08-15 18:10:00.120524 | Update current positions...BEGIN
+2022-08-15 18:10:00.447459 | Update current positions...DONE
+2022-08-15 18:10:00.447648 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 18:15:01.229782 | Update trade amounts...BEGIN
+2022-08-15 18:15:06.340616 | Update trade amounts...DONE
+2022-08-15 18:20:01.295508 | Log account report.....BEGIN
+2022-08-15 18:20:01.857656 | Log account report.....DONE
+2022-08-15 19:10:00.722240 | Update current positions...BEGIN
+2022-08-15 19:10:01.078197 | Update current positions...DONE
+2022-08-15 19:10:01.078371 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 19:15:00.554863 | Update trade amounts...BEGIN
+2022-08-15 19:15:02.171976 | Update trade amounts...DONE
+2022-08-15 19:20:01.329820 | Log account report.....BEGIN
+2022-08-15 19:20:01.758688 | Log account report.....DONE
+2022-08-15 20:10:00.415762 | Update current positions...BEGIN
+2022-08-15 20:10:00.769942 | Update current positions...DONE
+2022-08-15 20:10:00.784677 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 20:15:00.226944 | Update trade amounts...BEGIN
+2022-08-15 20:15:00.330668 | Update trade amounts...DONE
+2022-08-15 20:20:00.848608 | Log account report.....BEGIN
+2022-08-15 20:20:01.066679 | Log account report.....DONE
+2022-08-15 21:10:01.305769 | Update current positions...BEGIN
+2022-08-15 21:10:01.491881 | Update current positions...DONE
+2022-08-15 21:10:01.492032 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 1, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 21:15:00.390955 | Update trade amounts...BEGIN
+2022-08-15 21:15:00.555937 | Update trade amounts...DONE
+2022-08-15 21:20:00.310604 | Log account report.....BEGIN
+2022-08-15 21:20:00.513094 | Log account report.....DONE
+2022-08-15 22:00:03.031141 | CLOSE LONG.....NGAS
+2022-08-15 22:00:43.208446 | OPEN SHORT.....NGAS.....2 units
+2022-08-15 22:10:00.577745 | Update current positions...BEGIN
+2022-08-15 22:10:00.880845 | Update current positions...DONE
+2022-08-15 22:10:00.881023 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 22:15:00.930957 | Update trade amounts...BEGIN
+2022-08-15 22:15:01.600294 | Update trade amounts...DONE
+2022-08-15 22:20:00.734397 | Log account report.....BEGIN
+2022-08-15 22:20:01.062071 | Log account report.....DONE
+2022-08-15 23:10:00.883153 | Update current positions...BEGIN
+2022-08-15 23:10:01.217591 | Update current positions...DONE
+2022-08-15 23:10:01.217739 | {'EUR/USD': 2, 'USD/JPY': 2, 'GBP/USD': 2, 'USD/CHF': 1, 'AUD/USD': 1, 'USD/CAD': 2, 'NZD/USD': 1, 'Bund': 2, 'AUS200': 1, 'CHN50': 1, 'ESP35': 1, 'EUSTX50': 1, 'FRA40': 1, 'GER30': 1, 'HKG33': 1, 'JPN225': 1, 'NAS100': 1, 'SPX500': 1, 'UK100': 1, 'US30': 1, 'Copper': 1, 'NGAS': 2, 'UKOil': 2, 'USOil': 2, 'XAU/USD': 1, 'XAG/USD': 1}
+2022-08-15 23:15:00.655019 | Update trade amounts...BEGIN
+2022-08-15 23:15:01.134200 | Update trade amounts...DONE
+2022-08-15 23:20:00.484363 | Log account report.....BEGIN
+2022-08-15 23:20:00.572350 | Log account report.....DONE
