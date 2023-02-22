@@ -51,7 +51,7 @@ def get_strategy_return(data_sql, n_period, freq):
 
 def get_optim_param(ticker, freq, params): 
     # sql_path = f'PriceData_{freq}.db'
-    sql_path = f'/home/kachain/python_projects/fxcmpy/PriceData/PriceData_{freq}.db'
+    sql_path = f'/home/kachain/python_projects/algorithmic_trading/PriceData/PriceData_{freq}.db'
     conn = sql.connect(sql_path)
     data_sql = pd.read_sql(f"SELECT * FROM '{ticker}'", conn, parse_dates=['date'], index_col=['date'])
     for col in ['open', 'close', 'high', 'low']:

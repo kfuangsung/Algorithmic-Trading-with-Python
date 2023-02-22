@@ -12,7 +12,7 @@ def main():
     URL = "https://www.fxcm.com/markets/trading-details/margin-updates/"
     option = webdriver.ChromeOptions()
     option.add_argument('--headless')
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager(log_level=0).install()), options=option)
     driver.implicitly_wait(30)
     driver.get(URL)
     time.sleep(5) # wait for page datails to appear
