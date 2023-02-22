@@ -1,0 +1,122 @@
+{
+    "EUR/USD": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 380
+    },
+    "USD/JPY": {
+        "mama": 0.1,
+        "slope": 350,
+        "tsf": 350
+    },
+    "GBP/USD": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 460
+    },
+    "USD/CHF": {
+        "mama": 0.1,
+        "slope": 480,
+        "tsf": 240
+    },
+    "AUD/USD": {
+        "mama": 0.9,
+        "slope": 210,
+        "tsf": 370
+    },
+    "USD/CAD": {
+        "mama": 0.1,
+        "slope": 410,
+        "tsf": 500
+    },
+    "NZD/USD": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 500
+    },
+    "AUS200": {
+        "mama": 0.1,
+        "slope": 240,
+        "tsf": 360
+    },
+    "ESP35": {
+        "mama": 0.5,
+        "slope": 200,
+        "tsf": 250
+    },
+    "EUSTX50": {
+        "mama": 0.4,
+        "slope": 200,
+        "tsf": 500
+    },
+    "FRA40": {
+        "mama": 0.30000000000000004,
+        "slope": 320,
+        "tsf": 360
+    },
+    "GER30": {
+        "mama": 0.2,
+        "slope": 210,
+        "tsf": 500
+    },
+    "HKG33": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 210
+    },
+    "JPN225": {
+        "mama": 0.7000000000000001,
+        "slope": 480,
+        "tsf": 250
+    },
+    "NAS100": {
+        "mama": 0.6,
+        "slope": 230,
+        "tsf": 200
+    },
+    "SPX500": {
+        "mama": 0.6,
+        "slope": 250,
+        "tsf": 360
+    },
+    "UK100": {
+        "mama": 0.9,
+        "slope": 480,
+        "tsf": 460
+    },
+    "US30": {
+        "mama": 0.9,
+        "slope": 500,
+        "tsf": 370
+    },
+    "Copper": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 310
+    },
+    "NGAS": {
+        "mama": 0.1,
+        "slope": 210,
+        "tsf": 330
+    },
+    "UKOil": {
+        "mama": 0.9,
+        "slope": 200,
+        "tsf": 320
+    },
+    "USOil": {
+        "mama": 0.9,
+        "slope": 200,
+        "tsf": 310
+    },
+    "XAU/USD": {
+        "mama": 0.1,
+        "slope": 210,
+        "tsf": 500
+    },
+    "XAG/USD": {
+        "mama": 0.1,
+        "slope": 200,
+        "tsf": 440
+    }
+}
